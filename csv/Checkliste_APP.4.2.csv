@@ -1,0 +1,130 @@
+ID-Anforderung;Titel;Inhalt;Typ
+APP.4.2.A1;Sichere Konfiguration des SAP-ABAP-Stacks;Der SAP-ABAP-Stack MUSS sicher konfiguriert werden.;Basis
+APP.4.2.A1;Sichere Konfiguration des SAP-ABAP-Stacks;Dazu MÜSSEN die jeweiligen Profilparameter gesetzt werden, z. B. für die Passwortsicherheit, Authentisierung und Verschlüsselung.;Basis
+APP.4.2.A1;Sichere Konfiguration des SAP-ABAP-Stacks;Auch MÜSSEN die Systemänderbarkeit und die Mandanten konfiguriert, das IMG-Customizing durchgeführt und die Betriebssystemkommandos abgesichert werden.;Basis
+APP.4.2.A2;Sichere Konfiguration des SAP-JAVA-Stacks;Der SAP-JAVA-Stack MUSS sicher konfiguriert werden, falls dieser eingesetzt wird.;Basis
+APP.4.2.A2;Sichere Konfiguration des SAP-JAVA-Stacks;Dafür MÜSSEN andere Sicherheitsmechanismen und -konzepte erstellt werden als für den SAP-ABAP-Stack.;Basis
+APP.4.2.A2;Sichere Konfiguration des SAP-JAVA-Stacks;Deshalb MÜSSEN Administrierende die Architektur des JAVA-Stacks kennen und wissen, wie er administriert wird.;Basis
+APP.4.2.A2;Sichere Konfiguration des SAP-JAVA-Stacks;Zudem MÜSSEN nicht benötigte Dienste abgeschaltet, Standardinhalte entfernt, HTTP-Dienste geschützt und Zugriffe auf Administrationsschnittstellen eingeschränkt werden.;Basis
+APP.4.2.A3;Netzsicherheit;Um die Netzsicherheit zu gewährleisten, MÜSSEN entsprechende Konzepte unter Berücksichtigung des SAP-ERP-Systems erstellt und Einstellungen am System durchgeführt werden.;Basis
+APP.4.2.A3;Netzsicherheit;Weiterhin SOLLTEN der SAP-Router und SAP Web Dispatcher eingesetzt werden, um ein sicheres SAP-Netz zu implementieren und aufrechtzuerhalten.;Basis
+APP.4.2.A3;Netzsicherheit;Um Sicherheitslücken aufgrund von Fehlinterpretationen oder Missverständnissen zu vermeiden, MÜSSEN sich die Bereiche IT-Betrieb, Firewall-Betrieb, Portalbetrieb und SAP-Betrieb miteinander abstimmen.;Basis
+APP.4.2.A4;Absicherung der ausgelieferten SAP-Standard-Konten;Direkt nach der Installation eines SAP-ERP-Systems MÜSSEN die voreingestellten Passwörter der SAP-Standard-Konten geändert werden.;Basis
+APP.4.2.A4;Absicherung der ausgelieferten SAP-Standard-Konten;Auch MÜSSEN die eingerichteten SAP-Standard-Konten mithilfe geeigneter Maßnahmen abgesichert werden.;Basis
+APP.4.2.A4;Absicherung der ausgelieferten SAP-Standard-Konten;Bestimmte SAP-Standard-Konten DÜRFEN NICHT benutzt werden, z. B. für RFC-Verbindungen und Background-Jobs.;Basis
+APP.4.2.A5;Konfiguration und Absicherung der SAP-Konten-Verwaltung;Die SAP-Konten-Verwaltung für ABAP-Systeme MUSS sorgfältig und sicher administriert werden.;Basis
+APP.4.2.A5;Konfiguration und Absicherung der SAP-Konten-Verwaltung;Aktivitäten, wie Konten anlegen, ändern und löschen, Passwörter zurücksetzen und entsperren sowie Rollen und Profile zuordnen, MÜSSEN zu den Aufgaben der Konto-Administration gehören.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Für SAP-ERP-Systeme MUSS ein Konten- und Berechtigungskonzept ausgearbeitet und umgesetzt werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Dabei MÜSSEN folgende Punkte berücksichtigt werden:;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Identitätsprinzip, Minimalprinzip, Stellenprinzip, Belegprinzip der Buchhaltung, Belegprinzip der Berechtigungsverwaltung, Funktionstrennungsprinzip (Segregation of Duties, SoD), Genehmigungsprinzip, Standardprinzip, Schriftformprinzip und Kontrollprinzip MÜSSEN berücksichtigt werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Konto-, Berechtigungs- und gegebenenfalls Profiladministrierender MÜSSEN getrennte Verantwortlichkeiten und damit Berechtigungen haben.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Vorgehensweisen im Rahmen der Berechtigungsadministration für Rollen anlegen, ändern, löschen, transportieren und SU24 Vorschlagswerte transportieren MÜSSEN definiert werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Dabei SOLLTEN Berechtigungsrollen nur im Entwicklungssystem angelegt und gepflegt werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Sie SOLLTEN mit Hilfe des Transport-Management-Systems (TMS) transportiert werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Berechtigungen SOLLTEN in Berechtigungsrollen (PFCG-Rollen) angelegt, gespeichert und den Konten zugeordnet werden (rollenbasiertes Berechtigungskonzept).;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Da sich einzelne kritische Aktionen in den Rollen nicht immer vermeiden lassen, SOLLTEN sie von kompensierenden Kontrollen (mitigation controls) abgedeckt werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Vorgehensweisen im Rahmen der Berechtigungsvergabe für Konten und Berechtigungen beantragen, genehmigen, ändern und löschen MÜSSEN definiert werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Namenskonventionen für Konten-Kennungen und technische Rollennamen MÜSSEN definiert werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Vorschlagswerte und Prüfkennzeichen SOLLTEN in der Transaktion SU24 gepflegt werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Die Vorgehensweise dazu SOLLTE im Konten- und Berechtigungskonzept beschrieben sein.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Gesetzliche und interne Rahmenbedingungen wie die Grundsätze ordnungsgemäßer Buchführung (GoB), das Handelsgesetzbuch (HGB) oder interne Vorgaben der Institution MÜSSEN berücksichtigt werden.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Das Konten- und Berechtigungskonzept SOLLTE auch den Betrieb technischer Konten abdecken, also auch die Berechtigung von Hintergrund- und Schnittstellenkonten.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Es SOLLTEN geeignete Kontrollmechanismen angewandt werden, um SoD-Konfliktfreiheit von Rollen und die Vergabe von kritischen Berechtigungen an Konten zu überwachen.;Basis
+APP.4.2.A6;Erstellung und Umsetzung eines Konten- und Berechtigungskonzeptes;Werden neben dem ABAP-Backend weitere Komponenten wie SAP HANA und SAP NetWeaver Gateway (für Fiori-Anwendungen) verwendet, MUSS das Design der Berechtigungen zwischen den Komponenten abgestimmt und synchronisiert werden.;Basis
+APP.4.2.A7;Absicherung der SAP-Datenbanken;Der Zugriff auf SAP-Datenbanken MUSS abgesichert werden.;Basis
+APP.4.2.A7;Absicherung der SAP-Datenbanken;Administrierende SOLLTEN möglichst nur mit SAP-Tools auf die Datenbanken zugreifen können.;Basis
+APP.4.2.A7;Absicherung der SAP-Datenbanken;Wird dazu Software von fremden Institutionen benutzt, MÜSSEN zusätzliche Sicherheitsmaßnahmen umgesetzt werden. Es DARF dann kein Schema-Konto des SAP Systems für die Verbindung zur Datenbank genutzt werden.;Basis
+APP.4.2.A7;Absicherung der SAP-Datenbanken;Außerdem MÜSSEN Standardpasswörter geändert und bestimmte Datenbanktabellen (z. B. USR* Tabellen) besonders geschützt werden.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Zum Schutz der Remote-Function-Call (RFC)-Schnittstelle MÜSSEN RFC-Verbindungen, RFC-Berechtigungen und die RFC-Gateways sicher konfiguriert werden.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Es MÜSSEN für alle RFC-Verbindungen einheitliche Verwaltungsrichtlinien erstellt und umgesetzt werden.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Dazu SOLLTEN die benötigten RFC-Verbindungen definiert und dokumentiert werden.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Verbindungen mit hinterlegtem Passwort SOLLTEN nicht von niedriger privilegierten auf höher privilegierte Systeme (z. B. von Dev nach Prod) konfiguriert sein.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Nicht mehr benutzte RFC-Verbindungen MÜSSEN gelöscht werden.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Alle RFC-Gateways MÜSSEN sicher administriert werden.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Dazu MÜSSEN geeignete Profilparameter gesetzt werden, z. B. gw/monitor, gw/reg_no_conn_info und snc/permit_insecure_start.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Alle Verbindungen über ein Gateway MÜSSEN unter dem Sicherheitsaspekt analysiert und bewertet werden.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Außerdem MUSS die Protokollierung aktiv sein.;Basis
+APP.4.2.A8;Absicherung der SAP-RFC-Schnittstelle;Es MÜSSEN Zugriffssteuerungslisten (ACLs) definiert werden.;Basis
+APP.4.2.A9;Absicherung und Überwachung des Message-Servers;Der Message-Server MUSS durch geeignete Einstellungen in den Profilparametern abgesichert werden.;Basis
+APP.4.2.A9;Absicherung und Überwachung des Message-Servers;Es MUSS unter anderem entschieden werden, ob für den internen Message-Server noch ACLs aufgebaut werden.;Basis
+APP.4.2.A9;Absicherung und Überwachung des Message-Servers;Der Message-Server MUSS mithilfe von geeigneten Mechanismen überwacht werden, damit z. B. Systemausfälle des Message-Servers schnell erkannt werden.;Basis
+APP.4.2.A10;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.4.2.A11;Sichere Installation eines SAP-ERP-Systems;Bei der Installation eines SAP-ERP-Systems SOLLTEN aktuelle SAP-Sicherheitsleitfäden und -Dokumentationen berücksichtigt werden.;Standard
+APP.4.2.A11;Sichere Installation eines SAP-ERP-Systems;Außerdem SOLLTEN die Sicherheitsrichtlinien der Institution eingehalten werden.;Standard
+APP.4.2.A11;Sichere Installation eines SAP-ERP-Systems;Ebenso SOLLTE gewährleistet sein, dass das SAP-ERP-System auf einem abgesicherten Betriebssystem installiert wird.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Die technischen Berechtigungen SOLLTEN aufgrund fachlicher Vorgaben entwickelt werden.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Des Weiteren SOLLTEN SAP-Berechtigungen auf dem Entwicklungssystem der SAP-Landschaft angepasst oder neu erstellt werden.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Das SOLLTE auch bei S/4HANA die Berechtigungsentwicklung auf HANA-Datenbanken mit einschließen.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Hier SOLLTEN Repository-Rollen aufgebaut und transportiert werden.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Datenbankprivilegien SOLLTEN NICHT direkt an Konten vergeben werden.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Bei Eigenentwicklungen für z. B. Transaktionen oder Berechtigungsobjekte SOLLTE die Transaktion SU24 gepflegt werden (Zuordnungen von Berechtigungsobjekten zu Transaktionen).;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Die Gesamtberechtigung * oder Intervalle in Objektausprägungen SOLLTEN vermieden werden.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Die Berechtigungsentwicklung SOLLTE im Rahmen eines Änderungsmanagements durchgeführt werden.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Es SOLLTE sichergestellt sein, dass das Produktivsystem ausreichend vor Berechtigungsänderungen geschützt ist und keine Entwicklerschlüssel vergeben werden.;Standard
+APP.4.2.A12;SAP-Berechtigungsentwicklung;Das Qualitätssicherungssystem SOLLTE bei der Berechtigungsvergabe und ergänzenden Einstellungen analog zum Produktivsystem betrieben werden.;Standard
+APP.4.2.A13;SAP-Passwortsicherheit;Um eine sichere Anmeldung am SAP-ERP-System zu gewährleisten, SOLLTEN Profilparameter, Customizing-Schalter oder Sicherheitsrichtlinien geeignet eingestellt werden.;Standard
+APP.4.2.A13;SAP-Passwortsicherheit;Die eingesetzten Hash-Algorithmen für die gespeicherten Hashwerte der Passwörter in einem SAP-ERP-System SOLLTEN den aktuellen Sicherheitsstandards entsprechen.;Standard
+APP.4.2.A13;SAP-Passwortsicherheit;Zugriffe auf Tabellen mit Hashwerten SOLLTEN eingeschränkt werden.;Standard
+APP.4.2.A14;Identifizierung kritischer SAP-Berechtigungen;Der Umgang mit kritischen Berechtigungen SOLLTE streng kontrolliert werden.;Standard
+APP.4.2.A14;Identifizierung kritischer SAP-Berechtigungen;Es SOLLTE darauf geachtet werden, dass diese Berechtigungen, Rollen und Profile nur restriktiv vergeben werden.;Standard
+APP.4.2.A14;Identifizierung kritischer SAP-Berechtigungen;Dies SOLLTE auch für kritische Rollenkombinationen und additive Effekte wie z. B. Kreuzberechtigungen sichergestellt sein.;Standard
+APP.4.2.A14;Identifizierung kritischer SAP-Berechtigungen;Kritische Berechtigungen SOLLTEN regelmäßig identifiziert, überprüft und bewertet werden.;Standard
+APP.4.2.A14;Identifizierung kritischer SAP-Berechtigungen;Die SAP-Profile SAP_ALL und SAP_NEW* sowie das SAP-Berechtigungsobjekt S_DEVELOP (mit Änderungsberechtigungen ACTVT 01 und 02) SOLLTEN im Produktivsystem nicht vergeben werden.;Standard
+APP.4.2.A14;Identifizierung kritischer SAP-Berechtigungen;Notfall-Konten SOLLTEN von dieser Vorgabe ausgeschlossen sein.;Standard
+APP.4.2.A15;Sichere Konfiguration des SAP-Routers;Der SAP-Router SOLLTE den Zugang zum Netz regeln und die bestehende Firewall-Architektur zweckmäßig ergänzen.;Standard
+APP.4.2.A15;Sichere Konfiguration des SAP-Routers;Auch SOLLTE er den Zugang zum SAP-ERP-System kontrollieren.;Standard
+APP.4.2.A16;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Windows;Das SAP-ERP-System SOLLTE NICHT auf einem Windows-Domaincontroller installiert werden.;Standard
+APP.4.2.A16;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Windows;Die SAP-spezifischen Konten wie <sid>adm oder SAPService <sid> SOLLTEN abgesichert werden.;Standard
+APP.4.2.A16;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Windows;Nach der Installation SOLLTE das Konto <db><sid> gesperrt werden.;Standard
+APP.4.2.A16;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Windows;Das Konto SAPService <sid> SOLLTE KEINE Rechte zur interaktiven Anmeldung besitzen.;Standard
+APP.4.2.A16;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Windows;In Bezug auf diese Berechtigungen SOLLTEN die zum SAP-ERP-System dazugehörigen Systemressourcen wie Dateien, Prozesse und gemeinsam genutzte Speicher geschützt werden.;Standard
+APP.4.2.A16;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Windows;Die spezifischen Berechtigungen der vom SAP-ERP-System angelegten Konten Guest, System, SAP system users = <sapsid>adm, SAPService<SAPSID> und Database users = <database-specific users> und Benutzendengruppen SOLLTEN mithilfe geeigneter Einstellungen abgesichert werden.;Standard
+APP.4.2.A17;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Unix;Für die SAP-ERP-Systemverzeichnisse unter Unix SOLLTEN Zugriffsberechtigungen festgelegt werden.;Standard
+APP.4.2.A17;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Unix;Auch SOLLTEN die Passwörter der systemspezifischen Konten <sid>adm und <db><sid> geändert werden.;Standard
+APP.4.2.A17;Umsetzung von Sicherheitsanforderungen für das Betriebssystem Unix;Nach der Installation SOLLTE das Konto <db><sid> gesperrt werden.;Standard
+APP.4.2.A18;Abschaltung von unsicherer Kommunikation;Die Kommunikation mit und zwischen SAP-ERP-Systemen SOLLTE mit SNC abgesichert werden.;Standard
+APP.4.2.A18;Abschaltung von unsicherer Kommunikation;Sofern Datenbank und SAP-Applikationsserver auf verschiedenen Systemen betrieben werden, SOLLTE die Datenbankverbindung in geeigneter Weise verschlüsselt werden.;Standard
+APP.4.2.A18;Abschaltung von unsicherer Kommunikation;Die internen Dienste des SAP-Applikationsservers SOLLTEN NUR mittels TLS miteinander kommunizieren.;Standard
+APP.4.2.A19;Definition der Sicherheitsrichtlinien für Konten;Für die jeweiligen Konten und Kontengruppen SOLLTEN spezifische Sicherheitsrichtlinien für Passwörter und Anmelderestriktionen erstellt werden.;Standard
+APP.4.2.A19;Definition der Sicherheitsrichtlinien für Konten;So SOLLTEN beispielsweise Konten mit kritischen Berechtigungen durch starke Passwortregeln abgesichert sein (Transaktion SECPOL).;Standard
+APP.4.2.A19;Definition der Sicherheitsrichtlinien für Konten;Die Sicherheitsrichtlinien SOLLTEN den Konten korrekt zugeordnet und regelmäßig überprüft werden.;Standard
+APP.4.2.A20;Sichere SAP-GUI-Einstellungen;Die SAP GUI SOLLTE auf allen Clients installiert und regelmäßig aktualisiert werden.;Standard
+APP.4.2.A20;Sichere SAP-GUI-Einstellungen;Auch SOLLTEN SAP GUI ACLs aktiviert sowie angemessene Administrationsregeln verteilt und aktiviert werden.;Standard
+APP.4.2.A21;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.4.2.A22;Schutz des Spools im SAP-ERP-System;Es SOLLTE sichergestellt sein, dass auf Daten der sequenziellen Datenverarbeitung wie Spool oder Druck nur eingeschränkt zugegriffen werden kann.;Standard
+APP.4.2.A22;Schutz des Spools im SAP-ERP-System;Auch SOLLTE verhindert werden, dass unberechtigte Konten auf die vom SAP-Spoolsystem benutzte Datenablage TemSe zugreifen können.;Standard
+APP.4.2.A22;Schutz des Spools im SAP-ERP-System;Die hierfür vergebenen Berechtigungen SOLLTEN regelmäßig überprüft werden.;Standard
+APP.4.2.A23;Schutz der SAP-Hintergrundverarbeitung;Die SAP-Hintergrundverarbeitung SOLLTE vor unberechtigten Zugriffen geschützt werden.;Standard
+APP.4.2.A23;Schutz der SAP-Hintergrundverarbeitung;Dafür SOLLTEN für Batch-Jobs verschiedene System-Konten nach ihren Funktionsbereichen definiert und angelegt werden.;Standard
+APP.4.2.A23;Schutz der SAP-Hintergrundverarbeitung;Der so genannte Benutzertyp Dialog SOLLTE dafür grundsätzlich NICHT zugelassen werden.;Standard
+APP.4.2.A24;Aktivierung und Absicherung des Internet Communication Frameworks;Es SOLLTE darauf geachtet werden, dass nur notwendige ICF-Dienste aktiviert werden.;Standard
+APP.4.2.A24;Aktivierung und Absicherung des Internet Communication Frameworks;Alle ICF-Dienste, die unter einem ICF-Objekt sind, SOLLTEN nur einzeln aktiviert werden.;Standard
+APP.4.2.A24;Aktivierung und Absicherung des Internet Communication Frameworks;ICF-Berechtigungen SOLLTEN restriktiv vergeben werden.;Standard
+APP.4.2.A24;Aktivierung und Absicherung des Internet Communication Frameworks;Die Kommunikation SOLLTE verschlüsselt erfolgen.;Standard
+APP.4.2.A25;Sichere Konfiguration des SAP Web Dispatchers;Der SAP Web Dispatcher SOLLTE nicht der erste Einstiegspunkt aus dem Internet zum SAP-ERP-System sein.;Standard
+APP.4.2.A25;Sichere Konfiguration des SAP Web Dispatchers;Der SAP Web Dispatcher SOLLTE auf dem aktuellen Stand sein.;Standard
+APP.4.2.A25;Sichere Konfiguration des SAP Web Dispatchers;Er SOLLTE sicher konfiguriert sein.;Standard
+APP.4.2.A26;Schutz von selbstentwickeltem Code im SAP-ERP-System;Es SOLLTE ein Custom-Code-Managementprozess definiert werden, damit selbstentwickelter Code ausgetauscht oder entfernt wird, falls er durch SAP-Standard-Code ersetzt werden kann oder er nicht mehr benutzt wird.;Standard
+APP.4.2.A26;Schutz von selbstentwickeltem Code im SAP-ERP-System;Ferner SOLLTEN die Anforderungen aus der Richtlinie für die Entwicklung von ABAP-Programmen berücksichtigt werden.;Standard
+APP.4.2.A27;Audit des SAP-ERP-Systems;Damit sichergestellt ist, dass alle internen und externen Richtlinien sowie Vorgaben eingehalten werden, SOLLTEN alle SAP-ERP-Systeme regelmäßig auditiert werden.;Standard
+APP.4.2.A27;Audit des SAP-ERP-Systems;Dafür SOLLTE der Security Optimization Service im SAP Solution Manager benutzt werden.;Standard
+APP.4.2.A27;Audit des SAP-ERP-Systems;Die Ergebnisse des Audits SOLLTEN ausgewertet und dokumentiert werden.;Standard
+APP.4.2.A28;Erstellung eines Notfallkonzeptes;Für SAP-ERP-Systeme SOLLTE ein Notfallkonzept erstellt und betrieben werden.;Standard
+APP.4.2.A28;Erstellung eines Notfallkonzeptes;Es SOLLTE die Geschäftsaktivitäten absichern und mit den Vorgaben aus dem Krisenmanagement oder dem Business-Continuity-Management übereinstimmen.;Standard
+APP.4.2.A28;Erstellung eines Notfallkonzeptes;Im Notfallkonzept SOLLTEN folgende Punkte beschrieben und definiert werden:;Standard
+APP.4.2.A28;Erstellung eines Notfallkonzeptes;Detektion von und Reaktion auf Zwischenfälle,;Standard
+APP.4.2.A28;Erstellung eines Notfallkonzeptes;Datensicherungs- und Wiederherstellungskonzept sowie;Standard
+APP.4.2.A28;Erstellung eines Notfallkonzeptes;Notfalladministration.;Standard
+APP.4.2.A28;Erstellung eines Notfallkonzeptes;Das Notfallkonzept SOLLTE regelmäßig aktualisiert werden.;Standard
+APP.4.2.A29;Einrichten von Notfall-Konten;Es SOLLTEN Notfall-Konten angelegt werden.;Standard
+APP.4.2.A29;Einrichten von Notfall-Konten;Die eingerichteten Konten und Berechtigungen SOLLTEN stark kontrolliert und genau dokumentiert werden.;Standard
+APP.4.2.A29;Einrichten von Notfall-Konten;Außerdem SOLLTEN alle von Notfall-Konten durchgeführten Aktivitäten protokolliert werden.;Standard
+APP.4.2.A30;Implementierung eines kontinuierlichen Monitorings der Sicherheitseinstellungen;Es SOLLTE ständig überwacht werden, ob alle Sicherheitseinstellungen des SAP-ERP-Systems korrekt sind.;Standard
+APP.4.2.A30;Implementierung eines kontinuierlichen Monitorings der Sicherheitseinstellungen;Außerdem SOLLTE überwacht werden, ob alle Patches und Updates ordnungsgemäß eingespielt wurden.;Standard
+APP.4.2.A30;Implementierung eines kontinuierlichen Monitorings der Sicherheitseinstellungen;Das SAP-Monitoring SOLLTE in die allgemeine Systemüberwachung der Institution integriert werden.;Standard
+APP.4.2.A31;Konfiguration von SAP Single-Sign-On;Sind mehrere SAP-ERP-Systeme vorhanden, SOLLTEN die Benutzenden auf die Systeme mit SAP Single-Sign-On (SAP SSO) zugreifen.;Standard
+APP.4.2.A31;Konfiguration von SAP Single-Sign-On;Es SOLLTE in der Planungsphase entschieden werden, zwischen welchen SAP-ERP-Systemen der SSO-Mechanismus benutzt wird.;Standard
+APP.4.2.A31;Konfiguration von SAP Single-Sign-On;Das SSO SOLLTE sicher konfiguriert und betrieben werden.;Standard
+APP.4.2.A32;Echtzeiterfassung und Alarmierung von irregulären Vorgängen;Die wichtigsten Sicherheitsaufzeichnungsfunktionen der SAP-ERP-Systeme wie Security Audit Log oder System Log SOLLTEN kontinuierlich überwacht werden.;Hoch
+APP.4.2.A32;Echtzeiterfassung und Alarmierung von irregulären Vorgängen;Bei verdächtigen Vorgängen SOLLTEN automatisch die zuständigen Mitarbeitenden alarmiert werden.;Hoch
+APP.4.2.A32;Echtzeiterfassung und Alarmierung von irregulären Vorgängen;Um SAP-spezifische Sicherheitsvorfälle analysieren und Falschmeldungen von echten Sicherheitsvorfällen abgrenzen zu können, SOLLTEN entweder Mitarbeitende geschult oder entsprechende Serviceleistungen von Drittanbietenden genutzt werden.;Hoch

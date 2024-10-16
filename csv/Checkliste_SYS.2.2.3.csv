@@ -1,0 +1,69 @@
+ID-Anforderung;Titel;Inhalt;Typ
+SYS.2.2.3.A1;Planung des Einsatzes von Cloud-Diensten unter Windows;Da Windows-basierte Geräte eng mit den Cloud-Diensten des Herstellers Microsoft verzahnt sind, MUSS vor ihrer Verwendung strategisch festgelegt werden, welche enthaltenen Cloud-Dienste in welchem Umfang genutzt werden sollen bzw. dürfen.;Basis
+SYS.2.2.3.A2;Auswahl und Beschaffung einer geeigneten Windows-Version;Der Funktionsumfang und die Versorgung mit funktionalen Änderungen einer Windows-Version MÜSSEN unter Berücksichtigung des ermittelten Schutzbedarfs und des Einsatzzwecks ausgewählt werden.;Basis
+SYS.2.2.3.A2;Auswahl und Beschaffung einer geeigneten Windows-Version;Die Umsetzbarkeit der erforderlichen Absicherungsmaßnahmen MUSS bei der Auswahl berücksichtigt werden.;Basis
+SYS.2.2.3.A2;Auswahl und Beschaffung einer geeigneten Windows-Version;Basierend auf dem Ergebnis der Überprüfung MUSS der etablierte Beschaffungsprozess um die Auswahl des entsprechenden Lizenzmodells und „Service Branches“ (CB, CBB oder LTSC) erweitert werden.;Basis
+SYS.2.2.3.A3;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+SYS.2.2.3.A4;Telemetrie und Datenschutzeinstellungen unter Windows;Um die Übertragung von Diagnose- und Nutzungsdaten an Microsoft stark zu reduzieren, MUSS das Telemetrie-Level 0 (Security) in der Enterprise-Edition von Windows konfiguriert werden.;Basis
+SYS.2.2.3.A4;Telemetrie und Datenschutzeinstellungen unter Windows;Wenn diese Einstellung nicht wirksam umgesetzt wird oder bei anderen Windows-Edition umgesetzt werden kann, dann MUSS durch geeignete Maßnahmen, etwa auf Netzebene, sichergestellt werden, dass die Daten nicht an den Hersteller übertragen werden.;Basis
+SYS.2.2.3.A5;Schutz vor Schadsoftware unter Windows;Sofern nicht gleich- oder höherwertige Maßnahmen, wie z. B. Ausführungskontrolle, zum Schutz des IT-Systems vor einer Infektion mit Schadsoftware getroffen wurden, MUSS eine spezialisierte Komponente zum Schutz vor Schadsoftware auf Windows-Clients eingesetzt werden.;Basis
+SYS.2.2.3.A6;Integration von Online-Konten in das Betriebssystem;Die Anmeldung am System sowie an der Domäne DARF NUR mit dem Konto eines selbst betriebenen Verzeichnisdienstes möglich sein.;Basis
+SYS.2.2.3.A6;Integration von Online-Konten in das Betriebssystem;Anmeldungen mit lokalen Konten SOLLTEN Administrierenden vorbehalten sein.;Basis
+SYS.2.2.3.A6;Integration von Online-Konten in das Betriebssystem;Online-Konten zur Anmeldung, etwa ein Microsoft-Konto oder Konten anderer Identitätsmanagementsysteme, DÜRFEN NICHT verwendet werden, da hier personenbezogene Daten an die Systeme Dritter übertragen werden.;Basis
+SYS.2.2.3.A7;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.2.2.3.A8;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Für die zentrale Authentisierung SOLLTE ausschließlich Kerberos eingesetzt werden.;Standard
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Eine Gruppenrichtlinie SOLLTE die Verwendung älterer Protokolle verhindern.;Standard
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Ist dies nicht möglich, MUSS alternativ NTLMv2 eingesetzt werden.;Standard
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Die Authentisierung mittels LAN-Manager und NTLMv1 DARF NICHT innerhalb der Institution und in einer produktiven Betriebsumgebung erlaubt werden.;Standard
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Die eingesetzten kryptografischen Mechanismen SOLLTEN entsprechend dem ermittelten Schutzbedarf und basierend auf den internen Richtlinien konfiguriert und dokumentiert werden.;Standard
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Abweichende Einstellungen SOLLTEN begründet und mit dem Sicherheitsmanagement abgestimmt sein.;Standard
+SYS.2.2.3.A10;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.2.2.3.A11;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.2.2.3.A12;Datei- und Freigabeberechtigungen unter Windows;Der Zugriff auf Dateien und Ordner auf dem lokalen System sowie auf Netzfreigaben SOLLTE gemäß einem Berechtigungs- und Zugriffskonzept konfiguriert werden.;Standard
+SYS.2.2.3.A12;Datei- und Freigabeberechtigungen unter Windows;Auch die standardmäßig vorhandenen administrativen Freigaben auf dem System SOLLTEN hierbei berücksichtigt werden.;Standard
+SYS.2.2.3.A12;Datei- und Freigabeberechtigungen unter Windows;Die Schreibrechte für Benutzende SOLLTEN auf einen definierten Bereich im Dateisystem beschränkt werden.;Standard
+SYS.2.2.3.A12;Datei- und Freigabeberechtigungen unter Windows;Insbesondere SOLLTEN Benutzende keine Schreibrechte für Ordner des Betriebssystems oder installierter Anwendungen erhalten.;Standard
+SYS.2.2.3.A13;Einsatz der SmartScreen-Funktion;Die SmartScreen-Funktion, die aus dem Internet heruntergeladene Dateien und Webinhalte auf mögliche Schadsoftware untersucht und dazu unter Umständen personenbezogene Daten an Microsoft überträgt, SOLLTE deaktiviert werden.;Standard
+SYS.2.2.3.A14;Einsatz des Sprachassistenten Cortana;Cortana SOLLTE deaktiviert werden.;Standard
+SYS.2.2.3.A15;Einsatz der Synchronisationsmechanismen unter Windows;Die Synchronisierung von Benutzendendaten mit Microsoft Cloud-Diensten und das Sharing von WLAN-Passwörtern SOLLTEN vollständig deaktiviert werden.;Standard
+SYS.2.2.3.A16;Anbindung von Windows an den Microsoft-Store;Die Verwendung des Microsoft-Stores SOLLTE auf die Verträglichkeit mit den Datenschutz- und Sicherheitsvorgaben der Institution überprüft und bewertet werden.;Standard
+SYS.2.2.3.A16;Anbindung von Windows an den Microsoft-Store;Die generelle Installation von Apps auf Windows ist nicht von der Anbindung an den Microsoft-Store abhängig, daher SOLLTE sie, sofern sie nicht benötigt wird, deaktiviert werden.;Standard
+SYS.2.2.3.A17;Keine Speicherung von Daten zur automatischen Anmeldung;Die Speicherung von Kennwörtern, Zertifikaten und anderen Informationen zur automatischen Anmeldung an Webseiten und IT-Systemen SOLLTE NICHT erlaubt werden.;Standard
+SYS.2.2.3.A18;Einsatz der Windows-Remoteunterstützung;Die Auswirkungen auf die Konfiguration der lokalen Firewall SOLLTEN bei der Planung der Windows-Remoteunterstützung (hiermit ist nicht RDP gemeint) berücksichtigt werden.;Standard
+SYS.2.2.3.A18;Einsatz der Windows-Remoteunterstützung;Eine Remoteunterstützung SOLLTE nur nach einer expliziten Einladung erfolgen.;Standard
+SYS.2.2.3.A18;Einsatz der Windows-Remoteunterstützung;Bei der Speicherung einer Einladung in einer Datei SOLLTE diese ein Kennwort besitzen.;Standard
+SYS.2.2.3.A18;Einsatz der Windows-Remoteunterstützung;Dem Aufbau einer Sitzung SOLLTE immer explizit zugestimmt werden.;Standard
+SYS.2.2.3.A18;Einsatz der Windows-Remoteunterstützung;Die maximale Gültigkeit der Einladung für eine Unterstützung aus der Ferne SOLLTE in der Dauer angemessen sein.;Standard
+SYS.2.2.3.A18;Einsatz der Windows-Remoteunterstützung;Sofern die Windows-Remoteunterstützung nicht verwendet wird, SOLLTE sie vollständig deaktiviert werden.;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;Die Auswirkungen auf die Konfiguration der lokalen Firewall SOLLTEN bei der Planung des Fernzugriffs berücksichtigt werden.;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;Die Gruppe der berechtigten Benutzenden für den Remote-Desktopzugriff (RDP) SOLLTE durch die Zuweisung entsprechender Berechtigungen festgelegt werden.;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;In komplexen Infrastrukturen SOLLTE das RDP-Zielsystem nur durch ein dazwischengeschaltetes RDP-Gateway erreicht werden können.;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;Für die Verwendung von RDP SOLLTE eine Prüfung und deren Umsetzung sicherstellen, dass die nachfolgend aufgeführten Komfortfunktionen im Einklang mit dem Schutzbedarf des Zielsystems stehen:;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;die Verwendung der Zwischenablage,;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;die Einbindung von Druckern,;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;die Einbindung von Wechselmedien und Netzlaufwerken sowie;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;die Nutzung der Dateiablagen und von Smartcard-Anschlüssen.;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;Sofern der Einsatz von Remote-Desktopzugriffen nicht vorgesehen ist, SOLLTEN diese vollständig deaktiviert werden.;Standard
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;Die eingesetzten kryptografischen Protokolle und Algorithmen SOLLTEN sicher sein und den internen Vorgaben der Institution entsprechen.;Standard
+SYS.2.2.3.A20;Einsatz der Benutzerkontensteuerung UAC für privilegierte Konten;Die Konfigurationsparameter der sogenannten Benutzerkontensteuerung (User Account Control, UAC) SOLLTEN für die privilegierten Konten zwischen Bedienbarkeit und Sicherheitsniveau abgewogen eingesetzt werden.;Standard
+SYS.2.2.3.A20;Einsatz der Benutzerkontensteuerung UAC für privilegierte Konten;Die Entscheidungen für die zu verwendenden Konfigurationsparameter SOLLTEN dokumentiert werden.;Standard
+SYS.2.2.3.A20;Einsatz der Benutzerkontensteuerung UAC für privilegierte Konten;Darüber hinaus SOLLTE die Dokumentation alle Konten mit Administrationsrechten enthalten sowie regelmäßig geprüft werden, ob es notwendig ist, die Rechte erweitern zu können.;Standard
+SYS.2.2.3.A21;Einsatz des Encrypting File Systems;Da das Encrypting File System (EFS) die verwendeten Schlüssel mit dem Passwort des jeweiligen Kontos schützt, SOLLTE ein sicheres Passwort verwendet werden.;Hoch
+SYS.2.2.3.A21;Einsatz des Encrypting File Systems;Zusätzlich SOLLTEN restriktive Zugriffsrechte die mit EFS verschlüsselten Dateien schützen.;Hoch
+SYS.2.2.3.A21;Einsatz des Encrypting File Systems;Der Wiederherstellungsagent SOLLTE ein dediziertes Konto und kein Administrationskonto sein.;Hoch
+SYS.2.2.3.A21;Einsatz des Encrypting File Systems;In diesem Zusammenhang SOLLTE der private Schlüssel des Agenten gesichert und aus dem System entfernt werden.;Hoch
+SYS.2.2.3.A21;Einsatz des Encrypting File Systems;Es SOLLTEN von allen privaten Schlüsseln Datensicherungen erstellt werden.;Hoch
+SYS.2.2.3.A21;Einsatz des Encrypting File Systems;Beim Einsatz von EFS mit lokalen Konten SOLLTEN die lokalen Passwortspeicher mittels Syskey verschlüsselt werden.;Hoch
+SYS.2.2.3.A21;Einsatz des Encrypting File Systems;Alternativ kann der Windows Defender Credential Guard genutzt werden.;Hoch
+SYS.2.2.3.A21;Einsatz des Encrypting File Systems;Benutzende SOLLTEN im korrekten Umgang mit EFS geschult werden.;Hoch
+SYS.2.2.3.A22;Verwendung der Windows PowerShell;Die PowerShell und die WPS-Dateien SOLLTEN NUR von Administrierenden ausgeführt werden können.;Hoch
+SYS.2.2.3.A22;Verwendung der Windows PowerShell;Die PowerShell-Ausführung selbst SOLLTE zentral protokolliert und die Protokolle überwacht werden.;Hoch
+SYS.2.2.3.A22;Verwendung der Windows PowerShell;Die Ausführung von PowerShell-Skripten SOLLTE mit dem Befehl Set-ExecutionPolicy AllSigned eingeschränkt werden, um zu verhindern, dass unsignierte Skripte versehentlich ausgeführt werden.;Hoch
+SYS.2.2.3.A23;Erweiterter Schutz der Anmeldeinformationen unter Windows;Auf UEFI-basierten Systemen SOLLTE SecureBoot verwendet und der Status des geschützten Modus für den Local Credential Store LSA beim Systemstart überwacht werden.;Hoch
+SYS.2.2.3.A23;Erweiterter Schutz der Anmeldeinformationen unter Windows;Ist eine Fernwartung der Clients mittels RDP vorgesehen, SOLLTE beim Einsatz von Windows in einer Domäne ab dem Funktionslevel 2012 R2 von der Option „restrictedAdmin“ für RDP Gebrauch gemacht werden.;Hoch
+SYS.2.2.3.A24;Aktivierung des Last-Access-Zeitstempels;Es SOLLTE geprüft werden, ob der Last-Access-Zeitstempel im Dateisystem aktiviert werden kann, um die Analyse eines Systemmissbrauchs zu erleichtern.;Hoch
+SYS.2.2.3.A24;Aktivierung des Last-Access-Zeitstempels;Bei der Prüfung SOLLTEN mögliche Auswirkungen dieser Einstellung, wie Performance-Aspekte oder resultierende Einschränkungen bei inkrementellen Backups, berücksichtigt werden.;Hoch
+SYS.2.2.3.A25;Umgang mit Fernzugriffsfunktionen der „Connected User Experience and Telemetry“;Es SOLLTE berücksichtigt werden, dass die Komponente „Connected User Experience and Telemetry“ (CUET) bei Windows fester Bestandteil des Betriebssystems ist und neben der Telemetriefunktion auch eine Fernzugriffsmöglichkeit für den Hersteller Microsoft auf das lokale System erlaubt.;Hoch
+SYS.2.2.3.A25;Umgang mit Fernzugriffsfunktionen der „Connected User Experience and Telemetry“;Ein solcher Fernzugriff auf den Windows-Client SOLLTE netzseitig geloggt und falls erforderlich geblockt werden.;Hoch
+SYS.2.2.3.A26;Nutzung des Virtual Secure Mode;Bei der Nutzung des Virtual Secure Mode (VSM) SOLLTE berücksichtigt werden, dass forensische Untersuchungen, z. B. zur Sicherheitsvorfallbehandlung, eingeschränkt oder erschwert werden.;Hoch

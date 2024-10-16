@@ -1,0 +1,85 @@
+ID-Anforderung;Titel;Inhalt;Typ
+INF.11.A1;Planung und Beschaffung;Bevor Fahrzeuge beschafft werden, MUSS der Einsatzzweck geplant werden.;Basis
+INF.11.A1;Planung und Beschaffung;Die funktionalen Anforderungen an die Fahrzeuge und insbesondere die Anforderungen an die Informationssicherheit, sowie den Datenschutz der verbauten IT-Komponenten MÜSSEN erhoben werden.;Basis
+INF.11.A1;Planung und Beschaffung;Hierbei MÜSSEN folgende Aspekte berücksichtigt werden:;Basis
+INF.11.A1;Planung und Beschaffung;Einsatzszenarien der Fahrzeuge,;Basis
+INF.11.A1;Planung und Beschaffung;nähere Einsatzumgebung der Fahrzeuge sowie;Basis
+INF.11.A1;Planung und Beschaffung;der gesamte Lebenszyklus der Fahrzeuge.;Basis
+INF.11.A1;Planung und Beschaffung;Die Fahrzeuge MÜSSEN außerdem über angemessene Schließsysteme verfügen, sofern die Fahrzeuge nicht durchgehend durch andere Maßnahmen oder Regelungen gesichert werden können.;Basis
+INF.11.A1;Planung und Beschaffung;Während der Planung SOLLTE berücksichtigt werden, dass viele Fahrzeuge Daten an die fahrzeugherstellenden Unternehmen und weitere Dritte übermitteln können.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Die Fahrzeuge und die dazugehörenden IT-Komponenten MÜSSEN nach den Vorgaben des herstellenden Unternehmens gewartet werden.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Hierbei MUSS beachtet werden, dass die Intervalle der herkömmlichen Wartung und von Updates der integrierten IT-Komponenten voneinander abweichen können.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Es MUSS klar geregelt werden, wer in welcher Umgebung die Updates installieren darf.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Auch „Over-the-Air“ (OTA) Updates MÜSSEN geregelt eingespielt werden.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Wartungs- und Reparaturarbeiten MÜSSEN von befugtem und qualifiziertem Personal in einer sicheren Umgebung durchgeführt werden.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Dabei SOLLTE schon vor der Wartung geklärt werden, wie mit Fremdfirmen umgegangen wird.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Werden Fahrzeuge in fremden Institutionen gewartet, SOLLTE geprüft werden, ob alle nicht benötigten, zum Fahrzeug dazugehörigen portablen IT-Systeme entfernt werden.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Werden die Fahrzeuge wieder in den Einsatzbetrieb integriert, MUSS mittels Checkliste geprüft werden, ob alle Beanstandungen und Mängel auch behoben wurden.;Basis
+INF.11.A2;Wartung, Inspektion und Updates;Es MUSS auch geprüft werden, ob die vorhandenen IT-Komponenten einsatzfähig sind.;Basis
+INF.11.A3;Regelungen für die Fahrzeugbenutzung;Für alle Tätigkeiten, die sich auf die Sicherheit der in den Fahrzeugen verarbeiteten Informationen auswirken können, MUSS vorher geregelt werden, ob sie in den Fahrzeugen durchgeführt werden dürfen.;Basis
+INF.11.A3;Regelungen für die Fahrzeugbenutzung;Hierbei MUSS klar geregelt werden, welche Informationen dabei transportiert und bearbeitet werden dürfen.;Basis
+INF.11.A3;Regelungen für die Fahrzeugbenutzung;Ergänzend MUSS festgelegt werden, welche Schutzvorkehrungen dabei zu treffen sind.;Basis
+INF.11.A3;Regelungen für die Fahrzeugbenutzung;Dies MUSS für jede Art von Information gelten, auch für Gespräche in den Fahrzeugen.;Basis
+INF.11.A3;Regelungen für die Fahrzeugbenutzung;Es MUSS geklärt werden, unter welchen Rahmenbedingungen Mitarbeitende auf welche Art von Informationen ihrer Institution zugreifen dürfen.;Basis
+INF.11.A3;Regelungen für die Fahrzeugbenutzung;Außerdem MUSS geregelt werden, in welchem Umfang Infotainmentsysteme, Anwendungen und sonstige Services der Fahrzeuge genutzt werden dürfen.;Basis
+INF.11.A3;Regelungen für die Fahrzeugbenutzung;Des Weiteren MUSS festgelegt werden, wie Schnittstellen abzusichern sind.;Basis
+INF.11.A3;Regelungen für die Fahrzeugbenutzung;In bestehende Geschäfts- bzw. Dienstanweisungen MUSS beschrieben werden, wie mitgeführte IT in den Fahrzeugen verwendet und aufbewahrt werden darf.;Basis
+INF.11.A4;Erstellung einer Sicherheitsrichtlinie;Alle relevanten Sicherheitsanforderungen für die IT innerhalb der Fahrzeuge SOLLTEN in einer für Mitarbeitende verpflichtenden Sicherheitsrichtlinie dokumentiert werden.;Standard
+INF.11.A4;Erstellung einer Sicherheitsrichtlinie;Die Richtlinie SOLLTE allen relevanten Mitarbeitenden der Institution bekannt sein und die Grundlage für ihren Umgang mit Fahrzeugen darstellen.;Standard
+INF.11.A4;Erstellung einer Sicherheitsrichtlinie;In der Richtlinie SOLLTEN die Zuständigkeiten für einzelne Aufgaben klar geregelt sein.;Standard
+INF.11.A4;Erstellung einer Sicherheitsrichtlinie;Die Sicherheitsrichtlinie SOLLTE regelmäßig überprüft und anlassbezogen aktualisiert werden.;Standard
+INF.11.A5;Erstellung einer Inventarliste;Für jedes Fahrzeug SOLLTE eine Inventarliste über;Standard
+INF.11.A5;Erstellung einer Inventarliste;die im Fahrzeug fest verbauten oder zugehörigen IT-Komponenten (z. B. Handfunkgeräte bei Einsatzfahrzeugen),;Standard
+INF.11.A5;Erstellung einer Inventarliste;die Fachverfahren, die auf den integrierten IT-Komponenten ausgeführt werden,;Standard
+INF.11.A5;Erstellung einer Inventarliste;Handlungsanweisungen und Betriebsdokumentationen sowie;Standard
+INF.11.A5;Erstellung einer Inventarliste;die mit dem Infotainmentsystem gekoppelten Mobilgeräte;Standard
+INF.11.A5;Erstellung einer Inventarliste;geführt werden.;Standard
+INF.11.A5;Erstellung einer Inventarliste;Die Inventarliste SOLLTE regelmäßig und anlassbezogen aktualisiert werden.;Standard
+INF.11.A5;Erstellung einer Inventarliste;Dabei SOLLTE überprüft werden, ob noch alle inventarisierten zum Fahrzeug gehörenden IT-Komponenten vorhanden sind.;Standard
+INF.11.A5;Erstellung einer Inventarliste;Zusätzlich SOLLTE anhand der Inventarliste überprüft werden, ob keine mobilen Endgeräte unerlaubt mit dem Infotainmentsystem gekoppelt worden sind.;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Für alle wesentlichen Situationen, die die Informationssicherheit von Fahrzeugen betreffen, SOLLTEN Handlungsanweisungen in Form von Checklisten vorliegen.;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Die Handlungsanweisungen SOLLTEN dabei in die Sicherheitsrichtlinie integriert werden und in geeigneter Form als Checklisten verfügbar sein, während das Fahrzeug benutzt wird.;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Hierbei SOLLTE auch der Fall berücksichtigt werden, dass das Fahrzeug selbst gestohlen wird.;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Die Handlungsanweisungen SOLLTEN insbesondere nachfolgende Szenarien behandeln:;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Ausfall von IT-Komponenten der Fahrzeuge,;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Notfallsituationen wie Unfälle,;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;unerlaubtes Betreten der Fahrzeuge sowie;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Diebstahl der Fahrzeuge oder darin abgelegter Gegenstände mit Relevanz für die Informationssicherheit.;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Die Zuständigkeiten für die einzelnen Aufgaben SOLLTEN in der Checkliste dokumentiert sein.;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Die Anweisungen SOLLTEN von den Fahrzeugbenutzenden in den entsprechenden Situationen angewendet werden.;Standard
+INF.11.A6;Festlegung von Handlungsanweisungen;Anhand der Checkliste SOLLTE dokumentiert werden, wie sie in diesen Situationen vorgegangen sind.;Standard
+INF.11.A7;Sachgerechter Umgang mit Fahrzeugen und schützenswerten Informationen;Die Institution SOLLTE die Handlungsanweisungen zur Fahrzeugbenutzung um Aspekte ergänzen, wann, wie und wo Fahrzeuge sachgerecht abgestellt bzw. angedockt werden dürfen.;Standard
+INF.11.A7;Sachgerechter Umgang mit Fahrzeugen und schützenswerten Informationen;Hierbei SOLLTE primär die Frage beantwortet werden, welche Umgebungen die Fahrzeuge angemessenen vor unerlaubten Zutritt oder Sachbeschädigung schützen.;Standard
+INF.11.A7;Sachgerechter Umgang mit Fahrzeugen und schützenswerten Informationen;Des Weiteren SOLLTE hierbei berücksichtigt werden, welche Informationen und IT-Systeme in den Fahrzeugen aufbewahrt werden dürfen.;Standard
+INF.11.A7;Sachgerechter Umgang mit Fahrzeugen und schützenswerten Informationen;Ausreichende Maßnahmen zum Zutrittsschutz SOLLTEN ergriffen werden.;Standard
+INF.11.A7;Sachgerechter Umgang mit Fahrzeugen und schützenswerten Informationen;Die Ladung der Fahrzeuge SOLLTE sicher verstaut werden.;Standard
+INF.11.A7;Sachgerechter Umgang mit Fahrzeugen und schützenswerten Informationen;Es SOLLTE sichergestellt werden, dass schützenswerte Informationen nicht von außerhalb der Fahrzeuge von Unbefugten eingesehen, mitgehört oder entwendet werden können.;Standard
+INF.11.A7;Sachgerechter Umgang mit Fahrzeugen und schützenswerten Informationen;Die Mitarbeitenden SOLLTEN mit der grundlegenden Funktionsweise der Fahrzeuge und den betreffenden IT-Komponenten vertraut gemacht werden.;Standard
+INF.11.A7;Sachgerechter Umgang mit Fahrzeugen und schützenswerten Informationen;Die Mitarbeitenden SOLLTEN auch über die bestehenden Sicherheitsrisiken informiert werden.;Standard
+INF.11.A8;Schutz vor witterungsbedingten Einflüssen;Fahrzeuge und die darin verbauten IT-Komponenten SOLLTEN vor witterungsbedingten Einflüssen ausreichend geschützt werden.;Standard
+INF.11.A8;Schutz vor witterungsbedingten Einflüssen;Je nach Fahrzeugart, Einsatzort und Einsatzumgebung SOLLTEN zusätzliche Schutzmaßnahmen ergriffen werden.;Standard
+INF.11.A8;Schutz vor witterungsbedingten Einflüssen;Für kurzfristig auftretende extreme Wettererscheinungen SOLLTEN entsprechende Schutzmaßnahmen getroffen werden.;Standard
+INF.11.A8;Schutz vor witterungsbedingten Einflüssen;Diese Schutzmaßnahmen SOLLTEN in den Handlungsanweisungen zur Fahrzeugbenutzung in Form von Checklisten dokumentiert werden.;Standard
+INF.11.A9;Sicherstellung der Versorgung;Bevor Fahrzeuge eingesetzt werden, SOLLTE geplant werden, wie diese mit Betriebsstoffen während des Einsatzes versorgt werden.;Standard
+INF.11.A9;Sicherstellung der Versorgung;Die Fahrzeuge SOLLTEN dabei während des Einsatzes immer ausreichend mit Betriebsstoffen versorgt werden.;Standard
+INF.11.A10;Aussonderung;Werden Fahrzeuge ausgesondert, SOLLTEN keine schützenswerten Informationen in den Fahrzeugen verbleiben.;Standard
+INF.11.A10;Aussonderung;Bevor Fahrzeuge endgültig ausgesondert werden, SOLLTE anhand der Inventarliste geprüft werden, ob keine inventarisierten Gegenstände und darüber hinaus relevanten Gegenstände zurückgelassen worden sind.;Standard
+INF.11.A11;Ersatzvorkehrungen bei Ausfällen;Für den Fall, dass Fahrzeuge oder Fahrzeugführende ausfallen, SOLLTEN innerhalb der Institution vorbereitende Maßnahmen getroffen werden.;Hoch
+INF.11.A11;Ersatzvorkehrungen bei Ausfällen;Abhängig von der Bedeutung der Fahrzeuge SOLLTEN Ersatzfahrzeuge bereitstehen oder alternativ ein Rahmenvertrag mit einer geeigneten Fremdinstitution geschlossen werden.;Hoch
+INF.11.A11;Ersatzvorkehrungen bei Ausfällen;Zusätzlich dazu SOLLTEN Ersatzfahrzeugführende verfügbar sein.;Hoch
+INF.11.A12;Diebstahlsicherung bzw. Bewachung;Eine Alarmanlage SOLLTE vorhanden sein.;Hoch
+INF.11.A12;Diebstahlsicherung bzw. Bewachung;Bei Bodenfahrzeugen SOLLTE darüber hinaus eine Wegfahrsperre vorhanden sein.;Hoch
+INF.11.A12;Diebstahlsicherung bzw. Bewachung;Wird das Fahrzeug verlassen, SOLLTEN die Alarmanlage und Wegfahrsperre aktiviert werden.;Hoch
+INF.11.A12;Diebstahlsicherung bzw. Bewachung;Alternativ SOLLTEN die Fahrzeuge bewacht werden.;Hoch
+INF.11.A13;Schädigende Fremdeinwirkung;Je nach Art der Fahrzeuge SOLLTEN geeignete Maßnahmen ergriffen werden, um die Fahrzeuge vor potentieller Fremdeinwirkung in der geplanten Einsatzumgebung zu schützen, wie z. B. störenden Funkstrahlen.;Hoch
+INF.11.A14;Schutz sensibler Informationen vor unbefugtem Zugriff und Kenntnisnahme;Fahrzeuge und die dazugehörigen IT-Komponenten SOLLTEN so abgesichert werden, dass sensible Informationen durch Unbefugte nicht ausgelesen bzw. manipuliert oder gelöscht werden können.;Hoch
+INF.11.A14;Schutz sensibler Informationen vor unbefugtem Zugriff und Kenntnisnahme;Hierbei SOLLTEN die vorhandenen Schutzvorkehrungen der herstellenden Unternehmen überprüft und bei Bedarf angepasst werden.;Hoch
+INF.11.A15;Physische Absicherung der Schnittstellen;Alle physischen internen und externen Schnittstellen der Fahrzeuge SOLLTEN physisch gegen unbefugte Benutzung und äußere Einflüsse abgesichert werden.;Hoch
+INF.11.A16;Brandlöschanlage;Die Fahrzeuge SOLLTEN über eine Brandlöschanlage verfügen, die einen Brand von außen und innen löschen kann.;Hoch
+INF.11.A16;Brandlöschanlage;Alternativ SOLLTEN geeignete Mittel zur Brandbekämpfung mitgeführt werden.;Hoch
+INF.11.A17;Netztrennung des In-Vehicle-Network mit einem Sonderfahrzeugnetz über Gateways;Generell SOLLTE die Institution sicherstellen, dass keine Informationen unerlaubt und undefiniert zwischen;Hoch
+INF.11.A17;Netztrennung des In-Vehicle-Network mit einem Sonderfahrzeugnetz über Gateways;dem In-Vehicle-Network (IVN), das wiederum an die Netze der fahrzeugherstellenden Unternehmen angebunden ist und;Hoch
+INF.11.A17;Netztrennung des In-Vehicle-Network mit einem Sonderfahrzeugnetz über Gateways;den einsatzspezifischen IT-Komponenten;Hoch
+INF.11.A17;Netztrennung des In-Vehicle-Network mit einem Sonderfahrzeugnetz über Gateways;ausgetauscht werden.;Hoch
+INF.11.A17;Netztrennung des In-Vehicle-Network mit einem Sonderfahrzeugnetz über Gateways;Hierzu SOLLTEN Gateways mit standardisierten Protokollen (z. B. nach Standard CiA 447) eingesetzt werden.;Hoch
+INF.11.A17;Netztrennung des In-Vehicle-Network mit einem Sonderfahrzeugnetz über Gateways;Die Gateways SOLLTEN dabei vom fahrzeugherstellenden Unternehmen freigegeben sein.;Hoch

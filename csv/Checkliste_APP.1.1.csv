@@ -1,0 +1,51 @@
+ID-Anforderung;Titel;Inhalt;Typ
+APP.1.1.A1;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.1.1.A2;Einschränken von Aktiven Inhalten;Die Funktion, dass eingebettete Aktive Inhalte automatisch ausgeführt werden, MUSS deaktiviert werden.;Basis
+APP.1.1.A2;Einschränken von Aktiven Inhalten;Falls es dennoch notwendig ist, Aktive Inhalte auszuführen, MUSS darauf geachtet werden, dass Aktive Inhalte nur ausgeführt werden, wenn sie aus vertrauenswürdigen Quellen stammen.;Basis
+APP.1.1.A2;Einschränken von Aktiven Inhalten;Alle Benutzenden MÜSSEN hinsichtlich der Funktionen, die Aktive Inhalte einschränken, eingewiesen werden.;Basis
+APP.1.1.A3;Sicheres Öffnen von Dokumenten aus externen Quellen;Alle aus externen Quellen bezogenen Dokumente MÜSSEN auf Schadsoftware überprüft werden, bevor sie geöffnet werden.;Basis
+APP.1.1.A3;Sicheres Öffnen von Dokumenten aus externen Quellen;Alle als problematisch eingestuften und alle innerhalb der Institution nicht benötigten Dateiformate MÜSSEN verboten werden.;Basis
+APP.1.1.A3;Sicheres Öffnen von Dokumenten aus externen Quellen;Falls möglich, SOLLTEN sie blockiert werden.;Basis
+APP.1.1.A3;Sicheres Öffnen von Dokumenten aus externen Quellen;Durch technische Maßnahmen SOLLTE erzwungen werden, dass Dokumente aus externen Quellen geprüft werden.;Basis
+APP.1.1.A4;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.1.1.A17;Sensibilisierung zu spezifischen Office-Eigenschaften;Alle Benutzenden MÜSSEN geeignet bezüglich der Gefährdungen durch Aktive Inhalte in Office-Dateien sensibilisiert werden.;Basis
+APP.1.1.A17;Sensibilisierung zu spezifischen Office-Eigenschaften;Die Benutzenden MÜSSEN zum Umgang mit Dokumenten aus externen Quellen geeignet sensibilisiert werden.;Basis
+APP.1.1.A17;Sensibilisierung zu spezifischen Office-Eigenschaften;Die Benutzenden SOLLTEN über die Möglichkeiten und Grenzen von Sicherheitsfunktionen der eingesetzten Software und der genutzten Speicherformate informiert werden.;Basis
+APP.1.1.A17;Sensibilisierung zu spezifischen Office-Eigenschaften;Den Benutzenden SOLLTE vermittelt werden, mit welchen Funktionen sie Dokumente vor nachträglicher Veränderung und Bearbeitung schützen können.;Basis
+APP.1.1.A17;Sensibilisierung zu spezifischen Office-Eigenschaften;Benutzende SOLLTEN im Umgang mit den Verschlüsselungsfunktionen in Office-Produkten sensibilisiert werden.;Basis
+APP.1.1.A5;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.1.1.A6;Testen neuer Versionen von Office-Produkten;Neue Versionen von Office-Produkten SOLLTEN vor dem produktiven Einsatz auf Kompatibilität mit etablierten Arbeitsmitteln wie Makros, Dokumentenvorlagen oder Formularen der Institution geprüft werden (Siehe hierzu OPS.1.1.6 Software-Tests und -Freigaben). Es SOLLTE sichergestellt sein, dass wichtige Arbeitsmittel auch mit der neuen Software-Version einwandfrei funktionieren.;Standard
+APP.1.1.A6;Testen neuer Versionen von Office-Produkten;Bei entdeckten Inkompatibilitäten SOLLTEN geeignete Lösungen für die betroffenen Arbeitsmittel gefunden werden.;Standard
+APP.1.1.A7;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.1.1.A8;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.1.1.A9;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.1.1.A10;Regelung der Software-Entwicklung durch Endbenutzende;Für die Software-Entwicklung auf Basis von Office-Anwendungen, z. B. mit Makros, SOLLTEN verbindliche Regelungen getroffen werden (siehe auch APP.1.1.A2 Einschränken von Aktiven Inhalten).;Standard
+APP.1.1.A10;Regelung der Software-Entwicklung durch Endbenutzende;Zunächst SOLLTE in jeder Institution die Grundsatzentscheidung getroffen werden, ob solche Eigenentwicklungen überhaupt erwünscht sind.;Standard
+APP.1.1.A10;Regelung der Software-Entwicklung durch Endbenutzende;Die Entscheidung SOLLTE in den betroffenen Sicherheitsrichtlinien dokumentiert werden.;Standard
+APP.1.1.A10;Regelung der Software-Entwicklung durch Endbenutzende;Werden Eigenentwicklungen erlaubt, SOLLTE ein Verfahren für den Umgang mit entsprechenden Funktionen der Office-Produkte für die Endbenutzenden erstellt werden.;Standard
+APP.1.1.A10;Regelung der Software-Entwicklung durch Endbenutzende;Zuständigkeiten SOLLTEN klar definiert werden.;Standard
+APP.1.1.A10;Regelung der Software-Entwicklung durch Endbenutzende;Alle notwendigen Informationen über die erstellten Anwendungen SOLLTEN angemessen dokumentiert werden.;Standard
+APP.1.1.A10;Regelung der Software-Entwicklung durch Endbenutzende;Aktuelle Versionen der Regelungen SOLLTEN allen betroffenen Benutzenden zeitnah zugänglich gemacht und von diesen beachtet werden.;Standard
+APP.1.1.A11;Geregelter Einsatz von Erweiterungen für Office-Produkte;Alle Erweiterungen von Office-Produkten, wie Add-ons und Extensions, SOLLTEN vor dem produktiven Einsatz genauso getestet werden wie neue Versionen.;Standard
+APP.1.1.A11;Geregelter Einsatz von Erweiterungen für Office-Produkte;Hierbei SOLLTE ausschließlich auf isolierten Testsystemen getestet werden.;Standard
+APP.1.1.A11;Geregelter Einsatz von Erweiterungen für Office-Produkte;Die Tests SOLLTEN prüfen, ob Erweiterungen negative Auswirkungen auf die Office-Produkte und die laufenden IT-Systeme haben.;Standard
+APP.1.1.A11;Geregelter Einsatz von Erweiterungen für Office-Produkte;Die Tests der eingesetzten Erweiterungen SOLLTEN einem definierten Testplan folgen.;Standard
+APP.1.1.A11;Geregelter Einsatz von Erweiterungen für Office-Produkte;Dieser Testplan SOLLTE so gestaltet sein, dass Dritte das Vorgehen nachvollziehen können.;Standard
+APP.1.1.A12;Verzicht auf Cloud-Speicherung;Die in einigen Office-Produkten integrierten Funktionen für Cloud-Speicher SOLLTEN grundsätzlich deaktiviert werden.;Standard
+APP.1.1.A12;Verzicht auf Cloud-Speicherung;Alle Cloud-Laufwerke SOLLTEN deaktiviert werden.;Standard
+APP.1.1.A12;Verzicht auf Cloud-Speicherung;Alle Dokumente SOLLTEN durch die Benutzenden auf zentral verwalteten Fileservern der Institution gespeichert werden.;Standard
+APP.1.1.A12;Verzicht auf Cloud-Speicherung;Um Dokumente für Dritte freizugeben, SOLLTEN spezialisierte Anwendungen eingesetzt werden.;Standard
+APP.1.1.A12;Verzicht auf Cloud-Speicherung;Diese Anwendungen SOLLTEN mindestens über eine verschlüsselte Datenablage und -versendung sowie ein geeignetes System zur Konten- und Rechteverwaltung verfügen.;Standard
+APP.1.1.A13;Verwendung von Viewer-Funktionen;Daten aus potenziell unsicheren Quellen SOLLTEN automatisch in einem geschützten Modus geöffnet werden.;Standard
+APP.1.1.A13;Verwendung von Viewer-Funktionen;Diese Funktion SOLLTE NICHT durch die Benutzenden deaktivierbar sein.;Standard
+APP.1.1.A13;Verwendung von Viewer-Funktionen;Eine Liste vertrauenswürdiger Quellen SOLLTE definiert werden, von denen Inhalte unmittelbar geöffnet und bearbeitet werden können.;Standard
+APP.1.1.A13;Verwendung von Viewer-Funktionen;In dem geschützten Modus SOLLTEN Daten NICHT unmittelbar bearbeitet werden können.;Standard
+APP.1.1.A13;Verwendung von Viewer-Funktionen;Aktive Inhalte, wie Makros und Skripte, SOLLTEN im geschützten Modus NICHT automatisch ausgeführt werden.;Standard
+APP.1.1.A13;Verwendung von Viewer-Funktionen;Nur eine allgemeine Navigation SOLLTE ermöglicht werden.;Standard
+APP.1.1.A13;Verwendung von Viewer-Funktionen;Wenn die Dokumente lediglich betrachtet werden sollen, SOLLTEN entsprechende Viewer-Anwendungen verwendet werden, wenn diese verfügbar sind.;Standard
+APP.1.1.A14;Schutz gegen nachträgliche Veränderungen von Dokumenten;Je nach geplantem Verwendungszweck von Dokumenten SOLLTEN Dokumente geeignet gegen nachträgliche Veränderung geschützt werden.;Standard
+APP.1.1.A15;Einsatz von Verschlüsselung und Digitalen Signaturen;Daten mit erhöhtem Schutzbedarf SOLLTEN nur verschlüsselt gespeichert bzw. übertragen werden.;Hoch
+APP.1.1.A15;Einsatz von Verschlüsselung und Digitalen Signaturen;Bevor ein in ein Office-Produkt integriertes Verschlüsselungsverfahren genutzt wird, SOLLTE geprüft werden, ob es einen ausreichenden Schutz bietet.;Hoch
+APP.1.1.A15;Einsatz von Verschlüsselung und Digitalen Signaturen;Zusätzlich SOLLTE ein Verfahren eingesetzt werden, mit dem Makros und Dokumente digital signiert werden können.;Hoch
+APP.1.1.A16;Integritätsprüfung von Dokumenten;Wenn Daten mit erhöhtem Schutzbedarf gespeichert oder übertragen werden, SOLLTEN geeignete Verfahren zur Integritätsprüfung eingesetzt werden.;Hoch
+APP.1.1.A16;Integritätsprüfung von Dokumenten;Falls Daten vor Manipulation geschützt werden sollen, SOLLTEN darüber hinaus kryptografische Verfahren eingesetzt werden.;Hoch

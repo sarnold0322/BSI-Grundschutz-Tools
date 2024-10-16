@@ -1,0 +1,87 @@
+ID-Anforderung;Titel;Inhalt;Typ
+INF.12.A1;Auswahl geeigneter Kabeltypen;Bei der Auswahl von Kabeltypen MUSS geprüft werden, welche übertragungstechnischen Eigenschaften notwendig sind.;Basis
+INF.12.A1;Auswahl geeigneter Kabeltypen;Die einschlägigen Normen und Vorschriften MÜSSEN beachtet werden.;Basis
+INF.12.A1;Auswahl geeigneter Kabeltypen;Auch die Umgebungsbedingungen im Betrieb und bei der Verlegung MÜSSEN berücksichtigt werden.;Basis
+INF.12.A1;Auswahl geeigneter Kabeltypen;Hinsichtlich der Umgebungsbedingungen MÜSSEN die folgenden Faktoren beachtet werden:;Basis
+INF.12.A1;Auswahl geeigneter Kabeltypen;Temperaturen,;Basis
+INF.12.A1;Auswahl geeigneter Kabeltypen;Kabelwege,;Basis
+INF.12.A1;Auswahl geeigneter Kabeltypen;Zugkräfte bei der Verlegung,;Basis
+INF.12.A1;Auswahl geeigneter Kabeltypen;die Art der Verlegung sowie;Basis
+INF.12.A1;Auswahl geeigneter Kabeltypen;die Entfernung zwischen den Endpunkten und möglichen Störquellen.;Basis
+INF.12.A2;Planung der Kabelführung;Kabel, Kabelwege und Kabeltrassen MÜSSEN aus funktionaler und aus physikalischer Sicht ausreichend dimensioniert werden.;Basis
+INF.12.A2;Planung der Kabelführung;Dabei MÜSSEN künftige Notwendigkeiten eingerechnet werden, z. B. genügend Platz für mögliche technische Erweiterungen in Kabelkanälen und -trassen.;Basis
+INF.12.A2;Planung der Kabelführung;Bei der gemeinsamen Führung von IT- und Stromverkabelung in einer Trasse MUSS das Übersprechen zwischen den einzelnen Kabeln verhindert werden.;Basis
+INF.12.A2;Planung der Kabelführung;Es MUSS darauf geachtet werden, dass die IT-Verkabelung und die elektrotechnische Verkabelung mit dem normgerechten Trennungsabstand geführt werden.;Basis
+INF.12.A2;Planung der Kabelführung;Erkennbare Gefahrenquellen MÜSSEN umgangen werden.;Basis
+INF.12.A3;Fachgerechte Installation;Die Installationsarbeiten der Verkabelung MÜSSEN fachkundig und sorgfältig erfolgen.;Basis
+INF.12.A3;Fachgerechte Installation;Bei der Installation MÜSSEN alle relevanten Normen beachtet werden.;Basis
+INF.12.A3;Fachgerechte Installation;Die fachgerechte Ausführung der Verkabelung MUSS durch eine fachkundige Person in allen Phasen überprüft werden.;Basis
+INF.12.A3;Fachgerechte Installation;Bei Anlieferung des Materials MUSS geprüft werden, ob die richtigen Kabel und Anschlusskomponenten geliefert wurden.;Basis
+INF.12.A3;Fachgerechte Installation;Es MUSS darauf geachtet werden, dass die Montage keine Beschädigungen verursacht.;Basis
+INF.12.A3;Fachgerechte Installation;Außerdem MÜSSEN die Kabelwege so gewählt werden, dass eine Beschädigung der verlegten Kabel durch die normale Nutzung des Gebäudes ausgeschlossen ist.;Basis
+INF.12.A4;EMV-taugliche Stromversorgung;Die Stromversorgung MUSS EMV (Elektromagnetische Verträglichkeit) -tauglich sein.;Basis
+INF.12.A4;EMV-taugliche Stromversorgung;Dafür MUSS das Stromverteilnetz als TN-S-System aufgebaut sein.;Basis
+INF.12.A4;EMV-taugliche Stromversorgung;Bei Aufbau und Betrieb des Stromverteilnetzes MÜSSEN die in den entsprechenden Normen empfohlenen Trennungsabstände soweit wie möglich eingehalten werden.;Basis
+INF.12.A4;EMV-taugliche Stromversorgung;Vorkehrungen gegen Einstrahlungen von außen, Abstrahlung durch die Stromleitung sowie zur Erkennung von Ausgleichsströmen MÜSSEN getroffen werden.;Basis
+INF.12.A5;Anforderungsanalyse für die Verkabelung;Grundsätzlich SOLLTEN die Anforderungen analysiert werden, die Einfluss auf eine zukunftssichere, bedarfsgerechte und wirtschaftliche Ausführung der Verkabelung haben.;Standard
+INF.12.A5;Anforderungsanalyse für die Verkabelung;In dieser Anforderungsanalyse SOLLTE zunächst abgeschätzt werden, wie die kurzfristige Nutzung der Verkabelung innerhalb der Institution aussieht.;Standard
+INF.12.A5;Anforderungsanalyse für die Verkabelung;Darauf aufbauend SOLLTE die längerfristige Entwicklung der Nutzung abgeschätzt werden.;Standard
+INF.12.A5;Anforderungsanalyse für die Verkabelung;Darüber hinaus MÜSSEN die Schutzziele der Verfügbarkeit, Integrität und Vertraulichkeit bei der Anforderungsanalyse für die Verkabelung mit betrachtet werden.;Standard
+INF.12.A6;Abnahme der Verkabelung;Für die Verkabelung SOLLTE es einen Abnahmeprozess geben.;Standard
+INF.12.A6;Abnahme der Verkabelung;Verkabelungen SOLLTEN immer dann abgenommen werden, wenn alle (gegebenenfalls im Rahmen eines Meilensteins) durchzuführenden Aufgaben abgeschlossen sind.;Standard
+INF.12.A6;Abnahme der Verkabelung;Die Ausführenden SOLLTE hierfür die Aufgaben als abgeschlossen und zur Abnahme bereit gemeldet haben.;Standard
+INF.12.A6;Abnahme der Verkabelung;Außerdem SOLLTEN sich bei den Kontrollen durch die auftraggebende Institution keine inakzeptablen Mängel gezeigt haben.;Standard
+INF.12.A6;Abnahme der Verkabelung;Der Abnahmetermin SOLLTE so gewählt werden, dass die Kontrollen zur Abnahme in ausreichender Zeit vorbereitet werden können.;Standard
+INF.12.A6;Abnahme der Verkabelung;Die auftragnehmende Institution MUSS spätestens zum Abnahmetermin schriftlich belegen, dass sämtliche Normen und Vorschriften eingehalten wurden, die für das Gewerk gelten.;Standard
+INF.12.A6;Abnahme der Verkabelung;Bei der Abnahme MUSS der tatsächliche Umfang der Leistungen überprüft werden.;Standard
+INF.12.A6;Abnahme der Verkabelung;Für das Abnahmeprotokoll SOLLTE eine Checkliste vorbereitet werden.;Standard
+INF.12.A6;Abnahme der Verkabelung;Das Abnahmeprotokoll MUSS von den Teilnehmenden und Verantwortlichen rechtsverbindlich unterzeichnet werden.;Standard
+INF.12.A6;Abnahme der Verkabelung;Das Protokoll MUSS Bestandteil der internen Dokumentation der Verkabelung sein.;Standard
+INF.12.A7;Überspannungsschutz;Jedes elektrisch leitende Netz SOLLTE gegen Überspannungen geschützt werden.;Standard
+INF.12.A7;Überspannungsschutz;Hierfür MUSS ein entsprechendes Überspannungsschutzkonzept erstellt werden, das den gültigen Normen entspricht.;Standard
+INF.12.A7;Überspannungsschutz;Netzersatzanlagen (NEA) und unterbrechungsfreie Stromversorgungen (USV) MÜSSEN in das Überspannungsschutzkonzept aufgenommen werden.;Standard
+INF.12.A8;Entfernen und Deaktivieren nicht mehr benötigter Kabel;Wenn Kabel nicht mehr benötigt werden, SOLLTEN sie fachgerecht und vollständig entfernt werden.;Standard
+INF.12.A8;Entfernen und Deaktivieren nicht mehr benötigter Kabel;Nachdem Kabel entfernt wurden, MÜSSEN die Brandschottungen fachgerecht verschlossen werden.;Standard
+INF.12.A8;Entfernen und Deaktivieren nicht mehr benötigter Kabel;Kabel, die aktuell nicht mehr benötigt werden, aber mit der vorhandenen Technik sinnvoll als Reserve an Ort und Stelle verbleiben können, SOLLTEN in einem betriebsfähigen Zustand erhalten werden.;Standard
+INF.12.A8;Entfernen und Deaktivieren nicht mehr benötigter Kabel;Solche Kabel MÜSSEN mindestens an den Endpunkten entsprechend gekennzeichnet werden.;Standard
+INF.12.A8;Entfernen und Deaktivieren nicht mehr benötigter Kabel;Grundsätzlich SOLLTE eine Übersicht über nicht mehr benötigte Kabel aufgestellt werden.;Standard
+INF.12.A8;Entfernen und Deaktivieren nicht mehr benötigter Kabel;Aus der Dokumentation SOLLTE hervorgehen, welche Kabel entfernt oder deaktiviert wurden.;Standard
+INF.12.A9;Brandschutz in Trassen;Trassen SOLLTEN ausreichend dimensioniert werden.;Standard
+INF.12.A9;Brandschutz in Trassen;Trassen SOLLTEN über eine ausreichende Be- und Entlüftung verfügen.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Eine Institution SOLLTE sicherstellen, dass sie für ihre Verkabelung sowohl über eine interne als auch eine externe Dokumentation verfügt.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Die interne Dokumentation MUSS alle Aufzeichnungen zur Installation und zum Betrieb der Verkabelung enthalten.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Die interne Dokumentation SOLLTE so umfangreich angefertigt und gepflegt werden, dass der Betrieb und dessen Weiterentwicklung bestmöglich unterstützt werden.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Die externe Dokumentation (Beschriftung von Anschlüssen zur Unterstützung des Betriebs) der Verkabelung SOLLTE möglichst neutral gehalten werden.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Jede Veränderung im Netz SOLLTE dokumentiert werden.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Eine Interims- oder Arbeitsversion der Dokumentation SOLLTE unmittelbar, d. h. am Tag selbst angepasst werden.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Die Stamm-Dokumentation MUSS spätestens 4 Wochen nach Abschluss der jeweiligen Arbeiten aktualisiert sein.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Es SOLLTE geprüft werden, ob ein Dokumentenmanagement für die Dokumentation eingesetzt werden kann.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Die Dokumentation SOLLTE regelmäßig überprüft und aktualisiert werden.;Standard
+INF.12.A10;Dokumentation und Kennzeichnung der Verkabelung;Sämtliche technischen Einrichtungen, die im Rahmen der Verkabelung dokumentiert sind, MÜSSEN hinsichtlich der Dokumentationstreue spätestens nach 4 Jahren geprüft werden.;Standard
+INF.12.A11;Neutrale Dokumentation in den Verteilern;In jedem Verteiler SOLLTE es eine Dokumentation geben, die den derzeitigen Stand von Rangierungen und Leitungsbelegungen wiedergibt.;Standard
+INF.12.A11;Neutrale Dokumentation in den Verteilern;Die Dokumentation im Verteiler MUSS ein sicheres Schalten ermöglichen.;Standard
+INF.12.A11;Neutrale Dokumentation in den Verteilern;Die Dokumentation im Verteiler SOLLTE möglichst neutral gehalten werden.;Standard
+INF.12.A11;Neutrale Dokumentation in den Verteilern;In der Dokumentation im Verteiler SOLLTEN nur bestehende und genutzte Verbindungen sowie auflaufende Reservekabel aufgeführt sein.;Standard
+INF.12.A11;Neutrale Dokumentation in den Verteilern;Falls möglich, SOLLTEN keine Hinweise auf die Art gegeben werden, wie Kabel genutzt werden.;Standard
+INF.12.A11;Neutrale Dokumentation in den Verteilern;Es SOLLTEN nur solche Hinweise gegeben werden, die ausdrücklich vorgeschrieben sind.;Standard
+INF.12.A11;Neutrale Dokumentation in den Verteilern;Alle weitergehenden Informationen SOLLTEN in einer Revisionsdokumentation aufgeführt werden.;Standard
+INF.12.A12;Kontrolle elektrotechnischer Anlagen und bestehender Verbindungen;Alle elektrischen Anlagen und Betriebsmittel SOLLTEN gemäß DGUV Vorschrift 3, entsprechend den in § 5 Prüfung genannten Durchführungsanweisungen, regelmäßig geprüft werden.;Standard
+INF.12.A12;Kontrolle elektrotechnischer Anlagen und bestehender Verbindungen;Alle Unregelmäßigkeiten, die festgestellt werden, MÜSSEN unverzüglich dokumentiert werden.;Standard
+INF.12.A12;Kontrolle elektrotechnischer Anlagen und bestehender Verbindungen;Festgestellte Unregelmäßigkeiten MÜSSEN unverzüglich den zuständigen Organisationseinheiten gemeldet werden.;Standard
+INF.12.A12;Kontrolle elektrotechnischer Anlagen und bestehender Verbindungen;Die zuständigen Organisationseinheiten MÜSSEN die festgestellten Unregelmäßigkeiten so zeitnah beheben, dass eine Gefährdung von Personen ausgeschlossen werden kann.;Standard
+INF.12.A12;Kontrolle elektrotechnischer Anlagen und bestehender Verbindungen;Die Verfügbarkeit der elektrischen Anlagen und Betriebsmittel MUSS hierbei im erforderlichen Maß sichergestellt sein.;Standard
+INF.12.A13;Vermeidung elektrischer Zündquellen;Die Nutzung privater Elektrogeräte innerhalb einer Institution SOLLTE klar geregelt werden.;Standard
+INF.12.A13;Vermeidung elektrischer Zündquellen;Alle Elektrogeräte MÜSSEN durch eine Elektrofachkraft geprüft und für sicher befunden werden, bevor sie eingesetzt werden.;Standard
+INF.12.A13;Vermeidung elektrischer Zündquellen;Die Verwendung von Steckdosenleisten SOLLTE soweit wie möglich vermieden werden.;Standard
+INF.12.A13;Vermeidung elektrischer Zündquellen;Fehlende Steckdosen SOLLTEN durch eine Elektrofachkraft fachgerecht nachgerüstet werden.;Standard
+INF.12.A14;A-B-Versorgung;Es SOLLTE geprüft werden, ob anstelle einer einzügigen Stromversorgung eine zweizügige sogenannte A-B-Versorgung geschaffen werden soll, die wichtige IT-Komponenten und andere Verbraucher versorgt.;Hoch
+INF.12.A14;A-B-Versorgung;Dabei SOLLTE die Funktionsfähigkeit der Stromversorgung permanent durch geeignete technische Einrichtungen überwacht werden.;Hoch
+INF.12.A15;Materielle Sicherung der Verkabelung;Für alle Räume eines Gebäudes, insbesondere in Räumen mit Publikumsverkehr sowie in unübersichtlichen Bereichen SOLLTE überlegt werden, Kabel und Verteiler gegen unbefugte Zugriffe zu sichern.;Hoch
+INF.12.A15;Materielle Sicherung der Verkabelung;In jedem Fall SOLLTEN die Zahl und der Umfang derjenigen Stellen möglichst gering gehalten werden, an denen Einrichtungen der Energieversorgung und Zugangspunkte des Datennetzes für Unbefugte zugänglich sind.;Hoch
+INF.12.A16;Nutzung von Schranksystemen;Elektrotechnische Anschlüsse und -verteiler SOLLTEN in Schranksystemen aufgestellt oder in diese eingebaut werden.;Hoch
+INF.12.A16;Nutzung von Schranksystemen;Bei der Dimensionierung der Schranksysteme SOLLTE das erwartete Wachstum für den geplanten Einsatzzeitraum berücksichtigt werden.;Hoch
+INF.12.A17;Redundanzen für die IT-Verkabelung;Es SOLLTE geprüft werden, ob eine redundante primäre IT-Verkabelung geschaffen werden soll, die über unabhängige Trassen geführt wird.;Hoch
+INF.12.A17;Redundanzen für die IT-Verkabelung;Ebenso SOLLTE geprüft werden, ob die Anschlüsse an IT- oder TK-Provider redundant ausgelegt werden sollen.;Hoch
+INF.12.A17;Redundanzen für die IT-Verkabelung;Bei hohen oder sehr hohen Verfügbarkeitsanforderungen SOLLTE überlegt werden, in den relevanten Gebäuden die Sekundär- und Tertiärverkabelung redundant auszulegen.;Hoch
+INF.12.A17;Redundanzen für die IT-Verkabelung;Dabei SOLLTEN redundant ausgelegte Teile der Sekundärverkabelung in unterschiedlichen Brandabschnitten geführt werden.;Hoch
+INF.12.A17;Redundanzen für die IT-Verkabelung;Wird eine redundante Verkabelung verwendet, SOLLTE deren Funktionsfähigkeit regelmäßig geprüft werden.;Hoch

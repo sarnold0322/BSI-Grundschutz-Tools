@@ -1,0 +1,69 @@
+ID-Anforderung;Titel;Inhalt;Typ
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Eine Strategie für die Cloud-Nutzung MUSS erstellt werden.;Basis
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Darin MÜSSEN Ziele, Chancen und Risiken definiert werden, die die Institution mit der Cloud-Nutzung verbindet.;Basis
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Zudem MÜSSEN die rechtlichen und organisatorischen Rahmenbedingungen sowie die technischen Anforderungen untersucht werden, die sich aus der Nutzung von Cloud-Diensten ergeben.;Basis
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Die Ergebnisse dieser Untersuchung MÜSSEN in einer Machbarkeitsstudie dokumentiert werden.;Basis
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Es MUSS festgelegt werden, welche Dienste in welchem Bereitstellungsmodell zukünftig von Cloud-Diensteanbietenden bezogen werden sollen.;Basis
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Zudem MUSS sichergestellt werden, dass bereits in der Planungsphase zur Cloud-Nutzung alle grundlegenden technischen und organisatorischen Sicherheitsaspekte ausreichend berücksichtigt werden.;Basis
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Für den geplanten Cloud-Dienst SOLLTE eine grobe individuelle Sicherheitsanalyse durchgeführt werden.;Basis
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Diese SOLLTE wiederholt werden, wenn sich technische und organisatorische Rahmenbedingungen wesentlich verändern.;Basis
+OPS.2.2.A1;Erstellung einer Strategie für die Cloud-Nutzung;Für größere Cloud-Projekte SOLLTE zudem eine Roadmap erarbeitet werden, die festlegt, wann und wie ein Cloud-Dienst eingeführt wird.;Basis
+OPS.2.2.A2;Erstellung einer Sicherheitsrichtlinie für die Cloud-Nutzung;Auf Basis der Strategie für die Cloud-Nutzung MUSS eine Sicherheitsrichtlinie für die Cloud-Nutzung erstellt werden.;Basis
+OPS.2.2.A2;Erstellung einer Sicherheitsrichtlinie für die Cloud-Nutzung;Sie MUSS konkrete Sicherheitsvorgaben beinhalten, mit denen sich Cloud-Dienste innerhalb der Institution umsetzen lassen.;Basis
+OPS.2.2.A2;Erstellung einer Sicherheitsrichtlinie für die Cloud-Nutzung;Außerdem MÜSSEN darin spezielle Sicherheitsanforderungen an die Cloud-Diensteanbietenden sowie das festgelegte Schutzniveau für Cloud-Dienste hinsichtlich Vertraulichkeit, Integrität und Verfügbarkeit dokumentiert werden.;Basis
+OPS.2.2.A2;Erstellung einer Sicherheitsrichtlinie für die Cloud-Nutzung;Wenn Cloud-Dienste von internationalen Anbietenden genutzt werden, MÜSSEN die speziellen länderspezifischen Anforderungen und gesetzlichen Bestimmungen berücksichtigt werden.;Basis
+OPS.2.2.A3;Service-Definition für Cloud-Dienste;Für jeden Cloud-Dienst MUSS eine Service-Definition erarbeitet werden.;Basis
+OPS.2.2.A3;Service-Definition für Cloud-Dienste;Zudem SOLLTEN alle geplanten und genutzten Cloud-Dienste dokumentiert werden.;Basis
+OPS.2.2.A4;Festlegung von Verantwortungsbereichen und Schnittstellen;Basierend auf der Service-Definition für Cloud-Dienste MÜSSEN alle relevanten Schnittstellen und Verantwortlichkeiten für die Cloud-Nutzung identifiziert und dokumentiert werden.;Basis
+OPS.2.2.A4;Festlegung von Verantwortungsbereichen und Schnittstellen;Es MUSS klar erkennbar sein, wie die Verantwortungsbereiche zwischen Cloud-Diensteanbietenden und der auftraggebenden Institution voneinander abgegrenzt sind.;Basis
+OPS.2.2.A5;Planung der sicheren Migration zu einem Cloud-Dienst;Bevor zu einem Cloud-Dienst migriert wird, SOLLTE ein Migrationskonzept erstellt werden.;Standard
+OPS.2.2.A5;Planung der sicheren Migration zu einem Cloud-Dienst;Dafür SOLLTEN zunächst organisatorische Regelungen sowie die Aufgabenverteilung festgelegt werden.;Standard
+OPS.2.2.A5;Planung der sicheren Migration zu einem Cloud-Dienst;Zudem SOLLTEN bestehende Betriebsprozesse hinsichtlich der Cloud-Nutzung identifiziert und angepasst werden.;Standard
+OPS.2.2.A5;Planung der sicheren Migration zu einem Cloud-Dienst;Es SOLLTE sichergestellt werden, dass die eigene IT ausreichend im Migrationsprozess berücksichtigt wird.;Standard
+OPS.2.2.A5;Planung der sicheren Migration zu einem Cloud-Dienst;Auch SOLLTEN die Zuständigen ermitteln, ob die Mitarbeitenden auf Seiten der Institution zusätzlich geschult werden sollten.;Standard
+OPS.2.2.A6;Planung der sicheren Einbindung von Cloud-Diensten;Bevor ein Cloud-Dienst genutzt wird, SOLLTE sorgfältig geplant werden, wie er in die IT der Institution eingebunden werden soll.;Standard
+OPS.2.2.A6;Planung der sicheren Einbindung von Cloud-Diensten;Hierfür SOLLTE mindestens geprüft werden, ob Anpassungen der Schnittstellen, der Netzanbindung, des Administrationsmodells sowie des Datenmanagementmodells notwendig sind.;Standard
+OPS.2.2.A6;Planung der sicheren Einbindung von Cloud-Diensten;Die Ergebnisse SOLLTEN dokumentiert und regelmäßig aktualisiert werden.;Standard
+OPS.2.2.A7;Erstellung eines Sicherheitskonzeptes für die Cloud-Nutzung;Auf Grundlage der identifizierten Sicherheitsanforderungen (siehe OPS.2.2.A2 Erstellung einer Sicherheitsrichtlinie für die Cloud-Nutzung) SOLLTE ein Sicherheitskonzept für die Nutzung von Cloud-Diensten erstellt werden.;Standard
+OPS.2.2.A8;Sorgfältige Auswahl von Cloud-Diensteanbietenden;Basierend auf der Service-Definition für den Cloud-Dienst SOLLTE ein detailliertes Anforderungsprofil für Cloud-Diensteanbietende erstellt werden.;Standard
+OPS.2.2.A8;Sorgfältige Auswahl von Cloud-Diensteanbietenden;Eine Leistungsbeschreibung und ein Lastenheft SOLLTEN erstellt werden.;Standard
+OPS.2.2.A8;Sorgfältige Auswahl von Cloud-Diensteanbietenden;Für die Bewertung von Cloud-Diensteanbietenden SOLLTEN auch ergänzende Informationsquellen herangezogen werden.;Standard
+OPS.2.2.A8;Sorgfältige Auswahl von Cloud-Diensteanbietenden;Ebenso SOLLTEN verfügbare Service-Beschreibungen der Cloud-Diensteanbietenden sorgfältig geprüft und hinterfragt werden.;Standard
+OPS.2.2.A9;Vertragsgestaltung mit den Cloud-Diensteanbietenden;Die vertraglichen Regelungen zwischen der auftraggebenden Institution und den Cloud-Diensteanbietenden SOLLTEN in Art, Umfang und Detaillierungsgrad dem Schutzbedarf der Informationen angepasst sein, die im Zusammenhang mit der Cloud-Nutzung stehen.;Standard
+OPS.2.2.A9;Vertragsgestaltung mit den Cloud-Diensteanbietenden;Es SOLLTE geregelt werden, an welchem Standort die Cloud-Diensteanbietenden ihre Leistung erbringen.;Standard
+OPS.2.2.A9;Vertragsgestaltung mit den Cloud-Diensteanbietenden;Zusätzlich SOLLTEN Eskalationsstufen und Kommunikationswege zwischen der Institution und den Cloud-Diensteanbietenden definiert werden.;Standard
+OPS.2.2.A9;Vertragsgestaltung mit den Cloud-Diensteanbietenden;Auch SOLLTE vereinbart werden, wie die Daten der Institution sicher zu löschen sind.;Standard
+OPS.2.2.A9;Vertragsgestaltung mit den Cloud-Diensteanbietenden;Ebenso SOLLTEN Kündigungsregelungen schriftlich fixiert werden.;Standard
+OPS.2.2.A9;Vertragsgestaltung mit den Cloud-Diensteanbietenden;Die Cloud-Diensteanbietenden SOLLTEN alle Subunternehmen offenlegen, die sie für den Cloud-Dienst benötigen.;Standard
+OPS.2.2.A10;Sichere Migration zu einem Cloud-Dienst;Die Migration zu einem Cloud-Dienst SOLLTE auf Basis des erstellten Migrationskonzeptes erfolgen.;Standard
+OPS.2.2.A10;Sichere Migration zu einem Cloud-Dienst;Während der Migration SOLLTE überprüft werden, ob das Sicherheitskonzept für die Cloud-Nutzung an potenzielle neue Anforderungen angepasst werden muss.;Standard
+OPS.2.2.A10;Sichere Migration zu einem Cloud-Dienst;Auch SOLLTEN alle Notfallvorsorgemaßnahmen vollständig und aktuell sein.;Standard
+OPS.2.2.A10;Sichere Migration zu einem Cloud-Dienst;Die Migration zu einem Cloud-Dienst SOLLTE zunächst in einem Testlauf überprüft werden.;Standard
+OPS.2.2.A10;Sichere Migration zu einem Cloud-Dienst;Ist der Cloud-Dienst in den produktiven Betrieb übergegangen, SOLLTE abgeglichen werden, ob die Cloud-Diensteanbietenden die definierten Anforderungen der Institution erfüllen.;Standard
+OPS.2.2.A11;Erstellung eines Notfallkonzeptes für einen Cloud-Dienst;Für die genutzten Cloud-Dienste SOLLTE ein Notfallkonzept erstellt werden.;Standard
+OPS.2.2.A11;Erstellung eines Notfallkonzeptes für einen Cloud-Dienst;Es SOLLTE alle notwendigen Angaben zu Zuständigkeiten und Kontaktpersonen enthalten.;Standard
+OPS.2.2.A11;Erstellung eines Notfallkonzeptes für einen Cloud-Dienst;Zudem SOLLTEN detaillierte Regelungen hinsichtlich der Datensicherung getroffen werden.;Standard
+OPS.2.2.A11;Erstellung eines Notfallkonzeptes für einen Cloud-Dienst;Auch Vorgaben zu redundant auszulegenden Management-Tools und Schnittstellensystemen SOLLTEN festgehalten sein.;Standard
+OPS.2.2.A12;Aufrechterhaltung der Informationssicherheit im laufenden Cloud-Nutzungs-Betrieb;Alle für die eingesetzten Cloud-Dienste erstellten Dokumentationen und Richtlinien SOLLTEN regelmäßig aktualisiert werden.;Standard
+OPS.2.2.A12;Aufrechterhaltung der Informationssicherheit im laufenden Cloud-Nutzungs-Betrieb;Es SOLLTE außerdem periodisch kontrolliert werden, ob die vertraglich zugesicherten Leistungen erbracht werden.;Standard
+OPS.2.2.A12;Aufrechterhaltung der Informationssicherheit im laufenden Cloud-Nutzungs-Betrieb;Auch SOLLTEN sich die Cloud-Diensteanbietenden und die Institution nach Möglichkeit regelmäßig abstimmen.;Standard
+OPS.2.2.A12;Aufrechterhaltung der Informationssicherheit im laufenden Cloud-Nutzungs-Betrieb;Ebenso SOLLTE geplant und geübt werden, wie auf Systemausfälle zu reagieren ist.;Standard
+OPS.2.2.A13;Nachweis einer ausreichenden Informationssicherheit bei der Cloud-Nutzung;Die Institution SOLLTE sich von den Cloud-Diensteanbietenden regelmäßig nachweisen lassen, dass die vereinbarten Sicherheitsanforderungen erfüllt sind.;Standard
+OPS.2.2.A13;Nachweis einer ausreichenden Informationssicherheit bei der Cloud-Nutzung;Der Nachweis SOLLTE auf einem international anerkannten Regelwerk basieren (z. B. IT-Grundschutz, ISO/IEC 27001, Anforderungskatalog Cloud Computing (C5), Cloud Controls Matrix der Cloud Security Alliance).;Standard
+OPS.2.2.A13;Nachweis einer ausreichenden Informationssicherheit bei der Cloud-Nutzung;Die Institution SOLLTE prüfen, ob der Geltungsbereich und Schutzbedarf die genutzten Cloud-Dienste erfasst.;Standard
+OPS.2.2.A13;Nachweis einer ausreichenden Informationssicherheit bei der Cloud-Nutzung;Nutzen Cloud-Diensteanbietende Subunternehmen, um die Cloud-Dienste zu erbringen, SOLLTEN Cloud-Diensteanbietende der Institution regelmäßig nachweisen, dass diese Subunternehmen die notwendigen Audits durchführen.;Standard
+OPS.2.2.A14;Geordnete Beendigung eines Cloud-Nutzungs-Verhältnisses;Wenn das Dienstleistungsverhältnis mit den Cloud-Diensteanbietenden beendet wird, SOLLTE sichergestellt sein, dass dadurch die Geschäftstätigkeit oder die Fachaufgaben der Institution nicht beeinträchtigt wird.;Standard
+OPS.2.2.A14;Geordnete Beendigung eines Cloud-Nutzungs-Verhältnisses;Die Verträge mit den Cloud-Diensteanbietenden SOLLTEN regeln, wie das jeweilige Dienstleistungsverhältnis geordnet aufgelöst werden kann.;Standard
+OPS.2.2.A15;Sicherstellung der Portabilität von Cloud-Diensten;Die Institution SOLLTE alle Anforderungen definieren, die es ermöglichen, Cloud-Diensteanbietende zu wechseln oder den Cloud-Dienst bzw. die Daten in die eigene IT-Infrastruktur zurückzuholen.;Hoch
+OPS.2.2.A15;Sicherstellung der Portabilität von Cloud-Diensten;Zudem SOLLTE die Institution regelmäßig Portabilitätstests durchführen.;Hoch
+OPS.2.2.A15;Sicherstellung der Portabilität von Cloud-Diensten;In den Verträgen mit den Cloud-Diensteanbietenden SOLLTEN Vorgaben festgehalten werden, mit denen sich die notwendige Portabilität gewährleisten lässt.;Hoch
+OPS.2.2.A16;Durchführung eigener Datensicherungen;Die Institution SOLLTE prüfen, ob, zusätzlich zu den vertraglich festgelegten Datensicherungen der Cloud-Diensteanbietenden, eigene Datensicherungen erstellt werden sollen.;Hoch
+OPS.2.2.A16;Durchführung eigener Datensicherungen;Zudem SOLLTE sie detaillierte Anforderungen an einen Backup-Service erstellen.;Hoch
+OPS.2.2.A17;Einsatz von Verschlüsselung bei Cloud-Nutzung;Wenn Daten durch Cloud-Diensteanbietende verschlüsselt werden, SOLLTE vertraglich geregelt werden, welche Verschlüsselungsmechanismen und welche Schlüssellängen eingesetzt werden dürfen.;Hoch
+OPS.2.2.A17;Einsatz von Verschlüsselung bei Cloud-Nutzung;Wenn eigene Verschlüsselungsmechanismen genutzt werden, SOLLTE ein geeignetes Schlüsselmanagement sichergestellt sein.;Hoch
+OPS.2.2.A17;Einsatz von Verschlüsselung bei Cloud-Nutzung;Bei der Verschlüsselung SOLLTEN die eventuellen Besonderheiten des gewählten Cloud-Service-Modells berücksichtigt werden.;Hoch
+OPS.2.2.A18;Einsatz von Verbunddiensten;Es SOLLTE geprüft werden, ob bei einem Cloud-Nutzungs-Vorhaben Verbunddienste (Federation Services) eingesetzt werden.;Hoch
+OPS.2.2.A18;Einsatz von Verbunddiensten;Es SOLLTE sichergestellt sein, dass in einem SAML (Security Assertion Markup Language)-Ticket nur die erforderlichen Informationen an die Cloud-Diensteanbietenden übertragen werden.;Hoch
+OPS.2.2.A18;Einsatz von Verbunddiensten;Die Berechtigungen SOLLTEN regelmäßig überprüft werden, sodass nur berechtigten Benutzenden ein SAML-Ticket ausgestellt wird.;Hoch
+OPS.2.2.A19;Sicherheitsüberprüfung von Mitarbeitenden;Mit externen Cloud-Diensteanbietenden SOLLTE vertraglich vereinbart werden, dass in geeigneter Weise überprüft wird, ob das eingesetzte Personal qualifiziert und vertrauenswürdig ist.;Hoch
+OPS.2.2.A19;Sicherheitsüberprüfung von Mitarbeitenden;Dazu SOLLTEN gemeinsam Kriterien festgelegt werden.;Hoch

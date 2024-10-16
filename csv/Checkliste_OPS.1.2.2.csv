@@ -1,0 +1,96 @@
+ID-Anforderung;Titel;Inhalt;Typ
+OPS.1.2.2.A1;Ermittlung von Einflussfaktoren für die elektronische Archivierung;Bevor entschieden wird, welche Verfahren und Produkte für die elektronische Archivierung eingesetzt werden, MÜSSEN die technischen, rechtlichen und organisatorischen Einflussfaktoren ermittelt und dokumentiert werden.;Basis
+OPS.1.2.2.A1;Ermittlung von Einflussfaktoren für die elektronische Archivierung;Die Ergebnisse MÜSSEN in das Archivierungskonzept einfließen.;Basis
+OPS.1.2.2.A2;Entwicklung eines Archivierungskonzepts;Es MUSS definiert werden, welche Ziele mit der Archivierung erreicht werden sollen.;Basis
+OPS.1.2.2.A2;Entwicklung eines Archivierungskonzepts;Hierbei MUSS insbesondere berücksichtigt werden, welche Regularien einzuhalten sind, welche Mitarbeitende zuständig sind und welcher Funktions- und Leistungsumfang angestrebt wird.;Basis
+OPS.1.2.2.A2;Entwicklung eines Archivierungskonzepts;Die Ergebnisse MÜSSEN in einem Archivierungskonzept erfasst werden.;Basis
+OPS.1.2.2.A2;Entwicklung eines Archivierungskonzepts;Die Institutionsleitung MUSS in diesen Prozess einbezogen werden.;Basis
+OPS.1.2.2.A2;Entwicklung eines Archivierungskonzepts;Das Archivierungskonzept MUSS regelmäßig an die aktuellen Gegebenheiten der Institution angepasst werden.;Basis
+OPS.1.2.2.A3;Geeignete Aufstellung von Archivsystemen und Lagerung von Archivmedien;Die IT-Komponenten eines Archivsystems MÜSSEN in gesicherten Räumen aufgestellt werden.;Basis
+OPS.1.2.2.A3;Geeignete Aufstellung von Archivsystemen und Lagerung von Archivmedien;Es MUSS sichergestellt sein, dass nur berechtigte Personen die Räume betreten dürfen.;Basis
+OPS.1.2.2.A3;Geeignete Aufstellung von Archivsystemen und Lagerung von Archivmedien;Archivspeichermedien MÜSSEN geeignet gelagert werden.;Basis
+OPS.1.2.2.A4;Konsistente Indizierung von Daten bei der Archivierung;Alle in einem Archiv abgelegten Daten, Dokumente und Datensätze MÜSSEN eindeutig indiziert werden.;Basis
+OPS.1.2.2.A4;Konsistente Indizierung von Daten bei der Archivierung;Dazu MUSS bereits während der Konzeption festgelegt werden, welche Struktur und welchen Umfang die Indexangaben für ein Archiv haben sollen.;Basis
+OPS.1.2.2.A5;Regelmäßige Aufbereitung von archivierten Datenbeständen;Über den gesamten Archivierungszeitraum hinweg MUSS sichergestellt werden, dass;Basis
+OPS.1.2.2.A5;Regelmäßige Aufbereitung von archivierten Datenbeständen;das verwendete Datenformat von den benutzten Anwendungen verarbeitet werden kann,;Basis
+OPS.1.2.2.A5;Regelmäßige Aufbereitung von archivierten Datenbeständen;die gespeicherten Daten auch zukünftig lesbar und so reproduzierbar sind, dass Semantik und Beweiskraft beibehalten werden,;Basis
+OPS.1.2.2.A5;Regelmäßige Aufbereitung von archivierten Datenbeständen;das benutzte Dateisystem auf dem Speichermedium von allen beteiligten Komponenten verarbeitet werden kann,;Basis
+OPS.1.2.2.A5;Regelmäßige Aufbereitung von archivierten Datenbeständen;die Speichermedien jederzeit technisch einwandfrei gelesen werden können sowie;Basis
+OPS.1.2.2.A5;Regelmäßige Aufbereitung von archivierten Datenbeständen;die verwendeten kryptografischen Verfahren zur Verschlüsselung und zum Beweiswerterhalt mittels digitaler Signatur, Siegel, Zeitstempel oder technischen Beweisdaten (Evidence Records) dem Stand der Technik entsprechen.;Basis
+OPS.1.2.2.A6;Schutz der Integrität der Indexdatenbank von Archivsystemen;Die Integrität der Indexdatenbank MUSS sichergestellt und überprüfbar sein.;Basis
+OPS.1.2.2.A6;Schutz der Integrität der Indexdatenbank von Archivsystemen;Außerdem MUSS die Indexdatenbank regelmäßig gesichert werden.;Basis
+OPS.1.2.2.A6;Schutz der Integrität der Indexdatenbank von Archivsystemen;Die Datensicherungen MÜSSEN wiederherstellbar sein.;Basis
+OPS.1.2.2.A6;Schutz der Integrität der Indexdatenbank von Archivsystemen;Mittlere und große Archive SOLLTEN über redundante Indexdatenbanken verfügen.;Basis
+OPS.1.2.2.A7;Regelmäßige Datensicherung der System- und Archivdaten;Alle Archivdaten, die zugehörigen Indexdatenbanken sowie die Systemdaten MÜSSEN regelmäßig gesichert werden (siehe CON.3 Datensicherungskonzept).;Basis
+OPS.1.2.2.A8;Protokollierung der Archivzugriffe;Alle Zugriffe auf elektronische Archive MÜSSEN protokolliert werden.;Basis
+OPS.1.2.2.A8;Protokollierung der Archivzugriffe;Dafür SOLLTEN Datum, Uhrzeit, Benutzender, Client und die ausgeführten Aktionen sowie Fehlermeldungen aufgezeichnet werden.;Basis
+OPS.1.2.2.A8;Protokollierung der Archivzugriffe;Im Archivierungskonzept SOLLTE festgelegt werden, wie lange die Protokolldaten aufbewahrt werden.;Basis
+OPS.1.2.2.A8;Protokollierung der Archivzugriffe;Die Protokolldaten der Archivzugriffe SOLLTEN regelmäßig ausgewertet werden.;Basis
+OPS.1.2.2.A8;Protokollierung der Archivzugriffe;Dabei SOLLTEN die institutionsinternen Vorgaben beachtet werden.;Basis
+OPS.1.2.2.A8;Protokollierung der Archivzugriffe;Auch SOLLTE definiert sein, welche Ereignisse welchen Mitarbeitenden angezeigt werden, wie z. B. Systemfehler, Timeouts oder wenn Datensätze kopiert werden.;Basis
+OPS.1.2.2.A8;Protokollierung der Archivzugriffe;Kritische Ereignisse SOLLTEN sofort nach der Erkennung geprüft und, falls nötig, weiter eskaliert werden.;Basis
+OPS.1.2.2.A9;Auswahl geeigneter Datenformate für die Archivierung von Dokumenten;Für die Archivierung MUSS ein geeignetes Datenformat ausgewählt werden.;Basis
+OPS.1.2.2.A9;Auswahl geeigneter Datenformate für die Archivierung von Dokumenten;Es MUSS gewährleisten, dass sich Archivdaten sowie ausgewählte Merkmale des ursprünglichen Dokumentmediums langfristig und originalgetreu reproduzieren lassen.;Basis
+OPS.1.2.2.A9;Auswahl geeigneter Datenformate für die Archivierung von Dokumenten;Die Dokumentstruktur des ausgewählten Datenformats MUSS eindeutig interpretierbar und elektronisch verarbeitbar sein.;Basis
+OPS.1.2.2.A9;Auswahl geeigneter Datenformate für die Archivierung von Dokumenten;Die Syntax und Semantik der verwendeten Datenformate SOLLTE dokumentiert und von einer Standardisierungsorganisation veröffentlicht sein.;Basis
+OPS.1.2.2.A9;Auswahl geeigneter Datenformate für die Archivierung von Dokumenten;Es SOLLTE für eine beweis- und revisionssichere Archivierung ein verlustfreies Bildkompressionsverfahren benutzt werden.;Basis
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Es SOLLTE sichergestellt werden, dass Mitarbeitende das Archivsystem so benutzen, wie es im Archivierungskonzept vorgesehen ist.;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Dazu SOLLTE eine Administrations- und eine Benutzungsrichtlinie erstellt werden.;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Die Administrationsrichtlinie SOLLTE folgende Punkte enthalten:;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Festlegung der Verantwortung für Betrieb und Administration,;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Vereinbarungen über Leistungsparameter beim Betrieb (unter anderem Service Level Agreements),;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Modalitäten der Vergabe von Zutritts- und Zugriffsrechten,;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Modalitäten der Vergabe von Zugangsrechten zu den vom Archiv bereitgestellten Diensten,;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Regelungen zum Umgang mit archivierten Daten und Archivmedien,;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Überwachung des Archivsystems und der Umgebungsbedingungen,;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Regelungen zur Datensicherung,;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Regelungen zur Protokollierung sowie;Standard
+OPS.1.2.2.A10;Erstellung einer Richtlinie für die Nutzung von Archivsystemen;Trennung von Produzenten und Konsumenten (OAIS-Modell).;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Die zuständigen Mitarbeitende des IT-Betriebs und die Benutzenden SOLLTEN für ihren Aufgabenbereich geschult werden.;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Die Schulung der Mitarbeitenden des IT-Betriebs SOLLTE folgende Themen umfassen:;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Systemarchitektur und Sicherheitsmechanismen des verwendeten Archivsystems und des darunterliegenden Betriebssystems,;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Installation und Bedienung des Archivsystems und Umgang mit Archivmedien,;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Dokumentation der Administrationstätigkeiten sowie;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Eskalationsprozeduren.;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Die Schulung der Benutzende SOLLTE folgende Themen umfassen:;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Umgang mit dem Archivsystem,;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Bedienung des Archivsystems sowie;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;rechtliche Rahmenbedingungen der Archivierung.;Standard
+OPS.1.2.2.A11;Einweisung in die Administration und Bedienung des Archivsystems;Die Durchführung der Schulungen sowie die Teilnahme SOLLTEN dokumentiert werden.;Standard
+OPS.1.2.2.A12;Überwachung der Speicherressourcen von Archivmedien;Die auf den Archivmedien vorhandene freie Speicherkapazität SOLLTE kontinuierlich überwacht werden.;Standard
+OPS.1.2.2.A12;Überwachung der Speicherressourcen von Archivmedien;Sobald ein definierter Grenzwert unterschritten wird, MÜSSEN zuständige Mitarbeitende automatisch alarmiert werden.;Standard
+OPS.1.2.2.A12;Überwachung der Speicherressourcen von Archivmedien;Die Alarmierung SOLLTE rollenbezogen erfolgen.;Standard
+OPS.1.2.2.A12;Überwachung der Speicherressourcen von Archivmedien;Es MÜSSEN immer ausreichend leere Archivmedien verfügbar sein, um Speicherengpässen schnell vorbeugen zu können.;Standard
+OPS.1.2.2.A13;Regelmäßige Revision der Archivierungsprozesse;Es SOLLTE regelmäßig überprüft werden, ob die Archivierungsprozesse noch korrekt und ordnungsgemäß funktionieren.;Standard
+OPS.1.2.2.A13;Regelmäßige Revision der Archivierungsprozesse;Dazu SOLLTE eine Checkliste erstellt werden, die Fragen zu Verantwortlichkeiten, Organisationsprozessen, zum Einsatz der Archivierung, zur Redundanz der Archivdaten, zur Administration und zur technischen Beurteilung des Archivsystems enthält.;Standard
+OPS.1.2.2.A13;Regelmäßige Revision der Archivierungsprozesse;Die Auditergebnisse SOLLTEN nachvollziehbar dokumentiert und mit dem Soll-Zustand abgeglichen werden.;Standard
+OPS.1.2.2.A13;Regelmäßige Revision der Archivierungsprozesse;Abweichungen SOLLTE nachgegangen werden.;Standard
+OPS.1.2.2.A14;Regelmäßige Beobachtung des Marktes für Archivsysteme;Der Markt für Archivsysteme SOLLTE regelmäßig und systematisch beobachtet werden.;Standard
+OPS.1.2.2.A14;Regelmäßige Beobachtung des Marktes für Archivsysteme;Dabei SOLLTEN unter anderem folgende Kriterien beobachtet werden:;Standard
+OPS.1.2.2.A14;Regelmäßige Beobachtung des Marktes für Archivsysteme;Veränderungen bei Standards,;Standard
+OPS.1.2.2.A14;Regelmäßige Beobachtung des Marktes für Archivsysteme;Wechsel der Technik bei herstellenden Unternehmen von Hard- und Software,;Standard
+OPS.1.2.2.A14;Regelmäßige Beobachtung des Marktes für Archivsysteme;veröffentlichte Sicherheitslücken oder Schwachstellen sowie;Standard
+OPS.1.2.2.A14;Regelmäßige Beobachtung des Marktes für Archivsysteme;der Verlust der Sicherheitseignung bei kryptografischen Algorithmen.;Standard
+OPS.1.2.2.A15;Regelmäßige Aufbereitung von kryptografisch gesicherten Daten bei der Archivierung;Es SOLLTE kontinuierlich beobachtet werden, wie sich das Gebiet der Kryptografie entwickelt, um beurteilen zu können, ob ein Algorithmus weiterhin zuverlässig und ausreichend sicher ist (siehe auch OPS.1.2.2.A20 Geeigneter Einsatz kryptografischer Verfahren bei der Archivierung).;Standard
+OPS.1.2.2.A15;Regelmäßige Aufbereitung von kryptografisch gesicherten Daten bei der Archivierung;Archivdaten, die mit kryptografischen Verfahren gesichert wurden, die sich in absehbarer Zeit nicht mehr zur Sicherung eignen werden, SOLLTEN rechtzeitig mit geeigneten Verfahren neu gesichert werden.;Standard
+OPS.1.2.2.A16;Regelmäßige Erneuerung technischer Archivsystem-Komponenten;Archivsysteme SOLLTEN über lange Zeiträume auf dem aktuellen technischen Stand gehalten werden.;Standard
+OPS.1.2.2.A16;Regelmäßige Erneuerung technischer Archivsystem-Komponenten;Neue Hard- und Software SOLLTE vor der Installation in einem laufenden Archivsystem ausführlich getestet werden.;Standard
+OPS.1.2.2.A16;Regelmäßige Erneuerung technischer Archivsystem-Komponenten;Wenn neue Komponenten in Betrieb genommen oder neue Dateiformate eingeführt werden, SOLLTE ein Migrationskonzept erstellt werden.;Standard
+OPS.1.2.2.A16;Regelmäßige Erneuerung technischer Archivsystem-Komponenten;Darin SOLLTEN alle Änderungen, Tests und erwarteten Testergebnisse beschrieben sein.;Standard
+OPS.1.2.2.A16;Regelmäßige Erneuerung technischer Archivsystem-Komponenten;Die Konvertierung der einzelnen Daten SOLLTE dokumentiert werden (Transfervermerk).;Standard
+OPS.1.2.2.A16;Regelmäßige Erneuerung technischer Archivsystem-Komponenten;Wenn Archivdaten in neue Formate konvertiert werden, SOLLTE geprüft werden, ob die Daten aufgrund rechtlicher Anforderungen zusätzlich in ihren ursprünglichen Formaten zu archivieren sind.;Standard
+OPS.1.2.2.A17;Auswahl eines geeigneten Archivsystems;Ein neues Archivsystem SOLLTE immer auf Basis der im Archivierungskonzept beschriebenen Vorgaben ausgewählt werden.;Standard
+OPS.1.2.2.A17;Auswahl eines geeigneten Archivsystems;Es SOLLTE die dort formulierten Anforderungen erfüllen.;Standard
+OPS.1.2.2.A18;Verwendung geeigneter Archivmedien;Für die Archivierung SOLLTEN geeignete Medien ausgewählt und benutzt werden.;Standard
+OPS.1.2.2.A18;Verwendung geeigneter Archivmedien;Dabei SOLLTEN folgende Aspekte berücksichtigt werden:;Standard
+OPS.1.2.2.A18;Verwendung geeigneter Archivmedien;das zu archivierende Datenvolumen,;Standard
+OPS.1.2.2.A18;Verwendung geeigneter Archivmedien;die mittleren Zugriffszeiten sowie;Standard
+OPS.1.2.2.A18;Verwendung geeigneter Archivmedien;die mittleren gleichzeitigen Zugriffe auf das Archivsystem.;Standard
+OPS.1.2.2.A18;Verwendung geeigneter Archivmedien;Ebenfalls SOLLTEN die Archivmedien die Anforderungen an eine Langzeitarchivierung hinsichtlich Revisionssicherheit und Lebensdauer erfüllen.;Standard
+OPS.1.2.2.A19;Regelmäßige Funktions- und Recoverytests bei der Archivierung;Für die Archivierung SOLLTEN regelmäßige Funktions- und Recoverytests durchgeführt werden.;Standard
+OPS.1.2.2.A19;Regelmäßige Funktions- und Recoverytests bei der Archivierung;Die Archivierungsdatenträger SOLLTEN mindestens einmal jährlich daraufhin überprüft werden, ob sie noch lesbar und integer sind.;Standard
+OPS.1.2.2.A19;Regelmäßige Funktions- und Recoverytests bei der Archivierung;Für die Fehlerbehebung SOLLTEN geeignete Prozesse definiert werden.;Standard
+OPS.1.2.2.A19;Regelmäßige Funktions- und Recoverytests bei der Archivierung;Weiterhin SOLLTEN die Hardwarekomponenten des Archivsystems regelmäßig auf ihre einwandfreie Funktion hin geprüft werden.;Standard
+OPS.1.2.2.A19;Regelmäßige Funktions- und Recoverytests bei der Archivierung;Es SOLLTE regelmäßig geprüft werden, ob alle Archivierungsprozesse fehlerfrei funktionieren.;Standard
+OPS.1.2.2.A20;Geeigneter Einsatz kryptografischer Verfahren bei der Archivierung;Um lange Aufbewahrungsfristen abdecken zu können, SOLLTEN Archivdaten nur mit kryptografischen Verfahren auf Basis aktueller Standards und Normen gesichert werden.;Hoch
+OPS.1.2.2.A21;Übertragung von Papierdaten in elektronische Archive;Werden z. B. Dokumente auf Papier digitalisiert und in ein elektronisches Archiv überführt, SOLLTE sichergestellt werden, dass die digitale Kopie mit dem Originaldokument bildlich und inhaltlich übereinstimmt.;Hoch

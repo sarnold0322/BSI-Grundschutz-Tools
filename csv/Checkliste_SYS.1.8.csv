@@ -1,0 +1,102 @@
+ID-Anforderung;Titel;Inhalt;Typ
+SYS.1.8.A1;Geeignete Aufstellung von Speichersystemen;Die IT-Komponenten von Speicherlösungen MÜSSEN in verschlossenen Räumen aufgestellt werden.;Basis
+SYS.1.8.A1;Geeignete Aufstellung von Speichersystemen;Zu diesen Räumen DÜRFEN NUR Berechtigte Zutritt haben.;Basis
+SYS.1.8.A1;Geeignete Aufstellung von Speichersystemen;Zudem MUSS eine sichere Stromversorgung sichergestellt sein.;Basis
+SYS.1.8.A1;Geeignete Aufstellung von Speichersystemen;Die Vorgaben des herstellenden Unternehmens zur empfohlenen Umgebungstemperatur und Luftfeuchte MÜSSEN eingehalten werden.;Basis
+SYS.1.8.A2;Sichere Grundkonfiguration von Speicherlösungen;Bevor eine Speicherlösung produktiv eingesetzt wird, MUSS sichergestellt sein, dass alle eingesetzten Softwarekomponenten und die Firmware aktuell sind.;Basis
+SYS.1.8.A2;Sichere Grundkonfiguration von Speicherlösungen;Danach MUSS eine sichere Grundkonfiguration hergestellt werden.;Basis
+SYS.1.8.A2;Sichere Grundkonfiguration von Speicherlösungen;Nicht genutzte Schnittstellen des Speichersystems MÜSSEN deaktiviert werden.;Basis
+SYS.1.8.A2;Sichere Grundkonfiguration von Speicherlösungen;Die Dateien zur Default-Konfiguration, zur vorgenommenen Grundkonfiguration und zur aktuellen Konfiguration SOLLTEN redundant und geschützt aufbewahrt werden.;Basis
+SYS.1.8.A3;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+SYS.1.8.A4;Schutz der Administrationsschnittstellen;Alle Administrations- und Management-Zugänge der Speichersysteme MÜSSEN eingeschränkt werden.;Basis
+SYS.1.8.A4;Schutz der Administrationsschnittstellen;Es MUSS sichergestellt sein, dass aus nicht-vertrauenswürdigen Netzen heraus nicht auf die Administrationsschnittstellen zugegriffen werden kann.;Basis
+SYS.1.8.A4;Schutz der Administrationsschnittstellen;Es SOLLTEN als sicher geltende Protokolle eingesetzt werden.;Basis
+SYS.1.8.A4;Schutz der Administrationsschnittstellen;Sollten dennoch unsichere Protokolle verwendet werden, MUSS für die Administration ein eigenes Administrationsnetz (siehe NET.1.1 Netzarchitektur und -design) genutzt werden.;Basis
+SYS.1.8.A5;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+SYS.1.8.A6;Erstellung einer Sicherheitsrichtlinie für Speicherlösungen;Ausgehend von der allgemeinen Sicherheitsrichtlinie der Institution SOLLTE eine spezifische Sicherheitsrichtlinie für Speicherlösungen erstellt werden.;Standard
+SYS.1.8.A6;Erstellung einer Sicherheitsrichtlinie für Speicherlösungen;Darin SOLLTEN nachvollziehbar Vorgaben beschrieben sein, wie Speicherlösungen sicher geplant, administriert, installiert, konfiguriert und betrieben werden können.;Standard
+SYS.1.8.A6;Erstellung einer Sicherheitsrichtlinie für Speicherlösungen;Die Richtlinie SOLLTE allen für Speicherlösungen zuständigen Administrierenden bekannt und grundlegend für ihre Arbeit sein.;Standard
+SYS.1.8.A6;Erstellung einer Sicherheitsrichtlinie für Speicherlösungen;Wird die Richtlinie verändert oder wird von den Vorgaben abgewichen, SOLLTE dies mit dem oder der ISB abgestimmt und dokumentiert werden.;Standard
+SYS.1.8.A6;Erstellung einer Sicherheitsrichtlinie für Speicherlösungen;Es SOLLTE regelmäßig überprüft werden, ob die Richtlinie noch korrekt umgesetzt ist.;Standard
+SYS.1.8.A6;Erstellung einer Sicherheitsrichtlinie für Speicherlösungen;Gegebenenfalls SOLLTE sie aktualisiert werden.;Standard
+SYS.1.8.A6;Erstellung einer Sicherheitsrichtlinie für Speicherlösungen;Die Ergebnisse SOLLTEN sinnvoll dokumentiert werden.;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;Bevor Speicherlösungen in einer Institution eingesetzt werden, SOLLTE eine Anforderungsanalyse durchgeführt werden.;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;In der Anforderungsanalyse SOLLTEN unter anderem die Themen Performance und Kapazität betrachtet werden.;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;Auf Basis der ermittelten Anforderungen SOLLTE dann eine detaillierte Planung für Speicherlösungen erstellt werden.;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;Darin SOLLTEN folgende Punkte berücksichtigt werden:;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;Auswahl von herstellenden Unternehmen und Liefernden,;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;Entscheidung für oder gegen zentrale Verwaltungssysteme (Management-Systeme),;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;Planung des Netzanschlusses,;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;Planung der Infrastruktur sowie;Standard
+SYS.1.8.A7;Planung von Speicherlösungen;Integration in bestehende Prozesse.;Standard
+SYS.1.8.A8;Auswahl einer geeigneten Speicherlösung;Die technischen Grundlagen unterschiedlicher Speicherlösungen SOLLTEN detailliert beleuchtet werden.;Standard
+SYS.1.8.A8;Auswahl einer geeigneten Speicherlösung;Die Auswirkungen dieser technischen Grundlagen auf den möglichen Einsatz in der Institution SOLLTEN geprüft werden.;Standard
+SYS.1.8.A8;Auswahl einer geeigneten Speicherlösung;Die Möglichkeiten und Grenzen der verschiedenen Speichersystemarten SOLLTEN für die Verantwortlichen der Institution transparent dargestellt werden.;Standard
+SYS.1.8.A8;Auswahl einer geeigneten Speicherlösung;Die Entscheidungskriterien für eine Speicherlösung SOLLTEN nachvollziehbar dokumentiert werden.;Standard
+SYS.1.8.A8;Auswahl einer geeigneten Speicherlösung;Ebenso SOLLTE die Entscheidung für die Auswahl einer Speicherlösung nachvollziehbar dokumentiert werden.;Standard
+SYS.1.8.A9;Auswahl von Liefernden für eine Speicherlösung;Anhand der spezifizierten Anforderungen an eine Speicherlösung SOLLTEN geeignete Liefernde ausgewählt werden.;Standard
+SYS.1.8.A9;Auswahl von Liefernden für eine Speicherlösung;Die Auswahlkriterien und die Entscheidung SOLLTEN nachvollziehbar dokumentiert werden.;Standard
+SYS.1.8.A9;Auswahl von Liefernden für eine Speicherlösung;Außerdem SOLLTEN Aspekte der Wartung und Instandhaltung schriftlich in sogenannten Service-Level-Agreements (SLAs) festgehalten werden.;Standard
+SYS.1.8.A9;Auswahl von Liefernden für eine Speicherlösung;Die SLAs SOLLTEN eindeutig und quantifizierbar sein.;Standard
+SYS.1.8.A9;Auswahl von Liefernden für eine Speicherlösung;Es SOLLTE genau geregelt werden, wann der Vertrag mit den Liefernden endet.;Standard
+SYS.1.8.A10;Erstellung und Pflege eines Betriebshandbuchs;Es SOLLTE ein Betriebshandbuch erstellt werden.;Standard
+SYS.1.8.A10;Erstellung und Pflege eines Betriebshandbuchs;Darin SOLLTEN alle Regelungen, Anforderungen und Einstellungen dokumentiert werden, die erforderlich sind, um Speicherlösungen zu betreiben.;Standard
+SYS.1.8.A10;Erstellung und Pflege eines Betriebshandbuchs;Das Betriebshandbuch SOLLTE regelmäßig aktualisiert werden.;Standard
+SYS.1.8.A11;Sicherer Betrieb einer Speicherlösung;Das Speichersystem SOLLTE hinsichtlich der Verfügbarkeit der internen Anwendungen, der Systemauslastung sowie kritischer Ereignisse überwacht werden.;Standard
+SYS.1.8.A11;Sicherer Betrieb einer Speicherlösung;Weiterhin SOLLTEN für Speicherlösungen feste Wartungsfenster definiert werden, in denen Änderungen durchgeführt werden können.;Standard
+SYS.1.8.A11;Sicherer Betrieb einer Speicherlösung;Insbesondere Firmware- oder Betriebssystemupdates von Speichersystemen oder den Netzkomponenten einer Speicherlösung SOLLTEN ausschließlich innerhalb eines solchen Wartungsfensters durchgeführt werden.;Standard
+SYS.1.8.A12;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.1.8.A13;Überwachung und Verwaltung von Speicherlösungen;Speicherlösungen SOLLTEN überwacht werden.;Standard
+SYS.1.8.A13;Überwachung und Verwaltung von Speicherlösungen;Dabei SOLLTEN alle erhobenen Daten (Nachrichten) vorrangig daraufhin geprüft werden, ob die Vorgaben des Betriebshandbuchs eingehalten werden.;Standard
+SYS.1.8.A13;Überwachung und Verwaltung von Speicherlösungen;Die wesentlichen Nachrichten SOLLTEN mit Nachrichtenfilter herausgefiltert werden.;Standard
+SYS.1.8.A13;Überwachung und Verwaltung von Speicherlösungen;Einzelne Komponenten der Speicherlösung und des Gesamtsystems SOLLTEN zentral verwaltet werden.;Standard
+SYS.1.8.A14;Absicherung eines SANs durch Segmentierung;Ein SAN SOLLTE segmentiert werden.;Standard
+SYS.1.8.A14;Absicherung eines SANs durch Segmentierung;Es SOLLTE ein Konzept erarbeitet werden, das die SAN-Ressourcen den jeweiligen Servern zuordnet.;Standard
+SYS.1.8.A14;Absicherung eines SANs durch Segmentierung;Hierfür SOLLTE anhand der Sicherheitsanforderungen und des Administrationsaufwands entschieden werden, welche Segmentierung in welcher Implementierung (z. B. FC-SANs oder iSCSI-Speichernetze) eingesetzt werden soll.;Standard
+SYS.1.8.A14;Absicherung eines SANs durch Segmentierung;Die aktuelle Ressourcenzuordnung SOLLTE mithilfe von Verwaltungswerkzeugen einfach und übersichtlich erkennbar sein.;Standard
+SYS.1.8.A14;Absicherung eines SANs durch Segmentierung;Weiterhin SOLLTE die aktuelle Zoning-Konfiguration dokumentiert werden.;Standard
+SYS.1.8.A14;Absicherung eines SANs durch Segmentierung;Die Dokumentation SOLLTE auch in Notfällen verfügbar sein.;Standard
+SYS.1.8.A15;Sichere Trennung von Mandanten in Speicherlösungen;Es SOLLTE definiert und nachvollziehbar dokumentiert werden, welche Anforderungen die Institution an die Mandantenfähigkeit einer Speicherlösung stellt.;Standard
+SYS.1.8.A15;Sichere Trennung von Mandanten in Speicherlösungen;Die eingesetzten Speicherlösungen SOLLTEN diese dokumentierten Anforderungen erfüllen.;Standard
+SYS.1.8.A15;Sichere Trennung von Mandanten in Speicherlösungen;Im Block-Storage-Umfeld SOLLTE LUN Masking eingesetzt werden, um Mandanten voneinander zu trennen.;Standard
+SYS.1.8.A15;Sichere Trennung von Mandanten in Speicherlösungen;In Fileservice-Umgebungen SOLLTE es möglich sein, mit virtuellen Fileservern zu agieren.;Standard
+SYS.1.8.A15;Sichere Trennung von Mandanten in Speicherlösungen;Dabei SOLLTE jedem Mandanten ein eigener Fileservice zugeordnet werden.;Standard
+SYS.1.8.A15;Sichere Trennung von Mandanten in Speicherlösungen;Beim Einsatz von IP oder iSCSI SOLLTEN die Mandanten über eine Segmentierung im Netz voneinander getrennt werden.;Standard
+SYS.1.8.A15;Sichere Trennung von Mandanten in Speicherlösungen;Wird Fibre Channel eingesetzt, SOLLTE mithilfe von VSANs und Soft-Zoning separiert werden.;Standard
+SYS.1.8.A16;Sicheres Löschen in SAN-Umgebungen;In mandantenfähigen Speichersystemen SOLLTE sichergestellt werden, dass Logical Unit Numbers (LUNs), die einem bestimmten Mandanten zugeordnet sind, gelöscht werden.;Standard
+SYS.1.8.A17;Dokumentation der Systemeinstellungen von Speichersystemen;Alle Systemeinstellungen von Speichersystemen SOLLTEN dokumentiert werden.;Standard
+SYS.1.8.A17;Dokumentation der Systemeinstellungen von Speichersystemen;Die Dokumentation SOLLTE die technischen und organisatorischen Vorgaben sowie alle spezifischen Konfigurationen der Speichersysteme der Institution enthalten.;Standard
+SYS.1.8.A17;Dokumentation der Systemeinstellungen von Speichersystemen;Sofern die Dokumentation der Systemeinstellungen vertrauliche Informationen beinhaltet, SOLLTEN diese vor unberechtigtem Zugriff geschützt werden.;Standard
+SYS.1.8.A17;Dokumentation der Systemeinstellungen von Speichersystemen;Die Dokumentation SOLLTE regelmäßig überprüft werden.;Standard
+SYS.1.8.A17;Dokumentation der Systemeinstellungen von Speichersystemen;Sie SOLLTE immer aktuell sein.;Standard
+SYS.1.8.A18;Sicherheitsaudits und Berichtswesen bei Speichersystemen;Alle eingesetzten Speichersysteme SOLLTEN regelmäßig auditiert werden.;Standard
+SYS.1.8.A18;Sicherheitsaudits und Berichtswesen bei Speichersystemen;Dafür SOLLTE ein entsprechender Prozess eingerichtet werden.;Standard
+SYS.1.8.A18;Sicherheitsaudits und Berichtswesen bei Speichersystemen;Es SOLLTE geregelt werden, welche Sicherheitsreports mit welchen Inhalten regelmäßig zu erstellen sind.;Standard
+SYS.1.8.A18;Sicherheitsaudits und Berichtswesen bei Speichersystemen;Zudem SOLLTE auch geregelt werden, wie mit Abweichungen von Vorgaben umgegangen wird und wie oft und in welcher Tiefe Audits durchgeführt werden.;Standard
+SYS.1.8.A19;Aussonderung von Speicherlösungen;Werden ganze Speicherlösungen oder einzelne Komponenten einer Speicherlösung nicht mehr benötigt, SOLLTEN alle darauf vorhandenen Daten auf andere Speicherlösungen übertragen werden.;Standard
+SYS.1.8.A19;Aussonderung von Speicherlösungen;Hierfür SOLLTE eine Übergangsphase eingeplant werden.;Standard
+SYS.1.8.A19;Aussonderung von Speicherlösungen;Anschließend SOLLTEN alle Nutzdaten und Konfigurationsdaten sicher gelöscht werden.;Standard
+SYS.1.8.A19;Aussonderung von Speicherlösungen;Aus allen relevanten Dokumenten SOLLTEN alle Verweise auf die außer Betrieb genommene Speicherlösung entfernt werden.;Standard
+SYS.1.8.A20;Notfallvorsorge und Notfallreaktion für Speicherlösungen;Es SOLLTE ein Notfallplan für die eingesetzte Speicherlösung erstellt werden.;Standard
+SYS.1.8.A20;Notfallvorsorge und Notfallreaktion für Speicherlösungen;Der Notfallplan SOLLTE genau beschreiben, wie in bestimmten Notfallsituationen vorzugehen ist.;Standard
+SYS.1.8.A20;Notfallvorsorge und Notfallreaktion für Speicherlösungen;Auch SOLLTEN Handlungsanweisungen in Form von Maßnahmen und Kommandos enthalten sein, die die Fehleranalyse und Fehlerkorrektur unterstützen.;Standard
+SYS.1.8.A20;Notfallvorsorge und Notfallreaktion für Speicherlösungen;Um Fehler zu beheben, SOLLTEN geeignete Werkzeuge eingesetzt werden.;Standard
+SYS.1.8.A20;Notfallvorsorge und Notfallreaktion für Speicherlösungen;Regelmäßige Übungen und Tests SOLLTEN anhand des Notfallplans durchgeführt werden.;Standard
+SYS.1.8.A20;Notfallvorsorge und Notfallreaktion für Speicherlösungen;Nach den Übungen und Tests sowie nach einem tatsächlichen Notfall SOLLTEN die dabei erzeugten Daten sicher gelöscht werden.;Standard
+SYS.1.8.A21;Einsatz von Speicherpools zur Trennung von Mandanten;Mandanten SOLLTEN Speicherressourcen aus unterschiedlichen sogenannten Speicherpools zugewiesen werden.;Hoch
+SYS.1.8.A21;Einsatz von Speicherpools zur Trennung von Mandanten;Dabei SOLLTE ein Speichermedium immer nur einem einzigen Pool zugewiesen werden.;Hoch
+SYS.1.8.A21;Einsatz von Speicherpools zur Trennung von Mandanten;Die logischen Festplatten (LUNs), die aus einem solchen Pool generiert werden, SOLLTEN nur einem einzigen Mandanten zugeordnet werden.;Hoch
+SYS.1.8.A22;Einsatz einer hochverfügbaren SAN-Lösung;Eine hochverfügbare SAN-Lösung SOLLTE eingesetzt werden.;Hoch
+SYS.1.8.A22;Einsatz einer hochverfügbaren SAN-Lösung;Die eingesetzten Replikationsmechanismen SOLLTEN den Verfügbarkeitsanforderungen der Institution an die Speicherlösung entsprechen.;Hoch
+SYS.1.8.A22;Einsatz einer hochverfügbaren SAN-Lösung;Auch die Konfiguration der Speicherlösung SOLLTE den Verfügbarkeitsanforderungen gerecht werden.;Hoch
+SYS.1.8.A22;Einsatz einer hochverfügbaren SAN-Lösung;Außerdem SOLLTE ein Test- und Konsolidierungssystem vorhanden sein.;Hoch
+SYS.1.8.A23;Einsatz von Verschlüsselung für Speicherlösungen;Alle in Speicherlösungen abgelegten Daten SOLLTEN verschlüsselt werden.;Hoch
+SYS.1.8.A23;Einsatz von Verschlüsselung für Speicherlösungen;Es SOLLTE festgelegt werden, auf welchen Ebenen (Data-in-Motion und Data-at-Rest) verschlüsselt wird.;Hoch
+SYS.1.8.A23;Einsatz von Verschlüsselung für Speicherlösungen;Dabei SOLLTE beachtet werden, dass die Verschlüsselung auf dem Transportweg auch bei Replikationen und Backup-Traffic relevant ist.;Hoch
+SYS.1.8.A24;Sicherstellung der Integrität der SAN-Fabric;Um die Integrität der SAN-Fabric sicherzustellen, SOLLTEN Protokolle mit zusätzlichen Sicherheitsmerkmalen eingesetzt werden.;Hoch
+SYS.1.8.A24;Sicherstellung der Integrität der SAN-Fabric;Bei den folgenden Protokollen SOLLTEN deren Sicherheitseigenschaften berücksichtigt und entsprechende Konfigurationen verwendet werden:;Hoch
+SYS.1.8.A24;Sicherstellung der Integrität der SAN-Fabric;Diffie Hellman Challenge Handshake Authentication Protocol (DH-CHAP),;Hoch
+SYS.1.8.A24;Sicherstellung der Integrität der SAN-Fabric;Fibre Channel Authentication Protocol (FCAP) und;Hoch
+SYS.1.8.A24;Sicherstellung der Integrität der SAN-Fabric;Fibre Channel Password Authentication Protocol (FCPAP).;Hoch
+SYS.1.8.A25;Mehrfaches Überschreiben der Daten einer LUN;In SAN-Umgebungen SOLLTEN Daten gelöscht werden, indem die zugehörigen Speichersegmente einer LUN mehrfach überschrieben werden.;Hoch
+SYS.1.8.A26;Absicherung eines SANs durch Hard-Zoning;Um SANs zu segmentieren, SOLLTE Hard-Zoning eingesetzt werden.;Hoch

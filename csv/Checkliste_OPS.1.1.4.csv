@@ -1,0 +1,43 @@
+ID-Anforderung;Titel;Inhalt;Typ
+OPS.1.1.4.A1;Erstellung eines Konzepts für den Schutz vor Schadprogrammen;Es MUSS ein Konzept erstellt werden, das beschreibt, welche IT-Systeme vor Schadprogrammen geschützt werden müssen.;Basis
+OPS.1.1.4.A1;Erstellung eines Konzepts für den Schutz vor Schadprogrammen;Hierbei MÜSSEN auch IoT-Geräte und Produktionssysteme berücksichtigt werden.;Basis
+OPS.1.1.4.A1;Erstellung eines Konzepts für den Schutz vor Schadprogrammen;Außerdem MUSS festgehalten werden, wie der Schutz zu erfolgen hat.;Basis
+OPS.1.1.4.A1;Erstellung eines Konzepts für den Schutz vor Schadprogrammen;Ist kein verlässlicher Schutz möglich, so SOLLTEN die identifizierten IT-Systeme NICHT betrieben werden.;Basis
+OPS.1.1.4.A1;Erstellung eines Konzepts für den Schutz vor Schadprogrammen;Das Konzept SOLLTE nachvollziehbar dokumentiert und aktuell gehalten werden.;Basis
+OPS.1.1.4.A2;Nutzung systemspezifischer Schutzmechanismen;Es MUSS geprüft werden, welche Schutzmechanismen die verwendeten IT-Systeme sowie die darauf genutzten Betriebssysteme und Anwendungen bieten.;Basis
+OPS.1.1.4.A2;Nutzung systemspezifischer Schutzmechanismen;Diese Mechanismen MÜSSEN genutzt werden, sofern es keinen mindestens gleichwertigen Ersatz gibt oder gute Gründe dagegen sprechen.;Basis
+OPS.1.1.4.A2;Nutzung systemspezifischer Schutzmechanismen;Werden sie nicht genutzt, MUSS dies begründet und dokumentiert werden.;Basis
+OPS.1.1.4.A3;Auswahl eines Virenschutzprogrammes;Abhängig vom verwendeten Betriebssystem, anderen vorhandenen Schutzmechanismen sowie der Verfügbarkeit geeigneter Virenschutzprogramme MUSS für den konkreten Einsatzzweck ein entsprechendes Schutzprogramm ausgewählt und installiert werden.;Basis
+OPS.1.1.4.A3;Auswahl eines Virenschutzprogrammes;Für Gateways und IT-Systeme, die dem Datenaustausch dienen, MUSS ein geeignetes Virenschutzprogramm ausgewählt und installiert werden.;Basis
+OPS.1.1.4.A3;Auswahl eines Virenschutzprogrammes;Es DÜRFEN NUR Produkte für den Enterprise-Bereich mit auf die Institution zugeschnittenen Service- und Supportleistungen eingesetzt werden.;Basis
+OPS.1.1.4.A3;Auswahl eines Virenschutzprogrammes;Produkte für die reine Heimanwendung oder Produkte ohne Support DÜRFEN NICHT im professionellen Wirkbetrieb eingesetzt werden.;Basis
+OPS.1.1.4.A3;Auswahl eines Virenschutzprogrammes;Cloud-Dienste zur Verbesserung der Detektionsleistung der Virenschutzprogramme SOLLTEN genutzt werden.;Basis
+OPS.1.1.4.A3;Auswahl eines Virenschutzprogrammes;Falls Cloud-Funktionen solcher Produkte verwendet werden, MUSS sichergestellt werden, dass dies nicht im Widerspruch zum Daten- oder Geheimschutz steht.;Basis
+OPS.1.1.4.A3;Auswahl eines Virenschutzprogrammes;Neben Echtzeit- und On-Demand-Scans MUSS eine eingesetzte Lösung die Möglichkeit bieten, auch komprimierte Daten nach Schadprogrammen zu durchsuchen.;Basis
+OPS.1.1.4.A4;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+OPS.1.1.4.A5;Betrieb und Konfiguration von Virenschutzprogrammen;Das Virenschutzprogramm MUSS für seine Einsatzumgebung geeignet konfiguriert werden.;Basis
+OPS.1.1.4.A5;Betrieb und Konfiguration von Virenschutzprogrammen;Die Erkennungsleistung SOLLTE dabei im Vordergrund stehen, sofern nicht Datenschutz- oder Leistungsgründe im jeweiligen Einzelfall dagegen sprechen.;Basis
+OPS.1.1.4.A5;Betrieb und Konfiguration von Virenschutzprogrammen;Wenn sicherheitsrelevante Funktionen des Virenschutzprogramms nicht genutzt werden, SOLLTE dies begründet und dokumentiert werden.;Basis
+OPS.1.1.4.A5;Betrieb und Konfiguration von Virenschutzprogrammen;Bei Schutzprogrammen, die speziell für die Desktop-Virtualisierung optimiert sind, SOLLTE nachvollziehbar dokumentiert sein, ob auf bestimmte Detektionsverfahren zugunsten der Leistung verzichtet wird.;Basis
+OPS.1.1.4.A5;Betrieb und Konfiguration von Virenschutzprogrammen;Es MUSS sichergestellt werden, dass die Benutzenden keine sicherheitsrelevanten Änderungen an den Einstellungen der Antivirenprogramme vornehmen können.;Basis
+OPS.1.1.4.A6;Regelmäßige Aktualisierung der eingesetzten Virenschutzprogramme;Auf den damit ausgestatteten IT-Systemen MÜSSEN die Virenschutzprogramme nach Empfehlung der herstellenden Institution regelmäßig und zeitnah aktualisiert werden.;Basis
+OPS.1.1.4.A7;Sensibilisierung und Verpflichtung der Benutzenden;Benutzende MÜSSEN regelmäßig über die Bedrohung durch Schadprogramme aufgeklärt werden.;Basis
+OPS.1.1.4.A7;Sensibilisierung und Verpflichtung der Benutzenden;Sie MÜSSEN die grundlegenden Verhaltensregeln einhalten, um die Gefahr eines Befalls durch Schadprogramme zu reduzieren.;Basis
+OPS.1.1.4.A7;Sensibilisierung und Verpflichtung der Benutzenden;Dateien, E-Mails, Webseiten usw. aus nicht vertrauenswürdigen Quellen SOLLTEN NICHT geöffnet werden.;Basis
+OPS.1.1.4.A7;Sensibilisierung und Verpflichtung der Benutzenden;Sie MÜSSEN entsprechenden Kontaktpersonen für den Fall eines Verdacht auf eine Infektion mit einem Schadprogramm bekannt sein.;Basis
+OPS.1.1.4.A7;Sensibilisierung und Verpflichtung der Benutzenden;Sie MÜSSEN sich an die ihnen benannten Kontaktpersonen wenden, wenn der Verdacht auf eine Infektion mit einem Schadprogramm besteht.;Basis
+OPS.1.1.4.A8;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+OPS.1.1.4.A9;Meldung von Infektionen mit Schadprogrammen;Das eingesetzte Virenschutzprogramm SOLLTE eine Infektion mit einem Schadprogramm automatisch blockieren und melden.;Standard
+OPS.1.1.4.A9;Meldung von Infektionen mit Schadprogrammen;Die automatische Meldung SOLLTE an einer zentralen Stelle angenommen werden.;Standard
+OPS.1.1.4.A9;Meldung von Infektionen mit Schadprogrammen;Dabei SOLLTEN die zuständigen Mitarbeitenden je nach Sachlage über das weitere Vorgehen entscheiden.;Standard
+OPS.1.1.4.A9;Meldung von Infektionen mit Schadprogrammen;Das Vorgehen bei Meldungen und Alarmen der Virenschutzprogramme SOLLTE geplant, dokumentiert und getestet werden.;Standard
+OPS.1.1.4.A9;Meldung von Infektionen mit Schadprogrammen;Es SOLLTE insbesondere geregelt sein, was im Falle einer bestätigten Infektion geschehen soll.;Standard
+OPS.1.1.4.A10;Nutzung spezieller Analyseumgebungen;Automatisierte Analysen in einer speziellen Testumgebung (basierend auf Sandboxen bzw. separaten virtuellen oder physischen Systemen) SOLLTEN für eine Bewertung von verdächtigen Dateien ergänzend herangezogen werden.;Hoch
+OPS.1.1.4.A11;Einsatz mehrerer Scan-Engines;Zur Verbesserung der Erkennungsleistung SOLLTEN für besonders schutzwürdige IT-Systeme, wie Gateways und IT-Systeme zum Datenaustausch, Virenschutzprogramme mit mehreren alternativen Scan-Engines eingesetzt werden.;Hoch
+OPS.1.1.4.A12;Einsatz von Datenträgerschleusen;Bevor insbesondere Datenträger von Dritten mit den IT-Systemen der Institution verbunden werden, SOLLTEN diese durch eine Datenträgerschleuse geprüft werden.;Hoch
+OPS.1.1.4.A13;Umgang mit nicht vertrauenswürdigen Dateien;Ist es notwendig, nicht vertrauenswürdige Dateien zu öffnen, SOLLTE dies nur auf einem isolierten IT-System geschehen.;Hoch
+OPS.1.1.4.A13;Umgang mit nicht vertrauenswürdigen Dateien;Die betroffenen Dateien SOLLTEN dort z. B. in ein ungefährliches Format umgewandelt oder ausgedruckt werden, wenn sich hierdurch das Risiko einer Infektion durch Schadsoftware verringert.;Hoch
+OPS.1.1.4.A14;Auswahl und Einsatz von Cyber-Sicherheitsprodukten gegen gezielte Angriffe;Der Einsatz sowie der Mehrwert von Produkten und Services, die im Vergleich zu herkömmlichen Virenschutzprogrammen einen erweiterten Schutzumfang bieten, SOLLTE geprüft werden.;Hoch
+OPS.1.1.4.A14;Auswahl und Einsatz von Cyber-Sicherheitsprodukten gegen gezielte Angriffe;Solche Sicherheitsprodukte gegen gezielte Angriffe SOLLTEN z. B. bei der Ausführung von Dateien in speziellen Analyseumgebungen, bei der Härtung von Clients oder bei der Kapselung von Prozessen eingesetzt werden.;Hoch
+OPS.1.1.4.A14;Auswahl und Einsatz von Cyber-Sicherheitsprodukten gegen gezielte Angriffe;Vor einer Kaufentscheidung für ein Sicherheitsprodukt SOLLTEN Schutzwirkung und Kompatibilität zur eigenen IT-Umgebung getestet werden.;Hoch
+OPS.1.1.4.A15;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch

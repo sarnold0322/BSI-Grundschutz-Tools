@@ -1,0 +1,53 @@
+ID-Anforderung;Titel;Inhalt;Typ
+APP.5.2.A1;Planung des Einsatzes von Exchange und Outlook;Bevor Exchange und Outlook eingesetzt werden, MUSS die Institution deren Einsatz sorgfältig planen.;Basis
+APP.5.2.A1;Planung des Einsatzes von Exchange und Outlook;Dabei MUSS sie mindestens folgende Punkte beachten:;Basis
+APP.5.2.A1;Planung des Einsatzes von Exchange und Outlook;Aufbau der E-Mail-Infrastruktur,;Basis
+APP.5.2.A1;Planung des Einsatzes von Exchange und Outlook;einzubindende Clients beziehungsweise Server,;Basis
+APP.5.2.A1;Planung des Einsatzes von Exchange und Outlook;Nutzung von funktionalen Erweiterungen sowie;Basis
+APP.5.2.A1;Planung des Einsatzes von Exchange und Outlook;die zu verwendenden Protokolle.;Basis
+APP.5.2.A2;Auswahl einer geeigneten Exchange-Infrastruktur;Der IT-Betrieb MUSS auf Basis der Planung des Einsatzes von Exchange entscheiden, mit welchen IT-Systemen und Anwendungskomponenten sowie in welcher hierarchischen Abstufung die Exchange-Infrastruktur realisiert wird.;Basis
+APP.5.2.A2;Auswahl einer geeigneten Exchange-Infrastruktur;Im Rahmen der Auswahl MUSS auch entschieden werden, ob die Exchange-Systeme als Cloud- oder lokaler Dienst betrieben werden sollen.;Basis
+APP.5.2.A3;Berechtigungsmanagement und Zugriffsrechte;Zusätzlich zum allgemeinen Berechtigungskonzept MUSS die Institution ein Berichtigungskonzept für die Systeme der Exchange-Infrastruktur erstellen, geeignet dokumentieren und anwenden.;Basis
+APP.5.2.A3;Berechtigungsmanagement und Zugriffsrechte;Der IT-Betrieb MUSS serverseitige Benutzendenprofile für einen rechnerunabhängigen Zugriff der Benutzenden auf Exchange-Daten verwenden.;Basis
+APP.5.2.A3;Berechtigungsmanagement und Zugriffsrechte;Er MUSS die Standard-NTFS-Berechtigungen für das Exchange-Verzeichnis so anpassen, dass nur autorisierte Administrierende und Systemkonten auf die Daten in diesem Verzeichnis zugreifen können.;Basis
+APP.5.2.A4;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.5.2.A5;Datensicherung von Exchange;Exchange-Server MÜSSEN vor Installationen und Konfigurationsänderungen sowie in zyklischen Abständen gesichert werden.;Basis
+APP.5.2.A5;Datensicherung von Exchange;Dabei MÜSSEN insbesondere die Exchange-Server-Datenbanken gesichert werden.;Basis
+APP.5.2.A5;Datensicherung von Exchange;Gelöschte Exchange-Objekte SOLLTEN erst nach einiger Zeit aus der Datenbank entfernt werden.;Basis
+APP.5.2.A6;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.5.2.A7;Migration von Exchange-Systemen;Der IT-Betrieb SOLLTE alle Migrationsschritte gründlich planen und dokumentieren.;Standard
+APP.5.2.A7;Migration von Exchange-Systemen;Der IT-Betrieb SOLLTE dabei Postfächer, Objekte, Sicherheitsrichtlinien, Active-Directory-Konzepte sowie die Anbindung an andere E-Mail-Systeme berücksichtigen.;Standard
+APP.5.2.A7;Migration von Exchange-Systemen;Außerdem SOLLTE er Funktionsunterschiede zwischen verschiedenen Versionen von Exchange beachten.;Standard
+APP.5.2.A7;Migration von Exchange-Systemen;Das neue Exchange-System SOLLTE, bevor es installiert wird, in einem separaten Testnetz geprüft werden.;Standard
+APP.5.2.A8;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.5.2.A9;Sichere Konfiguration von Exchange-Servern;Der IT-Betrieb SOLLTE Exchange-Server entsprechend der Vorgaben aus der Sicherheitsrichtlinie installieren und konfigurieren.;Standard
+APP.5.2.A9;Sichere Konfiguration von Exchange-Servern;Konnektoren SOLLTEN sicher konfiguriert werden.;Standard
+APP.5.2.A9;Sichere Konfiguration von Exchange-Servern;Der IT-Betrieb SOLLTE die Protokollierung des Exchange-Systems aktivieren.;Standard
+APP.5.2.A9;Sichere Konfiguration von Exchange-Servern;Für vorhandene benutzendenspezifische Anpassungen SOLLTE ein entsprechendes Konzept erstellt werden.;Standard
+APP.5.2.A9;Sichere Konfiguration von Exchange-Servern;Bei der Verwendung von funktionalen Erweiterungen SOLLTE sichergestellt sein, dass die definierten Anforderungen an die Schutzziele Vertraulichkeit, Integrität und Verfügbarkeit weiterhin erfüllt sind.;Standard
+APP.5.2.A10;Sichere Konfiguration von Outlook;Der IT-Betrieb SOLLTE für jeden Benutzenden ein eigenes Outlook-Profil mit benutzendenspezifischen Einstellungen anlegen.;Standard
+APP.5.2.A10;Sichere Konfiguration von Outlook;Der IT-Betrieb SOLLTE Outlook so konfigurieren, dass nur notwendige Informationen an andere Benutzende übermittelt werden.;Standard
+APP.5.2.A10;Sichere Konfiguration von Outlook;Der IT-Betrieb SOLLTE die Benutzenden darüber informieren, welche Informationen automatisiert an andere Benutzende übermittelt werden.;Standard
+APP.5.2.A10;Sichere Konfiguration von Outlook;Lesebestätigungen und Informationen, die auf die interne Struktur der Institution schließen lassen, SOLLTEN NICHT an Externe übermittelt werden.;Standard
+APP.5.2.A11;Absicherung der Kommunikation zwischen Exchange-Systemen;Der IT-Betrieb SOLLTE nachvollziehbar entscheiden, mit welchen Schutzmechanismen die Kommunikation zwischen Exchange-Systemen abgesichert wird.;Standard
+APP.5.2.A11;Absicherung der Kommunikation zwischen Exchange-Systemen;Insbesondere SOLLTE der IT-Betrieb festlegen, wie die Kommunikation zu folgenden Schnittstellen abgesichert wird:;Standard
+APP.5.2.A11;Absicherung der Kommunikation zwischen Exchange-Systemen;Administrationsschnittstellen,;Standard
+APP.5.2.A11;Absicherung der Kommunikation zwischen Exchange-Systemen;Client-Server-Kommunikation,;Standard
+APP.5.2.A11;Absicherung der Kommunikation zwischen Exchange-Systemen;vorhandene Web-based-Distributed-Authoring-and-Versioning-(WebDAV)-Schnittstellen,;Standard
+APP.5.2.A11;Absicherung der Kommunikation zwischen Exchange-Systemen;Server-Server-Kommunikation und;Standard
+APP.5.2.A11;Absicherung der Kommunikation zwischen Exchange-Systemen;Public-Key-Infrastruktur, auf der die E-Mail-Verschlüsselung von Outlook basiert.;Standard
+APP.5.2.A12;Einsatz von Outlook Anywhere, MAPI over HTTP und Outlook im Web;Der IT-Betrieb SOLLTE Outlook Anywhere, MAPI over HTTP und Outlook im Web entsprechend den Sicherheitsanforderungen der Institution konfigurieren.;Standard
+APP.5.2.A12;Einsatz von Outlook Anywhere, MAPI over HTTP und Outlook im Web;Der Zugriff auf Exchange über das Internet SOLLTE auf die notwendigen Benutzenden beschränkt werden.;Standard
+APP.5.2.A13;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.5.2.A14;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.5.2.A15;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.5.2.A16;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.5.2.A19;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.5.2.A17;Verschlüsselung von Exchange-Datenbankdateien;Der IT-Betrieb SOLLTE ein Konzept für die Verschlüsselung von PST-Dateien und Informationsspeicher-Dateien erstellen.;Hoch
+APP.5.2.A17;Verschlüsselung von Exchange-Datenbankdateien;Die Institution SOLLTE die Benutzenden über die Funktionsweise und die Schutzmechanismen bei der Verschlüsselung von PST-Dateien informieren.;Hoch
+APP.5.2.A17;Verschlüsselung von Exchange-Datenbankdateien;Weitere Aspekte für lokale PST-Dateien, die berücksichtigt werden SOLLTEN, wenn Exchange-Systemdatenbanken verschlüsselt werden, sind:;Hoch
+APP.5.2.A17;Verschlüsselung von Exchange-Datenbankdateien;eigene Verschlüsselungsfunktionen,;Hoch
+APP.5.2.A17;Verschlüsselung von Exchange-Datenbankdateien;Verschlüsselungsgrade sowie;Hoch
+APP.5.2.A17;Verschlüsselung von Exchange-Datenbankdateien;Mechanismen zur Absicherung der Daten in einer PST-Datei.;Hoch
+APP.5.2.A17;Verschlüsselung von Exchange-Datenbankdateien;Mechanismen wie z. B. Encrypting File System oder Windows BitLocker Laufwerkverschlüsselung SOLLTEN zur Absicherung der PST-Dateien genutzt werden.;Hoch
+APP.5.2.A18;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch

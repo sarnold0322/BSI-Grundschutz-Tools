@@ -1,0 +1,80 @@
+ID-Anforderung;Titel;Inhalt;Typ
+APP.4.4.A1;Planung der Separierung der Anwendungen;Vor der Inbetriebnahme MUSS geplant werden, wie die in den Pods betriebenen Anwendungen und deren unterschiedlichen Test- und Produktions-Betriebsumgebungen separiert werden.;Basis
+APP.4.4.A1;Planung der Separierung der Anwendungen;Auf Basis des Schutzbedarfs der Anwendungen MUSS festgelegt werden, welche Architektur der Namespaces, Meta-Tags, Cluster und Netze angemessen auf die Risiken eingeht und ob auch virtualisierte Server und Netze zum Einsatz kommen sollen.;Basis
+APP.4.4.A1;Planung der Separierung der Anwendungen;Die Planung MUSS Regelungen zu Netz-, CPU- und Festspeicherseparierung enthalten.;Basis
+APP.4.4.A1;Planung der Separierung der Anwendungen;Die Separierung SOLLTE auch das Netzzonenkonzept und den Schutzbedarf beachten und auf diese abgestimmt sein.;Basis
+APP.4.4.A1;Planung der Separierung der Anwendungen;Anwendungen SOLLTEN jeweils in einem eigenen Kubernetes-Namespace laufen, der alle Programme der Anwendung umfasst.;Basis
+APP.4.4.A1;Planung der Separierung der Anwendungen;Nur Anwendungen mit ähnlichem Schutzbedarf und ähnlichen möglichen Angriffsvektoren SOLLTEN einen Kubernetes-Cluster teilen.;Basis
+APP.4.4.A2;Planung der Automatisierung mit CI/CD;Wenn eine Automatisierung des Betriebs von Anwendungen in Kubernetes mithilfe von CI/CD stattfindet, DARF diese NUR nach einer geeigneten Planung erfolgen.;Basis
+APP.4.4.A2;Planung der Automatisierung mit CI/CD;Die Planung MUSS den gesamten Lebenszyklus von Inbetrieb- bis Außerbetriebnahme inklusive Entwicklung, Tests, Betrieb, Überwachung und Updates umfassen.;Basis
+APP.4.4.A2;Planung der Automatisierung mit CI/CD;Das Rollen- und Rechtekonzept sowie die Absicherung von Kubernetes Secrets MÜSSEN Teil der Planung sein.;Basis
+APP.4.4.A3;Identitäts- und Berechtigungsmanagement bei Kubernetes;Kubernetes und alle anderen Anwendungen der Control Plane MÜSSEN jede Aktion eines Benutzenden oder, im automatisierten Betrieb, einer entsprechenden Software authentifizieren und autorisieren, unabhängig davon, ob die Aktionen über einen Client, eine Weboberfläche oder über eine entsprechende Schnittstelle (API) erfolgt.;Basis
+APP.4.4.A3;Identitäts- und Berechtigungsmanagement bei Kubernetes;Administrative Handlungen DÜRFEN NICHT anonym erfolgen.;Basis
+APP.4.4.A3;Identitäts- und Berechtigungsmanagement bei Kubernetes;Benutzende DÜRFEN NUR die unbedingt notwendigen Rechte erhalten.;Basis
+APP.4.4.A3;Identitäts- und Berechtigungsmanagement bei Kubernetes;Berechtigungen ohne Einschränkungen MÜSSEN sehr restriktiv vergeben werden.;Basis
+APP.4.4.A3;Identitäts- und Berechtigungsmanagement bei Kubernetes;Nur ein kleiner Kreis von Personen SOLLTE berechtigt sein, Prozesse der Automatisierung zu definieren.;Basis
+APP.4.4.A3;Identitäts- und Berechtigungsmanagement bei Kubernetes;Nur ausgewählte Administrierende SOLLTEN in Kubernetes das Recht erhalten, Freigaben für Festspeicher (Persistent Volumes) anzulegen oder zu ändern.;Basis
+APP.4.4.A4;Separierung von Pods;Der Betriebssystem-Kernel der Nodes MUSS über Isolationsmechanismen zur Beschränkung von Sichtbarkeit und Ressourcennutzung der Pods untereinander verfügen (vergleiche Linux Namespaces und cgroups).;Basis
+APP.4.4.A4;Separierung von Pods;Die Trennung MUSS dabei mindestens IDs von Prozessen sowie Benutzenden, Inter-Prozess-Kommunikation, Dateisystem und Netz inklusive Hostname umfassen.;Basis
+APP.4.4.A5;Datensicherung im Cluster;Es MUSS eine Datensicherung des Clusters erfolgen.;Basis
+APP.4.4.A5;Datensicherung im Cluster;Die Datensicherung MUSS umfassen:;Basis
+APP.4.4.A5;Datensicherung im Cluster;Festspeicher (Persistent Volumes),;Basis
+APP.4.4.A5;Datensicherung im Cluster;Konfigurationsdateien von Kubernetes und den weiteren Programmen der Control Plane,;Basis
+APP.4.4.A5;Datensicherung im Cluster;den aktuellen Zustand des Kubernetes-Clusters inklusive der Erweiterungen,;Basis
+APP.4.4.A5;Datensicherung im Cluster;Datenbanken der Konfiguration, namentlich hier etcd,;Basis
+APP.4.4.A5;Datensicherung im Cluster;alle Infrastrukturanwendungen, die zum Betrieb des Clusters und der darin befindlichen Dienste notwendig sind und;Basis
+APP.4.4.A5;Datensicherung im Cluster;die Datenhaltung der Code und Image Registries.;Basis
+APP.4.4.A5;Datensicherung im Cluster;Es SOLLTEN auch Snapshots für den Betrieb der Anwendungen betrachtet werden.;Basis
+APP.4.4.A5;Datensicherung im Cluster;Snapshots DÜRFEN die Datensicherung NICHT ersetzen.;Basis
+APP.4.4.A6;Initialisierung von Pods;Sofern im Pod zum Start eine Initialisierung z. B. einer Anwendung erfolgt, SOLLTE diese in einem eigenen Init-Container stattfinden.;Standard
+APP.4.4.A6;Initialisierung von Pods;Es SOLLTE sichergestellt sein, dass die Initialisierung alle bereits laufenden Prozesse beendet.;Standard
+APP.4.4.A6;Initialisierung von Pods;Kubernetes SOLLTE nur bei erfolgreicher Initialisierung die weiteren Container starten.;Standard
+APP.4.4.A7;Separierung der Netze bei Kubernetes;Die Netze für die Administration der Nodes, der Control Plane sowie die einzelnen Netze der Anwendungsdienste SOLLTEN separiert werden.;Standard
+APP.4.4.A7;Separierung der Netze bei Kubernetes;Es SOLLTEN NUR die für den Betrieb notwendigen Netzports der Pods in die dafür vorgesehenen Netze freigegeben werden.;Standard
+APP.4.4.A7;Separierung der Netze bei Kubernetes;Bei mehreren Anwendungen auf einem Kubernetes-Cluster SOLLTEN zunächst alle Netzverbindungen zwischen den Kubernetes-Namespaces untersagt und nur benötigte Netzverbindungen gestattet sein (Whitelisting).;Standard
+APP.4.4.A7;Separierung der Netze bei Kubernetes;Die zur Administration der Nodes, der Runtime und von Kubernetes inklusive seiner Erweiterungen notwendigen Netzports SOLLTEN NUR aus dem Administrationsnetz und von Pods, die diese benötigen, erreichbar sein.;Standard
+APP.4.4.A7;Separierung der Netze bei Kubernetes;Nur ausgewählte Administrierende SOLLTEN in Kubernetes berechtigt sein, das CNI zu verwalten und Regeln für das Netz anzulegen oder zu ändern.;Standard
+APP.4.4.A8;Absicherung von Konfigurationsdateien bei Kubernetes;Die Konfigurationsdateien des Kubernetes-Clusters, inklusive aller Erweiterungen und Anwendungen, SOLLTEN versioniert und annotiert werden.;Standard
+APP.4.4.A8;Absicherung von Konfigurationsdateien bei Kubernetes;Zugangsrechte auf die Verwaltungssoftware der Konfigurationsdateien SOLLTEN minimal vergeben werden.;Standard
+APP.4.4.A8;Absicherung von Konfigurationsdateien bei Kubernetes;Zugriffsrechte für lesenden und schreibenden Zugriff auf die Konfigurationsdateien der Control Plane SOLLTEN besonders sorgfältig vergeben und eingeschränkt sein.;Standard
+APP.4.4.A9;Nutzung von Kubernetes Service-Accounts;"Pods SOLLTEN NICHT den ""default""-Service-Account nutzen.";Standard
+APP.4.4.A9;Nutzung von Kubernetes Service-Accounts;"Dem ""default""-Service-Account SOLLTEN keine Rechte eingeräumt werden.";Standard
+APP.4.4.A9;Nutzung von Kubernetes Service-Accounts;Pods für unterschiedliche Anwendungen SOLLTEN jeweils unter eigenen Service-Accounts laufen.;Standard
+APP.4.4.A9;Nutzung von Kubernetes Service-Accounts;Berechtigungen für die Service-Accounts der Pods der Anwendungen SOLLTEN auf die unbedingt notwendigen Rechte beschränkt werden.;Standard
+APP.4.4.A9;Nutzung von Kubernetes Service-Accounts;Pods, die keinen Service-Account benötigen, SOLLTEN diesen nicht einsehen können und keinen Zugriff auf entsprechende Token haben.;Standard
+APP.4.4.A9;Nutzung von Kubernetes Service-Accounts;Nur Pods der Control Plane und Pods, die diese unbedingt benötigen, SOLLTEN privilegierte Service-Accounts nutzen.;Standard
+APP.4.4.A9;Nutzung von Kubernetes Service-Accounts;Programme der Automatisierung SOLLTEN jeweils eigene Token erhalten, auch wenn sie aufgrund ähnlicher Aufgaben einen gemeinsamen Service-Account nutzen.;Standard
+APP.4.4.A10;Absicherung von Prozessen der Automatisierung;Alle Prozesse der Automatisierungssoftware, wie CI/CD und deren Pipelines, SOLLTEN nur mit unbedingt notwendigen Rechten arbeiten.;Standard
+APP.4.4.A10;Absicherung von Prozessen der Automatisierung;Wenn unterschiedliche Gruppen von Benutzenden die Konfiguration über die Automatisierungssoftware verändern oder Pods starten können, SOLLTE dies für jede Gruppe durch eigene Prozesse durchgeführt werden, die nur die für die jeweilige Gruppe notwendigen Rechte besitzen.;Standard
+APP.4.4.A11;Überwachung der Container;In Pods SOLLTE jeder Container einen Health Check für den Start und den Betrieb („readiness“ und „liveness“) definieren.;Standard
+APP.4.4.A11;Überwachung der Container;Diese Checks SOLLTEN Auskunft über die Verfügbarkeit der im Pod ausgeführten Software geben.;Standard
+APP.4.4.A11;Überwachung der Container;Die Checks SOLLTEN fehlschlagen, wenn die überwachte Software ihre Aufgaben nicht ordnungsgemäß wahrnehmen kann.;Standard
+APP.4.4.A11;Überwachung der Container;Für jede dieser Kontrollen SOLLTE eine dem im Pod betriebenen Dienst angemessene Zeitspanne definieren.;Standard
+APP.4.4.A11;Überwachung der Container;Auf Basis dieser Checks SOLLTE Kubernetes die Pods löschen oder neu starten.;Standard
+APP.4.4.A12;Absicherung der Infrastruktur-Anwendungen;Sofern eine eigene Registry für Images oder eine Software zur Automatisierung, zur Verwaltung des Festspeichers, zur Speicherung von Konfigurationsdateien oder ähnliches im Einsatz ist, SOLLTE deren Absicherung mindestens betrachten:;Standard
+APP.4.4.A12;Absicherung der Infrastruktur-Anwendungen;Verwendung von personenbezogenen und Service-Accounts für den Zugang,;Standard
+APP.4.4.A12;Absicherung der Infrastruktur-Anwendungen;verschlüsselte Kommunikation auf allen Netzports,;Standard
+APP.4.4.A12;Absicherung der Infrastruktur-Anwendungen;minimale Vergabe der Berechtigungen an Benutzende und Service Accounts,;Standard
+APP.4.4.A12;Absicherung der Infrastruktur-Anwendungen;Protokollierung der Veränderungen und;Standard
+APP.4.4.A12;Absicherung der Infrastruktur-Anwendungen;regelmäßige Datensicherung.;Standard
+APP.4.4.A13;Automatisierte Auditierung der Konfiguration;Es SOLLTE ein automatisches Audit der Einstellungen der Nodes, von Kubernetes und der Pods der Anwendungen gegen eine definierte Liste der erlaubten Einstellungen und gegen standardisierte Benchmarks erfolgen.;Hoch
+APP.4.4.A13;Automatisierte Auditierung der Konfiguration;Kubernetes SOLLTE die aufgestellten Regeln im Cluster durch Anbindung geeigneter Werkzeuge durchsetzen.;Hoch
+APP.4.4.A14;Verwendung dedizierter Nodes;In einem Kubernetes-Cluster SOLLTEN die Nodes dedizierte Aufgaben zugewiesen bekommen und jeweils nur Pods betreiben, welche der jeweiligen Aufgabe zugeordnet sind.;Hoch
+APP.4.4.A14;Verwendung dedizierter Nodes;Bastion Nodes SOLLTEN alle ein- und ausgehenden Datenverbindungen der Anwendungen zu anderen Netzen übernehmen.;Hoch
+APP.4.4.A14;Verwendung dedizierter Nodes;Management Nodes SOLLTEN die Pods der Control Plane betreiben und sie SOLLTEN nur die Datenverbindungen der Control Plane übernehmen.;Hoch
+APP.4.4.A14;Verwendung dedizierter Nodes;Sofern eingesetzt, SOLLTEN Speicher-Nodes nur die Pods der Festspeicherdienste im Cluster betreiben.;Hoch
+APP.4.4.A15;Trennung von Anwendungen auf Node- und Cluster-Ebene;Anwendungen mit einem sehr hohen Schutzbedarf SOLLTEN jeweils eigene Kubernetes-Cluster oder dedizierte Nodes nutzen, die nicht für andere Anwendungen bereitstehen.;Hoch
+APP.4.4.A16;Verwendung von Operatoren;Die Automatisierung von Betriebsaufgaben in Operatoren SOLLTE bei besonders kritischen Anwendungen und den Programmen der Control Plane zum Einsatz kommen.;Hoch
+APP.4.4.A17;Attestierung von Nodes;Nodes SOLLTEN eine kryptografisch und möglichst mit einem TPM verifizierte gesicherte Zustandsmeldung an die Control Plane senden.;Hoch
+APP.4.4.A17;Attestierung von Nodes;Die Control Plane SOLLTE nur Nodes in den Cluster aufnehmen, die erfolgreich ihre Unversehrtheit nachweisen konnten.;Hoch
+APP.4.4.A18;Verwendung von Mikro-Segmentierung;Die Pods SOLLTEN auch innerhalb eines Kubernetes-Namespace nur über die notwendigen Netzports miteinander kommunizieren können.;Hoch
+APP.4.4.A18;Verwendung von Mikro-Segmentierung;Es SOLLTEN Regeln innerhalb des CNI existieren, die alle bis auf die für den Betrieb notwendigen Netzverbindungen innerhalb des Kubernetes-Namespace unterbinden.;Hoch
+APP.4.4.A18;Verwendung von Mikro-Segmentierung;"Diese Regeln SOLLTEN Quelle und Ziel der Verbindungen genau definieren und dafür mindestens eines der folgenden Kriterien nutzen: Service-Name, Metadaten („Labels""), die Kubernetes Service Accounts oder zertifikatsbasierte Authentifizierung.";Hoch
+APP.4.4.A18;Verwendung von Mikro-Segmentierung;Alle Kriterien, die als Bezeichnung für diese Verbindung dienen, SOLLTEN so abgesichert sein, dass sie nur von berechtigten Personen und Verwaltungs-Diensten verändert werden können.;Hoch
+APP.4.4.A19;Hochverfügbarkeit von Kubernetes;Der Betrieb SOLLTE so aufgebaut sein, dass bei Ausfall eines Standortes die Cluster und damit die Anwendungen in den Pods entweder ohne Unterbrechung weiterlaufen oder in kurzer Zeit an einem anderen Standort neu anlaufen können.;Hoch
+APP.4.4.A19;Hochverfügbarkeit von Kubernetes;Für den Wiederanlauf SOLLTEN alle notwendigen Konfigurationsdateien, Images, Nutzdaten, Netzverbindungen und sonstige für den Betrieb benötigten Ressourcen inklusive der zum Betrieb nötigen Hardware bereits an diesem Standort verfügbar sein.;Hoch
+APP.4.4.A19;Hochverfügbarkeit von Kubernetes;Für den unterbrechungsfreien Betrieb des Clusters SOLLTEN die Control Plane von Kubernetes, die Infrastruktur-Anwendungen der Cluster sowie die Pods der Anwendungen anhand von Standort-Daten der Nodes über mehrere Brandabschnitte so verteilt werden, dass der Ausfall eines Brandabschnitts nicht zum Ausfall der Anwendung führt.;Hoch
+APP.4.4.A20;Verschlüsselte Datenhaltung bei Pods;Die Dateisysteme mit den persistenten Daten der Control Plane (hier besonders etcd) und der Anwendungsdienste SOLLTEN verschlüsselt werden.;Hoch
+APP.4.4.A21;Regelmäßiger Restart von Pods;Bei einem erhöhten Risiko für Fremdeinwirkung und einem sehr hohen Schutzbedarf SOLLTEN Pods regelmäßig gestoppt und neu gestartet werden.;Hoch
+APP.4.4.A21;Regelmäßiger Restart von Pods;Kein Pod SOLLTE länger als 24 Stunden laufen.;Hoch
+APP.4.4.A21;Regelmäßiger Restart von Pods;Dabei SOLLTE die Verfügbarkeit der Anwendungen im Pod sichergestellt sein.;Hoch

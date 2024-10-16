@@ -1,0 +1,113 @@
+ID-Anforderung;Titel;Inhalt;Typ
+NET.3.2.A1;Erstellung einer Sicherheitsrichtlinie;Ausgehend von der allgemeinen Sicherheitsrichtlinie der Institution MUSS eine spezifische Sicherheitsrichtlinie erstellt werden.;Basis
+NET.3.2.A1;Erstellung einer Sicherheitsrichtlinie;In dieser MÜSSEN nachvollziehbar Anforderungen und Vorgaben beschrieben sein, wie Firewalls sicher betrieben werden können.;Basis
+NET.3.2.A1;Erstellung einer Sicherheitsrichtlinie;Die Richtlinie MUSS allen im Bereich Firewalls zuständigen Mitarbeitenden bekannt und grundlegend für ihre Arbeit sein.;Basis
+NET.3.2.A1;Erstellung einer Sicherheitsrichtlinie;Wird die Richtlinie verändert oder wird von den Anforderungen abgewichen, MUSS dies mit dem oder der ISB abgestimmt und dokumentiert werden.;Basis
+NET.3.2.A1;Erstellung einer Sicherheitsrichtlinie;Es MUSS regelmäßig überprüft werden, ob die Richtlinie noch korrekt umgesetzt ist.;Basis
+NET.3.2.A1;Erstellung einer Sicherheitsrichtlinie;Die Ergebnisse MÜSSEN sinnvoll dokumentiert werden.;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Die gesamte Kommunikation zwischen den beteiligten Netzen MUSS über die Firewall geleitet werden.;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Es MUSS sichergestellt sein, dass von außen keine unerlaubten Verbindungen in das geschützte Netz aufgebaut werden können.;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Ebenso DÜRFEN KEINE unerlaubten Verbindungen aus dem geschützten Netz heraus aufgebaut werden.;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Für die Firewall MÜSSEN eindeutige Regeln definiert werden, die festlegen, welche Kommunikationsverbindungen und Datenströme zugelassen werden.;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Alle anderen Verbindungen MÜSSEN durch die Firewall unterbunden werden (Allowlist-Ansatz).;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Die Kommunikationsbeziehungen mit angeschlossenen Dienst-Servern, die über die Firewall geführt werden, MÜSSEN in den Regeln berücksichtigt sein.;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Es MÜSSEN Zuständige benannt werden, die Filterregeln entwerfen, umsetzen und testen.;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Zudem MUSS geklärt werden, wer Filterregeln verändern darf.;Basis
+NET.3.2.A2;Festlegen der Firewall-Regeln;Die getroffenen Entscheidungen sowie die relevanten Informationen und Entscheidungsgründe MÜSSEN dokumentiert werden.;Basis
+NET.3.2.A3;Einrichten geeigneter Filterregeln am Paketfilter;Basierend auf den Firewall-Regeln aus NET.3.2.A2 Festlegen der Firewall-Regeln MÜSSEN geeignete Filterregeln für den Paketfilter definiert und eingerichtet werden.;Basis
+NET.3.2.A3;Einrichten geeigneter Filterregeln am Paketfilter;Ein Paketfilter MUSS so eingestellt sein, dass er alle ungültigen TCP-Flag-Kombinationen verwirft.;Basis
+NET.3.2.A3;Einrichten geeigneter Filterregeln am Paketfilter;Grundsätzlich MUSS immer zustandsbehaftet gefiltert werden.;Basis
+NET.3.2.A3;Einrichten geeigneter Filterregeln am Paketfilter;Auch für die verbindungslosen Protokolle UDP und ICMP MÜSSEN zustandsbehaftete Filterregeln konfiguriert werden.;Basis
+NET.3.2.A3;Einrichten geeigneter Filterregeln am Paketfilter;Die Firewall MUSS die Protokolle ICMP und ICMPv6 restriktiv filtern.;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Bevor eine Firewall eingesetzt wird, MUSS sie sicher konfiguriert werden.;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Alle Konfigurationsänderungen MÜSSEN nachvollziehbar dokumentiert sein.;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Die Integrität der Konfigurationsdateien MUSS geeignet geschützt werden.;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Bevor Zugangspasswörter abgespeichert werden, MÜSSEN sie mithilfe eines zeitgemäßen kryptografischen Verfahrens abgesichert werden (siehe CON.1 Kryptokonzept).;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Eine Firewall MUSS so konfiguriert sein, dass ausschließlich zwingend erforderliche Dienste verfügbar sind.;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Wenn funktionale Erweiterungen benutzt werden, MÜSSEN die Sicherheitsrichtlinien der Institution weiterhin erfüllt sein.;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Auch MUSS begründet und dokumentiert werden, warum solche Erweiterungen eingesetzt werden.;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Nicht benötigte (Auskunfts-)Dienste sowie nicht benötigte funktionale Erweiterungen MÜSSEN deaktiviert oder ganz deinstalliert werden.;Basis
+NET.3.2.A4;Sichere Konfiguration der Firewall;Informationen über den internen Konfigurations- und Betriebszustand MÜSSEN nach außen bestmöglich verborgen werden.;Basis
+NET.3.2.A5;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+NET.3.2.A6;Schutz der Administrationsschnittstellen;Alle Administrations- und Managementzugänge der Firewall MÜSSEN auf einzelne Quell-IP-Adressen bzw. -Adressbereiche eingeschränkt werden.;Basis
+NET.3.2.A6;Schutz der Administrationsschnittstellen;Es MUSS sichergestellt sein, dass aus nicht vertrauenswürdigen Netzen heraus nicht auf die Administrationsschnittstellen zugegriffen werden kann.;Basis
+NET.3.2.A6;Schutz der Administrationsschnittstellen;Um die Firewall zu administrieren bzw. zu überwachen, DÜRFEN NUR sichere Protokolle eingesetzt werden.;Basis
+NET.3.2.A6;Schutz der Administrationsschnittstellen;Alternativ MUSS ein eigens dafür vorgesehenes Administrationsnetz (Out-of-Band-Management) verwendet werden.;Basis
+NET.3.2.A6;Schutz der Administrationsschnittstellen;Für die Bedienschnittstellen MÜSSEN geeignete Zeitbeschränkungen vorgegeben werden.;Basis
+NET.3.2.A7;Notfallzugriff auf die Firewall;Es MUSS immer möglich sein, direkt auf die Firewall zugreifen zu können, sodass sie im Notfall auch dann lokal administriert werden kann, wenn das gesamte Netz ausfällt.;Basis
+NET.3.2.A8;Unterbindung von dynamischem Routing;In den Einstellungen der Firewall MUSS das dynamische Routing deaktiviert sein, es sei denn, der Paketfilter wird entsprechend dem Baustein NET.3.1 Router und Switches als Perimeter-Router eingesetzt.;Basis
+NET.3.2.A9;Protokollierung;Die Firewall MUSS so konfiguriert werden, dass sie mindestens folgende sicherheitsrelevante Ereignisse protokolliert:;Basis
+NET.3.2.A9;Protokollierung;abgewiesene Netzverbindungen (Quell- und Ziel-IP-Adressen, Quell- und Zielport oder ICMP/ICMPv6-Typ, Datum, Uhrzeit),;Basis
+NET.3.2.A9;Protokollierung;fehlgeschlagene Zugriffe auf System-Ressourcen aufgrund fehlerhafter Authentisierungen, mangelnder Berechtigung oder nicht vorhandener Ressourcen,;Basis
+NET.3.2.A9;Protokollierung;Fehlermeldungen der Firewall-Dienste,;Basis
+NET.3.2.A9;Protokollierung;allgemeine Systemfehlermeldungen und;Basis
+NET.3.2.A9;Protokollierung;Konfigurationsänderungen (möglichst automatisch).;Basis
+NET.3.2.A9;Protokollierung;Werden Sicherheitsproxies eingesetzt, MÜSSEN Sicherheitsverletzungen und Verstöße gegen Access-Control-Listen (ACLs oder auch kurz Access-Listen) in geeigneter Weise protokolliert werden.;Basis
+NET.3.2.A9;Protokollierung;Hierbei MÜSSEN mindestens die Art der Protokollverletzung bzw. des ACL-Verstoßes, Quell- und Ziel-IP-Adresse, Quell- und Zielport, Dienst, Datum und Zeit sowie, falls erforderlich, die Verbindungsdauer protokolliert werden.;Basis
+NET.3.2.A9;Protokollierung;Wenn sich Benutzende am Sicherheitsproxy authentisieren, MÜSSEN auch Authentisierungsdaten oder ausschließlich die Information über eine fehlgeschlagene Authentisierung protokolliert werden.;Basis
+NET.3.2.A10;Abwehr von Fragmentierungsangriffen am Paketfilter;Am Paketfilter MÜSSEN Schutzmechanismen aktiviert sein, um IPv4- sowie IPv6 Fragmentierungsangriffe abzuwehren.;Basis
+NET.3.2.A11;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+NET.3.2.A12;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+NET.3.2.A13;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+NET.3.2.A14;Betriebsdokumentationen;Die betrieblichen Aufgaben einer Firewall MÜSSEN nachvollziehbar dokumentiert werden.;Basis
+NET.3.2.A14;Betriebsdokumentationen;Es MÜSSEN alle Konfigurationsänderungen sowie sicherheitsrelevante Aufgaben dokumentiert werden, insbesondere Änderungen an den Systemdiensten und dem Regelwerk der Firewall.;Basis
+NET.3.2.A14;Betriebsdokumentationen;Die Dokumentation MUSS vor unbefugten Zugriffen geschützt werden.;Basis
+NET.3.2.A15;Beschaffung einer Firewall;Bevor eine Firewall beschafft wird, MUSS eine Anforderungsliste erstellt werden, anhand derer die am Markt erhältlichen Produkte bewertet werden.;Basis
+NET.3.2.A15;Beschaffung einer Firewall;Es MUSS darauf geachtet werden, dass das von der Institution angestrebte Sicherheitsniveau mit der Firewall erreichbar ist.;Basis
+NET.3.2.A15;Beschaffung einer Firewall;Grundlage für die Beschaffung MÜSSEN daher die Anforderungen aus der Sicherheitsrichtlinie sein.;Basis
+NET.3.2.A15;Beschaffung einer Firewall;Wird IPv6 eingesetzt, MUSS der Paketfilter die IPv6-Erweiterungsheader (Extension Header) überprüfen.;Basis
+NET.3.2.A15;Beschaffung einer Firewall;Zudem MUSS sich IPv6 adäquat zu IPv4 konfigurieren lassen.;Basis
+NET.3.2.A16;Aufbau einer „P-A-P“-Struktur;Eine „Paketfilter - Application-Level-Gateway - Paketfilter“-(P-A-P)-Struktur SOLLTE eingesetzt werden.;Standard
+NET.3.2.A16;Aufbau einer „P-A-P“-Struktur;Sie MUSS aus mehreren Komponenten mit jeweils dafür geeigneter Hard- und Software bestehen.;Standard
+NET.3.2.A16;Aufbau einer „P-A-P“-Struktur;Für die wichtigsten verwendeten Protokolle SOLLTEN Sicherheitsproxies auf Anwendungsschicht vorhanden sein.;Standard
+NET.3.2.A16;Aufbau einer „P-A-P“-Struktur;Für andere Dienste SOLLTEN zumindest generische Sicherheitsproxies für TCP und UDP genutzt werden.;Standard
+NET.3.2.A16;Aufbau einer „P-A-P“-Struktur;Die Sicherheitsproxies SOLLTEN zudem innerhalb einer abgesicherten Laufzeitumgebung des Betriebssystems ablaufen.;Standard
+NET.3.2.A17;Deaktivierung von IPv4 oder IPv6;Wenn das IPv4- oder IPv6-Protokoll in einem Netzsegment nicht benötigt wird, SOLLTE es am jeweiligen Firewall-Netzzugangspunkt (z. B. am entsprechenden Firewall-Interface) deaktiviert werden.;Standard
+NET.3.2.A17;Deaktivierung von IPv4 oder IPv6;Falls das IPv4- oder IPv6-Protokoll nicht benötigt bzw. eingesetzt wird, SOLLTE es auf der Firewall komplett deaktiviert werden.;Standard
+NET.3.2.A18;Administration über ein gesondertes Managementnetz;Firewalls SOLLTEN ausschließlich über ein separates Managementnetz (Out-of-Band-Management) administriert werden.;Standard
+NET.3.2.A18;Administration über ein gesondertes Managementnetz;Eine eventuell vorhandene Administrationsschnittstelle über das eigentliche Datennetz (In-Band) SOLLTE deaktiviert werden.;Standard
+NET.3.2.A18;Administration über ein gesondertes Managementnetz;Die Kommunikation im Managementnetz SOLLTE über Management-Firewalls (siehe NET.1.1 Netz-Architektur und -design) auf wenige Managementprotokolle mit genau festgelegten Ursprüngen und Zielen beschränkt werden.;Standard
+NET.3.2.A18;Administration über ein gesondertes Managementnetz;Die verfügbaren Sicherheitsmechanismen der eingesetzten Managementprotokolle zur Authentisierung, Integritätssicherung und Verschlüsselung SOLLTEN aktiviert sein.;Standard
+NET.3.2.A18;Administration über ein gesondertes Managementnetz;Alle unsicheren Managementprotokolle SOLLTEN deaktiviert werden (siehe NET.1.2 Netzmanagement).;Standard
+NET.3.2.A19;Schutz vor TCP SYN Flooding, UDP Paket Storm und Sequence Number Guessing am Paketfilter;Am Paketfilter, der Server-Dienste schützt, die aus nicht vertrauenswürdigen Netzen erreichbar sind, SOLLTE ein geeignetes Limit für halboffene und offene Verbindungen gesetzt werden.;Standard
+NET.3.2.A19;Schutz vor TCP SYN Flooding, UDP Paket Storm und Sequence Number Guessing am Paketfilter;Am Paketfilter, der Server-Dienste schützt, die aus weniger oder nicht vertrauenswürdigen Netzen erreichbar sind, SOLLTEN die sogenannten Rate Limits für UDP-Datenströme gesetzt werden.;Standard
+NET.3.2.A19;Schutz vor TCP SYN Flooding, UDP Paket Storm und Sequence Number Guessing am Paketfilter;Am äußeren Paketfilter SOLLTE bei ausgehenden Verbindungen für TCP eine zufällige Generierung von Initial Sequence Numbers (ISN) aktiviert werden, sofern dieses nicht bereits durch Sicherheitsproxies realisiert wird.;Standard
+NET.3.2.A20;Absicherung von grundlegenden Internetprotokollen;Die Protokolle HTTP, SMTP und DNS inklusive ihrer verschlüsselten Versionen SOLLTEN über protokollspezifische Sicherheitsproxies geleitet werden.;Standard
+NET.3.2.A21;Temporäre Entschlüsselung des Datenverkehrs;Verschlüsselte Verbindungen in nicht vertrauenswürdige Netze SOLLTEN temporär entschlüsselt werden, um das Protokoll zu verifizieren und die Daten auf Schadsoftware zu prüfen.;Standard
+NET.3.2.A21;Temporäre Entschlüsselung des Datenverkehrs;Hierbei SOLLTEN die rechtlichen Rahmenbedingungen beachtet werden.;Standard
+NET.3.2.A21;Temporäre Entschlüsselung des Datenverkehrs;Die Komponente, die den Datenverkehr temporär entschlüsselt, SOLLTE unterbinden, dass veraltete Verschlüsselungsoptionen und kryptografische Algorithmen benutzt werden.;Standard
+NET.3.2.A21;Temporäre Entschlüsselung des Datenverkehrs;Der eingesetzte TLS-Proxy SOLLTE prüfen können, ob Zertifikate vertrauenswürdig sind.;Standard
+NET.3.2.A21;Temporäre Entschlüsselung des Datenverkehrs;Ist ein Zertifikat nicht vertrauenswürdig, SOLLTE es möglich sein, die Verbindung abzuweisen.;Standard
+NET.3.2.A21;Temporäre Entschlüsselung des Datenverkehrs;Eigene Zertifikate SOLLTEN nachrüstbar sein, um auch „interne“ Root-Zertifikate konfigurieren und prüfen zu können.;Standard
+NET.3.2.A21;Temporäre Entschlüsselung des Datenverkehrs;Vorkonfigurierte Zertifikate SOLLTEN überprüft und entfernt werden, wenn sie nicht benötigt werden.;Standard
+NET.3.2.A22;Sichere Zeitsynchronisation;Die Uhrzeit der Firewall SOLLTE mit einem Network-Time-Protocol (NTP)-Server synchronisiert werden.;Standard
+NET.3.2.A22;Sichere Zeitsynchronisation;Die Firewall SOLLTE keine externe Zeitsynchronisation zulassen.;Standard
+NET.3.2.A23;Systemüberwachung und -Auswertung;Firewalls SOLLTEN in ein geeignetes Systemüberwachungs- bzw. Monitoringkonzept eingebunden werden.;Standard
+NET.3.2.A23;Systemüberwachung und -Auswertung;Es SOLLTE ständig überwacht werden, ob die Firewall selbst sowie die darauf betriebenen Dienste korrekt funktionieren.;Standard
+NET.3.2.A23;Systemüberwachung und -Auswertung;Bei Fehlern oder wenn Grenzwerte überschritten werden, SOLLTE das Betriebspersonal alarmiert werden.;Standard
+NET.3.2.A23;Systemüberwachung und -Auswertung;Zudem SOLLTEN automatische Alarmmeldungen generiert werden, die bei festgelegten Ereignissen ausgelöst werden.;Standard
+NET.3.2.A23;Systemüberwachung und -Auswertung;Protokolldaten oder Statusmeldungen SOLLTEN NUR über sichere Kommunikationswege übertragen werden.;Standard
+NET.3.2.A24;Revision und Penetrationstests;Die Firewall-Struktur SOLLTE regelmäßig auf bekannte Sicherheitsprobleme hin überprüft werden.;Standard
+NET.3.2.A24;Revision und Penetrationstests;Es SOLLTEN regelmäßige Penetrationstests und Revisionen durchgeführt werden.;Standard
+NET.3.2.A32;Notfallvorsorge für die Firewall;Diagnose und Fehlerbehebungen SOLLTEN bereits im Vorfeld geplant und vorbereitet werden.;Standard
+NET.3.2.A32;Notfallvorsorge für die Firewall;Für typische Ausfallszenarien SOLLTEN entsprechende Handlungsanweisungen definiert und in regelmäßigen Abständen aktualisiert werden.;Standard
+NET.3.2.A32;Notfallvorsorge für die Firewall;Die Notfallplanungen für die Firewall SOLLTEN mit der übergreifenden Störungs- und Notfallvorsorge abgestimmt sein.;Standard
+NET.3.2.A32;Notfallvorsorge für die Firewall;Sie SOLLTEN sich am allgemeinen Notfallvorsorgekonzept orientieren (siehe DER.4 Notfallmanagement).;Standard
+NET.3.2.A32;Notfallvorsorge für die Firewall;Es SOLLTE sichergestellt sein, dass die Dokumentationen zur Notfallvorsorge und die darin enthaltenen Handlungsanweisungen in Papierform vorliegen.;Standard
+NET.3.2.A32;Notfallvorsorge für die Firewall;Das im Rahmen der Notfallvorsorge beschriebene Vorgehen SOLLTE regelmäßig geprobt werden.;Standard
+NET.3.2.A25;Erweiterter Integritätsschutz für die Konfigurationsdateien;Um eine abgestürzte Firewall wiederherzustellen, SOLLTE sichergestellt werden, dass keine alten oder fehlerhaften Konfigurationen (unter anderem Access-Listen) benutzt werden.;Hoch
+NET.3.2.A25;Erweiterter Integritätsschutz für die Konfigurationsdateien;Dies SOLLTE auch gelten, wenn es bei einem Angriff gelingt, die Firewall neu zu starten.;Hoch
+NET.3.2.A26;Auslagerung von funktionalen Erweiterungen auf dedizierte Hardware;Funktionale Erweiterungen der Firewall SOLLTEN auf dedizierte Hard- und Software ausgelagert werden.;Hoch
+NET.3.2.A27;Einsatz verschiedener Firewall-Betriebssysteme und -Produkte in einer mehrstufigen Firewall-Architektur;In einer mehrstufigen Firewall-Architektur SOLLTEN unterschiedliche Betriebssysteme und -Produkte für die äußeren und inneren Firewalls eingesetzt werden.;Hoch
+NET.3.2.A28;Zentrale Filterung von aktiven Inhalten;Aktive Inhalte SOLLTEN gemäß den Sicherheitszielen der Institution zentral gefiltert werden.;Hoch
+NET.3.2.A28;Zentrale Filterung von aktiven Inhalten;Dafür SOLLTE auch der verschlüsselte Datenverkehr entschlüsselt werden.;Hoch
+NET.3.2.A28;Zentrale Filterung von aktiven Inhalten;Die erforderlichen Sicherheitsproxies SOLLTEN es unterstützen, aktive Inhalte zu filtern.;Hoch
+NET.3.2.A29;Einsatz von Hochverfügbarkeitslösungen;Paketfilter und Application-Level-Gateway SOLLTEN hochverfügbar ausgelegt werden.;Hoch
+NET.3.2.A29;Einsatz von Hochverfügbarkeitslösungen;Zudem SOLLTEN zwei voneinander unabhängige Zugangsmöglichkeiten zum externen Netz bestehen, z. B. zwei Internetzugänge von unterschiedlichen Providern.;Hoch
+NET.3.2.A29;Einsatz von Hochverfügbarkeitslösungen;Interne und externe Router sowie alle weiteren beteiligten aktiven Komponenten (z. B. Switches) SOLLTEN ebenfalls hochverfügbar ausgelegt sein.;Hoch
+NET.3.2.A29;Einsatz von Hochverfügbarkeitslösungen;Auch nach einem automatischen Failover SOLLTE die Firewall-Struktur die Anforderungen der Sicherheitsrichtlinie erfüllen (Fail safe bzw. Fail secure).;Hoch
+NET.3.2.A29;Einsatz von Hochverfügbarkeitslösungen;Die Funktion SOLLTE anhand von zahlreichen Parametern überwacht werden.;Hoch
+NET.3.2.A29;Einsatz von Hochverfügbarkeitslösungen;Die Funktionsüberwachung SOLLTE sich nicht auf ein einzelnes Kriterium stützen.;Hoch
+NET.3.2.A29;Einsatz von Hochverfügbarkeitslösungen;Protokolldateien und Warnmeldungen der Hochverfügbarkeitslösung SOLLTEN regelmäßig kontrolliert werden.;Hoch
+NET.3.2.A30;Bandbreitenmanagement für kritische Anwendungen und Dienste;Um Bandbreitenmanagement für kritische Anwendungen und Dienste zu gewährleisten, SOLLTEN Paketfilter mit entsprechender Bandbreitenmanagementfunktion an Netzübergängen und am Übergang zwischen verschiedenen Sicherheitszonen eingesetzt werden.;Hoch
+NET.3.2.A31;Einsatz von zertifizierten Produkten;Firewalls mit einer Sicherheitsevaluierung nach Common Criteria SOLLTEN eingesetzt werden, mindestens mit der Stufe EAL4.;Hoch

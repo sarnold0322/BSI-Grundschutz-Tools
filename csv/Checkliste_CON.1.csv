@@ -1,0 +1,80 @@
+ID-Anforderung;Titel;Inhalt;Typ
+CON.1.A1;Auswahl geeigneter kryptografischer Verfahren;Es MÜSSEN geeignete kryptografische Verfahren ausgewählt werden.;Basis
+CON.1.A1;Auswahl geeigneter kryptografischer Verfahren;Dabei MUSS sichergestellt sein, dass etablierte Algorithmen verwendet werden, die von der Fachwelt intensiv untersucht wurden und von denen keine Sicherheitslücken bekannt sind.;Basis
+CON.1.A1;Auswahl geeigneter kryptografischer Verfahren;Ebenso MÜSSEN aktuell empfohlene Schlüssellängen verwendet werden.;Basis
+CON.1.A1;Auswahl geeigneter kryptografischer Verfahren;Um eine geeignete Schlüssellänge auszuwählen, SOLLTE berücksichtigt werden, wie lange das kryptografische Verfahren eingesetzt werden soll.;Basis
+CON.1.A1;Auswahl geeigneter kryptografischer Verfahren;Bei einer längeren Einsatzdauer SOLLTEN entsprechend längere Schlüssellängen eingesetzt werden.;Basis
+CON.1.A2;Datensicherung beim Einsatz kryptografischer Verfahren;In Datensicherungen MÜSSEN kryptografische Schlüssel vom IT-Betrieb derart gespeichert oder aufbewahrt werden, dass Unbefugte nicht darauf zugreifen können.;Basis
+CON.1.A2;Datensicherung beim Einsatz kryptografischer Verfahren;Langlebige kryptografische Schlüssel MÜSSEN offline, außerhalb der eingesetzten IT-Systeme, aufbewahrt werden.;Basis
+CON.1.A2;Datensicherung beim Einsatz kryptografischer Verfahren;Bei einer Langzeitspeicherung verschlüsselter Informationen SOLLTE regelmäßig geprüft werden, ob die verwendeten kryptografischen Algorithmen und die Schlüssellängen noch für die jeweiligen Informationen geeignet sind.;Basis
+CON.1.A2;Datensicherung beim Einsatz kryptografischer Verfahren;Der IT-Betrieb MUSS sicherstellen, dass auf verschlüsselt gespeicherte Informationen auch nach längeren Zeiträumen noch zugegriffen werden kann.;Basis
+CON.1.A2;Datensicherung beim Einsatz kryptografischer Verfahren;Verwendete Hard- oder Software mit kryptografischen Funktionen SOLLTE archiviert werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;In einem geeigneten Schlüsselmanagement für kryptografische Hard oder Software MUSS festgelegt werden, wie Schlüssel und Zertifikate erzeugt, gespeichert, ausgetauscht und wieder gelöscht oder vernichtet werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Es MUSS ferner festgelegt werden, wie die Integrität und Authentizität der Schlüssel sichergestellt wird.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Kryptografische Schlüssel SOLLTEN immer mit geeigneten Schlüsselgeneratoren und in einer sicheren Umgebung erzeugt werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;In Hard- oder Software mit kryptografischen Funktionen SOLLTEN voreingestellte Schlüssel (ausgenommen öffentliche Zertifikate) ersetzt werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Ein Schlüssel SOLLTE möglichst nur einem Einsatzzweck dienen.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Insbesondere SOLLTEN für die Verschlüsselung und Signaturbildung unterschiedliche Schlüssel benutzt werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Kryptografische Schlüssel SOLLTEN mit sicher geltenden Verfahren ausgetauscht werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Wenn öffentliche Schlüssel von Dritten verwendet werden, MUSS sichergestellt sein, dass die Schlüssel authentisch sind und die Integrität der Schlüsseldaten gewährleistet ist.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Geheime Schlüssel MÜSSEN sicher gespeichert und vor unbefugtem Zugriff geschützt werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Alle kryptografischen Schlüssel SOLLTEN hinreichend häufig gewechselt werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Grundsätzlich SOLLTE geregelt werden, wie mit abgelaufenen Schlüsseln und damit verbundenen Signaturen verfahren wird.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Falls die Gültigkeit von Schlüsseln oder Zertifikaten zeitlich eingeschränkt wird, dann MUSS durch die Institution sichergestellt werden, dass die zeitlich eingeschränkten Zertifikate oder Schlüssel rechtzeitig erneuert werden.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Eine Vorgehensweise SOLLTE für den Fall festgelegt werden, dass ein privater Schlüssel offengelegt wird.;Basis
+CON.1.A4;Geeignetes Schlüsselmanagement;Alle erzeugten kryptografischen Schlüssel SOLLTEN sicher aufbewahrt und verwaltet werden.;Basis
+CON.1.A3;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+CON.1.A5;Sicheres Löschen und Vernichten von kryptografischen Schlüsseln;Nicht mehr benötigte private Schlüssel SOLLTEN sicher gelöscht oder vernichtet werden.;Standard
+CON.1.A5;Sicheres Löschen und Vernichten von kryptografischen Schlüsseln;Die Vorgehensweisen und eingesetzten Methoden, um nicht mehr benötigte private Schlüssel zu löschen oder zu vernichten, SOLLTEN im Kryptokonzept dokumentiert werden.;Standard
+CON.1.A6;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+CON.1.A7;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+CON.1.A8;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Im Kryptokonzept SOLLTE festgelegt werden, anhand welcher Kriterien und Anforderungen Hard- oder Software mit kryptografischen Funktionen ausgesucht wird.;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Hierbei SOLLTEN Aspekte wie;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Funktionsumfang,;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Interoperabilität,;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Wirtschaftlichkeit,;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Fehlbedienungs- und Fehlfunktionssicherheit,;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;technische Aspekte,;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;personelle und organisatorische Aspekte,;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Lebensdauer von kryptografischen Verfahren und der eingesetzten Schlüssellängen sowie;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;gesetzliche Rahmenbedingungen;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;internationale rechtliche Aspekte wie Export- und Importbeschränkungen für Hard- oder Software mit kryptografischen Funktionen, wenn die kryptografischen Verfahren auch im Ausland eingesetzt werden;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Datenschutz;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;berücksichtigt und im Kryptokonzept dokumentiert werden.;Standard
+CON.1.A9;Festlegung von Kriterien für die Auswahl von Hard- oder Software mit kryptografischen Funktionen;Dabei SOLLTE grundsätzlich zertifizierte Hard- oder Software mit kryptografischen Funktionen, deren Zertifizierung die jeweils relevanten Aspekte der Kryptografie umfasst, bevorzugt ausgewählt werden.;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Ausgehend von dem allgemeinen Sicherheitskonzept der Institution SOLLTE ein Kryptokonzept für Hard- oder Software mit kryptografischen Funktionen erstellt werden.;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Im Kryptokonzept SOLLTE beschrieben werden,;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;wie die Datensicherungen von kryptografischen Schlüsseln durchgeführt werden,;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;wie das Schlüsselmanagement von kryptografischen Schlüsseln ausgestaltet ist sowie;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;wie das Krypto-Kastaster erhoben wird.;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Weiterhin SOLLTE im Kryptokonzept beschrieben werden, wie sichergestellt wird, dass kryptografische Funktionen von Hard- oder Software sicher konfiguriert und korrekt eingesetzt werden.;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Im Kryptokonzept SOLLTEN alle technischen Vorgaben für Hard- und Software mit kryptografischen Funktionen beschrieben werden (z. B. Anforderungen, Konfiguration oder Parameter).;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Um geeignete kryptografische Verfahren auszuwählen, SOLLTE die BSI TR 02102 berücksichtigt werden.;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Wird das Kryptokonzept verändert oder von ihm abgewichen, SOLLTE dies mit dem oder der ISB abgestimmt und dokumentiert werden.;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Das Kryptokonzept SOLLTE allen bekannt sein, die kryptografische Verfahren einsetzen.;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Außerdem SOLLTE es bindend für ihre Arbeit sein.;Standard
+CON.1.A10;Erstellung eines Kryptokonzepts;Insbesondere der IT-Betrieb SOLLTE die kryptografischen Vorgaben des Kryptokonzepts umsetzen.;Standard
+CON.1.A15;Reaktion auf praktische Schwächung eines Kryptoverfahrens;Die Institution SOLLTE mindestens jährlich anhand des Krypto-Katasters überprüfen, ob die eingesetzten kryptografischen Verfahren und die zugehörigen Parameter noch ausreichend sicher sind und keine bekannten Schwachstellen aufweisen.;Standard
+CON.1.A15;Reaktion auf praktische Schwächung eines Kryptoverfahrens;Im Kryptokonzept SOLLTE ein Prozess für den Fall definiert und dokumentiert werden, dass Schwachstellen in kryptografischen Verfahren auftreten.;Standard
+CON.1.A15;Reaktion auf praktische Schwächung eines Kryptoverfahrens;Dabei SOLLTE sichergestellt werden, dass das geschwächte kryptografische Verfahren entweder abgesichert oder durch eine geeignete Alternative abgelöst wird, sodass hieraus kein Sicherheitsrisiko entsteht.;Standard
+CON.1.A19;Erstellung eines Krypto-Katasters;Für jede Gruppe von IT-Systemen SOLLTEN folgende Informationen im Krypto-Kataster festgehalten werden:;Standard
+CON.1.A19;Erstellung eines Krypto-Katasters;Einsatzzweck (z. B. Festplattenverschlüsselung oder Verschlüsselung einer Kommunikationsverbindung);Standard
+CON.1.A19;Erstellung eines Krypto-Katasters;Zuständige;Standard
+CON.1.A19;Erstellung eines Krypto-Katasters;eingesetztes kryptografische Verfahren;Standard
+CON.1.A19;Erstellung eines Krypto-Katasters;eingesetzte Hard- oder Software mit kryptografischen Funktionen;Standard
+CON.1.A19;Erstellung eines Krypto-Katasters;eingesetzte sicherheitsrelevante Parameter (z. B. Schlüssellängen);Standard
+CON.1.A11;Test von Hardware mit kryptografischen Funktionen;Im Kryptokonzept SOLLTEN Testverfahren für Hardware mit kryptografischen Funktionen festgelegt werden.;Hoch
+CON.1.A11;Test von Hardware mit kryptografischen Funktionen;Bevor Hardware mit kryptografischen Funktionen eingesetzt wird, sollte getestet werden, ob die kryptografischen Funktionen korrekt funktionieren.;Hoch
+CON.1.A11;Test von Hardware mit kryptografischen Funktionen;Wenn ein IT-System geändert wird, SOLLTE getestet werden, ob die eingesetzte kryptografische Hardware noch ordnungsgemäß funktioniert.;Hoch
+CON.1.A11;Test von Hardware mit kryptografischen Funktionen;Die Konfiguration der kryptografischen Hardware SOLLTE regelmäßig überprüft werden.;Hoch
+CON.1.A12;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch
+CON.1.A13;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch
+CON.1.A14;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch
+CON.1.A16;Physische Absicherung von Hardware mit kryptografischen Funktionen;Im Kryptokonzept SOLLTE festgelegt werden, wie der IT-Betrieb sicherstellt, dass nicht unautorisiert physisch auf Hardware mit kryptografischen Funktionen zugegriffen werden kann.;Hoch
+CON.1.A17;Abstrahlsicherheit;Es SOLLTE geprüft werden, ob zusätzliche Maßnahmen hinsichtlich der Abstrahlsicherheit notwendig sind.;Hoch
+CON.1.A17;Abstrahlsicherheit;Dies SOLLTE insbesondere dann geschehen, wenn staatliche Verschlusssachen (VS) der Geheimhaltungsgrade VS-VERTRAULICH und höher verarbeitet werden.;Hoch
+CON.1.A17;Abstrahlsicherheit;Getroffene Maßnahmen hinsichtlich der Abstrahlsicherheit SOLLTEN im Kryptokonzept dokumentiert werden.;Hoch
+CON.1.A18;Kryptografische Ersatzhardware;Hardware mit kryptografischen Funktionen (z. B. Hardware-Token für Zwei-Faktor-Authentifizierung) SOLLTE vorrätig sein.;Hoch
+CON.1.A18;Kryptografische Ersatzhardware;Im Kryptokonzept SOLLTE dokumentiert werden, für welche Hardware mit kryptografischen Funktionen Ersatzhardware zur Verfügung steht und wie diese ausgetauscht werden kann.;Hoch
+CON.1.A20;Manipulationserkennung für Hard- oder Software mit kryptografischen Funktionen;Hard- und Software mit kryptografischen Funktionen SOLLTE auf Manipulationsversuche hin überwacht werden.;Hoch
