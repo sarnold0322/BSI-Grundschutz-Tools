@@ -1,0 +1,35 @@
+ID-Anforderung;Titel;Inhalt;Typ
+SYS.1.3.A1;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+SYS.1.3.A2;Sorgfältige Vergabe von IDs;Jeder Login-Name, jede User-ID (UID) und jede Gruppen-ID (GID) DARF NUR einmal vorkommen.;Basis
+SYS.1.3.A2;Sorgfältige Vergabe von IDs;Jedes Konto von Benutzenden MUSS Mitglied mindestens einer Gruppe sein.;Basis
+SYS.1.3.A2;Sorgfältige Vergabe von IDs;Jede in der Datei /etc/passwd vorkommende GID MUSS in der Datei /etc/group definiert sein.;Basis
+SYS.1.3.A2;Sorgfältige Vergabe von IDs;Jede Gruppe SOLLTE nur die Konten enthalten, die unbedingt notwendig sind.;Basis
+SYS.1.3.A2;Sorgfältige Vergabe von IDs;Bei vernetzten Systemen MUSS außerdem darauf geachtet werden, dass die Vergabe von Benutzenden- und Gruppennamen, UID und GID im Systemverbund konsistent erfolgt, wenn beim systemübergreifenden Zugriff die Möglichkeit besteht, dass gleiche UIDs bzw. GIDs auf den Systemen unterschiedlichen Benutzenden- bzw. Gruppennamen zugeordnet werden könnten.;Basis
+SYS.1.3.A3;Kein automatisches Einbinden von Wechsellaufwerken;Wechseldatenträger wie z. B. USB-Sticks oder CDs/DVDs DÜRFEN NICHT automatisch eingebunden werden.;Basis
+SYS.1.3.A4;Schutz vor Ausnutzung von Schwachstellen in Anwendungen;Um die Ausnutzung von Schwachstellen in Anwendungen zu erschweren, MUSS ASLR und DEP/NX im Kernel aktiviert und von den Anwendungen genutzt werden.;Basis
+SYS.1.3.A4;Schutz vor Ausnutzung von Schwachstellen in Anwendungen;Sicherheitsfunktionen des Kernels und der Standardbibliotheken, wie z. B. Heap- und Stackschutz, DÜRFEN NICHT deaktiviert werden.;Basis
+SYS.1.3.A5;Sichere Installation von Software-Paketen;Wenn zu installierende Software aus dem Quellcode kompiliert werden soll, DARF diese NUR unter einem unprivilegierten Konto entpackt, konfiguriert und übersetzt werden.;Basis
+SYS.1.3.A5;Sichere Installation von Software-Paketen;Anschließend DARF die zu installierende Software NICHT unkontrolliert in das Wurzeldateisystem des Betriebssystems installiert werden.;Basis
+SYS.1.3.A5;Sichere Installation von Software-Paketen;Wird die Software aus dem Quelltext übersetzt, SOLLTEN die gewählten Parameter geeignet dokumentiert werden.;Basis
+SYS.1.3.A5;Sichere Installation von Software-Paketen;Anhand dieser Dokumentation SOLLTE die Software jederzeit nachvollziehbar und reproduzierbar kompiliert werden können.;Basis
+SYS.1.3.A5;Sichere Installation von Software-Paketen;Alle weiteren Installationsschritte SOLLTEN dabei ebenfalls dokumentiert werden.;Basis
+SYS.1.3.A6;Verwaltung von Benutzenden und Gruppen;Zur Verwaltung von Benutzenden und Gruppen SOLLTEN die entsprechenden Verwaltungswerkzeuge genutzt werden.;Standard
+SYS.1.3.A6;Verwaltung von Benutzenden und Gruppen;Von einer direkten Bearbeitung der Konfigurationsdateien /etc/passwd, /etc/shadow, /etc/group und /etc/sudoers SOLLTE abgesehen werden.;Standard
+SYS.1.3.A7;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.1.3.A8;Verschlüsselter Zugriff über Secure Shell;Um eine verschlüsselte und authentisierte, interaktive Verbindung zwischen zwei IT-Systemen aufzubauen, SOLLTE ausschließlich Secure Shell (SSH) verwendet werden.;Standard
+SYS.1.3.A8;Verschlüsselter Zugriff über Secure Shell;Alle anderen Protokolle, deren Funktionalität durch Secure Shell abgedeckt wird, SOLLTEN vollständig abgeschaltet werden.;Standard
+SYS.1.3.A8;Verschlüsselter Zugriff über Secure Shell;Für die Authentifizierung SOLLTEN vorrangig Zertifikate anstatt eines Passworts verwendet werden.;Standard
+SYS.1.3.A9;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.1.3.A10;Verhinderung der Ausbreitung bei der Ausnutzung von Schwachstellen;Dienste und Anwendungen SOLLTEN mit einer individuellen Sicherheitsarchitektur geschützt werden (z. B. mit AppArmor oder SELinux).;Standard
+SYS.1.3.A10;Verhinderung der Ausbreitung bei der Ausnutzung von Schwachstellen;Auch chroot-Umgebungen sowie LXC- oder Docker-Container SOLLTEN dabei berücksichtigt werden.;Standard
+SYS.1.3.A10;Verhinderung der Ausbreitung bei der Ausnutzung von Schwachstellen;Es SOLLTE sichergestellt sein, dass mitgelieferte Standardprofile bzw. -regeln aktiviert sind.;Standard
+SYS.1.3.A11;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.1.3.A12;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.1.3.A13;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch
+SYS.1.3.A14;Verhinderung des Ausspähens von Informationen über das System und über Benutzende;Die Ausgabe von Informationen über das Betriebssystem und der Zugriff auf Protokoll- und Konfigurationsdateien SOLLTE für Benutzende auf das notwendige Maß beschränkt werden.;Hoch
+SYS.1.3.A14;Verhinderung des Ausspähens von Informationen über das System und über Benutzende;Außerdem SOLLTEN bei Befehlsaufrufen keine vertraulichen Informationen als Parameter übergeben werden.;Hoch
+SYS.1.3.A15;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch
+SYS.1.3.A16;Zusätzliche Verhinderung der Ausbreitung bei der Ausnutzung von Schwachstellen;Die Nutzung von Systemaufrufen SOLLTE insbesondere für exponierte Dienste und Anwendungen auf die unbedingt notwendige Anzahl beschränkt werden.;Hoch
+SYS.1.3.A16;Zusätzliche Verhinderung der Ausbreitung bei der Ausnutzung von Schwachstellen;Die Standardprofile bzw. -regeln von z. B. SELinux, AppArmor SOLLTEN manuell überprüft und unter Umständen an die eigenen Sicherheitsrichtlinien angepasst werden.;Hoch
+SYS.1.3.A16;Zusätzliche Verhinderung der Ausbreitung bei der Ausnutzung von Schwachstellen;Falls erforderlich, SOLLTEN neue Regeln bzw. Profile erstellt werden.;Hoch
+SYS.1.3.A17;Zusätzlicher Schutz des Kernels;Es SOLLTEN speziell gehärtete Kernels (z. B. grsecurity, PaX) und geeignete Schutzmaßnahmen wie Speicherschutz oder Dateisystemabsicherung umgesetzt werden, die eine Ausnutzung von Schwachstellen und die Ausbreitung im Betriebssystem verhindern.;Hoch

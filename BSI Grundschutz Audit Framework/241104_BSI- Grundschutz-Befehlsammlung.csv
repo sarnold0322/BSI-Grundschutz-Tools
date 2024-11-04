@@ -1,0 +1,571 @@
+﻿ID-Anforderung;Titel;Inhalt;Typ;Thema;Befehl;Beschreibung;Benötigt Admin-Rechte
+SYS.2.1.A42;Nutzung von Cloud- und Online-Funktionen;Es DÜRFEN NUR zwingend notwendige Cloud- und Online-Funktionen des Betriebssystems genutzt werden.;Basis;10 Windows Cloud Anwendungen Status;"# Pfad zur gpresult.html-Datei
+$htmlFilePath = ""$env:USERPROFILE\Desktop\gpresult.html""
+
+# HTML-Datei einlesen
+$htmlContent = Get-Content -Path $htmlFilePath -Raw
+
+# 1. OneDrive
+if ($htmlContent -match ""OneDrive"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""OneDrive ist aktiviert.""
+    } else {
+        Write-Output ""OneDrive ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für OneDrive wurde nicht gefunden.""
+}
+
+# 2. Windows Backup
+if ($htmlContent -match ""Windows Backup"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Windows Backup ist aktiviert.""
+    } else {
+        Write-Output ""Windows Backup ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Windows Backup wurde nicht gefunden.""
+}
+
+# 3. Windows Update for Business
+if ($htmlContent -match ""Windows Update for Business"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Windows Update for Business ist aktiviert.""
+    } else {
+        Write-Output ""Windows Update for Business ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Windows Update for Business wurde nicht gefunden.""
+}
+
+# 4. Microsoft Store
+if ($htmlContent -match ""Zugriff auf den Microsoft Store"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Der Zugriff auf den Microsoft Store ist aktiviert.""
+    } else {
+        Write-Output ""Der Zugriff auf den Microsoft Store ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für den Microsoft Store wurde nicht gefunden.""
+}
+
+# 5. Microsoft Intune
+if ($htmlContent -match ""Mobile Device Management"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Microsoft Intune ist aktiviert.""
+    } else {
+        Write-Output ""Microsoft Intune ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Microsoft Intune wurde nicht gefunden.""
+}
+
+# 6. Windows Autopilot
+if ($htmlContent -match ""Windows Autopilot"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Windows Autopilot ist aktiviert.""
+    } else {
+        Write-Output ""Windows Autopilot ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Windows Autopilot wurde nicht gefunden.""
+}
+
+# 7. Cloud-Druck
+if ($htmlContent -match ""Cloud Print"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Cloud-Druck ist aktiviert.""
+    } else {
+        Write-Output ""Cloud-Druck ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Cloud-Druck wurde nicht gefunden.""
+}
+
+# 8. Azure Active Directory
+if ($htmlContent -match ""Azure AD"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Azure Active Directory ist aktiviert.""
+    } else {
+        Write-Output ""Azure Active Directory ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Azure Active Directory wurde nicht gefunden.""
+}
+
+# 9. Windows Hello for Business
+if ($htmlContent -match ""Windows Hello for Business"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Windows Hello for Business ist aktiviert.""
+    } else {
+        Write-Output ""Windows Hello for Business ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Windows Hello for Business wurde nicht gefunden.""
+}
+
+# 10. Microsoft 365
+if ($htmlContent -match ""Microsoft 365"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Microsoft 365 ist aktiviert.""
+    } else {
+        Write-Output ""Microsoft 365 ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Microsoft 365 wurde nicht gefunden.""
+}";"Prüft in der GPResult Datei, ob es Richtlinien für den Windows Store gibt
+Da dies in den Computer-Richtlinien steht, sind Admin-Rechte nötig";WAHR
+SYS.2.1.A26;Schutz vor Ausnutzung von Schwachstellen in Anwendungen;Um die Ausnutzung von Schwachstellen in Anwendungen zu erschweren, SOLLTEN ASLR und DEP/NX im Betriebssystem aktiviert und von den Anwendungen genutzt werden.;Standard;Address Space Layout Randomization (ASLR);"# Überprüfen der ASLR-Einstellungen
+$aslrSettings = Get-ItemProperty -Path ""HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management"" -ErrorAction SilentlyContinue
+
+if ($aslrSettings) {
+    if ($aslrSettings.EnableRandomizedBaseAddress -eq 1) {
+        ""ASLR ist aktiviert.""
+    } else {
+        ""ASLR ist deaktiviert.""
+    }
+} else {
+    ""ASLR-Einstellungen konnten nicht gefunden werden.""
+}";ASLR ist standardmäßig in Windows aktiviert. Um zu überprüfen, ob ASLR für eine bestimmte Anwendung aktiviert ist, können Sie die Windows-Registrierung oder PowerShell verwenden.;WAHR
+SYS.3.2.1.A8;Installation von Apps;Die Institution MUSS regeln, ob, wie und welche Apps Benutzende selbst auf ihren Geräten installieren dürfen.;Basis;lokale Admin-Rechte;"net user %username% | findstr /i ""Local Group Memberships""";Um zu prüfen, ob der aktuelle Benutzer lokale Administratorrechte hat;FALSCH
+SYS.3.2.1.A8;Installation von Apps;Die Institution MUSS regeln, ob, wie und welche Apps Benutzende selbst auf ihren Geräten installieren dürfen.;Basis;lokale Admin-Rechte;"Get-LocalGroupMember -Group ""Administratoren""";Um zu prüfen, welche User in der Gruppe der lokalen Admins sind;FALSCH
+SYS.2.1.A1;Sichere Authentisierung von Benutzenden;Um den Client zu nutzen, MÜSSEN sich die Benutzenden gegenüber dem IT-System authentisieren.;Basis;Autologon;Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon' -Name 'AutoAdminLogon','DefaultUserName';"Wenn der Wert von ""AutoAdminLogon"" auf ""1"" gesetzt ist und ""DefaultUserName"" einen Benutzernamen enthält, ist der Autologon-Mechanismus aktiviert. Das bedeutet, dass der angegebene Benutzer automatisch beim Systemstart angemeldet wird, ohne dass ein Passwort eingegeben werden muss.";FALSCH
+SYS.2.2.3.A6;Integration von Online-Konten in das Betriebssystem;Anmeldungen mit lokalen Konten SOLLTEN Administrierenden vorbehalten sein.;Basis;Azure AD Onboarding Status;dsregcmd /status;Informationen über den Status der Geräteverwaltung und die Registrierung bei Azure AD.;FALSCH
+SYS.2.1.A13;Zugriff auf Ausführungsumgebungen mit unbeobachtbarer Codeausführung;Der Zugriff auf Ausführungsumgebungen mit unbeobachtbarer Codeausführung (z. B. durch das Betriebssystem speziell abgesicherte Speicherbereiche, Firmwarebereiche etc.) SOLLTE nur mit administrativen Berechtigungen möglich sein.;Standard;Berechtigungen auf geschützte Bereiche;"# Aktuellen Benutzer abrufen
+$currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
+
+# Berechtigungen für den Ordner C:\Windows abrufen
+$acl = Get-Acl ""C:\Windows""
+
+# Überprüfen, ob der aktuelle Benutzer in den Berechtigungen enthalten ist
+$hasAccess = $acl.Access | Where-Object { $_.IdentityReference -eq $currentUser }
+
+if ($hasAccess) {
+    ""Der aktuelle Benutzer '$currentUser' hat Berechtigungen für 'C:\Windows'.""
+} else {
+    ""Der aktuelle Benutzer '$currentUser' hat keine Berechtigungen für 'C:\Windows'.""
+}";;FALSCH
+SYS.2.2.3.A22;Verwendung der Windows PowerShell;Die PowerShell und die WPS-Dateien SOLLTEN NUR von Administrierenden ausgeführt werden können.;Hoch;Berechtigungen für Ausführung von Powershell;"# Überprüfen der Ausführungsrichtlinie
+Get-ExecutionPolicy -List
+
+# Überprüfen der Berechtigungen für PowerShell
+# Pfad zur PowerShell-Anwendung
+$powerShellPath = ""$env:windir\System32\WindowsPowerShell\v1.0\powershell.exe""
+
+# Berechtigungen abrufen
+$acl = Get-Acl -Path $powerShellPath
+
+# Berechtigungen anzeigen
+$acl.Access | Select-Object IdentityReference, FileSystemRights, AccessControlType";Prüft, wie die Execution Policies für Powershell sind;FALSCH
+SYS.2.1.A8;Absicherung des Bootvorgangs;Es MUSS sichergestellt werden, dass nur Administrierende die Clients von einem anderen als den voreingestellten Laufwerken oder externen Speichermedien booten können.;Basis;BIOS Passwort;wmic bios get BIOSVersion, BIOSReleaseDate, BIOSManufacturer, BIOSPassword;"Wenn in der Ausgabe unter ""BIOSPassword"" der Wert ""Enabled"" steht, bedeutet das, dass ein BIOS-Passwort vergeben ist";WAHR
+SYS.2.1.A8;Absicherung des Bootvorgangs;Es MUSS sichergestellt werden, dass nur Administrierende die Clients von einem anderen als den voreingestellten Laufwerken oder externen Speichermedien booten können.;Basis;BIOS Passwort;wmic bios get BIOSVersion, BIOSReleaseDate, BIOSManufacturer, BIOSPassword;Prüfen, ob ein BIOS Passwort vergeben ist;WAHR
+SYS.2.1.A28;Verschlüsselung der Clients;Wenn vertrauliche Informationen auf den Clients gespeichert werden, SOLLTEN mindestens die schutzbedürftigen Dateien sowie ausgewählte Dateisystembereiche oder besser die gesamten Datenträger verschlüsselt werden.;Hoch;Bitlocker Verschlüsselung für alle Festplatten aktiv;"# Alle Laufwerke abrufen
+$drives = Get-BitLockerVolume
+
+# Überprüfen, ob alle internen Festplatten mit BitLocker verschlüsselt sind
+$allEncrypted = $true
+
+foreach ($drive in $drives) {
+    if ($drive.ProtectionStatus -eq 'Off') {
+        Write-Output ""Das Laufwerk $($drive.MountPoint) ist nicht mit BitLocker verschlüsselt.""
+        $allEncrypted = $false
+    } else {
+        Write-Output ""Das Laufwerk $($drive.MountPoint) ist mit BitLocker verschlüsselt.""
+    }
+}
+
+if ($allEncrypted) {
+    Write-Output ""Alle internen Festplatten sind mit BitLocker verschlüsselt.""
+} else {
+    Write-Output ""Nicht alle internen Festplatten sind mit BitLocker verschlüsselt.""
+}";"Erklärung des Skripts:
+Get-BitLockerVolume: Dieser Befehl ruft Informationen über alle BitLocker-Volumes ab, einschließlich des Verschlüsselungsstatus.
+Schleife über die Laufwerke: Das Skript durchläuft jedes Laufwerk und überprüft den ProtectionStatus.
+Wenn der Status Off ist, bedeutet dies, dass das Laufwerk nicht verschlüsselt ist.
+Wenn der Status On ist, bedeutet dies, dass das Laufwerk verschlüsselt ist.
+Ausgabe: Das Skript gibt den Status jedes Laufwerks aus und informiert darüber, ob alle internen Festplatten verschlüsselt sind.
+Verwendung
+Öffnen Sie PowerShell mit Administratorrechten.
+Kopieren Sie das Skript und fügen Sie es in die PowerShell-Konsole ein.
+Drücken Sie die Eingabetaste, um das Skript auszuführen.
+Das Skript gibt Ihnen dann die Informationen über den BitLocker-Verschlüsselungsstatus aller internen Festplatten zurück.";WAHR
+SYS.2.1.A8;Absicherung des Bootvorgangs;Es MUSS festgelegt werden, von welchen Medien gebootet werden darf.;Basis;Boot-Reihenfolge;bcdedit;"Dieser Befehl gibt Ihnen eine Übersicht über die aktuellen Booteinstellungen. Suchen Sie in der Ausgabe nach dem Eintrag ""bootsequence"". Dort sehen Sie die aktuelle Bootreihenfolge.";WAHR
+SYS.2.1.A8;Absicherung des Bootvorgangs;Es MUSS festgelegt werden, von welchen Medien gebootet werden darf.;Basis;Boot-Reihenfolge;wmic bootconfig get BootSequence;Dieser Befehl gibt Ihnen direkt die aktuelle Bootreihenfolge aus.;WAHR
+SYS.2.1.A16;Deaktivierung und Deinstallation nicht benötigter Komponenten und Kennungen;Nicht benötigte Laufzeitumgebungen, Interpretersprachen und Compiler SOLLTEN deinstalliert werden.;Standard;CMD Konfiguration in GPO;"# Überprüfen, ob CMD über Gruppenrichtlinien deaktiviert ist
+$cmdPolicy = Get-ItemProperty -Path ""HKCU:\Software\Policies\Microsoft\Windows\System"" -ErrorAction SilentlyContinue
+
+if ($cmdPolicy -and $cmdPolicy.DisableCMD -eq 1) {
+    ""Die Eingabeaufforderung (CMD) ist durch Gruppenrichtlinien deaktiviert.""
+} else {
+    ""Die Eingabeaufforderung (CMD) ist erlaubt.""
+}";Prüft ob CMD über GPO deaktiviert ist.;FALSCH
+SYS.2.2.3.A14;Einsatz des Sprachassistenten Cortana;Cortana SOLLTE deaktiviert werden.;Standard;Cortana;"Get-ItemProperty -Path ""HKLM:\SOFTWARE\Policies\Microsoft\Windows\Windows Search"" | Select-Object -Property AllowCortana";;FALSCH
+SYS.2.2.3.A14;Einsatz des Sprachassistenten Cortana;Cortana SOLLTE deaktiviert werden.;Standard;Cortana Einstellungen in GPO;"# Den Inhalt des gpresult-HTML-Berichts abrufen
+$htmlContent = Get-Content -Path $env:USERPROFILE""\Desktop\gpresult.html"" -Raw
+
+# Nach der Einstellung für Cortana suchen
+if ($htmlContent -match ""Cortana aktivieren"") {
+    if ($htmlContent -match ""Ja"") {
+        Write-Output ""Cortana ist aktiviert.""
+    } else {
+        Write-Output ""Cortana ist deaktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Cortana wurde nicht gefunden.""
+}";Prüft die Computer-Richtlinien;WAHR
+SYS.2.1.A26;Schutz vor Ausnutzung von Schwachstellen in Anwendungen;Um die Ausnutzung von Schwachstellen in Anwendungen zu erschweren, SOLLTEN ASLR und DEP/NX im Betriebssystem aktiviert und von den Anwendungen genutzt werden.;Standard;Data Execution Prevention (DEP);"# Überprüfen der DEP-Einstellungen
+$depSettings = Get-ItemProperty -Path ""HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management"" -ErrorAction SilentlyContinue
+
+if ($depSettings) {
+    if ($depSettings.NoExecute -eq 1) {
+        ""DEP/NX ist deaktiviert.""
+    } else {
+        ""DEP/NX ist aktiviert.""
+    }
+} else {
+    ""DEP-Einstellungen konnten nicht gefunden werden.""
+}";"Data Execution Prevention (DEP) ist eine Sicherheitsfunktion in modernen Betriebssystemen, die dazu dient, bestimmte Arten von Angriffen zu verhindern, indem sie die Ausführung von Code in nicht ausführbaren Speicherbereichen einschränkt. Hier sind die Hauptpunkte, die DEP beschreiben:
+
+Schutz vor Codeausführung: DEP schützt vor Angriffen, bei denen schadhafter Code in Speicherbereichen ausgeführt wird, die nicht für die Ausführung von Code vorgesehen sind, wie z. B. im Stack oder im Heap.
+Speicherverwaltung: DEP markiert Speicherbereiche als nicht ausführbar, sodass selbst wenn ein Angreifer versucht, schädlichen Code in diesen Bereichen zu platzieren, dieser nicht ausgeführt werden kann.";WAHR
+SYS.2.2.3.A18;Einsatz der Windows-Remoteunterstützung;Sofern die Windows-Remoteunterstützung nicht verwendet wird, SOLLTE sie vollständig deaktiviert werden.;Standard;Einstellungen zu RDP prüfen;"# Überprüfen, ob RDP aktiv ist
+$rdpStatus = Get-WmiObject -Class Win32_TerminalServiceSetting -ErrorAction SilentlyContinue
+if ($rdpStatus -and $rdpStatus.AllowTSConnections -eq 1) {
+    Write-Output ""RDP ist aktiviert.""
+} else {
+    Write-Output ""RDP ist deaktiviert.""
+}
+
+# Überprüfen, ob der RDP-Port in der Firewall für jede Zone offen ist
+$rdpPort = 3389
+$zones = @(""Domain"", ""Private"", ""Public"")
+
+foreach ($zone in $zones) {
+    $firewallRule = Get-NetFirewallRule | Where-Object { $_.DisplayName -like ""*Remote Desktop*"" -and $_.Enabled -eq ""True"" -and $_.Profile -like ""*$zone*"" }
+
+    if ($firewallRule) {
+        Write-Output ""Der RDP-Port ($rdpPort) ist in der Firewall für die '$zone'-Zone offen.""
+    } else {
+        Write-Output ""Der RDP-Port ($rdpPort) ist in der Firewall für die '$zone'-Zone geschlossen.""
+    }
+}
+
+# Überprüfen, welche Benutzer in der Gruppe Remotedesktopbenutzer sind
+$rdpGroup = ""Remote Desktop Users""
+$rdpUsers = Get-LocalGroupMember -Group $rdpGroup -ErrorAction SilentlyContinue
+
+if ($rdpUsers) {
+    Write-Output ""Benutzer in der Gruppe '$rdpGroup':""
+    $rdpUsers | ForEach-Object { Write-Output $_.Name }
+} else {
+    Write-Output ""Es sind keine Benutzer in der Gruppe '$rdpGroup' oder die Gruppe existiert nicht.""
+}";prüft, ob RDP aktiv ist, ob in der lokalen Firewall der Port für RDP offen ist und welche Benutzer in der Gruppe Remotedesktopuser sind;WAHR
+SYS.2.1.A8;Absicherung des Bootvorgangs;Es SOLLTE entschieden werden, ob und wie der Bootvorgang kryptografisch geschützt werden soll.;Basis;Festplatten Verschlüsselung;manage-bde -status;"Um zu prüfen, ob eine Festplattenverschlüsselung der Bootpartition aktiv i.
+Dieser Befehl gibt Ihnen einen Überblick über den Verschlüsselungsstatus der Laufwerke auf Ihrem System.";WAHR
+SYS.2.1.A8;Absicherung des Bootvorgangs;Es SOLLTE entschieden werden, ob und wie der Bootvorgang kryptografisch geschützt werden soll.;Basis;Festplatten Verschlüsselung;Get-BitLockerVolume;Dieser Befehl gibt Ihnen ebenfalls Informationen über den Verschlüsselungsstatus der Laufwerke, einschließlich der Bootpartition;WAHR
+SYS.2.2.3.A23;Erweiterter Schutz der Anmeldeinformationen unter Windows;Auf UEFI-basierten Systemen SOLLTE SecureBoot verwendet und der Status des geschützten Modus für den Local Credential Store LSA beim Systemstart überwacht werden.;Hoch;Geschützter Modus für den Local Credential Store (LSA);"# Überprüfen des geschützten Modus für LSA
+$lsaRegistryPath = ""HKLM:\SYSTEM\CurrentControlSet\Control\Lsa""
+$protectedModeValue = Get-ItemProperty -Path $lsaRegistryPath -Name ""RunAsPPL"" -ErrorAction SilentlyContinue
+
+if ($protectedModeValue -eq 1) {
+    Write-Output ""Der geschützte Modus für den Local Credential Store (LSA) ist aktiviert.""
+} else {
+    Write-Output ""Der geschützte Modus für den Local Credential Store (LSA) ist nicht aktiviert.""
+}";Um den Status des geschützten Modus für den Local Credential Store zu überprüfen, kannst du die Registrierung abfragen. Der geschützte Modus für LSA wird durch den Registrierungseintrag Lsa in der Windows-Registrierung gesteuert.;WAHR
+SYS.2.2.3.A4;Telemetrie und Datenschutzeinstellungen unter Windows;Um die Übertragung von Diagnose- und Nutzungsdaten an Microsoft stark zu reduzieren, MUSS das Telemetrie-Level 0 (Security) in der Enterprise-Edition von Windows konfiguriert werden.;Basis;Telemetrie-Agent Einstellung in GPO ;"$htmlContent = Get-Content -Path $env:USERPROFILE""\Desktop\gpresult.html"" -Raw
+
+# Nach der Einstellung für die Telemetrie suchen
+if ($htmlContent -match ""Telemetrie"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Der Telemetrie-Agent ist aktiviert.""
+    } else {
+        Write-Output ""Der Telemetrie-Agentist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für den Telemetrie-Agent wurde nicht gefunden.""
+}";;FALSCH
+SYS.2.1.A1;Sichere Authentisierung von Benutzenden;Benutzende MÜSSEN eine Bildschirmsperre verwenden, wenn sie den Client unbeaufsichtigt betreiben.;Basis;GPResult erstellen;"gpresult /h ""%USERPROFILE%\Desktop\gpresult.html""";Export der GPResultDatei;FALSCH
+SYS.2.1.A1;Sichere Authentisierung von Benutzenden;Um den Client zu nutzen, MÜSSEN sich die Benutzenden gegenüber dem IT-System authentisieren.;Basis;Infos zu lokalem User;net user %username%;gibt Informationen über den lokalen User aus - u.a. ob ein Passwort gesetzt ist.;FALSCH
+SYS.2.1.A3;Aktivieren von Autoupdate-Mechanismen;Automatische Update-Mechanismen (Autoupdate) MÜSSEN aktiviert werden, sofern nicht andere Mechanismen wie regelmäßige manuelle Wartung oder ein zentrales Softwareverteilungssystem für Updates eingesetzt werden.;Basis;Intune Enrollment;"reg query ""HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Enrollments""";Dieser Befehl prüft, ob der Computer in eine Intune-Verwaltung eingebunden ist. Wenn Einträge in diesem Registry-Schlüssel vorhanden sind, ist der Computer von Intune verwaltet.;FALSCH
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Für die zentrale Authentisierung SOLLTE ausschließlich Kerberos eingesetzt werden.;Standard;Kerberos-Einstellungen;"# Überprüfen, ob Kerberos als Anmeldeprotokoll verwendet wird
+$policy = Get-ItemProperty -Path ""HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System"" -ErrorAction SilentlyContinue
+
+if ($policy -and $policy.LsaKerberos) {
+    Write-Output ""Kerberos ist als Anmeldeprotokoll konfiguriert.""
+} else {
+    Write-Output ""Kerberos ist nicht als Anmeldeprotokoll konfiguriert.""
+}";;WAHR
+SYS.2.1.A3;Aktivieren von Autoupdate-Mechanismen;Automatische Update-Mechanismen (Autoupdate) MÜSSEN aktiviert werden, sofern nicht andere Mechanismen wie regelmäßige manuelle Wartung oder ein zentrales Softwareverteilungssystem für Updates eingesetzt werden.;Basis;Matrix42 Endpoint-Verwaltung;"tasklist | findstr ""Matrix42 Endpoint Manager""";Wenn dieser Dienst läuft, ist der Computer von Matrix42 verwaltet.;FALSCH
+ORP.4.A22;Regelung zur Passwortqualität;In Abhängigkeit von Einsatzzweck und Schutzbedarf MÜSSEN sichere Passwörter geeigneter Qualität gewählt werden.;Basis;Passwortkomplexität in GPO;"# Pfad zur gpresult.html-Datei und HTML-Datei einlesen
+$htmlContent = Get-Content -Path $env:USERPROFILE""\Desktop\gpresult.html"" -Ra
+# Nach Passwortkomplexitätseinstellungen suchen
+if ($htmlContent -match ""Passwortkomplexität"") {
+    # Hier kannst du den spezifischen Text oder die Werte extrahieren
+    Write-Output ""Es gibt Richtlinien zur Passwortkomplexität in der gpresult-Datei.""
+} else {
+    Write-Output ""Es gibt keine Richtlinien zur Passwortkomplexität in der gpresult-Datei.""
+}";Prüft die gpresult html Datei auf Infos zur Passwortkomplexität;WAHR
+SYS.2.1.A16;Deaktivierung und Deinstallation nicht benötigter Komponenten und Kennungen;Nicht benötigte Laufzeitumgebungen, Interpretersprachen und Compiler SOLLTEN deinstalliert werden.;Standard;Powershell Konfiguration in GPO;"# Überprüfen, ob PowerShell über Gruppenrichtlinien deaktiviert ist
+$policy = Get-ItemProperty -Path ""HKLM:\Software\Policies\Microsoft\Windows\PowerShell"" -ErrorAction SilentlyContinue
+
+if ($policy -and $policy.EnableScripts -eq 0) {
+    ""PowerShell ist durch Gruppenrichtlinien deaktiviert.""
+} else {
+    ""PowerShell ist erlaubt.""
+}";Prüft ob Powershell über GPO deaktiviert ist.;FALSCH
+SYS.2.1.A33;Einsatz von Ausführungskontrolle;Es SOLLTE über eine Ausführungskontrolle sichergestellt werden, dass nur explizit erlaubte Programme und Skripte ausgeführt werden können.;Hoch;AppLocker;((Get-AppLockerPolicy -Effective).RuleCollections).length -gt 0;Prüft, ob der Regelsatz von AppLocker größer als 0 ist.;FALSCH
+SYS.2.1.A1;Sichere Authentisierung von Benutzenden;Benutzende MÜSSEN eine Bildschirmsperre verwenden, wenn sie den Client unbeaufsichtigt betreiben.;Basis;Bildschirmsperre;"$htmlContent = Get-Content -Path $env:USERPROFILE""\Desktop\gpresult.html"" -Raw
+
+# Nach der Einstellung für die Bildschirmsperre suchen
+if ($htmlContent -match ""Bildschirmschoner aktivieren"") {
+    if ($htmlContent -match ""Ja"") {
+        Write-Output ""Die automatische Bildschirmsperre ist aktiviert.""
+    } else {
+        Write-Output ""Die automatische Bildschirmsperre ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für die automatische Bildschirmsperre wurde nicht gefunden.""
+}";Ohne Admin-Rechte wird nur die User-GPO exportiert!!;FALSCH
+SYS.2.1.A29;Systemüberwachung und Monitoring der Clients;Die Clients SOLLTEN in ein geeignetes Systemüberwachungs- bzw. Monitoringkonzept eingebunden werden, das den Systemzustand und die Funktionsfähigkeit der Clients laufend überwacht und Fehlerzustände sowie die Über- bzw. Unterschreitung definierter Grenzwerte an das Betriebspersonal meldet.;Hoch;Log-Weiterleitung;"# Überprüfen, ob im Forwarded Events-Protokoll Einträge vorhanden sind
+$forwardedEventsLog = ""Microsoft-Windows-Forwarding/Operational""
+
+# Abrufen der Ereignisse aus dem Forwarded Events-Protokoll
+$events = Get-WinEvent -LogName $forwardedEventsLog -ErrorAction SilentlyContinue
+
+if ($events) {
+    Write-Output ""Es sind Ereignisse im Protokoll '$forwardedEventsLog' vorhanden.""
+    Write-Output ""Anzahl der Ereignisse: $($events.Count)""
+} else {
+    Write-Output ""Es sind keine Ereignisse im Protokoll '$forwardedEventsLog' vorhanden.""
+}";"Prüft im Log ""Forwareded Events"", ob es Einträge gibt.";FALSCH
+SYS.2.1.A6;Einsatz von Schutzprogrammen gegen Schadsoftware;Der gesamte Datenbestand eines Clients MUSS regelmäßig auf Schadsoftware geprüft werden.;Basis;Defender Fullscan geplant;"# Überprüfen, ob ein geplanter Vollscan in Windows Defender vorhanden ist
+$taskName = ""Microsoft\Windows\Windows Defender\Scheduled Scan""
+
+# Abrufen der geplanten Aufgaben
+$task = Get-ScheduledTask | Where-Object { $_.TaskName -eq $taskName }
+
+if ($task) {
+    # Überprüfen, ob die Aufgabe aktiviert ist
+    if ($task.State -eq 'Ready') {
+        Write-Output ""Ein regelmäßiger Vollscan ist geplant und die Aufgabe ist aktiviert.""
+        
+        # Weitere Details zur geplanten Aufgabe abrufen
+        $taskDetails = Get-ScheduledTaskInfo -TaskName $taskName
+        Write-Output ""Nächster geplanter Vollscan: $($taskDetails.NextRunTime)""
+    } else {
+        Write-Output ""Ein regelmäßiger Vollscan ist geplant, aber die Aufgabe ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Es ist kein geplanter Vollscan in Windows Defender vorhanden.""
+}";Um zu überprüfen, ob in Windows Defender (Microsoft Defender Antivirus) ein regelmäßiger Vollscan (Full Scan) geplant ist, kannst du die PowerShell verwenden, um die geplanten Aufgaben zu überprüfen. Windows Defender verwendet die Windows-Aufgabenplanung, um Scans zu planen.;FALSCH
+SYS.2.2.3.A23;Erweiterter Schutz der Anmeldeinformationen unter Windows;Auf UEFI-basierten Systemen SOLLTE SecureBoot verwendet und der Status des geschützten Modus für den Local Credential Store LSA beim Systemstart überwacht werden.;Hoch;Secureboot;"# Überprüfen, ob Secure Boot aktiviert ist
+$secureBoot = Confirm-SecureBootUEFI
+
+if ($secureBoot) {
+    Write-Output ""Secure Boot ist aktiviert.""
+} else {
+    Write-Output ""Secure Boot ist nicht aktiviert.""
+}";;WAHR
+SYS.2.1.A8;Absicherung des Bootvorgangs;Der Startvorgang des IT-Systems („Booten“) MUSS gegen Manipulation abgesichert werden.;Basis;Secureboot;bcdedit /enum firmware;"prüfen, ob Secure Boot unter Windows aktiviert ist
+
+Der Befehl gibt Informationen über die Firmware-Einstellungen aus. Suchen Sie nach dem Eintrag ""Secure Boot State"" und prüfen Sie, ob der Wert ""On"" oder ""Off"" lautet.";WAHR
+SYS.2.1.A8;Absicherung des Bootvorgangs;Der Startvorgang des IT-Systems („Booten“) MUSS gegen Manipulation abgesichert werden.;Basis;Secureboot;powershell Get-CimInstance -ClassName Win32_OperatingSystem | Select-Object Caption,SecureBoot;"Wenn der Wert ""On"" ist, bedeutet das, dass Secure Boot aktiviert ist. Wenn der Wert ""Off"" ist, ist Secure Boot deaktiviert.";WAHR
+SYS.2.2.3.A13;Einsatz der SmartScreen-Funktion;Die SmartScreen-Funktion, die aus dem Internet heruntergeladene Dateien und Webinhalte auf mögliche Schadsoftware untersucht und dazu unter Umständen personenbezogene Daten an Microsoft überträgt, SOLLTE deaktiviert werden.;Standard;SmartScreen;"Get-ItemProperty -Path ""HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer"" | Select-Object -Property SmartScreenEnabled";"Prüft ob Registry Key vorhanden ist. Zugriff auf ""Software"" erfordert Admin-Rechte.";WAHR
+SYS.2.2.3.A17;Keine Speicherung von Daten zur automatischen Anmeldung;Die Speicherung von Kennwörtern, Zertifikaten und anderen Informationen zur automatischen Anmeldung an Webseiten und IT-Systemen SOLLTE NICHT erlaubt werden.;Standard;Speicherung von Anmeldeinformationen;"# Überprüfen, ob die Speicherung von Anmeldeinformationen deaktiviert ist
+$policy = Get-ItemProperty -Path ""HKCU:\Software\Microsoft\Windows\CurrentVersion\Policies\Credentials"" -ErrorAction SilentlyContinue
+
+if ($policy -and $policy.DisablePasswordCaching -eq 1) {
+    Write-Output ""Die Speicherung von Kennwörtern zur automatischen Anmeldung ist deaktiviert.""
+} else {
+    Write-Output ""Die Speicherung von Kennwörtern zur automatischen Anmeldung ist erlaubt.""
+}";"Prüft in Registry ""Software""";WAHR
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Eine Gruppenrichtlinie SOLLTE die Verwendung älterer Protokolle verhindern.;Standard;NTML Status;"# Überprüfen, ob NTLM in den Sicherheitsoptionen deaktiviert ist
+$policy = Get-ItemProperty -Path ""HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System"" -ErrorAction SilentlyContinue
+
+if ($policy -and $policy.Lsa) {
+    if ($policy.Lsa -eq 1) {
+        Write-Output ""Die Verwendung von NTLM ist deaktiviert.""
+    } else {
+        Write-Output ""Die Verwendung von NTLM ist erlaubt.""
+    }
+} else {
+    Write-Output ""Die NTLM-Richtlinie wurde nicht gefunden.""
+}";"Prüft in Registry ""Software"" ob NTML erlaubt ist";WAHR
+SYS.2.1.A16;Deaktivierung und Deinstallation nicht benötigter Komponenten und Kennungen;Nicht benötigte Module, Programme, Dienste, Aufgaben und Firmwarefunktionen (wie Fernwartung) SOLLTEN deaktiviert oder ganz deinstalliert werden.;Standard;Bloatware installiert;"# Liste der installierten Programme abrufen und nach typischer Bloatware filtern
+$installedPrograms = Get-Package | Select-Object Name
+
+
+# Typische Bloatware-Namen definieren
+$bloatwareList = @(
+    ""Candy Crush"",
+    ""Xbox"",
+    ""Skype"",
+    ""OneDrive"",
+    ""Microsoft News"",
+    ""Microsoft Solitaire"",
+    ""Get Office"",
+    ""Get Skype""
+)
+
+# Überprüfen, ob Bloatware installiert ist
+$bloatwareInstalled = $installedPrograms | Where-Object { $bloatwareList -contains $_.Name }
+
+if ($bloatwareInstalled) {
+    ""Folgende Bloatware ist installiert:""
+    $bloatwareInstalled | ForEach-Object { $_.Name }
+} else {
+    ""Keine typische Bloatware gefunden.""
+}";Prüft ob Programme wie Xbox, Skype oder Get Office installiert sind.;FALSCH
+SYS.2.2.3.A15;Einsatz der Synchronisationsmechanismen unter Windows;Die Synchronisierung von Benutzendendaten mit Microsoft Cloud-Diensten und das Sharing von WLAN-Passwörtern SOLLTEN vollständig deaktiviert werden.;Standard;Synchronisierungseinstellungen;"# Überprüfen, ob die Synchronisierung von Benutzerdaten deaktiviert ist
+$syncSettings = Get-ItemProperty -Path ""HKCU:\Software\Microsoft\Windows\CurrentVersion\SettingSync"" -ErrorAction SilentlyContinue
+
+if ($syncSettings -and $syncSettings.SyncEnabled -eq 0) {
+    ""Die Synchronisierung von Benutzerdaten mit Microsoft Cloud-Diensten ist deaktiviert.""
+} else {
+    ""Die Synchronisierung von Benutzerdaten mit Microsoft Cloud-Diensten ist aktiviert.""
+}";"Prüfen in Registry ""Software""";WAHR
+SYS.2.1.A1;Sichere Authentisierung von Benutzenden;Um den Client zu nutzen, MÜSSEN sich die Benutzenden gegenüber dem IT-System authentisieren.;Basis;Domain Status;wmic computersystem get Domain,PartOfDomain,Workgroup;Der Befehl gibt aus, ob ein Computer Teil einer Domäne ist, und wie deren Name ist.;FALSCH
+SYS.2.2.3.A15;Einsatz der Synchronisationsmechanismen unter Windows;Die Synchronisierung von Benutzendendaten mit Microsoft Cloud-Diensten und das Sharing von WLAN-Passwörtern SOLLTEN vollständig deaktiviert werden.;Standard;Teilen von WLAN-Passwörtern;"# Überprüfen, ob das Teilen von WLAN-Passwörtern deaktiviert ist
+$policy = Get-ItemProperty -Path ""HKLM:\Software\Policies\Microsoft\Windows\WcmSvc"" -ErrorAction SilentlyContinue
+
+if ($policy -and $policy.AllowSharing -eq 0) {
+    ""Das Teilen von WLAN-Passwörtern ist deaktiviert.""
+} else {
+    ""Das Teilen von WLAN-Passwörtern ist erlaubt.""
+}";"Prüfen in Registry ""Software""";WAHR
+SYS.2.1.A36;Selbstverwalteter Einsatz von SecureBoot und TPM;Auf UEFI-kompatiblen Systemen SOLLTEN Bootloader, Kernel sowie alle benötigten Firmware-Komponenten durch selbstkontrolliertes Schlüsselmaterial signiert werden.;Hoch;Trusted Platform Module;Get-TPM;Dieser Befehl gibt ebenfalls Informationen über das TPM-Modul zurück, falls vorhanden.;WAHR
+SYS.2.2.3.A20;Einsatz der Benutzerkontensteuerung UAC für privilegierte Konten;Die Konfigurationsparameter der sogenannten Benutzerkontensteuerung (User Account Control, UAC) SOLLTEN für die privilegierten Konten zwischen Bedienbarkeit und Sicherheitsniveau abgewogen eingesetzt werden.;Standard;UAC (Benutzerkontensteuerung);"# UAC-Status überprüfen
+$uac = Get-ItemProperty ""HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"" -Name ""EnableLUA""
+if ($uac.EnableLUA -eq 1) {
+    ""UAC ist aktiviert.""
+} else {
+    ""UAC ist deaktiviert.""
+}";Stellen Sie sicher, dass die Benutzerkontensteuerung (UAC) aktiviert ist, da sie dazu beiträgt, dass nur autorisierte Benutzer Änderungen am System vornehmen können.;FALSCH
+SYS.2.1.A21;Verhinderung der unautorisierten Nutzung von Rechnermikrofonen und Kameras;Der Zugriff auf Mikrofon und Kamera eines Clients SOLLTE nur durch Benutzende selbst möglich sein, solange sie lokal am IT-System arbeiten.;Standard;Datenschutzeinstellungen für Microfone und Kameras;"# Überprüfen, ob der Zugriff auf das Mikrofon aktiviert ist
+$microphoneAccess = Get-ItemProperty -Path ""HKCU:\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone"" -ErrorAction SilentlyContinue
+
+if ($microphoneAccess -and $microphoneAccess.AllApps -eq ""Allow"") {
+    ""Der Zugriff auf das Mikrofon ist für alle Apps erlaubt.""
+} else {
+    ""Der Zugriff auf das Mikrofon ist eingeschränkt.""
+}
+
+
+# Überprüfen, ob der Zugriff auf die Kamera aktiviert ist
+$cameraAccess = Get-ItemProperty -Path ""HKCU:\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\camera"" -ErrorAction SilentlyContinue
+
+if ($cameraAccess -and $cameraAccess.AllApps -eq ""Allow"") {
+    ""Der Zugriff auf die Kamera ist für alle Apps erlaubt.""
+} else {
+    ""Der Zugriff auf die Kamera ist eingeschränkt.""
+}";Sie können PowerShell verwenden, um die Datenschutzeinstellungen für Mikrofon und Kamera zu überprüfen. Beachten Sie, dass die Abfrage von Datenschutzeinstellungen über PowerShell nicht direkt unterstützt wird, aber Sie können die Registrierung überprüfen.;FALSCH
+SYS.2.1.A13;Zugriff auf Ausführungsumgebungen mit unbeobachtbarer Codeausführung;Der Zugriff auf Ausführungsumgebungen mit unbeobachtbarer Codeausführung (z. B. durch das Betriebssystem speziell abgesicherte Speicherbereiche, Firmwarebereiche etc.) SOLLTE nur mit administrativen Berechtigungen möglich sein.;Standard;Windows Sicherheitsrichtlinien;"# Sicherheitsrichtlinien anzeigen
+secedit /export /areas SECURITYPOLICY /cfg env:USERPROFILE""\Desktop\secpol.cfg""
+Get-Content env:USERPROFILE""\Desktop\secpol.cfg""";Sie können auch die lokalen Sicherheitsrichtlinien überprüfen, um sicherzustellen, dass der Zugriff auf bestimmte Funktionen nur für Administratoren erlaubt ist.;WAHR
+SYS.2.2.3.A9;Sichere zentrale Authentisierung in Windows-Netzen;Die Authentisierung mittels LAN-Manager und NTLMv1 DARF NICHT innerhalb der Institution und in einer produktiven Betriebsumgebung erlaubt werden.;Standard;LAN Manager und NTLMv1;"# Überprüfen, ob LAN Manager und NTLMv1 deaktiviert sind
+
+# Überprüfen der LAN Manager-Einstellungen
+$lmPolicy = Get-ItemProperty -Path ""HKLM:\SYSTEM\CurrentControlSet\Control\Lsa"" -ErrorAction SilentlyContinue
+
+if ($lmPolicy -and $lmPolicy.LmCompatibilityLevel -eq 0) {
+    Write-Output ""Die Verwendung von LAN Manager ist aktiviert.""
+} else {
+    Write-Output ""Die Verwendung von LAN Manager ist deaktiviert.""
+}
+
+# Überprüfen der NTLMv1-Einstellungen
+$ntlmPolicy = Get-ItemProperty -Path ""HKLM:\SYSTEM\CurrentControlSet\Control\Lsa"" -ErrorAction SilentlyContinue
+
+if ($ntlmPolicy -and $ntlmPolicy.LmCompatibilityLevel -ge 2) {
+    Write-Output ""Die Verwendung von NTLMv1 ist deaktiviert.""
+} else {
+    Write-Output ""Die Verwendung von NTLMv1 ist aktiviert.""
+}";;WAHR
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;die Einbindung von Wechselmedien und Netzlaufwerken sowie;Standard;RDP Wechselmedien und Netzwerklaufwerke Einstellung in GPO;"# Den Inhalt des gpresult-HTML-Berichts abrufen
+$htmlContent = Get-Content -Path $env:USERPROFILE""\Desktop\gpresult.html"" -Raw
+
+# Nach der Einstellung für Wechselmedien in RDP suchen
+if ($htmlContent -match ""Zulassen, dass Wechselmedien in Remotedesktop-Sitzungen verwendet werden"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Die Verwendung von Wechselmedien in RDP ist aktiviert.""
+    } else {
+        Write-Output ""Die Verwendung von Wechselmedien in RDP ist deaktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für die Verwendung von Wechselmedien in RDP wurde nicht gefunden.""
+}
+
+# Nach der Einstellung für Netzwerklaufwerke in RDP suchen
+if ($htmlContent -match ""Zulassen, dass Netzwerklaufwerke in Remotedesktop-Sitzungen verwendet werden"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Die Verwendung von Netzwerklaufwerken in RDP ist aktiviert.""
+    } else {
+        Write-Output ""Die Verwendung von Netzwerklaufwerken in RDP ist deaktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für die Verwendung von Netzwerklaufwerken in RDP wurde nicht gefunden.""
+}";;WAHR
+SYS.2.1.A31;Einrichtung lokaler Paketfilter;Auf jedem Client SOLLTEN, zusätzlich zu den eingesetzten zentralen Sicherheitsgateways, lokale Paketfilter eingesetzt werden.;Hoch;Windows Defender Firewall;"# Überprüfen, ob die Windows-Firewall aktiviert ist
+$firewallStatus = Get-NetFirewallProfile | Where-Object { $_.Enabled -eq 'True' }
+
+if ($firewallStatus) {
+    Write-Output ""Die Windows-Firewall ist aktiviert.""
+    
+    # Überprüfen der Regeln für eingehenden und ausgehenden Verkehr
+    $inboundRules = Get-NetFirewallRule | Where-Object { $_.Direction -eq 'Inbound' -and $_.Enabled -eq 'True' }
+    $outboundRules = Get-NetFirewallRule | Where-Object { $_.Direction -eq 'Outbound' -and $_.Enabled -eq 'True' }
+
+    if ($inboundRules) {
+        Write-Output ""Es sind aktive eingehende Regeln vorhanden:""
+        $inboundRules | ForEach-Object { Write-Output $_.DisplayName }
+    } else {
+        Write-Output ""Es sind keine aktiven eingehenden Regeln vorhanden.""
+    }
+
+    if ($outboundRules) {
+        Write-Output ""Es sind aktive ausgehende Regeln vorhanden:""
+        $outboundRules | ForEach-Object { Write-Output $_.DisplayName }
+    } else {
+        Write-Output ""Es sind keine aktiven ausgehenden Regeln vorhanden.""
+    }
+} else {
+    Write-Output ""Die Windows-Firewall ist deaktiviert.""
+}";"Erklärung des Skripts:
+Get-NetFirewallProfile: Das Skript verwendet diesen Befehl, um den Status der Windows-Firewall-Profile (Domäne, Privat, Öffentlich) abzurufen.
+Überprüfung des Status: Es wird überprüft, ob die Firewall aktiviert ist.
+Regeln abrufen: Das Skript ruft die aktiven Regeln für eingehenden und ausgehenden Verkehr ab und gibt deren Namen aus.
+Bedingte Ausgaben: Das Skript gibt den Status der Firewall und der Regeln aus.";WAHR
+SYS.2.1.A6;Einsatz von Schutzprogrammen gegen Schadsoftware;Abhängig vom installierten Betriebssystem und von anderen vorhandenen Schutzmechanismen des Clients MUSS geprüft werden, ob Schutzprogramme gegen Schadsoftware eingesetzt werden sollen.;Basis;Windows Defender Informationen;Get-MpPreference;Admin-Rechte lieferen weitere Informationen;FALSCH
+SYS.2.1.A37;Verwendung von Mehr-Faktor-Authentisierung;Es SOLLTE eine sichere Mehr-Faktor-Authentisierung unter Einbeziehung unterschiedlicher Faktoren (Wissen, Besitz, Eigenschaft) für die lokale Anmeldung am Client eingerichtet werden, z. B. Passwort mit Chipkarte oder Token.;Hoch;Windows Hello for Business in GPO;"# Pfad zur GPResult-HTML-Datei
+$gpResultPath = ""$env:USERPROFILE\Desktop\GPReport.html""
+
+# GPResult-Report generieren
+Get-GPResultantSetOfPolicy -ReportType Html -Path $gpResultPath
+
+# HTML-Inhalt der GPResult-Datei lesen
+$htmlContent = Get-Content -Path $gpResultPath -Raw
+
+# Nach der Einstellung für Windows Hello for Business suchen
+if ($htmlContent -match ""Windows Hello for Business"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Windows Hello for Business ist aktiviert.""
+    } else {
+        Write-Output ""Windows Hello for Business ist nicht aktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für Windows Hello for Business wurde nicht gefunden.""
+}";;WAHR
+SYS.2.2.3.A2;Auswahl und Beschaffung einer geeigneten Windows-Version;Der Funktionsumfang und die Versorgung mit funktionalen Änderungen einer Windows-Version MÜSSEN unter Berücksichtigung des ermittelten Schutzbedarfs und des Einsatzzwecks ausgewählt werden.;Basis;Windows Version;get-computerinfo | select OsName, OsVersion, WindowsEditionId, WindowsBuildLabEx, WindowsInstallationType, WindowsInstallDateFromRegistry, BiosBIOSVersion, BiosReleaseDate, CsBootupState, CsDomain;Aktuelle Windows Version auslesen;FALSCH
+SYS.2.2.3.A19;Sicherheit beim Fernzugriff über RDP;die Verwendung der Zwischenablage,;Standard;RDP Zwischenablage in GPO;"# Den Inhalt des gpresult-HTML-Berichts abrufen
+$htmlContent = Get-Content -Path $env:USERPROFILE""\Desktop\gpresult.html"" -Raw
+
+# Nach der Einstellung für die Zwischenablage in RDP suchen
+if ($htmlContent -match ""Zulassen, dass die Zwischenablage in Remotedesktop-Sitzungen verwendet wird"") {
+    if ($htmlContent -match ""Aktiviert"") {
+        Write-Output ""Die Verwendung der Zwischenablage in RDP ist aktiviert.""
+    } else {
+        Write-Output ""Die Verwendung der Zwischenablage in RDP ist deaktiviert.""
+    }
+} else {
+    Write-Output ""Die Einstellung für die Verwendung der Zwischenablage in RDP wurde nicht gefunden.""
+}";;WAHR

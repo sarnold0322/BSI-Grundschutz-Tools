@@ -1,0 +1,26 @@
+ID-Anforderung;Titel;Inhalt;Typ
+CON.9.A1;Festlegung zulässiger Empfangender;Die zentrale Verwaltungsstelle MUSS sicherstellen, dass durch die Weitergabe von Informationen nicht gegen rechtliche Rahmenbedingungen verstoßen wird.;Basis
+CON.9.A1;Festlegung zulässiger Empfangender;Die zentrale Verwaltungsstelle MUSS festlegen, wer welche Informationen erhalten und weitergeben darf.;Basis
+CON.9.A1;Festlegung zulässiger Empfangender;Es MUSS festgelegt werden, auf welchen Wegen die jeweiligen Informationen ausgetauscht werden dürfen.;Basis
+CON.9.A1;Festlegung zulässiger Empfangender;Alle Beteiligten MÜSSEN vor dem Austausch von Informationen sicherstellen, dass die empfangende Stelle die notwendigen Berechtigungen für den Erhalt und die Weiterverarbeitung der Informationen besitzt.;Basis
+CON.9.A2;Regelung des Informationsaustausches;Bevor Informationen ausgetauscht werden, MUSS die Institution festlegen, wie schutzbedürftig die Informationen sind.;Basis
+CON.9.A2;Regelung des Informationsaustausches;Sie MUSS festlegen, wie die Informationen bei der Übertragung zu schützen sind.;Basis
+CON.9.A2;Regelung des Informationsaustausches;Falls schutzbedürftige Daten übermittelt werden, MUSS die Institution die Empfangenden darüber informieren, wie schutzbedürftig die Informationen sind.;Basis
+CON.9.A2;Regelung des Informationsaustausches;Falls die Informationen schutzbedürftig sind, MUSS die Institution die Empfangenden darauf hingewiesen werden, dass diese die Daten ausschließlich zu dem Zweck nutzen dürfen, zu dem sie übermittelt wurden.;Basis
+CON.9.A3;Unterweisung des Personals zum Informationsaustausch;Fachverantwortliche MÜSSEN die Mitarbeitenden über die Rahmenbedingungen jedes Informationsaustauschs informieren.;Basis
+CON.9.A3;Unterweisung des Personals zum Informationsaustausch;Die Fachverantwortlichen MÜSSEN sicherstellen, dass die Mitarbeitenden wissen, welche Informationen sie wann, wo und wie weitergeben dürfen.;Basis
+CON.9.A4;Vereinbarungen zum Informationsaustausch mit Externen;Bei einem regelmäßigen Informationsaustausch mit anderen Institutionen SOLLTE die Institution die Rahmenbedingungen für den Informationsaustausch formal vereinbaren.;Standard
+CON.9.A4;Vereinbarungen zum Informationsaustausch mit Externen;Die Vereinbarung für den Informationsaustausch SOLLTE Angaben zum Schutz aller vertraulichen Informationen enthalten.;Standard
+CON.9.A5;Beseitigung von Restinformationen vor Weitergabe;Zusätzlich zu den allgemeinen Schulungsmaßnahmen SOLLTE die Institution über die Gefahren von Rest- und Zusatzinformationen in Dokumenten und Dateien informieren.;Standard
+CON.9.A5;Beseitigung von Restinformationen vor Weitergabe;Es SOLLTE vermittelt werden, wie sie Rest- und Zusatzinformationen in Dokumenten und Dateien vermeiden werden können.;Standard
+CON.9.A5;Beseitigung von Restinformationen vor Weitergabe;Die Institution SOLLTE Anleitungen bereitstellen, die vorgeben wie unerwünschte Restinformationen vom Austausch auszuschließen sind.;Standard
+CON.9.A5;Beseitigung von Restinformationen vor Weitergabe;Jede Datei und jedes Dokument SOLLTE vor der Weitergabe auf unerwünschte Restinformationen überprüft werden.;Standard
+CON.9.A5;Beseitigung von Restinformationen vor Weitergabe;Unerwünschte Restinformationen SOLLTEN vor der Weitergabe aus Dokumenten und Dateien entfernt werden.;Standard
+CON.9.A6;Kompatibilitätsprüfung des Sende- und Empfangssystems;Vor einem Informationsaustausch SOLLTE überprüfen werden, ob die eingesetzten IT-Systeme und Produkte kompatibel sind.;Standard
+CON.9.A7;Sicherungskopie der übermittelten Daten;Die Institution SOLLTE eine Sicherungskopie der übermittelten Informationen anfertigen, falls die Informationen nicht aus anderen Quellen wiederhergestellt werden können.;Standard
+CON.9.A8;Verschlüsselung und digitale Signatur;Die Institution SOLLTE prüfen, ob Informationen während des Austausches kryptografisch gesichert werden können.;Standard
+CON.9.A8;Verschlüsselung und digitale Signatur;Falls die Informationen kryptografisch gesichert werden, SOLLTEN dafür ausreichend sichere Verfahren eingesetzt werden.;Standard
+CON.9.A9;Vertraulichkeitsvereinbarungen;Bevor vertrauliche Informationen an andere Institutionen weitergeben werden, SOLLTE die zentrale Verwaltung informiert werden.;Hoch
+CON.9.A9;Vertraulichkeitsvereinbarungen;Die zentrale Verwaltung SOLLTE eine Vertraulichkeitsvereinbarung mit der empfangenden Institution abschließen.;Hoch
+CON.9.A9;Vertraulichkeitsvereinbarungen;Die Vertraulichkeitsvereinbarung SOLLTE regeln, wie die Informationen durch die empfangende Institution aufbewahrt werden dürfen.;Hoch
+CON.9.A9;Vertraulichkeitsvereinbarungen;In der Vertraulichkeitsvereinbarung SOLLTE festgelegt werden, wer bei der empfangenden Institution Zugriff auf welche übermittelten Informationen haben darf.;Hoch

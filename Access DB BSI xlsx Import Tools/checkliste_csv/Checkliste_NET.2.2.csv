@@ -1,0 +1,33 @@
+ID-Anforderung;Titel;Inhalt;Typ
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;Ausgehend von der allgemeinen Sicherheitsrichtlinie der Institution MÜSSEN die wesentlichen Kernaspekte für eine sichere WLAN-Nutzung in einer WLAN-Nutzungsrichtlinie konkretisiert werden.;Basis
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;In einer solchen Nutzungsrichtlinie MÜSSEN die Besonderheiten bei der WLAN-Nutzung beschrieben sein, z. B. ob, wie und mit welchen Geräten Hotspots genutzt werden dürfen.;Basis
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;Die Richtlinie MUSS Angaben dazu enthalten, welche Daten im WLAN genutzt und übertragen werden dürfen und welche nicht.;Basis
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;Es MUSS beschrieben sein, wie mit clientseitigen Sicherheitslösungen umzugehen ist.;Basis
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;Die Nutzungsrichtlinie MUSS ein klares Verbot enthalten, ungenehmigte Access Points an das Netz der Institution anzuschließen.;Basis
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;Außerdem MUSS in der Richtlinie darauf hingewiesen werden, dass die WLAN-Schnittstelle deaktiviert werden muss, wenn sie über einen längeren Zeitraum nicht genutzt wird.;Basis
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;Es MUSS regelmäßig überprüft werden, ob die in der Richtlinie geforderten Inhalte richtig umgesetzt werden.;Basis
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;Ist dies nicht der Fall, MUSS geeignet reagiert werden.;Basis
+NET.2.2.A1;Erstellung einer Nutzungsrichtlinie für WLAN;Die Ergebnisse SOLLTEN sinnvoll dokumentiert werden.;Basis
+NET.2.2.A2;Sensibilisierung und Schulung der WLAN-Benutzenden;Die Benutzenden von WLAN-Komponenten, vornehmlich von WLAN-Clients, MÜSSEN sensibilisiert und zu den in der Nutzungsrichtlinie aufgeführten Maßnahmen geschult werden.;Basis
+NET.2.2.A2;Sensibilisierung und Schulung der WLAN-Benutzenden;Hierfür MÜSSEN geeignete Schulungsinhalte identifiziert und festgelegt werden.;Basis
+NET.2.2.A2;Sensibilisierung und Schulung der WLAN-Benutzenden;Den Benutzenden MUSS genau erläutert werden, was die WLAN-spezifischen Sicherheitseinstellungen bedeuten und warum sie wichtig sind.;Basis
+NET.2.2.A2;Sensibilisierung und Schulung der WLAN-Benutzenden;Außerdem MÜSSEN die Benutzenden auf die Gefahren hingewiesen werden, die drohen, wenn diese Sicherheitseinstellungen umgangen oder deaktiviert werden.;Basis
+NET.2.2.A2;Sensibilisierung und Schulung der WLAN-Benutzenden;Die Schulungsinhalte MÜSSEN immer entsprechend den jeweiligen Einsatzszenarien angepasst werden.;Basis
+NET.2.2.A2;Sensibilisierung und Schulung der WLAN-Benutzenden;Neben der reinen Schulung zu WLAN-Sicherheitsmechanismen MÜSSEN den Benutzenden jedoch auch die WLAN-Sicherheitsrichtlinie ihrer Institution und die darin enthaltenen Maßnahmen vorgestellt werden.;Basis
+NET.2.2.A2;Sensibilisierung und Schulung der WLAN-Benutzenden;Ebenso MÜSSEN die Benutzenden für die möglichen Gefahren sensibilisiert werden, die von fremden WLANs ausgehen.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Dürfen Hotspots genutzt werden, MUSS Folgendes umgesetzt werden:;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Jede(r) Benutzende eines Hotspots MUSS seine oder ihre Sicherheitsanforderungen kennen und danach entscheiden, ob und unter welchen Bedingungen ihm oder ihr die Nutzung des Hotspots erlaubt ist.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Werden Hotspots genutzt, dann SOLLTE sichergestellt werden, dass die Verbindung zwischen Hotspot-Access Point und IT-Systemen der Benutzenden nach dem Stand der Technik kryptografisch abgesichert wird.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;WLANs, die nur sporadisch genutzt werden, SOLLTEN von den Benutzenden aus der Historie gelöscht werden.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Die automatische Anmeldung an WLANs SOLLTE deaktiviert werden.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Wenn möglich, SOLLTEN separate Konten mit einer sicheren Grundkonfiguration und restriktiven Berechtigungen verwendet werden.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Es SOLLTE sichergestellt sein, dass sich keine Benutzenden mit administrativen Berechtigungen von ihren Clients aus an externen WLANs anmelden können.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Sensible Daten DÜRFEN NUR übertragen werden, wenn allen notwendigen Sicherheitsmaßnahmen auf den Clients, vor allem eine geeignete Verschlüsselung, aktiviert sind.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Wird die WLAN-Schnittstelle über einen längeren Zeitraum nicht genutzt, MUSS diese deaktiviert werden.;Basis
+NET.2.2.A3;Absicherung der WLAN-Nutzung an Hotspots;Über öffentlich zugängliche WLANs DÜRFEN die Benutzenden NUR über ein Virtual Private Network (VPN) auf interne Ressourcen der Institution zugreifen.;Basis
+NET.2.2.A4;Verhaltensregeln bei WLAN-Sicherheitsvorfällen;Bei WLAN-Sicherheitsvorfällen SOLLTEN die Benutzenden Folgendes umsetzen:;Standard
+NET.2.2.A4;Verhaltensregeln bei WLAN-Sicherheitsvorfällen;Sie SOLLTEN ihre Arbeitsergebnisse sichern.;Standard
+NET.2.2.A4;Verhaltensregeln bei WLAN-Sicherheitsvorfällen;Sie SOLLTEN den WLAN-Zugriff beenden und die WLAN-Schnittstelle ihres Clients deaktivieren.;Standard
+NET.2.2.A4;Verhaltensregeln bei WLAN-Sicherheitsvorfällen;Fehlermeldungen und Abweichungen SOLLTEN durch sie genau dokumentiert werden.;Standard
+NET.2.2.A4;Verhaltensregeln bei WLAN-Sicherheitsvorfällen;Ebenso SOLLTEN sie dokumentieren, was sie gemacht haben, bevor bzw. während der Sicherheitsvorfall eingetreten ist.;Standard
+NET.2.2.A4;Verhaltensregeln bei WLAN-Sicherheitsvorfällen;Sie SOLLTEN über eine geeignete Eskalationsstufe (z. B. User Help Desk) den IT-Betrieb benachrichtigen.;Standard

@@ -1,0 +1,9 @@
+ID-Anforderung;Titel;Inhalt;Typ
+IND.2.3.A1;Installation von Sensoren;Sensoren MÜSSEN in geeigneter Weise installiert werden.;Basis
+IND.2.3.A1;Installation von Sensoren;Sensoren MÜSSEN ausreichend robust sein.;Basis
+IND.2.3.A1;Installation von Sensoren;Sie MÜSSEN zuverlässig unter den vorhandenen Umgebungsbedingungen wie großer Wärme, Kälte, Staub, Vibration oder Korrosion messen können.;Basis
+IND.2.3.A2;Kalibrierung von Sensoren;Wenn notwendig, SOLLTEN Sensoren regelmäßig kalibriert werden.;Standard
+IND.2.3.A2;Kalibrierung von Sensoren;Die Kalibrierungen SOLLTEN geeignet dokumentiert werden.;Standard
+IND.2.3.A2;Kalibrierung von Sensoren;Der Zugang zur Kalibrierung eines Sensors MUSS geschützt sein.;Standard
+IND.2.3.A3;Drahtlose Kommunikation;Drahtlose Verwaltungsschnittstellen wie Bluetooth, WLAN oder NFC SOLLTEN NICHT benutzt werden.;Hoch
+IND.2.3.A3;Drahtlose Kommunikation;Alle nicht benutzten Kommunikationsschnittstellen SOLLTEN deaktiviert werden.;Hoch

@@ -1,0 +1,50 @@
+ID-Anforderung;Titel;Inhalt;Typ
+APP.3.3.A1;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.3.3.A2;Einsatz von RAID-Systemen;Der IT-Betrieb MUSS festlegen, ob im Fileserver ein RAID-System eingesetzt werden soll.;Basis
+APP.3.3.A2;Einsatz von RAID-Systemen;Eine Entscheidung gegen ein solches System MUSS nachvollziehbar dokumentiert werden.;Basis
+APP.3.3.A2;Einsatz von RAID-Systemen;Falls ein RAID-System eingesetzt werden soll, MUSS der IT-Betrieb entscheiden:;Basis
+APP.3.3.A2;Einsatz von RAID-Systemen;welches RAID-Level benutzt werden soll,;Basis
+APP.3.3.A2;Einsatz von RAID-Systemen;wie lang die Zeitspanne für einen RAID-Rebuild-Prozess sein darf und;Basis
+APP.3.3.A2;Einsatz von RAID-Systemen;ob ein Software- oder ein Hardware-RAID eingesetzt werden soll.;Basis
+APP.3.3.A2;Einsatz von RAID-Systemen;In einem RAID SOLLTEN Hotspare-Festplatten vorgehalten werden.;Basis
+APP.3.3.A3;Einsatz von Viren-Schutzprogrammen;Alle Daten MÜSSEN durch ein Viren-Schutzprogramm auf Schadsoftware untersucht werden, bevor sie auf dem Fileserver abgelegt werden.;Basis
+APP.3.3.A4;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.3.3.A5;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.3.3.A15;Planung von Fileservern;Bevor eine Institution einen oder mehrere Fileserver einführt, SOLLTE sie entscheiden, wofür die Fileserver genutzt und welche Informationen darauf verarbeitet werden.;Basis
+APP.3.3.A15;Planung von Fileservern;Die Institution SOLLTE jede benutzte Funktion eines Fileservers einschließlich deren Sicherheitsaspekte planen.;Basis
+APP.3.3.A15;Planung von Fileservern;Arbeitsplatzrechner DÜRFEN NICHT als Fileserver eingesetzt werden.;Basis
+APP.3.3.A15;Planung von Fileservern;Der Speicherplatz des Fileservers MUSS ausreichend dimensioniert sein.;Basis
+APP.3.3.A15;Planung von Fileservern;Auch ausreichende Speicherreserven SOLLTEN vorgehalten werden.;Basis
+APP.3.3.A15;Planung von Fileservern;Es SOLLTE ausschließlich Massenspeicher verwendet werden, der für einen Dauerbetrieb ausgelegt ist.;Basis
+APP.3.3.A15;Planung von Fileservern;Die Geschwindigkeit und die Anbindung der Massenspeicher MUSS für den Einsatzzweck angemessen sein.;Basis
+APP.3.3.A6;Beschaffung eines Fileservers und Auswahl eines Dienstes;Die Fileserver-Software SOLLTE geeignet ausgewählt werden.;Standard
+APP.3.3.A6;Beschaffung eines Fileservers und Auswahl eines Dienstes;Der Fileserver-Dienst SOLLTE den Einsatzzweck des Fileservers unterstützen, z. B. Einbindung von Netzlaufwerken in den Clients, Streaming von Multimedia-Inhalten, Übertragung von Boot-Images von festplattenlosen IT-Systemen oder ausschließliche Dateiübertragung über FTP.;Standard
+APP.3.3.A6;Beschaffung eines Fileservers und Auswahl eines Dienstes;Die Leistung, die Speicherkapazität, die Bandbreite sowie die Anzahl der Benutzenden, die den Fileserver nutzen, SOLLTEN bei der Beschaffung des Fileservers berücksichtigt werden.;Standard
+APP.3.3.A7;Auswahl eines Dateisystems;Der IT-Betrieb SOLLTE eine Anforderungsliste erstellen, nach der die Dateisysteme des Fileservers bewertet werden.;Standard
+APP.3.3.A7;Auswahl eines Dateisystems;Das Dateisystem SOLLTE den Anforderungen der Institution entsprechen.;Standard
+APP.3.3.A7;Auswahl eines Dateisystems;Das Dateisystem SOLLTE eine Journaling-Funktion bieten.;Standard
+APP.3.3.A7;Auswahl eines Dateisystems;Auch SOLLTE es über einen Schutzmechanismus verfügen, der verhindert, dass mehrere Benutzende oder Anwendungen gleichzeitig schreibend auf eine Datei zugreifen.;Standard
+APP.3.3.A8;Strukturierte Datenhaltung;Es SOLLTE eine Struktur festgelegt werden, nach der Daten abzulegen sind.;Standard
+APP.3.3.A8;Strukturierte Datenhaltung;Die Benutzenden SOLLTEN regelmäßig über die geforderte strukturierte Datenhaltung informiert werden.;Standard
+APP.3.3.A8;Strukturierte Datenhaltung;Die Dateien SOLLTEN ausschließlich strukturiert auf den Fileserver abgelegt werden.;Standard
+APP.3.3.A8;Strukturierte Datenhaltung;Es SOLLTE schriftlich festgelegt werden, welche Daten lokal und welche auf dem Fileserver gespeichert werden dürfen.;Standard
+APP.3.3.A8;Strukturierte Datenhaltung;Programm- und Arbeitsdaten SOLLTEN in getrennten Verzeichnissen gespeichert werden.;Standard
+APP.3.3.A8;Strukturierte Datenhaltung;Die Institution SOLLTE regelmäßig überprüfen, ob die Vorgaben zur strukturierten Datenhaltung eingehalten werden.;Standard
+APP.3.3.A9;Sicheres Speichermanagement;Der IT-Betrieb SOLLTE regelmäßig überprüfen, ob die Massenspeicher des Fileservers noch wie vorgesehen funktionieren.;Standard
+APP.3.3.A9;Sicheres Speichermanagement;Es SOLLTEN geeignete Ersatzspeicher vorgehalten werden.;Standard
+APP.3.3.A9;Sicheres Speichermanagement;Wurde eine Speicherhierarchie (Primär-, Sekundär- bzw. Tertiärspeicher) aufgebaut, SOLLTE ein (teil-)automatisiertes Speichermanagement verwendet werden.;Standard
+APP.3.3.A9;Sicheres Speichermanagement;Werden Daten automatisiert verteilt, SOLLTE regelmäßig manuell überprüft werden, ob dies korrekt funktioniert.;Standard
+APP.3.3.A9;Sicheres Speichermanagement;Es SOLLTEN mindestens nicht-autorisierte Zugriffsversuche auf Dateien und Änderungen von Zugriffsrechten protokolliert werden.;Standard
+APP.3.3.A10;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.3.3.A11;Einsatz von Speicherbeschränkungen;Der IT-Betrieb SOLLTE bei mehreren Benutzenden auf dem Fileserver prüfen, Beschränkungen des Speicherplatzes für einzelne Benutzende (Quotas) einzurichten.;Standard
+APP.3.3.A11;Einsatz von Speicherbeschränkungen;Alternativ SOLLTEN Mechanismen des verwendeten Datei- oder Betriebssystems genutzt werden, um die Benutzenden bei einem bestimmten Füllstand der Festplatte zu warnen oder in diesem Fall nur noch dem IT-Betrieb Schreibrechte einzuräumen.;Standard
+APP.3.3.A14;Einsatz von Error-Correction-Codes;Der IT-Betrieb SOLLTE ein fehlererkennendes bzw. fehlerkorrigierendes Dateisystem einsetzen.;Standard
+APP.3.3.A14;Einsatz von Error-Correction-Codes;Hierfür SOLLTE genügend Speicherplatz vorgehalten werden.;Standard
+APP.3.3.A14;Einsatz von Error-Correction-Codes;Der IT-Betrieb SOLLTE beachten, dass, je nach eingesetztem Verfahren, Fehler nur mit einer gewissen Wahrscheinlichkeit erkannt und auch nur in begrenzter Größenordnung behoben werden können.;Standard
+APP.3.3.A12;Verschlüsselung des Datenbestandes;Die Massenspeicher des Fileservers SOLLTEN auf Dateisystem- oder Hardwareebene verschlüsselt werden.;Hoch
+APP.3.3.A12;Verschlüsselung des Datenbestandes;Falls Hardwareverschlüsselung eingesetzt wird, SOLLTEN Produkte verwendet werden, deren Verschlüsselungsfunktion zertifiziert wurde.;Hoch
+APP.3.3.A12;Verschlüsselung des Datenbestandes;Es SOLLTE sichergestellt werden, dass der Virenschutz die verschlüsselten Daten auf Schadsoftware prüfen kann.;Hoch
+APP.3.3.A13;Replikation zwischen Standorten;Für hochverfügbare Fileserver SOLLTE eine angemessene Replikation der Daten auf mehreren Massenspeichern stattfinden.;Hoch
+APP.3.3.A13;Replikation zwischen Standorten;Daten SOLLTEN zudem zwischen unabhängigen Fileservern repliziert werden, die sich an unabhängigen Standorten befinden.;Hoch
+APP.3.3.A13;Replikation zwischen Standorten;Dafür SOLLTE vom IT-Betrieb ein geeigneter Replikationsmechanismus ausgewählt werden.;Hoch
+APP.3.3.A13;Replikation zwischen Standorten;Damit die Replikation wie vorgesehen funktionieren kann, SOLLTEN hinreichend genaue Zeitdienste genutzt und betrieben werden.;Hoch

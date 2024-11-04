@@ -1,0 +1,145 @@
+ID-Anforderung;Titel;Inhalt;Typ
+OPS.1.1.1.A1;Festlegung der Aufgaben und Zuständigkeiten des IT-Betriebs;Für alle betriebenen IT-Komponenten MUSS festgelegt werden, welche Aufgaben für den IT-Betrieb anfallen und wer dafür zuständig ist.;Basis
+OPS.1.1.1.A1;Festlegung der Aufgaben und Zuständigkeiten des IT-Betriebs;Hierfür MÜSSEN die entsprechenden Rechte, Pflichten, Aufgaben mit den hierfür erforderlichen Tätigkeiten, Befugnisse und zugehörigen Prozesse geregelt werden.;Basis
+OPS.1.1.1.A1;Festlegung der Aufgaben und Zuständigkeiten des IT-Betriebs;Weiterhin MÜSSEN die Schnittstellen und Meldewege sowie das Eskalationsmanagement zwischen verschiedenen Betriebseinheiten und gegenüber anderen organisatorischen Einheiten der Institution festgelegt werden.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Für alle betriebenen IT-Komponenten MUSS das jeweilige Rollen- und Berechtigungskonzept auch Rollen und zugehörige Berechtigungen für den IT-Betrieb festlegen.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Für die Betriebsmittel MUSS ebenfalls ein Rollen- und Berechtigungskonzept erstellt werden.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Das Rollen- und Berechtigungskonzept für den IT-Betrieb MUSS die IT-Nutzung von IT-Betriebsaufgaben trennen.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Administrationsaufgaben und sonstige Betriebsaufgaben MÜSSEN durch unterschiedliche Rollen getrennt werden.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Grundsätzlich SOLLTE der IT-Betrieb für unterschiedliche Betriebstätigkeiten unterschiedliche Rollen festlegen, die für die jeweiligen Tätigkeiten die erforderlichen Berechtigungen besitzen.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Sammel-Accounts DÜRFEN NUR in begründeten Ausnahmefällen eingerichtet werden.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Die Rollen und Berechtigungen MÜSSEN regelmäßig geprüft und auf die aktuellen Gegebenheiten angepasst werden.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Insbesondere MÜSSEN die Berechtigungen von ausgeschiedenem Personal auf den IT-Komponenten entfernt werden.;Basis
+OPS.1.1.1.A2;Festlegung von Rollen und Berechtigungen für den IT-Betrieb;Ebenso MÜSSEN die Rollen und Berechtigungen gelöscht werden, wenn IT-Komponenten außer Betrieb genommenen werden.;Basis
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;Für alle betriebenen IT-Komponenten SOLLTEN die Betriebsaufgaben geplant und in Betriebshandbüchern erfasst werden.;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;Die Betriebshandbücher SOLLTEN stets verfügbar sein und mindestens die folgenden Themen adressieren:;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;relevante System- und Kontaktinformationen;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;erforderliche und zulässige Betriebsmittel;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;allgemeine Konfigurationsvorgaben;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;Konfigurationsvorgaben zur Härtung von Spezialsystemen;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;Rollen- und Berechtigungen;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;IT-Monitoring, Protokollierung und Alarmierung;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;Datensicherung und Notfallkonzepte;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;IT Incident Management;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;Vorgaben für alle regelmäßigen und außerplanmäßigen Tätigkeiten;Standard
+OPS.1.1.1.A3;Erstellen von Betriebshandbüchern für die betriebene IT;Die Betriebshandbücher SOLLTEN regelmäßig und anlassbezogen geprüft und angepasst werden.;Standard
+OPS.1.1.1.A4;Bereitstellen ausreichender Personal- und Sachressourcen;Der IT-Betrieb SOLLTE über ausreichende Personal-Ressourcen verfügen, um einen ordnungsgemäßen IT-Betrieb gewährleisten zu können.;Standard
+OPS.1.1.1.A4;Bereitstellen ausreichender Personal- und Sachressourcen;Hierfür SOLLTE der Aufwand für alle Tätigkeiten des IT-Betriebs ermittelt werden.;Standard
+OPS.1.1.1.A4;Bereitstellen ausreichender Personal- und Sachressourcen;Die Personal-Ressourcen SOLLTEN mit angemessenen Redundanzen und Reserven geplant werden und auch kurzfristige Personalausfälle sowie temporär erhöhte Personalbedarfe berücksichtigen.;Standard
+OPS.1.1.1.A4;Bereitstellen ausreichender Personal- und Sachressourcen;Ebenfalls SOLLTEN geeignete Sach-Ressourcen bereitstehen.;Standard
+OPS.1.1.1.A4;Bereitstellen ausreichender Personal- und Sachressourcen;Hierfür SOLLTE für jede Tätigkeit des IT-Betriebs identifiziert werden, welche Betriebsmittel erforderlich sind.;Standard
+OPS.1.1.1.A4;Bereitstellen ausreichender Personal- und Sachressourcen;Die Ressourcenplanung SOLLTE regelmäßig und anlassbezogen überprüft und an die aktuellen Erfordernisse angepasst werden.;Standard
+OPS.1.1.1.A5;Festlegen von gehärteten Standardkonfigurationen;Der IT-Betrieb SOLLTE die betriebenen IT-Komponenten kategorisieren und für diese Kategorien gehärtete Standardkonfigurationen festlegen und bereitstellen.;Standard
+OPS.1.1.1.A5;Festlegen von gehärteten Standardkonfigurationen;Für IT-Plattformen wie Virtualisierungshosts, auf denen weitere IT-Komponenten bereitgestellt und betrieben werden, SOLLTE eine abgestimmte Härtung entwickelt und umgesetzt werden, die alle Elemente der IT-Komponenten berücksichtigt.;Standard
+OPS.1.1.1.A5;Festlegen von gehärteten Standardkonfigurationen;Hierbei SOLLTEN verschiedene Ausprägungen der IT-Komponenten berücksichtigt und erlaubte Abweichungen spezifiziert werden.;Standard
+OPS.1.1.1.A5;Festlegen von gehärteten Standardkonfigurationen;Die Konfigurationsvorgaben SOLLTEN die Sicherheitsanforderungen der Institution umsetzen und die Empfehlungen der jeweiligen Herstellenden berücksichtigen.;Standard
+OPS.1.1.1.A5;Festlegen von gehärteten Standardkonfigurationen;Die gehärteten Standard-Konfigurationen SOLLTEN in den jeweiligen Betriebshandbüchern dokumentiert werden.;Standard
+OPS.1.1.1.A5;Festlegen von gehärteten Standardkonfigurationen;Jede Standardkonfiguration SOLLTE vor Bereitstellung getestet werden.;Standard
+OPS.1.1.1.A5;Festlegen von gehärteten Standardkonfigurationen;Die gehärteten Standardkonfigurationen SOLLTEN regelmäßig und anlassbezogen geprüft und gemäß der verfügbaren Informationen an den aktuellen Stand der Technik angepasst werden.;Standard
+OPS.1.1.1.A5;Festlegen von gehärteten Standardkonfigurationen;Der IT-Betrieb SOLLTE gewährleisten, dass die aktuellen Konfigurationsvorgaben stets verfügbar sind und über eine Versionierung und eine Beschreibung identifizierbar sind.;Standard
+OPS.1.1.1.A6;Durchführung des IT-Asset-Managements;Der IT-Betrieb SOLLTE eine Übersicht aller vorhandenen IT-Assets erstellen, regelmäßig prüfen und aktuell halten.;Standard
+OPS.1.1.1.A6;Durchführung des IT-Asset-Managements;Im IT-Asset-Management (ITAM) SOLLTEN alle produktiven IT-Komponenten, Test-Instanzen und IT-Komponenten der Reservevorhaltung erfasst werden.;Standard
+OPS.1.1.1.A6;Durchführung des IT-Asset-Managements;Auch vorhandene, aber nicht mehr genutzte IT-Assets SOLLTEN erfasst werden.;Standard
+OPS.1.1.1.A6;Durchführung des IT-Asset-Managements;Es SOLLTEN ITAM-Tools eingesetzt werden, die eine zentrale Verwaltung der IT-Assets ermöglichen.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Der IT-Betrieb SOLLTE für alle IT-Komponenten Betriebskonzepte entwickeln.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Diese Betriebskonzepte SOLLTEN regelmäßig geprüft und angepasst werden.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Die sicherheitsrelevanten Vorgaben zur Konfiguration SOLLTEN umgesetzt werden.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Dafür SOLLTEN die gehärteten Standard-Konfigurationen genutzt werden.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Der IT-Betrieb SOLLTE für alle Tätigkeiten Prüfkriterien festlegen, die in ihrer Gesamtheit als Leitfaden für den ordnungsgemäßen IT-Betrieb dienen.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Die Freigabe von installierten oder geänderten IT-Komponenten in den produktiven Betrieb SOLLTE über diese Prüfkriterien nachgewiesen werden.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Bei Inbetriebnahme und nach Updates oder Umstrukturierungen SOLLTEN Systemtests für die IT-Komponenten durchgeführt werden.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Der IT-Betrieb SOLLTE festlegen, in welcher Umgebung die jeweiligen Systemtests mit welcher Testabdeckung und Testtiefe durchgeführt werden.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Der IT-Betrieb SOLLTE Vorkehrungen für die Ersatzbeschaffung von IT-Komponenten treffen.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Hierfür SOLLTEN eine Reservevorhaltung oder Lieferverträge vorgesehen werden.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Alle Tätigkeiten des IT-Betriebs SOLLTEN umfassend und nachvollziehbar erfasst werden.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Hierfür SOLLTE der IT-Betrieb ein geeignetes Werkzeug wie ein Ticketsystem nutzen.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Der IT-Betrieb SOLLTE insbesondere die Qualität der Betriebsprozesse, die Einhaltung von SLAs und die Zufriedenheit der Benutzenden systematisch erfassen.;Standard
+OPS.1.1.1.A7;Sicherstellung eines ordnungsgemäßen IT-Betriebs;Es SOLLTEN regelmäßig Reports erstellt werden, die dem Nachweis eines ordnungsgemäßen IT-Betriebs dienen.;Standard
+OPS.1.1.1.A8;Regelmäßiger Soll-Ist-Vergleich;Der IT-Betrieb SOLLTE regelmäßig und anlassbezogen für alle betriebenen IT-Komponenten sowie für die Betriebsmittel prüfen, ob die aktuelle Konfiguration dem Sollzustand entspricht.;Standard
+OPS.1.1.1.A8;Regelmäßiger Soll-Ist-Vergleich;Darüber hinaus SOLLTE geprüft werden, ob die gelebten Prozesse die festgelegten Prozesse des IT-Betriebs umsetzen.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Alle IT-Komponenten SOLLTEN in ein einheitliches IT-Monitoring eingebunden werden, das alle relevanten Parameter der IT-Komponenten beinhaltet.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Das IT-Monitoring SOLLTE mit dem übergeordneten Service-Management abgestimmt werden.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Der IT-Betrieb SOLLTE das IT-Monitoring entsprechend eines vorher festgelegten Monitoring-Plans durchführen.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Je IT-Komponente SOLLTEN angemessene Schwellwerte ermittelt werden, die eine Meldung oder einen Alarm auslösen.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Der IT-Betrieb SOLLTE für das IT-Monitoring spezifizieren, welche Meldewege genutzt werden und welche Konsequenzen aus den Meldungen oder Alarmen gezogen werden.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Auf Basis von Monitoring-Ergebnissen SOLLTE überprüft werden, ob die Infrastruktur erweitert oder angepasst wird.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Über die gewonnenen Erkenntnisse SOLLTEN regelmäßig Reports erstellt werden, die das aktuelle Lagebild der betriebenen IT und die zeitliche Entwicklung sowie Trends darstellen.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Die Konzeption des IT-Monitorings SOLLTE regelmäßig und anlassbezogen geprüft und aktualisiert werden, um dem aktuellen Stand der Technik und der betriebenen Infrastruktur zu entsprechen.;Standard
+OPS.1.1.1.A9;Durchführung von IT-Monitoring;Die Monitoring-Daten SOLLTEN nur über sichere Kommunikationswege übertragen werden.;Standard
+OPS.1.1.1.A10;Führen eines Schwachstelleninventars;Der IT-Betrieb SOLLTE ein Schwachstelleninventar führen, in dem die Schwachstellen aller betriebenen IT-Komponenten und der Umgang mit diesen zentral erfasst und gepflegt werden.;Standard
+OPS.1.1.1.A10;Führen eines Schwachstelleninventars;Der IT-Betrieb SOLLTE die Behandlung der Schwachstellen initiieren, nachhalten und sicherstellen.;Standard
+OPS.1.1.1.A10;Führen eines Schwachstelleninventars;Es SOLLTE ein Prozess definiert werden, der den Umgang mit den Schwachstellen festlegt.;Standard
+OPS.1.1.1.A10;Führen eines Schwachstelleninventars;Mindestens SOLLTE spezifiziert werden,;Standard
+OPS.1.1.1.A10;Führen eines Schwachstelleninventars;bis wann ein verfügbares Update, in dem die Schwachstelle behoben ist, zu installieren ist,;Standard
+OPS.1.1.1.A10;Führen eines Schwachstelleninventars;in welchen Fällen und bis wann IT-Komponenten mit Schwachstellen außer Betrieb genommen oder ersetzt werden und;Standard
+OPS.1.1.1.A10;Führen eines Schwachstelleninventars;ob und wie solche IT-Komponenten separiert werden, falls weder ein Ersatz noch ein Update möglich ist.;Standard
+OPS.1.1.1.A11;Festlegung und Einhaltung von SLAs;Für alle IT-Komponenten und alle Tätigkeiten SOLLTE der IT-Betrieb Service Level Agreements (SLAs) definieren und überwachen, die dem Schutzbedarf der IT-Komponenten entsprechen und innerhalb der Institution abgestimmt sind.;Standard
+OPS.1.1.1.A11;Festlegung und Einhaltung von SLAs;Die festgelegten SLAs SOLLTEN die Rollen und Berechtigungen sowie eventuelle Abhängigkeiten der jeweiligen Tätigkeit von anderen Organisationseinheiten berücksichtigen.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Der IT-Betrieb SOLLTE für alle Aufgaben Betriebsprozesse spezifizieren, die für die jeweilige Aufgabe alle Tätigkeiten und Abhängigkeiten umfassen und gewährleisten, dass die Tätigkeiten des IT-Betriebs nachvollziehbar sind.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Es SOLLTE für jeden Prozess festgelegt werden, wer den Prozess initiieren darf und wer diesen umsetzt.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Für jeden Prozess SOLLTEN die organisatorischen Schnittstellen zu anderen Gruppen des IT-Betriebs oder anderen Organisationseinheiten spezifiziert werden.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Das Personal des IT-Betriebs SOLLTE für die relevanten Betriebsprozesse eingewiesen werden.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Wenn Prozesse durchlaufen wurden, SOLLTE dies protokolliert werden.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Das Ergebnis des Durchlaufs SOLLTE protokolliert werden.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Für jeden Prozessschritt SOLLTE festgelegt werden, ob dokumentiert werden muss, dass er bearbeitet wurde.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Darüber hinaus SOLLTE festgelegt werden, wann der Prozess erfolgreich abgeschlossen ist.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Der IT-Betrieb SOLLTE einen Prozess spezifizieren, der grundsätzlich beschreibt, wie mit Situationen umzugehen ist, die nicht in den regulären Betriebsprozessen enthalten sind.;Standard
+OPS.1.1.1.A12;Spezifikation und Umsetzung klarer Betriebsprozesse;Mindestens SOLLTEN Fallback-Prozesse definiert sein und beschrieben werden, wie bei fehlerhaftem oder manipuliertem Betrieb vorzugehen ist.;Standard
+OPS.1.1.1.A13;Absicherung der Betriebsmittel und der Dokumentation;Auf die Betriebsmittel, die Dokumentation und die Betriebshandbücher SOLLTEN nur berechtigte Personen des IT-Betriebs zugreifen können.;Standard
+OPS.1.1.1.A13;Absicherung der Betriebsmittel und der Dokumentation;Der IT-Betrieb SOLLTE sicherstellen, dass die Betriebsmittel und die Dokumentation zu jeder Zeit verfügbar sind.;Standard
+OPS.1.1.1.A13;Absicherung der Betriebsmittel und der Dokumentation;Falls die IT-Systeme und -Anwendungen der Betriebsmittel über die produktive Infrastruktur kommunizieren, SOLLTEN sichere Protokolle verwendet werden.;Standard
+OPS.1.1.1.A13;Absicherung der Betriebsmittel und der Dokumentation;Vertrauliche Daten SOLLTEN ausschließlich über sichere Protokolle übertragen werden.;Standard
+OPS.1.1.1.A13;Absicherung der Betriebsmittel und der Dokumentation;Die Betriebsmittel SOLLTEN in das Schwachstellenmanagement und das IT-Monitoring eingebunden werden.;Standard
+OPS.1.1.1.A14;Berücksichtigung der Betreibbarkeit bei Konzeption und Beschaffung;Für die IT-Komponenten SOLLTEN Anforderungen für einen effizienten und sicheren Betrieb bereits bei der Konzeption und der Beschaffung berücksichtigt werden.;Standard
+OPS.1.1.1.A14;Berücksichtigung der Betreibbarkeit bei Konzeption und Beschaffung;Hierfür SOLLTEN die Anforderungen des IT-Betriebs erhoben und berücksichtigt werden.;Standard
+OPS.1.1.1.A14;Berücksichtigung der Betreibbarkeit bei Konzeption und Beschaffung;Der IT-Betrieb SOLLTE dabei auch die Komplexität der IT berücksichtigen.;Standard
+OPS.1.1.1.A15;Planung und Einsatz von Betriebsmitteln;Der IT-Betrieb SOLLTE für alle IT-Komponenten die Betriebsmittel bedarfsgerecht planen, beschaffen und einsetzen.;Standard
+OPS.1.1.1.A15;Planung und Einsatz von Betriebsmitteln;Der IT-Betrieb SOLLTE die Anforderungen an die jeweiligen Betriebsmittel ermitteln und diese mit den anderen betroffenen Organisationseinheiten der Institution abstimmen.;Standard
+OPS.1.1.1.A15;Planung und Einsatz von Betriebsmitteln;Die Netze, in denen die Betriebsmittel positioniert sind, SOLLTEN von den sonstigen Netzen der Institution mindestens logisch getrennt werden (siehe Baustein NET.1.1 Netzarchitektur und -design).;Standard
+OPS.1.1.1.A15;Planung und Einsatz von Betriebsmitteln;Das Netz für die Betriebsmittel SOLLTE abhängig von Sicherheitsrichtlinie und Funktionsabhängigkeiten weiter unterteilt werden.;Standard
+OPS.1.1.1.A15;Planung und Einsatz von Betriebsmitteln;Als Basis für die weitere Segmentierung SOLLTEN die unterschiedlichen Betriebsgruppen und Zielsysteme verwendet werden.;Standard
+OPS.1.1.1.A16;Schulung des Betriebspersonals;Für den IT-Betrieb SOLLTE durch einen Schulungsplan sichergestellt werden, dass für alle IT-Komponenten und Betriebsmittel jeweils mehrere Personen die erforderlichen Fähigkeiten und Qualifikationen besitzen.;Standard
+OPS.1.1.1.A16;Schulung des Betriebspersonals;In den Schulungsmaßnahmen SOLLTEN insbesondere die folgenden Themen adressiert werden:;Standard
+OPS.1.1.1.A16;Schulung des Betriebspersonals;Härtung und Standard-Konfigurationen;Standard
+OPS.1.1.1.A16;Schulung des Betriebspersonals;spezifische Sicherheitseinstellungen für die betriebenen IT-Komponenten und eingesetzten Betriebsmittel;Standard
+OPS.1.1.1.A16;Schulung des Betriebspersonals;mögliche Interferenzen zwischen den genutzten Betriebsmitteln;Standard
+OPS.1.1.1.A16;Schulung des Betriebspersonals;Abhängigkeiten und Schnittstellen der Prozesse des IT-Betriebs;Standard
+OPS.1.1.1.A16;Schulung des Betriebspersonals;Wenn neue IT-Komponenten beschafft werden, SOLLTE ein Budget für entsprechende Schulungsmaßnahmen des IT-Betriebs eingeplant werden.;Standard
+OPS.1.1.1.A17;Planung des IT-Betriebs unter besonderer Berücksichtigung von Mangel- und Notsituationen;Der IT-Betrieb SOLLTE für die betriebenen IT-Komponenten definieren, wann eine Mangel- oder eine Notsituation vorliegt.;Standard
+OPS.1.1.1.A17;Planung des IT-Betriebs unter besonderer Berücksichtigung von Mangel- und Notsituationen;Für diese Situationen SOLLTE nach den Vorgaben des allgemeinen Notfallmanagements festgelegt werden, welche IT-Komponenten vorrangig betrieben werden oder für einen Mindestbetrieb benötigt werden.;Standard
+OPS.1.1.1.A17;Planung des IT-Betriebs unter besonderer Berücksichtigung von Mangel- und Notsituationen;Die Notfallplanung SOLLTE die folgenden Punkte beinhalten:;Standard
+OPS.1.1.1.A17;Planung des IT-Betriebs unter besonderer Berücksichtigung von Mangel- und Notsituationen;Disaster-Recovery-Plan;Standard
+OPS.1.1.1.A17;Planung des IT-Betriebs unter besonderer Berücksichtigung von Mangel- und Notsituationen;Notfallhandbuch für die IT-Komponenten unter Einbeziehung der gesamten Infrastruktur;Standard
+OPS.1.1.1.A17;Planung des IT-Betriebs unter besonderer Berücksichtigung von Mangel- und Notsituationen;Umgang mit kritischen und längerfristigen betriebsbehindernden Störungen;Standard
+OPS.1.1.1.A18;Planung des Einsatzes von Dienstleistenden;Der IT-Betrieb SOLLTE den Einsatz von Dienstleistenden koordinieren und diese unter anderem über SLAs so steuern, dass die Dienstleistung in ausreichendem Maße erbracht wird.;Standard
+OPS.1.1.1.A18;Planung des Einsatzes von Dienstleistenden;Der Einsatz von verschiedenen Dienstleistenden SOLLTE aufeinander abgestimmt werden, insbesondere falls diese für den gleichen Tätigkeitsbereich vorgesehen sind.;Standard
+OPS.1.1.1.A18;Planung des Einsatzes von Dienstleistenden;Für solche Situationen SOLLTE jeweils eine eindeutige Kommunikationsschnittstelle festgelegt werden.;Standard
+OPS.1.1.1.A18;Planung des Einsatzes von Dienstleistenden;Der IT-Betrieb SOLLTE die Festlegungen zum Dienstleistendenmanagement sowie die für die Dienstleistenden vorgesehenen Tätigkeiten festhalten, regelmäßig prüfen und anpassen.;Standard
+OPS.1.1.1.A19;Regelungen für Wartungs- und Reparaturarbeiten;IT-Komponenten SOLLTEN regelmäßig gewartet werden.;Standard
+OPS.1.1.1.A19;Regelungen für Wartungs- und Reparaturarbeiten;Es SOLLTE geregelt sein, welche Sicherheitsaspekte bei Wartungs- und Reparaturarbeiten zu beachten sind.;Standard
+OPS.1.1.1.A19;Regelungen für Wartungs- und Reparaturarbeiten;Es SOLLTE festgelegt werden, wer für die Wartung oder Reparatur von IT-Komponenten zuständig ist.;Standard
+OPS.1.1.1.A19;Regelungen für Wartungs- und Reparaturarbeiten;Durchgeführte Wartungs- und Reparaturarbeiten SOLLTEN dokumentiert werden.;Standard
+OPS.1.1.1.A19;Regelungen für Wartungs- und Reparaturarbeiten;Es SOLLTE sichergestellt werden, dass Wartungs- und Reparaturarbeiten, die durch Dritte ausgeführt werden, mit den Beteiligten abgestimmt sind.;Standard
+OPS.1.1.1.A19;Regelungen für Wartungs- und Reparaturarbeiten;Es SOLLTEN interne Mitarbeitende des IT-Betriebs bestimmt werden, die solche Arbeiten autorisieren, gegebenenfalls beobachten oder unterstützen und abnehmen.;Standard
+OPS.1.1.1.A20;Prüfen auf Schwachstellen;Der IT-Betrieb SOLLTE regelmäßig Informationen über bekannt gewordene Schwachstellen bezüglich der IT-Plattformen, Firmware, Betriebssysteme, eingesetzter IT-Anwendungen und Dienste einholen, diese für die konkreten Gegebenheiten analysieren und berücksichtigen.;Standard
+OPS.1.1.1.A20;Prüfen auf Schwachstellen;Die IT-Komponenten SOLLTEN regelmäßig und anlassbezogen auf Schwachstellen getestet werden.;Standard
+OPS.1.1.1.A20;Prüfen auf Schwachstellen;Für jede IT-Komponente SOLLTEN die angemessene Test-Abdeckung, -Tiefe und -Methode festgelegt werden.;Standard
+OPS.1.1.1.A20;Prüfen auf Schwachstellen;Die Tests und identifizierten Schwachstellen SOLLTEN nachvollziehbar erfasst werden.;Standard
+OPS.1.1.1.A20;Prüfen auf Schwachstellen;Die Schwachstellen SOLLTEN so schnell wie möglich behoben werden.;Standard
+OPS.1.1.1.A20;Prüfen auf Schwachstellen;Solange keine entsprechenden Patches zur Verfügung stehen, MÜSSEN für schwerwiegende Schwachstellen und Bedrohungen andere Maßnahmen zum Schutz der IT-Komponente getroffen werden.;Standard
+OPS.1.1.1.A20;Prüfen auf Schwachstellen;Falls dies für eine IT-Komponente nicht möglich ist, SOLLTE diese nicht weiter betrieben werden.;Standard
+OPS.1.1.1.A21;Einbinden der Betriebsmittel in das Sicherheitsmonitoring;Die IT-Systeme und -Anwendungen, die als Betriebsmittel genutzt werden, SOLLTEN in ein Sicherheitsmonitoring eingebunden werden.;Hoch
+OPS.1.1.1.A21;Einbinden der Betriebsmittel in das Sicherheitsmonitoring;Falls die Institution ein System zur zentralen Detektion und automatisierten Echtzeitüberprüfung von Ereignismeldungen einsetzt, SOLLTEN die Betriebsmittel darin eingebunden werden.;Hoch
+OPS.1.1.1.A21;Einbinden der Betriebsmittel in das Sicherheitsmonitoring;Betriebsmittel wie IT-Management- und IT-Monitoring-Systeme SOLLTEN als Datenquelle für das Sicherheitsmonitoring genutzt werden.;Hoch
+OPS.1.1.1.A22;Automatisierte Tests auf Schwachstellen;Alle IT-Komponenten SOLLTEN regelmäßig und automatisiert auf Schwachstellen getestet werden.;Hoch
+OPS.1.1.1.A22;Automatisierte Tests auf Schwachstellen;Die Ergebnisse der Tests SOLLTEN automatisiert protokolliert und anderen Werkzeugen im Sicherheitsmonitoring bereitgestellt werden.;Hoch
+OPS.1.1.1.A22;Automatisierte Tests auf Schwachstellen;Bei kritischen Schwachstellen SOLLTE eine automatisierte Alarmierung erfolgen.;Hoch
+OPS.1.1.1.A23;Durchführung von Penetrationstests;Für alle IT-Komponenten SOLLTEN Penetrationstests durchgeführt werden.;Hoch
+OPS.1.1.1.A23;Durchführung von Penetrationstests;Hierfür SOLLTE ein Konzept erstellt und umgesetzt werden, das neben den zu verwendenden Testmethoden und Testtiefen auch die Erfolgskriterien festlegt.;Hoch
+OPS.1.1.1.A24;Umfassendes Protokollieren der Prozessschritte im IT-Betrieb;Für die Betriebsprozesse SOLLTE jeder Prozessschritt nachvollziehbar protokolliert werden.;Hoch
+OPS.1.1.1.A25;Sicherstellen von autark funktionierenden Betriebsmitteln;Für die Betriebsmittel SOLLTE sichergestellt werden, dass diese auch bei äußeren Störungen genutzt werden können.;Hoch
+OPS.1.1.1.A25;Sicherstellen von autark funktionierenden Betriebsmitteln;Insbesondere SOLLTE eine ausgefallende Internet-Anbindung nicht zu einer Störung der Betriebsmittel führen.;Hoch
+OPS.1.1.1.A25;Sicherstellen von autark funktionierenden Betriebsmitteln;Die Betriebsmittel SOLLTEN so konfiguriert und verortet werden, dass die Abhängigkeiten zwischen den verschiedenen Betriebsmitteln minimiert wird.;Hoch
+OPS.1.1.1.A25;Sicherstellen von autark funktionierenden Betriebsmitteln;Es SOLLTE verhindert werden, dass der Ausfall eines Betriebsmittels zu einer betriebsverhindernden Störung eines anderen Betriebsmittels führt.;Hoch
+OPS.1.1.1.A26;Proaktive Instandhaltung im IT-Betrieb;Für die IT-Systeme SOLLTE eine proaktive Instandhaltung durchgeführt werden, in der in festgelegten Intervallen vorbeugende Instandhaltungsmaßnahmen durchgeführt werden.;Hoch
+OPS.1.1.1.A26;Proaktive Instandhaltung im IT-Betrieb;Ergänzend zu der regelmäßigen Wartung und der proaktiven Instandhaltung SOLLTE je IT-Komponente abgewogen werden, ob eine vorausschauende Instandhaltung (engl. Predictive Maintenance) genutzt wird.;Hoch

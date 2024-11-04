@@ -1,0 +1,41 @@
+ID-Anforderung;Titel;Inhalt;Typ
+IND.2.1.A1;Einschränkung des Zugriffs auf Konfigurations- und Wartungsschnittstellen;Standardmäßig eingerichtete bzw. vom herstellenden Unternehmen gesetzte Passwörter MÜSSEN gewechselt werden (siehe ORP.4 Identitäts- und Berechtigungsmanagement).;Basis
+IND.2.1.A1;Einschränkung des Zugriffs auf Konfigurations- und Wartungsschnittstellen;Der Wechsel MUSS dokumentiert werden.;Basis
+IND.2.1.A1;Einschränkung des Zugriffs auf Konfigurations- und Wartungsschnittstellen;Die Passwörter MÜSSEN sicher hinterlegt werden.;Basis
+IND.2.1.A1;Einschränkung des Zugriffs auf Konfigurations- und Wartungsschnittstellen;Es MUSS sichergestellt werden, dass nur berechtigte Mitarbeitende auf Konfigurations- und Wartungsschnittstellen von ICS-Komponenten zugreifen können.;Basis
+IND.2.1.A1;Einschränkung des Zugriffs auf Konfigurations- und Wartungsschnittstellen;Die Konfiguration von ICS-Komponenten DARF NUR nach einer Freigabe durch die verantwortliche Person oder nach einer Authentisierung geändert werden.;Basis
+IND.2.1.A2;Nutzung sicherer Übertragungs-Protokolle für die Konfiguration und Wartung;Für die Konfiguration und Wartung von ICS-Komponenten MÜSSEN sichere Protokolle eingesetzt werden.;Basis
+IND.2.1.A2;Nutzung sicherer Übertragungs-Protokolle für die Konfiguration und Wartung;Die Informationen MÜSSEN geschützt übertragen werden.;Basis
+IND.2.1.A3;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+IND.2.1.A4;Deaktivierung oder Deinstallation nicht genutzter Dienste, Funktionen und Schnittstellen;Alle nicht genutzten Dienste, Funktionen und Schnittstellen der ICS-Komponenten MÜSSEN deaktiviert oder deinstalliert werden.;Basis
+IND.2.1.A5;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+IND.2.1.A6;Netzsegmentierung;ICS-Komponenten MÜSSEN von der Office-IT getrennt werden.;Basis
+IND.2.1.A6;Netzsegmentierung;Hängen ICS-Komponenten von anderen Diensten im Netz ab, SOLLTE das ausreichend dokumentiert werden.;Basis
+IND.2.1.A6;Netzsegmentierung;ICS-Komponenten SOLLTEN so wenig wie möglich mit anderen ICS-Komponenten kommunizieren.;Basis
+IND.2.1.A7;Erstellung von Datensicherungen;Vor jeder Systemänderung an einer ICS-Komponente MÜSSEN Backups erstellt werden.;Standard
+IND.2.1.A8;Schutz vor Schadsoftware;ICS-Komponenten SOLLTEN durch geeignete Mechanismen vor Schadprogrammen geschützt werden (siehe OPS.1.1.4 Schutz vor Schadprogrammen).;Standard
+IND.2.1.A8;Schutz vor Schadsoftware;Wird dafür ein Virenschutzprogramm benutzt, SOLLTEN das Programm und die Virensignaturen nach der Freigabe durch das herstellende Unternehmen immer auf dem aktuellen Stand sein.;Standard
+IND.2.1.A8;Schutz vor Schadsoftware;Wenn die Ressourcen auf der ICS-Komponente nicht ausreichend sind oder die Echtzeitanforderung durch den Einsatz von Virenschutzprogrammen gefährdet werden könnte, SOLLTEN alternative Maßnahmen ergriffen werden, etwa die Abschottung der ICS-Komponente oder des Produktionsnetzes.;Standard
+IND.2.1.A9;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+IND.2.1.A10;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+IND.2.1.A11;Wartung der ICS-Komponenten;Bei der Wartung einer ICS-Komponente SOLLTEN immer die aktuellen und freigegebenen Sicherheitsupdates eingespielt werden.;Standard
+IND.2.1.A11;Wartung der ICS-Komponenten;Updates für das Betriebssystem SOLLTEN erst nach Freigabe durch das herstellende Unternehmen einer ICS-Komponente installiert werden.;Standard
+IND.2.1.A11;Wartung der ICS-Komponenten;Alternativ SOLLTE die Aktualisierung in einer Testumgebung erprobt werden, bevor diese in einer produktiven ICS-Komponente eingesetzt wird.;Standard
+IND.2.1.A11;Wartung der ICS-Komponenten;Für kritische Sicherheitsupdates SOLLTE kurzfristig eine Wartung durchgeführt werden.;Standard
+IND.2.1.A12;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+IND.2.1.A13;Geeignete Inbetriebnahme von ICS-Komponenten;Bevor ICS-Komponenten in Betrieb genommen werden, SOLLTEN sie dem aktuellen, intern freigegebenen Firmware-, Software- und Patch-Stand entsprechen.;Standard
+IND.2.1.A13;Geeignete Inbetriebnahme von ICS-Komponenten;Neue ICS-Komponenten SOLLTEN in die bestehenden Betriebs-, Überwachungs- und Informationssicherheitsmanagement-Prozesse eingebunden werden.;Standard
+IND.2.1.A14;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+IND.2.1.A15;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+IND.2.1.A16;Schutz externer Schnittstellen;Von außen erreichbare Schnittstellen SOLLTEN vor Missbrauch geschützt werden.;Standard
+IND.2.1.A17;Nutzung sicherer Protokolle für die Übertragung von Mess- und Steuerdaten;Mess- oder Steuerdaten SOLLTEN bei der Übertragung vor unberechtigten Zugriffen oder Veränderungen geschützt werden.;Standard
+IND.2.1.A17;Nutzung sicherer Protokolle für die Übertragung von Mess- und Steuerdaten;Bei Anwendungen mit Echtzeitanforderungen SOLLTE geprüft werden, ob dies umsetzbar ist.;Standard
+IND.2.1.A17;Nutzung sicherer Protokolle für die Übertragung von Mess- und Steuerdaten;Werden Mess- oder Steuerdaten über öffentliche Netze übertragen, SOLLTEN sie angemessen geschützt werden.;Standard
+IND.2.1.A18;Kommunikation im Störfall;Es SOLLTE alternative und unabhängige Kommunikationsmöglichkeiten geben, die bei einem Störfall benutzt werden können, um handlungsfähig zu bleiben.;Hoch
+IND.2.1.A19;Security-Tests;Mithilfe von regelmäßigen Security-Tests SOLLTE geprüft werden, ob die technischen Sicherheitsmaßnahmen noch effektiv umgesetzt sind.;Hoch
+IND.2.1.A19;Security-Tests;Die Security-Tests SOLLTEN nicht im laufenden Anlagenbetrieb erfolgen.;Hoch
+IND.2.1.A19;Security-Tests;Die Tests SOLLTEN auf die Wartungszeiten geplant werden.;Hoch
+IND.2.1.A19;Security-Tests;Die Ergebnisse SOLLTEN dokumentiert werden.;Hoch
+IND.2.1.A19;Security-Tests;Erkannte Risiken SOLLTEN bewertet und behandelt werden.;Hoch
+IND.2.1.A20;Vertrauenswürdiger Code;Firmware-Updates oder neue Steuerungsprogramme SOLLTEN NUR eingespielt werden, wenn vorher ihre Integrität überprüft wurde.;Hoch
+IND.2.1.A20;Vertrauenswürdiger Code;Sie SOLLTEN nur aus vertrauenswürdigen Quellen stammen.;Hoch

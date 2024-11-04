@@ -1,0 +1,12 @@
+ID-Anforderung;Titel;Inhalt;Typ
+SYS.3.2.4.A1;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+SYS.3.2.4.A2;Deaktivieren des Entwicklermodus;In allen Android-basierten Geräten SOLLTE der Entwicklermodus deaktiviert sein.;Standard
+SYS.3.2.4.A3;Einsatz des Multi-User- und Gäste-Modus;Es SOLLTE geregelt sein, ob ein Gerät mit anderen Personen geteilt werden darf.;Standard
+SYS.3.2.4.A3;Einsatz des Multi-User- und Gäste-Modus;Es SOLLTE festgelegt werden, ob dazu der Multi-User- oder Gäste-Modus verwendet werden muss.;Standard
+SYS.3.2.4.A3;Einsatz des Multi-User- und Gäste-Modus;Benutzende auf einem Android-basierten Gerät SOLLTEN natürliche Personen sein.;Standard
+SYS.3.2.4.A4;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+SYS.3.2.4.A5;Erweiterte Sicherheitseinstellungen;Es SOLLTEN nur freigegebene Sicherheits-Apps Rechte zur Geräteadministration bekommen oder sich als „Trust Agents“ eintragen lassen.;Standard
+SYS.3.2.4.A5;Erweiterte Sicherheitseinstellungen;Dies SOLLTE regelmäßig überprüft werden.;Standard
+SYS.3.2.4.A5;Erweiterte Sicherheitseinstellungen;Weiterhin SOLLTE es nur erlaubten Apps möglich sein, auf Nutzungsdaten und auf Benachrichtigungen zuzugreifen.;Standard
+SYS.3.2.4.A6;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch
+SYS.3.2.4.A7;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch

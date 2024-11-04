@@ -1,0 +1,45 @@
+ID-Anforderung;Titel;Inhalt;Typ
+SYS.3.1.A1;Regelungen zur mobilen Nutzung von Laptops;Es MUSS klar geregelt werden, was Mitarbeitende bei der mobilen Nutzung von Laptops berücksichtigen müssen.;Basis
+SYS.3.1.A1;Regelungen zur mobilen Nutzung von Laptops;Es MUSS insbesondere festgelegt werden, welche Laptops mobil genutzt werden dürfen, wer sie mitnehmen darf und welche grundlegenden Sicherheitsmaßnahmen dabei zu beachten sind.;Basis
+SYS.3.1.A1;Regelungen zur mobilen Nutzung von Laptops;Die Benutzenden MÜSSEN auf die Regelungen hingewiesen werden.;Basis
+SYS.3.1.A2;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+SYS.3.1.A3;Einsatz von Personal Firewalls;Auf Laptops MUSS eine Personal Firewall aktiv sein, wenn sie außerhalb von Netzen der Institution eingesetzt werden.;Basis
+SYS.3.1.A3;Einsatz von Personal Firewalls;Die Filterregeln der Firewall MÜSSEN so restriktiv wie möglich sein.;Basis
+SYS.3.1.A3;Einsatz von Personal Firewalls;Die Filterregeln MÜSSEN regelmäßig getestet werden.;Basis
+SYS.3.1.A3;Einsatz von Personal Firewalls;Die Personal Firewall MUSS so konfiguriert werden, dass die Benutzenden nicht durch Warnmeldungen belästigt werden, die sie nicht interpretieren können.;Basis
+SYS.3.1.A4;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+SYS.3.1.A5;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+SYS.3.1.A9;Sicherer Fernzugriff mit Laptops;Aus öffentlich zugänglichen Netzen DARF NUR über einen sicheren Kommunikationskanal auf das interne Netz der Institution zugegriffen werden.;Basis
+SYS.3.1.A6;Sicherheitsrichtlinien für Laptops;Für Laptops SOLLTE eine Sicherheitsrichtlinie erstellt werden, die regelt, wie die Geräte benutzt werden dürfen.;Standard
+SYS.3.1.A6;Sicherheitsrichtlinien für Laptops;Die Benutzenden SOLLTEN hinsichtlich des Schutzbedarfs von Laptops und der dort gespeicherten Daten sensibilisiert werden.;Standard
+SYS.3.1.A6;Sicherheitsrichtlinien für Laptops;Auch SOLLTEN sie auf die spezifischen Gefährdungen bzw. die entsprechenden Anforderungen für die Nutzung aufmerksam gemacht werden.;Standard
+SYS.3.1.A6;Sicherheitsrichtlinien für Laptops;Sie SOLLTEN außerdem darüber informiert werden, welche Art von Informationen sie auf Laptops verarbeiten dürfen.;Standard
+SYS.3.1.A7;Geregelte Übergabe und Rücknahme eines Laptops;Wenn Laptops von verschiedenen Personen abwechselnd genutzt werden, SOLLTE geregelt werden, wie sie sicher übergeben werden können.;Standard
+SYS.3.1.A7;Geregelte Übergabe und Rücknahme eines Laptops;Auch SOLLTE geregelt werden, wie sie wieder sicher zurückzunehmen sind.;Standard
+SYS.3.1.A7;Geregelte Übergabe und Rücknahme eines Laptops;Vor der Weitergabe eines Laptops SOLLTEN eventuell vorhandene schützenswerte Daten sicher gelöscht werden.;Standard
+SYS.3.1.A7;Geregelte Übergabe und Rücknahme eines Laptops;Falls der Laptop vor der Weitergabe nicht neu aufgesetzt wird, SOLLTE sichergestellt sein, dass sich auf dem IT-System und allen damit verbundenen Datenträgern keine Schadsoftware befindet.;Standard
+SYS.3.1.A7;Geregelte Übergabe und Rücknahme eines Laptops;Gemeinsam mit einem Laptop SOLLTE ein Merkblatt für den sicheren Umgang mit dem Gerät ausgehändigt werden.;Standard
+SYS.3.1.A8;Sicherer Anschluss von Laptops an Datennetze;Es SOLLTE geregelt werden, wie Laptops sicher an eigene oder fremde Datennetze und an das Internet angeschlossen werden.;Standard
+SYS.3.1.A8;Sicherer Anschluss von Laptops an Datennetze;Nur zugelassene Laptops SOLLTEN sich am internen Netz der Institution anmelden können.;Standard
+SYS.3.1.A10;Abgleich der Datenbestände von Laptops;Es SOLLTE geregelt werden, wie Daten von Laptops in den Informationsverbund der Institution übernommen werden.;Standard
+SYS.3.1.A10;Abgleich der Datenbestände von Laptops;Wenn ein Synchronisationstool benutzt wird, SOLLTE sichergestellt sein, dass Synchronisationskonflikte aufgelöst werden können.;Standard
+SYS.3.1.A10;Abgleich der Datenbestände von Laptops;Der Synchronisationsvorgang SOLLTE protokolliert werden.;Standard
+SYS.3.1.A10;Abgleich der Datenbestände von Laptops;Außerdem SOLLTEN die Benutzenden angewiesen werden, die Synchronisationsprotokolle zu prüfen.;Standard
+SYS.3.1.A11;Sicherstellung der Energieversorgung von Laptops;Alle Benutzenden SOLLTEN darüber informiert werden, wie sie die Energieversorgung von Laptops im mobilen Einsatz optimal sicherstellen können.;Standard
+SYS.3.1.A11;Sicherstellung der Energieversorgung von Laptops;Vorhandene Ersatzakkus SOLLTEN in geeigneten Hüllen gelagert und transportiert werden.;Standard
+SYS.3.1.A12;Verlustmeldung für Laptops;Benutzende SOLLTEN umgehend melden, wenn ein Laptop verloren gegangen ist oder gestohlen wurde.;Standard
+SYS.3.1.A12;Verlustmeldung für Laptops;Dafür SOLLTE es in der Institution klare Meldewege geben.;Standard
+SYS.3.1.A12;Verlustmeldung für Laptops;Wenn verlorene Laptops wieder auftauchen, SOLLTE untersucht werden, ob sie eventuell manipuliert wurden.;Standard
+SYS.3.1.A12;Verlustmeldung für Laptops;Die darauf eingesetzte Software inklusive des Betriebssystems SOLLTE komplett neu installiert werden.;Standard
+SYS.3.1.A13;Verschlüsselung von Laptops;In Laptops verbaute Datenträger wie Festplatten oder SSDs SOLLTEN verschlüsselt werden.;Standard
+SYS.3.1.A14;Geeignete Aufbewahrung von Laptops;Alle Benutzenden SOLLTEN darauf hingewiesen werden, wie Laptops außerhalb der Institution sicher aufzubewahren sind.;Standard
+SYS.3.1.A14;Geeignete Aufbewahrung von Laptops;Abhängig vom Schutzbedarf der darauf gespeicherten Daten SOLLTEN Laptops auch in den Räumen der Institution außerhalb der Nutzungszeiten gegen Diebstahl gesichert bzw. verschlossen aufbewahrt werden.;Standard
+SYS.3.1.A15;Geeignete Auswahl von Laptops;Bevor Laptops beschafft werden, SOLLTE eine Anforderungsanalyse durchgeführt werden.;Standard
+SYS.3.1.A15;Geeignete Auswahl von Laptops;Anhand der Ergebnisse SOLLTEN alle infrage kommenden Geräte bewertet werden.;Standard
+SYS.3.1.A15;Geeignete Auswahl von Laptops;Die Beschaffungsentscheidung SOLLTE mit dem IT-Betrieb abgestimmt sein.;Standard
+SYS.3.1.A16;Zentrale Administration und Verwaltung von Laptops;Es SOLLTE eine geeignete Regelung definiert werden, wie Laptops zentral zu administrieren und verwalten sind.;Hoch
+SYS.3.1.A16;Zentrale Administration und Verwaltung von Laptops;Ein Tool zum zentralen Laptop-Management SOLLTE möglichst alle eingesetzten Betriebssysteme unterstützen.;Hoch
+SYS.3.1.A17;Sammelaufbewahrung von Laptops;Nicht benutzte Laptops SOLLTEN in einem geeignet abgesicherten Raum vorgehalten werden.;Hoch
+SYS.3.1.A17;Sammelaufbewahrung von Laptops;Der dafür genutzte Raum SOLLTE den Anforderungen aus dem Baustein INF.5 Raum sowie Schrank für technische Infrastruktur entsprechen.;Hoch
+SYS.3.1.A18;Einsatz von Diebstahl-Sicherungen;Es SOLLTE geregelt werden, welche Diebstahlsicherungen für Laptops eingesetzt werden sollen.;Hoch
+SYS.3.1.A18;Einsatz von Diebstahl-Sicherungen;Bei mechanischen Sicherungen SOLLTE besonders auf ein gutes Schloss geachtet werden.;Hoch

@@ -1,0 +1,54 @@
+ID-Anforderung;Titel;Inhalt;Typ
+SYS.2.6.A1;Planung des Einsatzes einer VDI;Die Leistungsanforderungen und Anzahl der benötigten virtuellen Clients sowie die daraus resultierenden Anforderungen an die Dimensionierung der VDI MÜSSEN identifiziert werden.;Basis
+SYS.2.6.A1;Planung des Einsatzes einer VDI;Die VDI-Komponenten MÜSSEN anhand dieser Dimensionierungsanforderungen bedarfsgerecht geplant werden.;Basis
+SYS.2.6.A1;Planung des Einsatzes einer VDI;Die VDI-Komponenten und die genutzte Virtualisierungsinfrastruktur MÜSSEN aufeinander abgestimmt geplant werden.;Basis
+SYS.2.6.A1;Planung des Einsatzes einer VDI;Bei der Dimensionierung der VDI MUSS berücksichtigt werden, ob und wie sich die Anforderungen hieran über den geplanten Einsatzzeitraum der VDI-Lösung ändern.;Basis
+SYS.2.6.A1;Planung des Einsatzes einer VDI;Der Support MUSS für den gesamten geplanten Einsatzzeitraum der VDI-Lösung bei der Planung mitberücksichtig werden.;Basis
+SYS.2.6.A1;Planung des Einsatzes einer VDI;Die Anzahl virtueller Clients und deren benötigte Leistung pro Virtualisierungsserver MUSS festgelegt werden.;Basis
+SYS.2.6.A2;Sichere Installation und Konfiguration der VDI-Komponenten;Wenn die VDI-Komponenten installiert und konfiguriert werden, MUSS mindestens berücksichtigt werden, wie:;Basis
+SYS.2.6.A2;Sichere Installation und Konfiguration der VDI-Komponenten;auf betrieblich und technisch notwendige Funktionen beschränkt wird,;Basis
+SYS.2.6.A2;Sichere Installation und Konfiguration der VDI-Komponenten;die Kommunikation zwischen VDI-Komponenten abgesichert wird sowie;Basis
+SYS.2.6.A2;Sichere Installation und Konfiguration der VDI-Komponenten;virtuelle Clients sicher den Benutzenden oder Gruppen hiervon zugewiesen werden.;Basis
+SYS.2.6.A2;Sichere Installation und Konfiguration der VDI-Komponenten;Empfehlungen von dem herstellenden Unternehmen der VDI-Lösung für die sichere Konfiguration MÜSSEN berücksichtigt werden.;Basis
+SYS.2.6.A2;Sichere Installation und Konfiguration der VDI-Komponenten;Die Konfigurationen der VDI-Komponenten MÜSSEN geeignet dokumentiert werden.;Basis
+SYS.2.6.A3;Sichere Installation und Konfiguration der virtuellen Clients mithilfe der VDI;Die VDI-Lösung SOLLTE genutzt werden, um die virtuellen Clients zu installieren und zu konfigurieren.;Standard
+SYS.2.6.A3;Sichere Installation und Konfiguration der virtuellen Clients mithilfe der VDI;Virtuelle Clients SOLLTEN NICHT manuell in die VDI-Lösung integriert werden.;Standard
+SYS.2.6.A3;Sichere Installation und Konfiguration der virtuellen Clients mithilfe der VDI;In der für die VDI verwendeten Virtualisierungsinfrastruktur SOLLTEN virtuelle Clients NICHT unabhängig von der VDI erzeugt werden.;Standard
+SYS.2.6.A4;Netzsegmentierung der VDI-Komponenten;Die VDI-Komponenten inklusive der virtuellen Clients SOLLTEN bei der Netzsegmentierung gesondert berücksichtigt werden.;Standard
+SYS.2.6.A4;Netzsegmentierung der VDI-Komponenten;Netze SOLLTEN dabei mindestens mit Hilfe der Virtualisierungsinfrastruktur getrennt werden.;Standard
+SYS.2.6.A4;Netzsegmentierung der VDI-Komponenten;Dedizierte Netzsegmente SOLLTEN mindestens für das Administrationsnetz der VDI-Komponenten und für die Netze der internen Kommunikation zwischen VDI-Komponenten eingerichtet werden.;Standard
+SYS.2.6.A5;Standardisierter Zugriff auf virtuelle Clients;Die Mechanismen und Dienste der VDI-Lösung SOLLTEN genutzt werden, um die Zugriffe auf die virtuellen Clients zu steuern und abzusichern.;Standard
+SYS.2.6.A5;Standardisierter Zugriff auf virtuelle Clients;Falls eine zusätzliche Software für diese Zugriffe auf den zugreifenden Clients eingesetzt wird, SOLLTE diese Software standardisiert und zentralisiert bereitgestellt werden.;Standard
+SYS.2.6.A6;Verwendung einer dedizierten Infrastruktur für virtuelle VDI-Komponenten;Falls die VDI-Komponenten virtualisiert betrieben werden, SOLLTEN sie auf einer dedizierten Virtualisierungsinfrastruktur betrieben werden.;Standard
+SYS.2.6.A7;Härtung der virtualisierten Clients durch die VDI-Lösung;Die Möglichkeiten der VDI-Lösung SOLLTEN für die Härtung der virtuellen Clients entsprechend den Anforderungen des Bausteins SYS.2.5 Client-Virtualisierung genutzt werden.;Standard
+SYS.2.6.A7;Härtung der virtualisierten Clients durch die VDI-Lösung;Die Betriebssysteme der Clients SOLLTEN ausschließlich über die Managementkomponente der VDI-Lösung konfiguriert werden.;Standard
+SYS.2.6.A7;Härtung der virtualisierten Clients durch die VDI-Lösung;Eine individuelle Konfiguration bestehender virtueller Clients über die Virtualisierungsinfrastruktur SOLLTE mit technischen Mitteln unterbunden werden.;Standard
+SYS.2.6.A8;Härtung der VDI-Lösung;Eine automatische Anmeldung an der VDI SOLLTE nicht möglich sein.;Standard
+SYS.2.6.A8;Härtung der VDI-Lösung;Die Authentisierung SOLLTE nur erfolgen, nachdem die Benutzenden mit der VDI interagiert haben.;Standard
+SYS.2.6.A9;Einbindung der virtuellen Clients in das Patch- und Änderungsmanagement;Die virtuellen Clients SOLLTEN, wenn möglich, zentral über die Managementkomponenten der VDI-Lösung verwaltet werden.;Standard
+SYS.2.6.A9;Einbindung der virtuellen Clients in das Patch- und Änderungsmanagement;Die virtuellen Clients SOLLTEN auch im ausgeschalteten Zustand gepatcht werden, falls dies von der VDI-Lösung unterstützt wird.;Standard
+SYS.2.6.A9;Einbindung der virtuellen Clients in das Patch- und Änderungsmanagement;Die Templates, aus denen virtuelle Clients erzeugt werden, SOLLTEN regelmäßig aktualisiert werden.;Standard
+SYS.2.6.A10;Monitoring von Verfügbarkeit und Nutzungsgrad der VDI;Der Zustand der VDI-Komponenten SOLLTE zentral überwacht werden.;Standard
+SYS.2.6.A10;Monitoring von Verfügbarkeit und Nutzungsgrad der VDI;Es SOLLTEN mindestens folgende Parameter für jede VDI-Komponente überwacht werden:;Standard
+SYS.2.6.A10;Monitoring von Verfügbarkeit und Nutzungsgrad der VDI;Erreichbarkeit der benötigten Netzschnittstellen;Standard
+SYS.2.6.A10;Monitoring von Verfügbarkeit und Nutzungsgrad der VDI;Verfügbarkeit der von der VDI-Komponente bereitgestellten Dienste;Standard
+SYS.2.6.A10;Monitoring von Verfügbarkeit und Nutzungsgrad der VDI;Auslastung der CPU und des Arbeitsspeichers;Standard
+SYS.2.6.A11;Monitoring von sicherheitsrelevanten Ereignissen der VDI;Für die VDI-Komponenten SOLLTEN mindestens die folgenden Ereignisse an ein zentrales Monitoring weitergeleitet werden:;Standard
+SYS.2.6.A11;Monitoring von sicherheitsrelevanten Ereignissen der VDI;erfolgreiche und fehlgeschlagene Anmeldeversuche;Standard
+SYS.2.6.A11;Monitoring von sicherheitsrelevanten Ereignissen der VDI;Konfigurationsänderungen an VDI-Komponenten oder virtuellen Clients;Standard
+SYS.2.6.A11;Monitoring von sicherheitsrelevanten Ereignissen der VDI;erfolgreiche und fehlgeschlagene Updates an VDI-Komponenten;Standard
+SYS.2.6.A11;Monitoring von sicherheitsrelevanten Ereignissen der VDI;fehlgeschlagene Updates an virtuellen Clients;Standard
+SYS.2.6.A11;Monitoring von sicherheitsrelevanten Ereignissen der VDI;Die VDI-Komponenten SOLLTEN regelmäßig auf Schwachstellen überprüft werden.;Standard
+SYS.2.6.A12;Verteilung von virtuellen Clients auf Virtualisierungsservern;Pro Virtualisierungsserver SOLLTE die maximale Leistung festgelegt werden, die dieser für virtuelle Clients zur Verfügung stellen darf.;Standard
+SYS.2.6.A12;Verteilung von virtuellen Clients auf Virtualisierungsservern;Diese Grenzwerte SOLLTEN in der VDI-Managementkomponente genutzt werden, um bei hoher Auslastung die virtuellen Clients auf verschiedene Virtualisierungsserver zu verteilen.;Standard
+SYS.2.6.A13;Verwendung getrennter VDI-Lösungen für unterschiedliche Benutzendengruppen;Es SOLLTE geprüft werden, ob es Benutzendengruppen gibt, die sich in ihren Berechtigungen so stark unterscheiden, dass die Nutzung einer gemeinsamen VDI-Lösung nicht sinnvoll ist.;Hoch
+SYS.2.6.A13;Verwendung getrennter VDI-Lösungen für unterschiedliche Benutzendengruppen;In diesem Fall SOLLTE jeweils eine eigene VDI-Lösung pro Benutzendengruppe verwendet werden.;Hoch
+SYS.2.6.A14;Verwendung von nicht-persistenten virtuellen Clients;Nachdem sie benutzt wurden oder zu einem definierten Zeitpunkt SOLLTEN die virtuellen Clients auf ihren Grundzustand, d. h. auf das zugrundeliegende Template, zurückgesetzt oder bei Bedarf neu provisioniert werden.;Hoch
+SYS.2.6.A14;Verwendung von nicht-persistenten virtuellen Clients;Diese Zeitfenster SOLLTEN dokumentiert und an die Betroffenen kommuniziert werden.;Hoch
+SYS.2.6.A14;Verwendung von nicht-persistenten virtuellen Clients;Nicht zurückgesetzte virtuelle Clients SOLLTEN NICHT von mehreren unterschiedlichen Benutzenden verwendet werden.;Hoch
+SYS.2.6.A15;Hochverfügbare Bereitstellung der VDI-Komponenten;Die VDI-Komponenten SOLLTEN redundant ausgelegt werden.;Hoch
+SYS.2.6.A15;Hochverfügbare Bereitstellung der VDI-Komponenten;Jede Komponente SOLLTE darüber hinaus redundant an die relevanten Netze angeschlossen werden.;Hoch
+SYS.2.6.A15;Hochverfügbare Bereitstellung der VDI-Komponenten;Falls die VDI-Komponenten auf physischen IT-Systemen betrieben werden, SOLLTEN diese IT-Systeme über redundante Stromversorgung und Datenspeicher verfügen.;Hoch
+SYS.2.6.A15;Hochverfügbare Bereitstellung der VDI-Komponenten;Falls die VDI-Komponenten virtualisiert betrieben werden, SOLLTEN Mechanismen der Virtualisierungsinfrastruktur für die Hochverfügbarkeit eingesetzt werden.;Hoch
+SYS.2.6.A16;Integration der VDI in ein SIEM;Wird ein Security Information and Event Management (SIEM) genutzt, SOLLTEN die VDI-Komponenten darin eingebunden werden.;Hoch
+SYS.2.6.A16;Integration der VDI in ein SIEM;Im SIEM SOLLTEN die überwachten Ereignisse automatisiert hinsichtlich Anomalien inklusive Angriffsmustern analysiert werden.;Hoch

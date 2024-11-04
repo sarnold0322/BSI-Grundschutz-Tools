@@ -1,0 +1,72 @@
+ID-Anforderung;Titel;Inhalt;Typ
+CON.10.A1;Authentisierung bei Webanwendungen;Die Entwickelnden MÜSSEN sicherstellen, dass sich die Benutzenden gegenüber der Webanwendung sicher und angemessen authentisieren, bevor diese auf geschützte Funktionen oder Inhalte zugreifen können.;Basis
+CON.10.A1;Authentisierung bei Webanwendungen;Es MUSS eine angemessene Authentisierungsmethode ausgewählt werden.;Basis
+CON.10.A1;Authentisierung bei Webanwendungen;Der Auswahlprozess MUSS dokumentiert werden.;Basis
+CON.10.A1;Authentisierung bei Webanwendungen;Eine zentrale Authentisierungskomponente MUSS verwendet werden.;Basis
+CON.10.A1;Authentisierung bei Webanwendungen;Die zentrale Authentisierungskomponente SOLLTE mit etablierten Standardkomponenten (z. B. aus Frameworks oder Programmbibliotheken) umgesetzt werden.;Basis
+CON.10.A1;Authentisierung bei Webanwendungen;Falls eine Webanwendung Authentisierungsdaten auf einem Client speichert, MUSS explizit auf die Risiken der Funktion hingewiesen werden und zustimmen („Opt-In“).;Basis
+CON.10.A1;Authentisierung bei Webanwendungen;Die Webanwendung MUSS die Möglichkeit bieten, Grenzwerte für fehlgeschlagene Anmeldeversuche festzulegen.;Basis
+CON.10.A1;Authentisierung bei Webanwendungen;Die Webanwendung MUSS Benutzende sofort informieren, wenn deren Passwort zurückgesetzt wurde.;Basis
+CON.10.A2;Zugriffskontrolle bei Webanwendungen;Die Entwickelnden MÜSSEN mittels einer Autorisierungskomponente sicherstellen, dass die Benutzenden ausschließlich solche Aktionen durchführen können, zu denen sie berechtigt sind.;Basis
+CON.10.A2;Zugriffskontrolle bei Webanwendungen;Jeder Zugriff auf geschützte Inhalte und Funktionen MUSS kontrolliert werden, bevor er ausgeführt wird.;Basis
+CON.10.A2;Zugriffskontrolle bei Webanwendungen;Die Autorisierungskomponente MUSS sämtliche Ressourcen und Inhalte berücksichtigen, die von der Webanwendung verwaltet werden.;Basis
+CON.10.A2;Zugriffskontrolle bei Webanwendungen;Ist die Zugriffskontrolle fehlerhaft, MÜSSEN Zugriffe abgelehnt werden.;Basis
+CON.10.A2;Zugriffskontrolle bei Webanwendungen;Es MUSS eine Zugriffskontrolle bei URL-Aufrufen und Objekt-Referenzen geben.;Basis
+CON.10.A3;Sicheres Session-Management;Session-IDs MÜSSEN geeignet geschützt werden.;Basis
+CON.10.A3;Sicheres Session-Management;Session-IDs MÜSSEN zufällig und mit ausreichender Entropie erzeugt werden.;Basis
+CON.10.A3;Sicheres Session-Management;Falls das Framework der Webanwendung sichere Session-IDs generieren kann, MUSS diese Funktion des Frameworks verwendet werden.;Basis
+CON.10.A3;Sicheres Session-Management;Sicherheitsrelevante Konfigurationsmöglichkeiten des Frameworks MÜSSEN berücksichtigt werden.;Basis
+CON.10.A3;Sicheres Session-Management;Wenn Session-IDs übertragen und von den Clients gespeichert werden, MÜSSEN sie ausreichend geschützt übertragen werden.;Basis
+CON.10.A3;Sicheres Session-Management;Eine Webanwendung MUSS die Möglichkeit bieten, eine bestehende Sitzung explizit zu beenden.;Basis
+CON.10.A3;Sicheres Session-Management;Nachdem ein Konto angemeldet wurde, MUSS eine bereits bestehende Session-ID durch eine neue ersetzt werden.;Basis
+CON.10.A3;Sicheres Session-Management;Sitzungen MÜSSEN eine maximale Gültigkeitsdauer besitzen (Timeout).;Basis
+CON.10.A3;Sicheres Session-Management;Inaktive Sitzungen MÜSSEN automatisch nach einer bestimmten Zeit ungültig werden.;Basis
+CON.10.A3;Sicheres Session-Management;Nachdem die Sitzung ungültig ist, MÜSSEN alle Sitzungsdaten ungültig und gelöscht sein.;Basis
+CON.10.A4;Kontrolliertes Einbinden von Inhalten bei Webanwendungen;Es MUSS sichergestellt werden, dass eine Webanwendung ausschließlich vorgesehene Daten und Inhalte einbindet ausliefert.;Basis
+CON.10.A4;Kontrolliertes Einbinden von Inhalten bei Webanwendungen;Die Ziele der Weiterleitungsfunktion einer Webanwendung MÜSSEN ausreichend eingeschränkt werden, sodass ausschließlich auf vertrauenswürdige Webseiten weitergeleitet wird.;Basis
+CON.10.A4;Kontrolliertes Einbinden von Inhalten bei Webanwendungen;Falls die Vertrauensdomäne verlassen wird, MUSS ihn die Webanwendung darüber informieren.;Basis
+CON.10.A5;Upload-Funktionen;Die Entwickelnden MÜSSEN sicherstellen, dass die Benutzenden Dateien nur im vorgegebenen Pfad speichern können.;Basis
+CON.10.A5;Upload-Funktionen;Die Entwickelnden MÜSSEN sicherstellen, dass die Benutzenden den Ablageort der Uploads nicht beeinflussen kann.;Basis
+CON.10.A5;Upload-Funktionen;Die Entwickelnden MÜSSEN Funktionen in die Webanwendung integrieren, mit denen die Uploads während des Betriebs der Webanwendung konfiguriert werden können.;Basis
+CON.10.A6;Schutz vor unerlaubter automatisierter Nutzung von Webanwendungen;Die Entwickelnden MÜSSEN Sicherheitsmechanismen implementieren, die die Webanwendung vor automatisierten Zugriffen schützen.;Basis
+CON.10.A6;Schutz vor unerlaubter automatisierter Nutzung von Webanwendungen;Bei der Implementierung der Sicherheitsmechanismen MUSS berücksichtigt werden, wie sich diese auf die Nutzungsmöglichkeiten der berechtigten Konten auswirken.;Basis
+CON.10.A7;Schutz vertraulicher Daten;Die Entwickelnden MÜSSEN sicherstellen, dass vertrauliche Daten von den Clients zu den Servern nur mit der HTTP-Post-Methode übertragen werden.;Basis
+CON.10.A7;Schutz vertraulicher Daten;Entwickelnde MÜSSEN durch Direktiven in der Webanwendung gewährleisten, dass clientseitig keine schützenswerten Daten zwischengespeichert werden.;Basis
+CON.10.A7;Schutz vertraulicher Daten;Entwickelnde MÜSSEN sicherstellen, dass in Formularen keine vertraulichen Formulardaten im Klartext angezeigt werden.;Basis
+CON.10.A7;Schutz vertraulicher Daten;Die Webanwendung SOLLTE verhindern, dass vertrauliche Daten vom Webbrowser unerwartet gespeichert werden.;Basis
+CON.10.A7;Schutz vertraulicher Daten;Sämtliche Zugangsdaten der Webanwendung MÜSSEN serverseitig mithilfe von sicheren kryptografischen Algorithmen vor unbefugtem Zugriff geschützt werden (Salted Hash).;Basis
+CON.10.A7;Schutz vertraulicher Daten;Die Dateien mit den Quelltexten der Webanwendung MÜSSEN vor unerlaubten Abrufen geschützt werden.;Basis
+CON.10.A8;Umfassende Eingabevalidierung und Ausgabekodierung;Die Entwickelnden MÜSSEN sämtliche an eine Webanwendung übergebenen Daten als potenziell gefährlich behandeln und geeignet filtern.;Basis
+CON.10.A8;Umfassende Eingabevalidierung und Ausgabekodierung;Sämtliche Eingabedaten sowie Datenströme und Sekundärdaten, wie z. B. Session-IDs, MÜSSEN serverseitig validiert werden.;Basis
+CON.10.A8;Umfassende Eingabevalidierung und Ausgabekodierung;Fehleingaben SOLLTEN möglichst nicht automatisch behandelt werden (Sanitizing).;Basis
+CON.10.A8;Umfassende Eingabevalidierung und Ausgabekodierung;Lässt es sich jedoch nicht vermeiden, MUSS Sanitizing sicher umgesetzt werden.;Basis
+CON.10.A8;Umfassende Eingabevalidierung und Ausgabekodierung;Ausgabedaten MÜSSEN so kodiert werden, dass schadhafter Code auf dem Zielsystem nicht interpretiert oder ausgeführt wird.;Basis
+CON.10.A9;Schutz vor SQL-Injection;Falls Daten an ein Datenbankmanagementsystem (DBMS) weitergeleitet werden, MÜSSEN Stored Procedures bzw. Prepared SQL Statements eingesetzt werden.;Basis
+CON.10.A9;Schutz vor SQL-Injection;Falls Daten an ein DBMS weitergeleitet werden und weder Stored Procedures noch Prepared SQL Statements von der Einsatzumgebung unterstützt werden, MÜSSEN die SQL-Queries separat abgesichert werden.;Basis
+CON.10.A10;Restriktive Herausgabe sicherheitsrelevanter Informationen;Die Entwickelnden MÜSSEN sicherstellen, dass Webseiten, Rückantworten und Fehlermeldungen von Webanwendungen keine Informationen enthalten, die Angreifenden Hinweise darauf geben, wie er Sicherheitsmechanismen umgehen kann.;Basis
+CON.10.A11;Softwarearchitektur einer Webanwendung;Die Entwickelnden SOLLTEN die Softwarearchitektur der Webanwendung mit allen Bestandteilen und Abhängigkeiten dokumentieren.;Standard
+CON.10.A11;Softwarearchitektur einer Webanwendung;Die Dokumentation SOLLTE bereits während des Entwicklungsverlaufs aktualisiert und angepasst werden.;Standard
+CON.10.A11;Softwarearchitektur einer Webanwendung;Die Dokumentation SOLLTE so gestaltet sein, dass sie schon in der Entwicklungsphase benutzt werden kann und Entscheidungen nachvollziehbar sind.;Standard
+CON.10.A11;Softwarearchitektur einer Webanwendung;In der Dokumentation SOLLTEN alle für den Betrieb notwendigen Komponenten gekennzeichnet werden, die nicht Bestandteil der Webanwendung sind.;Standard
+CON.10.A11;Softwarearchitektur einer Webanwendung;In der Dokumentation SOLLTE beschrieben sein, welche Komponenten welche Sicherheitsmechanismen umsetzen, wie die Webanwendung in eine bestehende Infrastruktur integriert wird und welche kryptografischen Funktionen und Verfahren eingesetzt werden.;Standard
+CON.10.A12;Verifikation essenzieller Änderungen;Falls wichtige Einstellungen mit der Anwendung geändert werden sollen, dann SOLLTEN die Entwickelnden sicherstellen, dass die Änderungen durch die Eingabe eines Passworts erneut verifiziert werden.;Standard
+CON.10.A12;Verifikation essenzieller Änderungen;Falls dies nicht möglich ist, dann SOLLTE die Webanwendung auf andere geeignete Weise sicherstellen, dass sich die Benutzenden authentisieren.;Standard
+CON.10.A12;Verifikation essenzieller Änderungen;Die Benutzenden SOLLTEN über Änderungen mithilfe von Kommunikationswegen außerhalb der Webanwendung informiert werden.;Standard
+CON.10.A13;Fehlerbehandlung;Treten während der Laufzeit einer Webanwendung Fehler auf, SOLLTEN diese so behandelt werden, dass die Webanwendung weiter in einem konsistenten Zustand bleibt.;Standard
+CON.10.A13;Fehlerbehandlung;Die Webanwendung SOLLTE Fehlermeldungen protokollieren.;Standard
+CON.10.A13;Fehlerbehandlung;Falls eine veranlasste Aktion einen Fehler verursacht, SOLLTE die Webanwendung diese Aktion abbrechen.;Standard
+CON.10.A13;Fehlerbehandlung;Die Webanwendung SOLLTE im Fehlerfall den Zugriff auf eine angeforderte Ressource oder Funktion verweigern.;Standard
+CON.10.A13;Fehlerbehandlung;Zuvor reservierte Ressourcen SOLLTEN im Rahmen der Fehlerbehandlung wieder freigegeben werden.;Standard
+CON.10.A13;Fehlerbehandlung;Der Fehler SOLLTE möglichst von der Webanwendung selbst behandelt werden.;Standard
+CON.10.A14;Sichere HTTP-Konfiguration bei Webanwendungen;Zum Schutz vor Clickjacking, Cross-Site-Scripting und anderen Angriffen SOLLTEN geeignete HTTP-Response-Header gesetzt werden.;Standard
+CON.10.A14;Sichere HTTP-Konfiguration bei Webanwendungen;Es SOLLTEN mindestens die folgenden HTTP-Header verwendet werden: Content-Security-Policy, Strict-Transport-Security, Content-Type, X-Content-Type-Options sowie Cache-Control.;Standard
+CON.10.A14;Sichere HTTP-Konfiguration bei Webanwendungen;Die verwendeten HTTP-Header SOLLTEN auf die Webanwendung abgestimmt werden.;Standard
+CON.10.A14;Sichere HTTP-Konfiguration bei Webanwendungen;Die verwendeten HTTP-Header SOLLTEN so restriktiv wie möglich sein.;Standard
+CON.10.A14;Sichere HTTP-Konfiguration bei Webanwendungen;Cookies SOLLTEN grundsätzlich mit den Attributen secure, SameSite und httponly gesetzt werden.;Standard
+CON.10.A15;Verhinderung von Cross-Site-Request-Forgery;Die Entwickelnden SOLLTEN die Webanwendung mit solchen Sicherheitsmechanismen ausstatten, die eine Unterscheidung zwischen beabsichtigten Seitenaufrufen und unbeabsichtigt weitergeleiteten Befehlen Dritter ermöglichen.;Standard
+CON.10.A15;Verhinderung von Cross-Site-Request-Forgery;Dabei SOLLTE mindestens geprüft werden, ob neben der Session-ID ein geheimes Token für den Zugriff auf geschützte Ressourcen und Funktionen benötigt wird.;Standard
+CON.10.A16;Mehr-Faktor-Authentisierung;Es SOLLTE eine Mehr-Faktor-Authentisierung implementiert werden.;Standard
+CON.10.A17;Verhinderung der Blockade von Ressourcen;Zum Schutz vor Denial-of-Service (DoS)-Angriffen SOLLTEN ressourcenintensive Operationen vermieden werden.;Hoch
+CON.10.A17;Verhinderung der Blockade von Ressourcen;Falls ressourcenintensive Operationen notwendig sind, dann SOLLTEN diese besonders abgesichert werden.;Hoch
+CON.10.A17;Verhinderung der Blockade von Ressourcen;Bei Webanwendungen SOLLTE ein möglicher Überlauf von Protokollierungsdaten überwacht und verhindert werden.;Hoch
+CON.10.A18;Kryptografische Absicherung vertraulicher Daten;Vertrauliche Daten einer Webanwendung SOLLTEN durch sichere, kryptografische Algorithmen abgesichert werden.;Hoch

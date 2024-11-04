@@ -1,0 +1,68 @@
+ID-Anforderung;Titel;Inhalt;Typ
+APP.2.2.A1;Planung von Active Directory Domain Services;Es MUSS eine Funktionsebene für die Domäne(n) und die Gesamtstruktur von mindestens Windows Server 2016 gewählt werden.;Basis
+APP.2.2.A1;Planung von Active Directory Domain Services;Ein bedarfsgerechtes Berechtigungskonzept für die Domäne(n) und die Gesamtstruktur MUSS entworfen werden.;Basis
+APP.2.2.A1;Planung von Active Directory Domain Services;Dabei MUSS berücksichtigt werden, dass zwischen den einzelnen Domänen einer Gesamtstruktur produktbedingt keine Sicherheitsgrenzen bestehen und daher keine sichere Begrenzung der administrativen Bereiche innerhalb einer Gesamtstruktur möglich ist.;Basis
+APP.2.2.A1;Planung von Active Directory Domain Services;Administrative Delegationen MÜSSEN mit restriktiven und bedarfsgerechten Berechtigungen ausgestattet sein.;Basis
+APP.2.2.A1;Planung von Active Directory Domain Services;Die geplante Struktur einschließlich etwaiger Schema-Änderungen MUSS nachvollziehbar dokumentiert sein.;Basis
+APP.2.2.A2;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.2.2.A3;Planung der Gruppenrichtlinien unter Windows;Es MUSS ein Konzept zur Einrichtung von Gruppenrichtlinien vorliegen.;Basis
+APP.2.2.A3;Planung der Gruppenrichtlinien unter Windows;Mehrfachüberdeckungen MÜSSEN beim Gruppenrichtlinienkonzept möglichst vermieden werden.;Basis
+APP.2.2.A3;Planung der Gruppenrichtlinien unter Windows;In der Dokumentation des Gruppenrichtlinienkonzepts MÜSSEN Ausnahmeregelungen erkannt werden können.;Basis
+APP.2.2.A3;Planung der Gruppenrichtlinien unter Windows;Alle Gruppenrichtlinienobjekte MÜSSEN durch restriktive Zugriffsrechte geschützt sein.;Basis
+APP.2.2.A3;Planung der Gruppenrichtlinien unter Windows;Für die Parameter in allen Gruppenrichtlinienobjekten MÜSSEN sichere Vorgaben festgelegt sein.;Basis
+APP.2.2.A4;ENTFALLEN;Diese Anforderung ist entfallen.;Basis
+APP.2.2.A5;Absicherung des Domänencontrollers;Aufgrund der zentralen Rolle und der Schadensauswirkung bei Kompromittierung des AD DS für die Infrastruktur SOLLTE eine Risikobetrachtung durchgeführt werden.;Basis
+APP.2.2.A5;Absicherung des Domänencontrollers;Der Notfallzugriff auf den Domänencontroller mit dem lokalen Restore-Konto DSRM (Directory Services Restore Mode) MUSS im Rahmen des Notfallmanagements geplant werden.;Basis
+APP.2.2.A5;Absicherung des Domänencontrollers;Auf dem Domänencontroller MUSS eine ausreichende Größe für das Sicherheitsprotokoll auf Grundlage des in DER.1 Detektion von sicherheitsrelevanten Ereignissen festgelegten Zeitraums eingestellt sein.;Basis
+APP.2.2.A5;Absicherung des Domänencontrollers;Aufgrund der zentralen Bedeutung des Domänencontrollers SOLLTEN auf diesem Server keine weiteren Dienste betrieben werden, sofern diese nicht zwingend auf dem gleichen Server zum Betrieb des AD DS erforderlich sind.;Basis
+APP.2.2.A6;Sichere Konfiguration von Vertrauensbeziehungen;Alle Vertrauensbeziehungen zwischen Domänen und zwischen Gesamtstrukturen MÜSSEN regelmäßig auf ihre Notwendigkeit und Absicherungsmaßnahmen evaluiert werden.;Basis
+APP.2.2.A6;Sichere Konfiguration von Vertrauensbeziehungen;Dabei MUSS geprüft werden, ob eine bidirektionale Vertrauensbeziehung notwendig ist.;Basis
+APP.2.2.A6;Sichere Konfiguration von Vertrauensbeziehungen;Wenn eine Domäne keine bidirektionale Vertrauensbeziehung zu anderen Domänen in der Gesamtstruktur benötigt, SOLLTE diese Domäne in eine eigene Gesamtstruktur ausgelagert werden, da innerhalb einer Gesamtstruktur produktbedingt keine Anpassung der Vertrauensbeziehungen möglich ist.;Basis
+APP.2.2.A6;Sichere Konfiguration von Vertrauensbeziehungen;Die SID-(Security Identifier)-Filterung bei Vertrauensstellungen zwischen Gesamtstrukturen DARF NICHT deaktiviert werden.;Basis
+APP.2.2.A6;Sichere Konfiguration von Vertrauensbeziehungen;Die voreingestellten SIDs DÜRFEN NICHT entfernt werden.;Basis
+APP.2.2.A6;Sichere Konfiguration von Vertrauensbeziehungen;Hat der in der Gesamtstruktur abgebildete Informationsverbund, dem vertraut wird, kein ausreichendes Sicherheitsniveau, MUSS für die Vertrauensbeziehung zu dieser Gesamtstruktur „Selective Authentication“ verwendet werden.;Basis
+APP.2.2.A7;Umsetzung sicherer Verwaltungsmethoden für Active Directory;Es MUSS sichergestellt sein, dass die Konten von Dienste-Administrierenden ausschließlich von Mitgliedern der Gruppe der Dienste-Administrierenden verwaltet werden.;Basis
+APP.2.2.A7;Umsetzung sicherer Verwaltungsmethoden für Active Directory;Bevor Konten vordefinierten AD-DS-Gruppen hinzugefügt werden, SOLLTE geprüft werden, ob alle der Gruppe zugehörigen Rechte für die mit den Konten verbundenen Tätigkeiten erforderlich sind.;Basis
+APP.2.2.A7;Umsetzung sicherer Verwaltungsmethoden für Active Directory;Den Gruppen „Schema-Admins“ / „Schema-Administratoren“ sowie der Gruppe „Enterprise Admins“ / „Organisations-Administratoren“ und „Domain Admins“ / „Domänen-Administratoren“ SOLLTEN neben dem AD-DS-Built-In-Konto für Administrierende weitere administrative Konten nur temporär für den Zeitraum zugewiesen werden, in dem sie diese Berechtigungen benötigen.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Built-in-AD-DS-Konten MÜSSEN mit komplexen Passwörtern versehen werden.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Sie DÜRFEN NUR als Notfallkonten dienen.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Das Built-in „Guest“- / „Gast“-Konto MUSS deaktiviert werden.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Die Berechtigungen für die Gruppe „Everyone“ / „Jeder“ MUSS beschränkt werden.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Privilegierte Konten MÜSSEN Mitglied der Gruppe „Protected Users“ / „Geschütze Benutzer“ sein.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Für Dienstkonten MÜSSEN (Group) Managed Service Accounts verwendet werden.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Vor dem Löschen nicht mehr verwendeter Konten MUSS geprüft werden, nach welcher Aufbewahrungsfrist diese gelöscht werden können.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Dabei MÜSSEN die Auswirkungen auf die Detektion und gesetzliche Aufbewahrungs- und Löschfristen berücksichtigt werden.;Basis
+APP.2.2.A16;Härtung der AD-DS-Konten;Der Zugriff auf das AdminSDHolder-Objekt SOLLTE zum Schutz der Berechtigungen besonders geschützt sein.;Basis
+APP.2.2.A17;Anmelderestriktionen für hochprivilegierte Konten der Gesamtstruktur auf Clients und Servern;Die Anmeldung von hochpriviligierten Domänen- und Gesamtstruktur-Konten und Gruppen MUSS technisch auf die minimal notwendigen IT-Systeme einschränkt werden.;Basis
+APP.2.2.A17;Anmelderestriktionen für hochprivilegierte Konten der Gesamtstruktur auf Clients und Servern;Insbesondere die Anmeldung von Mitgliedern der Gruppen „Schema Admins“ / „Schema-Administratoren“, „Enterprise Admins“ / „Enterprise-Administratoren“ und „Domain Admins“ / „Domänen-Administratoren“ SOLLTE technisch auf den Domänencontroller beschränkt werden, eine Anmeldung an anderen IT-Systemen ist für diese Gruppen also zu unterbinden.;Basis
+APP.2.2.A18;Einschränken des Hinzufügens neuer Computer-Objekte zur Domäne;Die Berechtigung, in der Domäne neue Computer-Objekte hinzuzufügen, MUSS auf die notwendigen administrativen Konten beschränkt werden.;Basis
+APP.2.2.A8;Absicherung des „Sicheren Kanals“;Der „Sichere Kanal“ SOLLTE so konfiguriert sein, dass alle übertragenen Daten immer verschlüsselt und signiert werden.;Standard
+APP.2.2.A9;Schutz der Authentisierung beim Einsatz von AD DS;In der Gesamtstruktur SOLLTE konsequent das Authentisierungsprotokoll Kerberos eingesetzt werden.;Standard
+APP.2.2.A9;Schutz der Authentisierung beim Einsatz von AD DS;Dabei SOLLTE für die Absicherung AES128_HMAC_SHA1 oder AES256_HMAC_SHA1 verwendet werden.;Standard
+APP.2.2.A9;Schutz der Authentisierung beim Einsatz von AD DS;Wenn aus Kompatibilitätsgründen übergangsweise NTLMv2 eingesetzt wird, SOLLTE die Migration auf Kerberos geplant und terminiert werden.;Standard
+APP.2.2.A9;Schutz der Authentisierung beim Einsatz von AD DS;Die LM-Authentisierung und NTLMv1 MÜSSEN deaktiviert sein.;Standard
+APP.2.2.A9;Schutz der Authentisierung beim Einsatz von AD DS;Der SMB-Datenverkehr MUSS signiert sein.;Standard
+APP.2.2.A9;Schutz der Authentisierung beim Einsatz von AD DS;SMBv1 MUSS deaktiviert sein.;Standard
+APP.2.2.A9;Schutz der Authentisierung beim Einsatz von AD DS;Anonyme Zugriffe auf Domänencontroller SOLLTEN unterbunden sein.;Standard
+APP.2.2.A9;Schutz der Authentisierung beim Einsatz von AD DS;LDAP-Sitzungen SOLLTEN nur signiert und mit konfiguriertem Channel Binding Token (CBT) erfolgen.;Standard
+APP.2.2.A10;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.2.2.A11;ENTFALLEN;Diese Anforderung ist entfallen.;Standard
+APP.2.2.A12;Datensicherung für Domänencontroller;Aufgrund der besonderen Gefährdung der unsicher gespeicherten Passwörter SOLLTE der Zugriff auf die Backups des Domänencontrollers vergleichbar dem Zugriff auf den Domänencontroller selbst abgesichert sein.;Standard
+APP.2.2.A13;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch
+APP.2.2.A14;ENTFALLEN;Diese Anforderung ist entfallen.;Hoch
+APP.2.2.A15;Auslagerung der Administration in eine eigene Gesamtstruktur;Besonders kritische IT-Systeme und Konten zur Administration der Domänen oder der Gesamtstruktur SOLLTEN in eine eigene Gesamtstruktur (häufig als „Red Forest“ bezeichnet) ausgegliedert werden, zu der von der zu verwaltenden Gesamtstruktur eine einseitige Vertrauensstellung besteht.;Hoch
+APP.2.2.A15;Auslagerung der Administration in eine eigene Gesamtstruktur;Dies SOLLTE im Rahmen des Notfallmanagements bei der Erstellung des Notfallhandbuchs besonders berücksichtigt werden.;Hoch
+APP.2.2.A19;Betrieb von virtualisierten Domänencontrollern;Virtualisierte Domänencontroller SOLLTEN nicht gemeinsam mit weiteren virtuell betriebenen IT-Systemen auf dem gleichen physischen Host betrieben werden.;Hoch
+APP.2.2.A19;Betrieb von virtualisierten Domänencontrollern;Bei der Absicherung der administrativen Konten für den Zugriff über die Virtualisierungsschicht SOLLTE berücksichtigt werden, dass diese Vollzugriffe auf den Domänencontroller haben und dieser dann vergleichbar mit dem der Gruppe „Domain Admins“ / „Domänen-Administratoren“ ist.;Hoch
+APP.2.2.A19;Betrieb von virtualisierten Domänencontrollern;Der Virtualisierungshost, die IT-Systeme, die am Virtualisierungsmanagement beteiligt sind sowie die Administrationskonten für die Virtualisierungsschicht SOLLTEN NICHT zur Gesamtstruktur gehören, zu der der virtualisierte Domänencontroller gehört.;Hoch
+APP.2.2.A20;Trennung von Organisationseinheiten;Organisationseinheiten, die aus IT-Sicherheitsgründen oder sonstigen Gründen Unabhängigkeit voneinander gewährleisten müssen, SOLLTEN sich nicht in der gleichen Gesamtstruktur befinden.;Hoch
+APP.2.2.A21;Konfiguration eines Schichtenmodells;Die Berechtigungsstruktur innerhalb der Gesamtstruktur SOLLTE in Schichten, die sich am Schutzbedarf der Konten, IT-Systeme und Anwendungen orientieren, entworfen werden.;Hoch
+APP.2.2.A21;Konfiguration eines Schichtenmodells;Bei dieser Strukturierung SOLLTEN alle Konten, IT-Systeme und Anwendungen innerhalb einer Gesamtstruktur eindeutig einer Schicht zugeordnet werden können.;Hoch
+APP.2.2.A21;Konfiguration eines Schichtenmodells;Konten einer höheren Schicht SOLLTEN sich nicht auf Ressourcen einer niedrigeren Schicht anmelden können.;Hoch
+APP.2.2.A21;Konfiguration eines Schichtenmodells;Konten einer niedrigeren Schicht SOLLTEN keine Kontrollmöglichkeit über Konten und Ressourcen höherer Schichten besitzen.;Hoch
+APP.2.2.A22;Zeitlich befristete Berechtigungen für die Administration;Konten, die für die Administration verwendet werden, SOLLTEN nur bei Bedarf auf das benötigte Zeitfenster befristetet die für die administrative Aufgabe notwendigen Berechtigungen zugewiesen werden.;Hoch
+APP.2.2.A23;Regelmäßige Analyse von Berechtigungen und resultierenden Angriffspfaden;Aufgrund der Komplexität von Berechtigungen, die nicht immer unmittelbar ersichtlich sind, SOLLTE eine regelmäßige Analyse der Berechtigungsstrukturen im AD DS vorgenommen werden.;Hoch
+APP.2.2.A23;Regelmäßige Analyse von Berechtigungen und resultierenden Angriffspfaden;Insbesondere Berechtigungen, die durch die Integration von Anwendungen in AD DS entstehen (beispielsweise Microsoft Exchange) SOLLTEN kritisch auf ihre Notwendigkeit hin geprüft und auf die minimal notwendigen Berechtigungen reduziert werden.;Hoch
+APP.2.2.A23;Regelmäßige Analyse von Berechtigungen und resultierenden Angriffspfaden;Aktualisierungen können ebenfalls auch Berechtigungsstrukturen im AD DS ändern, daher SOLLTE die Analyse auch nach entsprechenden Aktualisierungen durchgeführt werden.;Hoch
+APP.2.2.A23;Regelmäßige Analyse von Berechtigungen und resultierenden Angriffspfaden;Mögliche Angriffspfade über die Berechtigungen der AD-DS-Konten, die beispielsweise bei Kompromittierung von Konten zur Kompromittierung der Domäne bzw. der vollständigen Gesamtstruktur führen, SOLLTEN möglichst gering sein.;Hoch
+APP.2.2.A23;Regelmäßige Analyse von Berechtigungen und resultierenden Angriffspfaden;Die Aktivitäten der verbleibenden, als kritisch identifizierten Konten SOLLTEN besonders überwacht werden.;Hoch

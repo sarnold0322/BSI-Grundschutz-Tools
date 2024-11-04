@@ -1,0 +1,39 @@
+ID-Anforderung;Titel;Inhalt;Typ
+OPS.1.2.6.A1;Planung des NTP- Einsatzes;Der IT-Betrieb MUSS planen, wo und wie NTP eingesetzt wird.;Basis
+OPS.1.2.6.A1;Planung des NTP- Einsatzes;Dies SOLLTE vollständig dokumentiert werden.;Basis
+OPS.1.2.6.A1;Planung des NTP- Einsatzes;Dabei MUSS ermittelt werden, welche Anwendungen auf eine genaue Zeitinformation angewiesen sind.;Basis
+OPS.1.2.6.A1;Planung des NTP- Einsatzes;Die Anforderungen des Informationsverbunds hinsichtlich genauer Zeit der IT-Systeme MÜSSEN definiert und dokumentiert werden.;Basis
+OPS.1.2.6.A1;Planung des NTP- Einsatzes;Der IT-Betrieb MUSS definieren, welche NTP-Server von welchen NTP-Clients genutzt werden sollen.;Basis
+OPS.1.2.6.A1;Planung des NTP- Einsatzes;Es MUSS festgelegt werden, ob NTP-Server im Client-Server- oder im Broadcast-Modus arbeiten.;Basis
+OPS.1.2.6.A2;Sichere Nutzung fremder Zeitquellen;Falls Zeitinformationen von einem NTP-Server außerhalb des Netzes der Institution bezogen werden, dann MUSS der IT-Betrieb beurteilen, ob der NTP-Server hinreichend verlässlich ist.;Basis
+OPS.1.2.6.A2;Sichere Nutzung fremder Zeitquellen;Der IT-Betrieb MUSS sicherstellen, dass nur als verlässlich eingestufte NTP-Server verwendet werden.;Basis
+OPS.1.2.6.A2;Sichere Nutzung fremder Zeitquellen;Der IT-Betrieb MUSS die Nutzungsregeln des NTP-Servers kennen und beachten.;Basis
+OPS.1.2.6.A3;Sichere Konfiguration von NTP-Servern;Der IT-Betrieb MUSS den NTP-Server so konfigurieren, dass Clients nur dann Einstellungen des NTP-Servers verändern können, wenn dies explizit vorgesehen ist.;Basis
+OPS.1.2.6.A3;Sichere Konfiguration von NTP-Servern;Darüber hinaus MUSS sichergestellt werden, dass nur vertrauenswürdige Clients Status-Informationen abfragen können.;Basis
+OPS.1.2.6.A3;Sichere Konfiguration von NTP-Servern;Falls die internen NTP-Server der Institution nicht selbst hinreichend genaue Zeitquellen nutzen, dann MUSS der IT-Betrieb diese NTP-Server so konfigurieren, dass sie regelmäßig genaue Zeitinformationen von externen NTP-Servern abfragen.;Basis
+OPS.1.2.6.A4;Nichtberücksichtigung unaufgeforderter Zeitinformationen;Der IT-Betrieb MUSS alle NTP-Clients so konfigurieren, dass sie Zeitinformationen verwerfen, die sie unaufgefordert von anderen IT-Systemen erhalten.;Basis
+OPS.1.2.6.A5;Nutzung des Client-Server-Modus für NTP;Der IT-Betrieb SOLLTE alle IT-Systeme so konfigurieren, dass sie den NTP-Dienst im Client-Server-Modus nutzen.;Standard
+OPS.1.2.6.A5;Nutzung des Client-Server-Modus für NTP;NTP-Server SOLLTEN Zeitinformationen nur dann an Clients versenden, wenn diese aktiv anfragen.;Standard
+OPS.1.2.6.A6;Überwachung von IT-Systemen mit NTP-Nutzung;Der IT-Betrieb SOLLTE die Verfügbarkeit, die Kapazität und die Systemzeit der internen NTP-Server überwachen.;Standard
+OPS.1.2.6.A6;Überwachung von IT-Systemen mit NTP-Nutzung;Der IT-Betrieb SOLLTE IT-Systeme, die ihre Zeit per NTP synchronisieren, so konfigurieren, dass sie folgende Ereignisse protokollieren:;Standard
+OPS.1.2.6.A6;Überwachung von IT-Systemen mit NTP-Nutzung;unerwartete Neustarts des IT-Systems,;Standard
+OPS.1.2.6.A6;Überwachung von IT-Systemen mit NTP-Nutzung;unerwartete Neustarts des NTP-Dienstes,;Standard
+OPS.1.2.6.A6;Überwachung von IT-Systemen mit NTP-Nutzung;Fehler im Zusammenhang mit dem NTP-Dienst sowie;Standard
+OPS.1.2.6.A6;Überwachung von IT-Systemen mit NTP-Nutzung;ungewöhnliche Zeitinformationen.;Standard
+OPS.1.2.6.A6;Überwachung von IT-Systemen mit NTP-Nutzung;Falls der NTP-Server von sich aus regelmäßig Zeitinformationen versendet (Broadcast-Modus), dann SOLLTE der IT-Betrieb die NTP-Clients daraufhin überwachen, ob sie ungewöhnliche Zeitinformationen erhalten.;Standard
+OPS.1.2.6.A7;Sichere Konfiguration von NTP-Clients;Der IT-Betrieb SOLLTE festlegen, welche Zeitinformationen ein IT-System verwenden soll, wenn es neu gestartet wurde.;Standard
+OPS.1.2.6.A7;Sichere Konfiguration von NTP-Clients;Der IT-Betrieb SOLLTE festlegen, welche Zeitinformationen ein IT-System verwenden soll, wenn sein NTP-Dienst neu gestartet wurde.;Standard
+OPS.1.2.6.A7;Sichere Konfiguration von NTP-Clients;Der IT-Betrieb SOLLTE festlegen, wie NTP-Clients auf stark abweichende Zeitinformationen reagieren.;Standard
+OPS.1.2.6.A7;Sichere Konfiguration von NTP-Clients;Insbesondere SOLLTE entschieden werden, ob stark abweichende Zeitinformationen von NTP-Servern nach einem Systemneustart akzeptiert werden.;Standard
+OPS.1.2.6.A7;Sichere Konfiguration von NTP-Clients;Der IT-Betrieb SOLLTE Grenzwerte für stark abweichende Zeitinformationen festlegen.;Standard
+OPS.1.2.6.A7;Sichere Konfiguration von NTP-Clients;Der IT-Betrieb SOLLTE sicherstellen, dass NTP-Clients auch dann noch ausreichende Zeitinformationen erhalten, wenn sie von einem NTP-Server aufgefordert werden, weniger oder gar keine Anfragen zu senden.;Standard
+OPS.1.2.6.A8;Einsatz sicherer Protokolle zur Zeitsynchronisation;Der IT-Betrieb SOLLTE prüfen, ob sichere Protokolle zur Zeitsynchronisation eingesetzt werden können (z. B. Network Time Security (NTS)).;Standard
+OPS.1.2.6.A8;Einsatz sicherer Protokolle zur Zeitsynchronisation;Falls dies möglich ist, SOLLTEN sichere Protokolle eingesetzt werden.;Standard
+OPS.1.2.6.A9;Verfügbarkeit ausreichend vieler genauer Zeitquellen;Falls korrekte Systemzeiten von erheblicher Bedeutung sind, dann SOLLTE eine Institution über mehrere Stratum-1-NTP-Server in ihrem Netz verfügen.;Hoch
+OPS.1.2.6.A9;Verfügbarkeit ausreichend vieler genauer Zeitquellen;Die IT-Systeme des Informationsverbunds mit NTP-Dienst SOLLTEN die Stratum-1-NTP-Server direkt oder indirekt als Zeitreferenz nutzen.;Hoch
+OPS.1.2.6.A9;Verfügbarkeit ausreichend vieler genauer Zeitquellen;Die Straum-1-Server SOLLTEN jeweils über verschiedene Zeitquellen verfügen.;Hoch
+OPS.1.2.6.A10;Ausschließlich interne NTP-Server;Jedes IT-System des Informationsverbunds mit NTP-Dienst SOLLTE Zeitinformationen ausschließlich von NTP-Servern innerhalb des Netzes der Institution beziehen.;Hoch
+OPS.1.2.6.A11;Redundante NTP-Server;IT-Systeme, bei denen die Genauigkeit der Systemzeit von erheblicher Bedeutung ist, SOLLTEN Zeitinformationen von mindestens vier unabhängigen NTP-Servern beziehen.;Hoch
+OPS.1.2.6.A12;NTP-Server mit authentifizierten Auskünften;NTP-Server SOLLTEN sich bei der Kommunikation gegenüber Clients authentisieren.;Hoch
+OPS.1.2.6.A12;NTP-Server mit authentifizierten Auskünften;Dies SOLLTE auch für die Server gelten, von denen der NTP-Server seinerseits Zeitinformationen erhält.;Hoch
+OPS.1.2.6.A12;NTP-Server mit authentifizierten Auskünften;Die NTP-Clients SOLLTEN nur authentifizierte NTP-Daten akzeptieren.;Hoch

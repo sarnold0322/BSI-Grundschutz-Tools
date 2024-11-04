@@ -1,0 +1,148 @@
+ID-Anforderung;Titel;Inhalt;Typ
+INF.13.A1;Beurteilung des Ist-Zustands bei der Übernahme bestehender Gebäude;Bei der Übernahme von bestehenden Gebäuden MÜSSEN die im Gebäude installierten TGA-Anlagen, die Bausubstanz und Einrichtungen sowie vorhandene Dokumentation erfasst und hinsichtlich ihres Zustands (Alter, Supportstatus, Zukunftsfähigkeit, Vollständigkeit der Dokumentation etc.) beurteilt werden.;Basis
+INF.13.A2;Regelung und Dokumentation von Verantwortlichkeiten und Zuständigkeiten im Gebäude;Da es in einem Gebäude meist unterschiedliche Verantwortlichkeiten und Zuständigkeiten für verschiedene Bereiche gibt, MÜSSEN die entsprechenden Rechte, Pflichten, Aufgaben, Kompetenzen und zugehörigen Prozesse geregelt und dokumentiert werden.;Basis
+INF.13.A2;Regelung und Dokumentation von Verantwortlichkeiten und Zuständigkeiten im Gebäude;Hierbei MÜSSEN auch die organisatorischen Strukturen im Gebäude berücksichtigt und dokumentiert werden.;Basis
+INF.13.A2;Regelung und Dokumentation von Verantwortlichkeiten und Zuständigkeiten im Gebäude;Insbesondere MÜSSEN alle Nachfrage- und betreibenden Organisationen erfasst werden.;Basis
+INF.13.A2;Regelung und Dokumentation von Verantwortlichkeiten und Zuständigkeiten im Gebäude;Wird das TGM durch eine externe Organisation betrieben, MÜSSEN die zugehörigen Rechte, Pflichten, Aufgaben und Kompetenzen gemäß Baustein OPS.2.3 Nutzung von Outsourcing vertraglich festgehalten werden.;Basis
+INF.13.A2;Regelung und Dokumentation von Verantwortlichkeiten und Zuständigkeiten im Gebäude;Weiterhin MÜSSEN die Schnittstellen und Meldewege inklusive Eskalation zwischen allen Beteiligten festgelegt und dokumentiert werden.;Basis
+INF.13.A2;Regelung und Dokumentation von Verantwortlichkeiten und Zuständigkeiten im Gebäude;Auch die Koordination verschiedener betreibender Organisationen MUSS geregelt und dokumentiert werden.;Basis
+INF.13.A2;Regelung und Dokumentation von Verantwortlichkeiten und Zuständigkeiten im Gebäude;Der Zugriff auf die Dokumentation MUSS geregelt werden.;Basis
+INF.13.A2;Regelung und Dokumentation von Verantwortlichkeiten und Zuständigkeiten im Gebäude;Die gesamte Dokumentation inklusive der zugehörigen Kontaktinformationen MUSS immer aktuell und verfügbar sein.;Basis
+INF.13.A3;Dokumentation von Gebäudeeinrichtungen;Alle Gebäudeeinrichtungen der TGA inklusive GA MÜSSEN dokumentiert werden.;Basis
+INF.13.A3;Dokumentation von Gebäudeeinrichtungen;Hierbei MUSS sämtliche, auch schon vorhandene, Dokumentation zusammengeführt, aus dem Blickwinkel des TGM organisiert und um TGM-spezifische Angaben ergänzt werden.;Basis
+INF.13.A3;Dokumentation von Gebäudeeinrichtungen;Der Zugriff auf die Dokumentation MUSS geregelt werden.;Basis
+INF.13.A3;Dokumentation von Gebäudeeinrichtungen;Die gesamte Dokumentation inklusive der zugehörigen Kontaktinformationen MUSS immer aktuell und verfügbar sein.;Basis
+INF.13.A4;Erstellung einer Sicherheitsrichtlinie für TGM;Ausgehend von der allgemeinen Sicherheitsleitlinie der Institution SOLLTE eine übergeordnete Sicherheitsrichtlinie für TGM erstellt sowie nachvollziehbar umgesetzt werden.;Standard
+INF.13.A4;Erstellung einer Sicherheitsrichtlinie für TGM;Aus dieser übergeordneten Sicherheitsrichtlinie SOLLTEN spezifische Sicherheitsrichtlinien für die verschiedenen Themenbereiche des TGM abgeleitet werden.;Standard
+INF.13.A4;Erstellung einer Sicherheitsrichtlinie für TGM;In der Sicherheitsrichtlinie für das TGM SOLLTEN nachvollziehbar Anforderungen und Vorgaben beschrieben werden, wie das TGM umgesetzt wird.;Standard
+INF.13.A4;Erstellung einer Sicherheitsrichtlinie für TGM;Die Sicherheitsrichtlinie SOLLTE regelmäßig und zusätzlich bei Bedarf geprüft und gegebenenfalls aktualisiert werden, um dem aktuellen Stand der Technik zu entsprechen und auch neueste Erkenntnisse abdecken zu können.;Standard
+INF.13.A4;Erstellung einer Sicherheitsrichtlinie für TGM;Sie SOLLTE allen im Bereich TGM zuständigen Mitarbeitenden bekannt und grundlegend für ihre Arbeit sein.;Standard
+INF.13.A5;Planung des TGM;Das TGM, die zugrundeliegende Infrastruktur und die zugehörigen Prozesse SOLLTEN geeignet geplant werden.;Standard
+INF.13.A5;Planung des TGM;Die Planung SOLLTE dabei mindestens eine detaillierte Anforderungsanalyse, eine ausreichende Grobkonzeptionierung und eine Fein- und Umsetzungsplanung umfassen.;Standard
+INF.13.A5;Planung des TGM;Im Rahmen der Anforderungsanalyse SOLLTEN Anforderungen an TGM-Infrastruktur und TGM-Prozesse spezifiziert werden.;Standard
+INF.13.A5;Planung des TGM;Dabei SOLLTEN alle wesentlichen Elemente für das TGM berücksichtigt werden.;Standard
+INF.13.A5;Planung des TGM;Auch SOLLTE die Sicherheitsrichtlinie für das TGM beachtet werden.;Standard
+INF.13.A5;Planung des TGM;Steht die Nachfrageorganisation zum Zeitpunkt der Planung noch nicht fest, SOLLTEN im Rahmen einer universellen Planung zumindest grundlegende Anforderungen erfasst werden, die dem Stand der Technik entsprechen.;Standard
+INF.13.A5;Planung des TGM;Für die Anforderungsspezifikation SOLLTEN auch die Schnittstellen der zu verwaltenden Systeme dokumentiert werden, z. B. um die Kompatibilität von TGM-Lösung und zu verwaltenden Systemen zu gewährleisten.;Standard
+INF.13.A5;Planung des TGM;Außerdem SOLLTEN vor der Beauftragung von Dienstleistenden oder vor der Anschaffung von Hard- oder Software der durch das TGM zu verwaltenden Systeme die Anforderungen des TGM in einem Lastenheft des TGM spezifiziert werden.;Standard
+INF.13.A5;Planung des TGM;In diesem Lastenheft SOLLTE auch die Durchführung von Tests berücksichtigt werden (siehe auch INF.13.A22 Durchführung von Systemtests im TGM).;Standard
+INF.13.A5;Planung des TGM;Wenn im TGM Funktionen der Künstlichen Intelligenz (KI) eingesetzt werden, SOLLTE bei dem zuständigen herstellenden Unternehmen angefragt werden, ob und wie die Informationssicherheit hier angemessen berücksichtigt wird.;Standard
+INF.13.A5;Planung des TGM;Die Grobkonzeptionierung SOLLTE gemäß INF.13.A6 Erstellung eines TGM-Konzepts erfolgen.;Standard
+INF.13.A5;Planung des TGM;In der Fein- und Umsetzungsplanung für das TGM SOLLTEN alle in der Sicherheitsrichtlinie und im TGM-Konzept adressierten Punkte berücksichtigt werden.;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Ausgehend von der Sicherheitsrichtlinie für das TGM SOLLTE ein TGM-Konzept erstellt und gepflegt werden.;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Dabei SOLLTEN mindestens folgende Aspekte bedarfsgerecht berücksichtigt werden:;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Methoden, Techniken und Werkzeuge für das TGM;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Absicherung des Zugangs und der Kommunikation;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Absicherung auf Ebene des Netzes, insbesondere Zuordnung von TGM-Komponenten zu Netzsegmenten;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Umfang des Monitorings und der Alarmierung;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Protokollierung von Ereignissen und administrativen Zugriffen;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Meldeketten bei Störungen und Sicherheitsvorfällen;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;benötigte Prozesse für das TGM;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Bereitstellung von TGM-Informationen für andere Betriebsbereiche;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Einbindung des TGM in die Notfallplanung;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Das TGM-Konzept SOLLTE regelmäßig und zusätzlich bei Bedarf geprüft und gegebenenfalls aktualisiert werden, um dem aktuellen Stand der Technik zu entsprechen und auch neue Erkenntnisse abdecken zu können.;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Außerdem SOLLTE regelmäßig ein Soll-Ist-Vergleich zwischen den Vorgaben des Konzepts und dem aktuellen Zustand durchgeführt werden.;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Dabei SOLLTE insbesondere geprüft werden, ob die Systeme gemäß den Vorgaben konfiguriert sind.;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Die Ergebnisse SOLLTEN nachvollziehbar dokumentiert werden.;Standard
+INF.13.A6;Erstellung eines TGM-Konzepts;Abweichungen SOLLTEN behoben werden.;Standard
+INF.13.A7;Erstellung eines Funkfrequenzkatasters;Um Funkfrequenzen weitestgehend störungsfrei nutzen zu können, SOLLTE ein Funkfrequenzkataster erstellt werden, dass die Systeme und Nutzenden des Frequenzspektrums an den Standorten der Institution listet.;Standard
+INF.13.A7;Erstellung eines Funkfrequenzkatasters;Dabei SOLLTE bei einer potentiellen Nutzung von Frequenzen durch unterschiedliche Systeme und Nutzende festgelegt werden, wer auf welchen Frequenzen der Primärnutzende ist.;Standard
+INF.13.A7;Erstellung eines Funkfrequenzkatasters;Dabei SOLLTE auch eine Abstimmung zwischen IT und TGM erfolgen.;Standard
+INF.13.A7;Erstellung eines Funkfrequenzkatasters;Wird in den Gebäuden OT eingesetzt, SOLLTE auch hier eine Abstimmung erfolgen.;Standard
+INF.13.A7;Erstellung eines Funkfrequenzkatasters;Das Funkfrequenzkataster SOLLTE regelmäßig und zusätzlich bei Bedarf geprüft und gegebenenfalls aktualisiert werden.;Standard
+INF.13.A8;Erstellung und Pflege eines Inventars für das TGM;Für die Dokumentation von Systemen, die durch das TGM verwaltet werden, SOLLTE ein Inventar erstellt und gepflegt werden.;Standard
+INF.13.A8;Erstellung und Pflege eines Inventars für das TGM;Das Inventar SOLLTE vollständig und aktuell gehalten werden.;Standard
+INF.13.A8;Erstellung und Pflege eines Inventars für das TGM;Aus dem Inventar SOLLTEN für alle Systeme Verantwortlichkeiten und Zuständigkeiten ersichtlich sein.;Standard
+INF.13.A8;Erstellung und Pflege eines Inventars für das TGM;Auch die Elemente der TGM-Infrastruktur selbst SOLLTEN dokumentiert werden.;Standard
+INF.13.A9;Regelung des Einsatzes von Computer-Aided Facility Management;Wird ein Computer-Aided Facility Management-System (CAFM-System) eingesetzt, SOLLTE dieser Einsatz umfassend geplant und konzeptioniert werden.;Standard
+INF.13.A9;Regelung des Einsatzes von Computer-Aided Facility Management;Werden im CAFM Prozesse abgebildet und unterstützt, SOLLTEN entsprechende Rollen und Berechtigungen definiert werden, insbesondere wenn externe Dienstleistende an den Prozessen beteiligt sind.;Standard
+INF.13.A10;Regelung des Einsatzes von Building Information Modeling;Soweit möglich SOLLTE Building Information Modeling (BIM) zur digitalen Modellierung aller relevanten Gebäudedaten eingesetzt werden.;Standard
+INF.13.A10;Regelung des Einsatzes von Building Information Modeling;Bei der Verwendung von BIM SOLLTE der BIM-Projektabwicklungsplan spezifiziert werden.;Standard
+INF.13.A10;Regelung des Einsatzes von Building Information Modeling;Weiterhin SOLLTE die BIM-Architektur umfassend geplant und konzeptioniert werden.;Standard
+INF.13.A10;Regelung des Einsatzes von Building Information Modeling;Auch für die BIM-Werkzeuge SOLLTE die Informationssicherheit angemessen gewährleistet werden.;Standard
+INF.13.A11;Angemessene Härtung von Systemen im TGM;Alle Systeme des TGM sowie die Systeme, die durch das TGM betrieben werden, SOLLTEN angemessen gehärtet werden.;Standard
+INF.13.A11;Angemessene Härtung von Systemen im TGM;Die Härtungsmaßnahmen SOLLTEN dokumentiert, regelmäßig und zusätzlich bei Bedarf überprüft und, falls erforderlich, angepasst werden.;Standard
+INF.13.A11;Angemessene Härtung von Systemen im TGM;Für alle Systeme des TGM sowie die Systeme, die durch das TGM betrieben werden, SOLLTE bei der Beschaffung sichergestellt werden, dass diese angemessen gehärtet werden können und insbesondere sicherheitsrelevante Updates für die geplante Nutzungsdauer bereitgestellt werden.;Standard
+INF.13.A11;Angemessene Härtung von Systemen im TGM;Systeme, für die keine sicherheitsrelevanten Updates verfügbar sind, SOLLTEN nach Bekanntwerden von Schwachstellen nicht mehr genutzt werden.;Standard
+INF.13.A11;Angemessene Härtung von Systemen im TGM;Wenn dies nicht möglich ist, SOLLTEN die betroffenen Systeme mit den Mitteln der Netzsegmentierung separiert und die Kommunikation kontrolliert und reglementiert werden.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Alle Systeme des TGM sowie die Systeme, die durch das TGM betrieben werden, SOLLTEN sicher konfiguriert werden.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Die Konfiguration SOLLTE mindestens vor Inbetriebnahme eines Systems getestet werden.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Konfigurationsänderungen während des Produktivbetriebs SOLLTEN vor Aktivierung auf einer Testinstanz getestet oder nur im Vier-Augen-Prinzip durchgeführt werden.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Die Konfiguration von Systemen SOLLTE gesichert werden, um ein schnelles Wiedereinspielen einer fehlerfreien Version zu ermöglichen (Rollback).;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Rollback-Tests SOLLTEN auf einem Testsystem eingerichtet oder während Wartungsfenstern durchgeführt werden.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Die Konfigurationen SOLLTEN zentral gespeichert werden.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Für gleichartige Systeme, inklusive der Geräte der Automations- und Feldebene (siehe Kapitel 4.1 Genutzte TGM-spezifische Fachbegriffe), SOLLTE eine automatisierte Verteilung von Software-Updates und Konfigurationen eingerichtet werden.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Konfigurationsänderungen SOLLTEN allen Beteiligten an Betriebs- und Serviceprozessen (Entstörung, Rufbereitschaft, Wartungen etc.) bekannt gemacht werden, insbesondere;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Änderungen der Zugangsmechanismen oder der Passwörter sowie;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Änderungen an Kommunikations- und Steuerparametern für die eingebundenen Systeme.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Es SOLLTE sichergestellt werden, dass im Störungsfall beispielsweise eine Wartungstechnikerin oder ein Wartungstechniker das System bedienen bzw. parametrieren kann.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Außerdem SOLLTE regelmäßig und zusätzlich bei Bedarf geprüft werden, ob die Systeme gemäß den Vorgaben konfiguriert sind.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Die Ergebnisse SOLLTEN nachvollziehbar dokumentiert werden.;Standard
+INF.13.A12;Sichere Konfiguration der TGM-Systeme;Abweichungen von den Vorgaben SOLLTEN behoben werden.;Standard
+INF.13.A13;Sichere Anbindung von eingeschränkt vertrauenswürdigen Systemen im TGM;Eingeschränkt vertrauenswürdige Systeme, die aus wichtigen betrieblichen Gründen im TGM eingebunden werden müssen, SOLLTEN über ein System angebunden werden, das die Kommunikation mit Hilfe von Firewall-Funktionen kontrolliert und reglementiert.;Standard
+INF.13.A13;Sichere Anbindung von eingeschränkt vertrauenswürdigen Systemen im TGM;Dieses System SOLLTE in der Verantwortlichkeit des TGM liegen.;Standard
+INF.13.A14;Berücksichtigung spezieller Rollen und Berechtigungen im TGM;Im Rollen- und Berechtigungskonzept hinsichtlich des TGM SOLLTEN sowohl Nachfrage- als auch betreibende Organisationen der TGM-Systeme und der TGA-Systeme berücksichtigt werden.;Standard
+INF.13.A14;Berücksichtigung spezieller Rollen und Berechtigungen im TGM;Dies SOLLTE insbesondere dann sorgfältig geplant werden, wenn das TGM institutionsübergreifend bereitgestellt wird.;Standard
+INF.13.A15;Schutz vor Schadsoftware im TGM;Können auf einem System keine Virenschutzprogramme gemäß Baustein OPS.1.1.4 Schutz vor Schadprogrammen ausgeführt werden, beispielsweise aufgrund von knappen Ressourcen oder aufgrund von Echtzeitanforderungen, SOLLTEN geeignete alternative Schutzverfahren eingesetzt werden.;Standard
+INF.13.A15;Schutz vor Schadsoftware im TGM;Jedes externe System und jeder externe Datenträger SOLLTE vor der Verbindung mit einem TGM-System und vor der Datenübertragung auf Schadsoftware geprüft werden.;Standard
+INF.13.A16;Prozess für Änderungen im TGM;Änderungen SOLLTEN immer angekündigt und mit allen beteiligten Gewerken (siehe Kapitel 4.1 Genutzte TGM-spezifische Fachbegriffe), Nachfrage- und betreibenden Organisationen abgestimmt werden.;Standard
+INF.13.A16;Prozess für Änderungen im TGM;Außerdem SOLLTEN Regelungen für den Fall getroffen werden, dass ein Rückbau von Änderungen mit fehlerhaftem Ergebnis nicht oder nur mit hohem Aufwand möglich ist.;Standard
+INF.13.A16;Prozess für Änderungen im TGM;Daher sollten im Änderungsmanagement vor Ausführung der Änderung Tests durchgeführt werden, die auch die Fähigkeit des Rückbaus beinhalten.;Standard
+INF.13.A16;Prozess für Änderungen im TGM;Für die verschiedenen Typen von Änderungen SOLLTE die jeweilige Testtiefe festgelegt werden.;Standard
+INF.13.A16;Prozess für Änderungen im TGM;Bei der Einführung neuer Systeme und bei großen Änderungen an bestehenden Systemen SOLLTE eine entsprechend hohe Testtiefe vorgesehen werden (siehe INF.13.A22 Durchführung von Systemtests im TGM).;Standard
+INF.13.A17;Regelung von Wartungs- und Reparaturarbeiten im TGM;Gebäudeeinrichtungen SOLLTEN regelmäßig gewartet werden.;Standard
+INF.13.A17;Regelung von Wartungs- und Reparaturarbeiten im TGM;Hierfür SOLLTE ein Wartungsplan erstellt werden.;Standard
+INF.13.A17;Regelung von Wartungs- und Reparaturarbeiten im TGM;Es SOLLTE geregelt sein, welche Sicherheitsaspekte bei Wartungs- und Reparaturarbeiten zu beachten sind.;Standard
+INF.13.A17;Regelung von Wartungs- und Reparaturarbeiten im TGM;Dabei SOLLTEN auch die Abhängigkeiten der verschiedenen Gewerke berücksichtigt werden.;Standard
+INF.13.A17;Regelung von Wartungs- und Reparaturarbeiten im TGM;Darüber hinaus SOLLTE festgelegt werden, wer für die Wartung oder Reparatur von Einrichtungen zuständig ist.;Standard
+INF.13.A17;Regelung von Wartungs- und Reparaturarbeiten im TGM;Durchgeführte Wartungsarbeiten SOLLTEN dokumentiert werden.;Standard
+INF.13.A17;Regelung von Wartungs- und Reparaturarbeiten im TGM;Es SOLLTE zu jedem Zeitpunkt gewährleistet werden, dass Wartungs- und Reparaturarbeiten, die durch Dritte ausgeführt werden, kontrolliert, ausschließlich abgestimmt durchgeführt und abgenommen werden.;Standard
+INF.13.A17;Regelung von Wartungs- und Reparaturarbeiten im TGM;Hierfür SOLLTEN interne Mitarbeitende der Haustechnik bestimmt werden, die solche Wartungs- und Reparaturarbeiten autorisieren, beobachten, gegebenenfalls unterstützen und abnehmen.;Standard
+INF.13.A18;Proaktive Instandhaltung im TGM;Für Systeme, die durch das TGM verwaltet werden, SOLLTE eine angemessene proaktive Instandhaltung durchgeführt werden.;Standard
+INF.13.A18;Proaktive Instandhaltung im TGM;Hierfür SOLLTEN die regelmäßigen Wartungsintervalle je System festgelegt werden.;Standard
+INF.13.A18;Proaktive Instandhaltung im TGM;Zusätzlich SOLLTE je System abgewogen werden, ob ergänzend zur regelmäßigen Instandhaltung eine vorausschauende Instandhaltung (engl. Predictive Maintenance) genutzt werden kann und in welchem Umfang hierdurch die regelmäßigen Wartungsintervalle verlängert werden können.;Standard
+INF.13.A19;Konzeptionierung und Durchführung des Monitorings im TGM;Es SOLLTE ein Konzept für das Monitoring im TGM erstellt und umgesetzt werden.;Standard
+INF.13.A19;Konzeptionierung und Durchführung des Monitorings im TGM;Darin SOLLTE spezifiziert werden, wie die durch das TGM zu verwaltenden Systeme in ein möglichst einheitliches Monitoring eingebunden werden können und welche Werte überwacht werden sollten.;Standard
+INF.13.A19;Konzeptionierung und Durchführung des Monitorings im TGM;Hierfür SOLLTEN schon bei der Anforderungsanalyse erforderliche Schnittstellen für das Monitoring wichtiger Zustände von Systemen spezifiziert werden, die durch das TGM verwaltet werden.;Standard
+INF.13.A19;Konzeptionierung und Durchführung des Monitorings im TGM;Außerdem SOLLTEN auch die für das TGM genutzten Systeme in das Monitoring eingebunden werden.;Standard
+INF.13.A19;Konzeptionierung und Durchführung des Monitorings im TGM;Das Konzept SOLLTE regelmäßig und zusätzlich bei Bedarf geprüft und gegebenenfalls aktualisiert werden, um dem aktuellen Stand der Technik zu entsprechen und auch neueste Erkenntnisse abdecken zu können.;Standard
+INF.13.A19;Konzeptionierung und Durchführung des Monitorings im TGM;Statusmeldungen und Monitoringdaten SOLLTEN NUR über sichere Kommunikationswege übertragen werden.;Standard
+INF.13.A20;Regelung des Ereignismanagements im TGM;Im TGM auftretende Ereignisse SOLLTEN hinsichtlich ihrer Bedeutung und ihres Einflusses kategorisiert, gefiltert und klassifiziert werden (englisch Event Management).;Standard
+INF.13.A20;Regelung des Ereignismanagements im TGM;Für die Ereignisse SOLLTEN Schwellwerte definiert werden, die eine automatisierte Einstufung von Ereignissen ermöglichen.;Standard
+INF.13.A20;Regelung des Ereignismanagements im TGM;Je nach Klassifizierung der Ereignisse SOLLTEN entsprechende Maßnahmen für Monitoring, Alarmierung und Meldewege (Eskalation) sowie Maßnahmen zur Protokollierung bestimmt werden.;Standard
+INF.13.A21;Protokollierung im TGM;Ereignisse, die im Ereignismanagement entsprechend klassifiziert wurden, SOLLTEN protokolliert werden.;Standard
+INF.13.A21;Protokollierung im TGM;Außerdem SOLLTEN für die Systeme sicherheitsrelevante Ereignisse protokolliert werden.;Standard
+INF.13.A21;Protokollierung im TGM;Alle Konfigurationszugriffe sowie alle manuellen und automatisierten Steuerungszugriffe SOLLTEN protokolliert werden.;Standard
+INF.13.A21;Protokollierung im TGM;Abhängig vom Schutzbedarf SOLLTE eine vollumfängliche Protokollierung inklusive Metadaten und Inhalt der Änderungen erfolgen.;Standard
+INF.13.A21;Protokollierung im TGM;Die Protokollierung SOLLTE auf einer zentralen Protokollierungsinstanz zusammengeführt werden.;Standard
+INF.13.A21;Protokollierung im TGM;Protokollierungsdaten SOLLTEN NUR über sichere Kommunikationswege übertragen werden.;Standard
+INF.13.A21;Protokollierung im TGM;Bei sicherheitskritischen Ereignissen SOLLTE automatisch alarmiert werden.;Standard
+INF.13.A22;Durchführung von Systemtests im TGM;Systeme des TGM und Systeme, die durch das TGM verwaltet werden, SOLLTEN vor der Inbetriebnahme und bei großen Systemänderungen hinsichtlich ihrer funktionalen und nicht-funktionalen Anforderungen getestet werden.;Standard
+INF.13.A22;Durchführung von Systemtests im TGM;Dabei SOLLTE auch das Soll- und Ist-Verhalten von Funktionen und Einstellungen geprüft werden.;Standard
+INF.13.A22;Durchführung von Systemtests im TGM;Bei den nicht-funktionalen Anforderungen SOLLTEN auch Anforderungen der Informationssicherheit getestet sowie zusätzlich bei Bedarf auch Lasttests durchgeführt werden.;Standard
+INF.13.A22;Durchführung von Systemtests im TGM;Für die Tests SOLLTE eine Testspezifikation erstellt werden, die eine Beschreibung der Testumgebung, der Testtiefe und der Testfälle inklusive der Kriterien für eine erfolgreiche Testdurchführung enthält.;Standard
+INF.13.A22;Durchführung von Systemtests im TGM;Die Testdurchführung SOLLTE in einem Testbericht dokumentiert werden.;Standard
+INF.13.A22;Durchführung von Systemtests im TGM;Testspezifikationen SOLLTEN regelmäßig und zusätzlich bei Bedarf geprüft und gegebenenfalls aktualisiert werden, um dem aktuellen Stand der Technik zu entsprechen und auch neueste Erkenntnisse abdecken zu können.;Standard
+INF.13.A23;Integration des TGM in das Schwachstellenmanagement;Systeme des TGM und die durch das TGM verwalteten Systeme SOLLTEN fortlaufend hinsichtlich möglicher Schwachstellen überwacht werden.;Standard
+INF.13.A23;Integration des TGM in das Schwachstellenmanagement;Hierfür SOLLTEN regelmäßig Informationen über bekanntgewordene Schwachstellen eingeholt und entsprechend berücksichtigt werden.;Standard
+INF.13.A23;Integration des TGM in das Schwachstellenmanagement;Hierbei SOLLTE auch die Konfiguration der Systeme dahingehend überprüft werden, ob sie bekannt gewordene Schwachstellen begünstigt.;Standard
+INF.13.A23;Integration des TGM in das Schwachstellenmanagement;Weiterhin SOLLTE entschieden werden, für welche Systeme regelmäßig oder zumindest bei Inbetriebnahme und bei großen Systemänderungen Schwachstellen-Scans durchgeführt werden.;Standard
+INF.13.A23;Integration des TGM in das Schwachstellenmanagement;Für Schwachstellen-Scans SOLLTE die Scan-Tiefe festgelegt werden.;Standard
+INF.13.A23;Integration des TGM in das Schwachstellenmanagement;Außerdem SOLLTE festgelegt werden, ob ein passiver oder ein aktiver Scan durchgeführt wird.;Standard
+INF.13.A23;Integration des TGM in das Schwachstellenmanagement;In Produktivumgebungen SOLLTEN passive Scans bevorzugt werden.;Standard
+INF.13.A23;Integration des TGM in das Schwachstellenmanagement;Aktive Scans SOLLTEN in Produktivumgebungen nur durchgeführt werden, wenn sie notwendig sind und Personal hinzugezogen wird, das durch den Scan bedingte, eventuell auftretende Fehler oder Ausfälle beheben kann.;Standard
+INF.13.A24;Sicherstellung der Kontrolle über die Prozesse bei Cloud-Nutzung für das TGM;Werden im TGM Cloud-basierte Dienste genutzt, SOLLTE die Kontrolle über alle TGM-Prozesse im TGM verbleiben.;Standard
+INF.13.A24;Sicherstellung der Kontrolle über die Prozesse bei Cloud-Nutzung für das TGM;Dies SOLLTE bei Nutzung eines Cloud-Dienstes vertraglich mit dem anbietenden Unternehmen festgelegt werden.;Standard
+INF.13.A25;Aufbau einer Testumgebung für das TGM;Bei erhöhtem Schutzbedarf SOLLTE für Systeme des TGM und für Systeme, die durch das TGM verwaltet werden, eine Testumgebung eingerichtet werden, damit Hard- und Software vor der Inbetriebnahme und bei Änderungen getestet und Fehler im produktiven Betrieb reduziert werden können.;Hoch
+INF.13.A25;Aufbau einer Testumgebung für das TGM;Außerdem SOLLTEN Regelungen für den Umgang mit Systemen spezifiziert werden, für die keine Testumgebung aufgebaut werden kann.;Hoch
+INF.13.A26;Absicherung von BIM;Werden in BIM auch sicherheitskritische Informationen erfasst, SOLLTEN sowohl auf Ebene der BIM-Architektur als auch für Implementierung und Betrieb der BIM-Lösung entsprechende Sicherheits- und Härtungsmaßnahmen vorgesehen werden.;Hoch
+INF.13.A26;Absicherung von BIM;Die Absicherung SOLLTE ein verschärftes Rollen- und Berechtigungskonzept sowie weitergehende Schutzmaßnahmen wie Verschlüsselung, Segmentierung und höherwertige Authentisierungsmechanismen, insbesondere eine 2-Faktor-Authentisierung, beinhalten.;Hoch
+INF.13.A27;Einrichtung einer Private Cloud für das TGM;Bei erhöhtem Schutzbedarf SOLLTEN Cloud-Dienste zum TGM in einer Private Cloud On-Premises oder einer Private Cloud bei einem vertrauenswürdigen Anbietenden positioniert werden.;Hoch
+INF.13.A27;Einrichtung einer Private Cloud für das TGM;Der Einsatz einer Public Cloud SOLLTE vermieden werden.;Hoch
+INF.13.A28;Sichere Nutzung von Künstlicher Intelligenz im TGM;Werden bei erhöhtem Schutzbedarf im TGM Funktionen der Künstlichen Intelligenz (KI) genutzt, SOLLTE nur eine KI genutzt werden, die nachweislich sicher ist.;Hoch
+INF.13.A28;Sichere Nutzung von Künstlicher Intelligenz im TGM;Mindestens SOLLTE darauf geachtet werden, dass keine Daten in Netze geleitet werden, die nicht zur eigenen Institution gehören oder nicht vertrauenswürdig sind.;Hoch
+INF.13.A28;Sichere Nutzung von Künstlicher Intelligenz im TGM;Für Cloud-basierte KI-Dienste SOLLTEN über die Anforderungen des Bausteins OPS.2.2 Cloud-Nutzung hinaus auch die Kriterien des AI Cloud Service Compliance Criteria Catalogue (AIC4) des BSI berücksichtigt werden.;Hoch
+INF.13.A29;Integration des TGM in ein SIEM;Wird ein System für das Security Information and Event Management (SIEM) genutzt, SOLLTEN die Systeme des TGM und soweit möglich auch die durch das TGM verwalteten Systeme entsprechend eingebunden werden, um system- und anwendungsübergreifende sicherheitsrelevante Vorfälle erkennen und analysieren zu können.;Hoch
+INF.13.A30;Durchführung von Penetrationstests im TGM;Um Systeme des TGM und Systeme, die durch das TGM verwaltet werden, entsprechend abzusichern, SOLLTEN bedarfsorientiert Penetrationstests durchgeführt werden.;Hoch
+INF.13.A30;Durchführung von Penetrationstests im TGM;Mindestens SOLLTEN vor der Inbetriebnahme und bei großen Systemänderungen in einer Testumgebung Penetrationstests durchgeführt werden.;Hoch
+INF.13.A30;Durchführung von Penetrationstests im TGM;Werden im TGM Funktionen der KI genutzt, SOLLTEN diese in die Penetrationstests einbezogen werden.;Hoch
