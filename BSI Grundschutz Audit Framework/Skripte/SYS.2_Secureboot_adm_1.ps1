@@ -16,7 +16,7 @@ if ($secureBoot) {
 }
 
 $jsonOutput = @{
-    "result" = $result
+    Ergebnis = $result
     "output" = $output
 } | ConvertTo-Json
 

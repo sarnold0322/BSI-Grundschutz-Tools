@@ -16,7 +16,7 @@ if ($?) {
 
 # Erstellen des JSON-Objekts
 $output = [PSCustomObject]@{
-    Result = $result
+    Ergebnis = $result
     Output = $computerInfo
 }
 

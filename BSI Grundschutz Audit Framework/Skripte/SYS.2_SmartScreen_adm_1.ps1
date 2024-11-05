@@ -25,8 +25,8 @@ try {
 }
 
 $jsonOutput = @{
-    "Ergebnis" = $resultCode
-    "Output" = $output
+    Ergebnis = $resultCode
+    Output = $output
 } | ConvertTo-Json
 
 Write-Output $jsonOutput

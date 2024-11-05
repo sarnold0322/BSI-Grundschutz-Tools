@@ -53,7 +53,7 @@ finally {
 
     # JSON-Objekt erstellen und ausgeben
     [PSCustomObject]@{
-        Result = $result
+        Ergebnis = $result
         Output = $output
     } | ConvertTo-Json
 }
