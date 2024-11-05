@@ -9,12 +9,22 @@
 # Funktion zum Ausführen des Befehls und Erstellen des JSON-Objekts
 function Get-AdminGroupMembers {
     try {
-        $members = Get-LocalGroupMember -Group "Administratoren"
-        $result = 1 # Ergebnis ist positiv
-        $output = $members | ConvertTo-Json
+        # Aktuellen Benutzernamen abrufen
+        $currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent()
+
+        # Überprüfen, ob der Benutzer in der Gruppe "Administratoren" ist
+        $isAdmin = (Get-LocalGroupMember -Group "Administratoren" | Where-Object { $_.Name -eq $currentUser.Name })
+
+        if ($isAdmin) {
+            $output = "Der Benutzer hat lokale Administratorrechte."
+            $result = 0
+        } else {
+            $output = "Der Benutzer hat keine lokalen Administratorrechte."
+            $result = 1
+        }
     }
     catch {
-        $result = 0 # Ergebnis ist negativ
+        $result = 2 # Ergebnis ist negativ
         $output = $_.Exception.Message
     }
     
