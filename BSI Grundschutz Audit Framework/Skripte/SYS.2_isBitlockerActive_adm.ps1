@@ -3,41 +3,32 @@
 # Benötigt lokale Admin-Rechte: WAHR
 
 
-# PowerShell Skript für Get-BitLockerVolume
-# Dieses Skript führt den Befehl Get-BitLockerVolume aus und gibt das Ergebnis als JSON-Objekt aus.
-# Das JSON-Objekt besteht aus zwei Teilen: "Ergebnis" und "Output".
-# "Ergebnis" ist "1" wenn der Befehl erfolgreich war, "0" wenn der Befehl fehlgeschlagen ist und "2" wenn kein eindeutiges Ergebnis möglich ist.
-# "Output" enthält die Ausgabe des Befehls Get-BitLockerVolume.
+# Dieses PowerShell-Skript überprüft, ob alle internen Festplatten mit BitLocker verschlüsselt sind.
+# Das Ergebnis wird als JSON-Objekt mit den Eigenschaften "Ergebnis" und "Output" ausgegeben.
 
-try {
-    $output = Get-BitLockerVolume
+$drives = Get-BitLockerVolume
+
+$allEncrypted = $true
+$output = ""
+
+foreach ($drive in $drives) {
+    if ($drive.ProtectionStatus -eq 'Off') {
+        $output += "Das Laufwerk $($drive.MountPoint) ist nicht mit BitLocker verschlüsselt.`n"
+        $allEncrypted = $false
+    } else {
+        $output += "Das Laufwerk $($drive.MountPoint) ist mit BitLocker verschlüsselt.`n"
+    }
+}
+
+if ($allEncrypted) {
     $result = 1
-} catch {
-    $output = $_.Exception.Message
+    $output += "Alle internen Festplatten sind mit BitLocker verschlüsselt."
+} else {
     $result = 0
+    $output += "Nicht alle internen Festplatten sind mit BitLocker verschlüsselt."
 }
 
-if ($output -eq $null) {
-    $result = 2
-}
-
-$jsonOutput = [PSCustomObject]@{
+return  @{
     Ergebnis = $result
     Output = $output
-}
-
-return $jsonOutput | ConvertTo-Json
-
-# Beispiel:
-# .\Get-BitLockerVolume.ps1
-# {
-#     "Ergebnis":  1,
-#     "Output":  [
-#                   {
-#                       "MountPoint":  "C:",
-#                       "VolumeStatus":  "FullyEncrypted",
-#                       "VolumeType":  "OperatingSystem",
-#                       "EncryptionMethod":  "AES256"
-#                   }
-#               ]
-# }
+} | ConvertTo-Json
