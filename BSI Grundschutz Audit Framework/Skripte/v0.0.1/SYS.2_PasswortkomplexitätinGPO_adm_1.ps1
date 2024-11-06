@@ -21,6 +21,6 @@ if ($htmlContent -match "Passwortkomplexität") {
 
 # Ausgabe als JSON-Objekt
 @{
-    "Ergebnis" = $result
-    "Output" = $output
+    Ergebnis = $result
+    Output = $output
 } | ConvertTo-Json
