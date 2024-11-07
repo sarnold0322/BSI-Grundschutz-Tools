@@ -8,36 +8,61 @@ $form.Text = "Grundschutz Katalog Toolkit"
 $form.Size = New-Object System.Drawing.Size(600, 400)
 $form.StartPosition = "CenterScreen"
 
-# Erstelle eine Überschrift
-#$label = New-Object System.Windows.Forms.Label
-#$label.Text = "Grundschutz Katalog Toolkit"
-#$label.AutoSize = $true
-#$label.Font = New-Object System.Drawing.Font("Arial", 14, [System.Drawing.FontStyle]::Bold)
-#$label.Dock = [System.Windows.Forms.DockStyle]::Top
-#$form.Controls.Add($label)
+# Erstelle eine Menüleiste
+$menuStrip = New-Object System.Windows.Forms.MenuStrip
 
-# Erstelle ein Panel für die DataGridView
-$panel = New-Object System.Windows.Forms.Panel
-$panel.Dock = [System.Windows.Forms.DockStyle]::Fill
-$form.Controls.Add($panel)
+# Erstelle das "Datei"-Menü
+$dateiMenu = New-Object System.Windows.Forms.ToolStripMenuItem("Datei")
+
+# Erstelle die Untermenüpunkte
+$neuMenuItem = New-Object System.Windows.Forms.ToolStripMenuItem("&Neu")
+$oeffnenMenuItem = New-Object System.Windows.Forms.ToolStripMenuItem("&Oeffnen")
+$speichernUnterMenuItem = New-Object System.Windows.Forms.ToolStripMenuItem("Speichern &unter")
+$schliessenMenuItem = New-Object System.Windows.Forms.ToolStripMenuItem("&Schliessen")
+
+# Füge die Untermenüpunkte zum "Datei"-Menü hinzu
+$dateiMenu.DropDownItems.Add($neuMenuItem)
+$dateiMenu.DropDownItems.Add($oeffnenMenuItem)
+$dateiMenu.DropDownItems.Add($speichernUnterMenuItem)
+$dateiMenu.DropDownItems.Add($schliessenMenuItem)
+
+# Füge das "Datei"-Menü zur Menüleiste hinzu
+$menuStrip.Items.Add($dateiMenu)
+
+# Füge die Menüleiste zum Formular hinzu
+$form.MainMenuStrip = $menuStrip
+
+# Erstelle ein TableLayoutPanel
+$tableLayoutPanel = New-Object System.Windows.Forms.TableLayoutPanel
+$tableLayoutPanel.Dock = [System.Windows.Forms.DockStyle]::Fill
+$tableLayoutPanel.RowCount = 2
+$tableLayoutPanel.ColumnCount = 1
+$tableLayoutPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::AutoSize)))
+$tableLayoutPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
+$form.Controls.Add($tableLayoutPanel)
+
+# Füge die Menüleiste zum TableLayoutPanel hinzu
+$tableLayoutPanel.Controls.Add($menuStrip, 0, 0)
 
 # Erstelle die DataGridView
 $dataGridView = New-Object System.Windows.Forms.DataGridView
-$dataGridView.Dock = [System.Windows.Forms.DockStyle]::Fill  # DataGridView füllt das Panel
+$dataGridView.Dock = [System.Windows.Forms.DockStyle]::Fill
 $dataGridView.AutoSizeColumnsMode = [System.Windows.Forms.DataGridViewAutoSizeColumnsMode]::Fill
-$dataGridView.ReadOnly = $true  # DataGridView nicht editierbar
+$dataGridView.ReadOnly = $true
 
 # Füge Spalten hinzu
 $dataGridView.Columns.Add("Dateiname", "Dateiname")
 $dataGridView.Columns.Add("Adminrechte", "Adminrechte")
 $dataGridView.Columns.Add("Ergebnis", "Ergebnis")
 
+# Füge die DataGridView zum TableLayoutPanel hinzu
+$tableLayoutPanel.Controls.Add($dataGridView, 0, 1)
+
 # Finde den Ordner dieses Skripts
 $myScriptDirectory = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 # Definiere den Pfad zum Skripte-Ordner
 $scriptFolder = "$myScriptDirectory\Skripte"
-
 
 # Überprüfe, ob der Ordner existiert
 if (Test-Path $scriptFolder) {
@@ -56,50 +81,27 @@ if (Test-Path $scriptFolder) {
     [System.Windows.Forms.MessageBox]::Show("Der Ordner 'Skripte' existiert nicht.", "Fehler", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
 }
 
-
 # Ereignisbehandlung für Doppelklick auf die Zelle
 $dataGridView.Add_CellDoubleClick({
     param($sender, $e)
-
-    # Überprüfe, ob die doppelt geklickte Zelle in der Dateiname-Spalte ist
-    #if ($e.ColumnIndex -eq 0) {
-    #    $scriptName = $dataGridView.Rows[$e.RowIndex].Cells[0].Value
-    #    $scriptPath = Join-Path -Path $scriptFolder -ChildPath $scriptName
-    #    Execute-Script -scriptPath $scriptPath -rowIndex $e.RowIndex
-    #}
 
     # Überprüfe, ob eine Zeile angeklickt wurde
     if ($e.RowIndex -ge 0) {
         # Hole den Wert der ersten Spalte in der angeklickten Zeile
         $scriptName = $dataGridView.Rows[$e.RowIndex].Cells[0].Value
-        #[System.Windows.Forms.MessageBox]::Show("Starte Skript: $scriptName")
-
-        # Führe das Skript aus und speichere das Ergebnis in einer Variablen
-        $startSkript = ""
         $startSkript = "$scriptFolder\$scriptName"
-        #Write-host $startSkript
-        #break
         try {
             $jsonErgebnis = & $startSkript
         } catch {
-            # Wenn ein Fehler auftritt, gib eine Fehlermeldung aus
             Write-Host "Ein Fehler ist aufgetreten: $_"
         }
 
         Write-Host $jsonErgebnis
 
-        # Wandle das JSON-Ergebnis in ein PowerShell-Objekt um
-        #$psObjekt = $jsonErgebnis | ConvertFrom-Json
-
         # Füge das Ergebnis in die DataGridView ein
         $dataGridView.Rows[$e.RowIndex].Cells["Ergebnis"].Value = ($jsonErgebnis | ConvertFrom-Json).Ergebnis
-
     }
-
 })
-
-# Füge die DataGridView zum Panel hinzu
-$panel.Controls.Add($dataGridView)
 
 # Zeige das Fenster an
 $form.Add_Shown({$form.Activate()})
