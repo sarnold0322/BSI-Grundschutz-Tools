@@ -3,7 +3,7 @@
 # Benötigt lokale Admin-Rechte: WAHR
 
 
-# Dieses PowerShell-Skript überprüft die DEP-Einstellungen (Data Execution Prevention) auf dem System
+# Dieses PowerShell-Skript überprüft die DEP-Einstellungen (Data Execution Prevention) auf in der Registry unter HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management
 # und gibt das Ergebnis als JSON-Objekt aus.
 
 $depSettings = Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" -ErrorAction SilentlyContinue

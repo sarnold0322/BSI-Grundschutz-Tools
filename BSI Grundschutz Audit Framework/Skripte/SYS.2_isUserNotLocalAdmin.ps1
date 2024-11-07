@@ -3,7 +3,7 @@
 # Benötigt lokale Admin-Rechte: FALSCH
 
 
-# PowerShell Skript zum Abrufen der Mitglieder der Administratoren-Gruppe
+# PowerShell Skript zum Abrufen der Mitglieder der Administratoren-Gruppe und prüfen ob aktueller User in dieser ist
 # und Ausgabe als JSON-Objekt mit Ergebnis und Output
 
 # Funktion zum Ausführen des Befehls und Erstellen des JSON-Objekts

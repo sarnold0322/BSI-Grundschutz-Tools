@@ -3,7 +3,7 @@
 # Benötigt lokale Admin-Rechte: FALSCH
 
 
-# Dieses PowerShell-Skript überprüft, ob die Eingabeaufforderung (CMD) durch Gruppenrichtlinien deaktiviert ist.
+# Dieses PowerShell-Skript überprüft, ob die Eingabeaufforderung (CMD) ausführbar ist.
 # Die Ausgabe erfolgt als JSON-Objekt mit den Eigenschaften "Ergebnis" und "Output".
 # "Ergebnis" ist 1, wenn CMD deaktiviert ist, 0 wenn CMD erlaubt ist, und 2 wenn kein klares Ergebnis möglich ist.
 # "Output" enthält die Ausgabe des Befehls.
