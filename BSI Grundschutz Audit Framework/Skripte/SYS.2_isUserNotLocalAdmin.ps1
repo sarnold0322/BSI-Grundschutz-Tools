@@ -13,7 +13,7 @@ try {
     $currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent()
 
     # Überprüfen, ob der Benutzer in der Gruppe "Administratoren" ist
-    $isAdmin = (Get-LocalGroupMember -Group "S-1-5-32-544" | Where-Object { $_.Name -eq $currentUser.Name })
+    $isAdmin = ( Get-LocalGroup -SID "S-1-5-32-544" | Get-LocalGroupMember | Where-Object { $_.Name -eq $currentUser.Name })
 
     if ($isAdmin) {
         $output = "Der Benutzer " + $currentUser.Name + " hat lokale Administratorrechte."
