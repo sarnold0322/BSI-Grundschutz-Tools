@@ -1,40 +1,20 @@
-# Skript erstellt am 2024-11-07
+# Skript erstellt am 2024-11-08
 # Autor: Steffen Arnold
 # Benötigt lokale Admin-Rechte: FALSCH
 
-# Dieses PowerShell-Skript ruft Informationen über die Windows-Version von Domain-Controllern ab und prüft, ob sie noch unterstützt wird.
+# Dieses PowerShell-Skript ruft Informationen über die Windows-Version von Exchange-Servern ab und prüft, ob sie noch unterstützt wird.
 
-$result = 2
-
-# Abrufen der Domain-Controller-Informationen aus dem AD
-# $ad_data = Get-WmiObject -Namespace "root\directory\ldap" -Class ds_computer -Filter "DS_distinguishedName LIKE '%OU=Domain Controllers%'" | Select-Object ds_cn, ds_operatingsystem, ds_operatingsystemversion, DS_distinguishedName
-
-# Abrufen der Domain-Controller Namen aus dem DNS ist schneller als aus dem AD
-$results = Resolve-DnsName -Name "_ldap._tcp.stadtwerke-hall.local" -Type SRV
-$dcNames = $results | Where-Object { $_.QueryType -eq "SRV" } | Select-Object -ExpandProperty NameTarget
-
-
-# Entferne die Domain aus jedem Namen in der Liste
-$domain = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().Name
-$shortNames = $dcNames | ForEach-Object {
-    $_ -replace "\.$domain$", ""
-}
-
-# Abrufen der Daten aus dem AD
+# Importiere das System.DirectoryServices Namespace
 Add-Type -AssemblyName System.DirectoryServices
+
+# Erhalte den aktuellen Domänennamen
+$domain = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().Name
 
 # Erstelle ein DirectorySearcher-Objekt
 $searcher = New-Object System.DirectoryServices.DirectorySearcher
 
-# Erstelle den Filter
-$filter = "(&(objectClass=computer)(|"
-foreach ($name in $shortNames) {
-    $filter += "(cn=$name)"
-}
-$filter += "))"
-
-
-$searcher.Filter = $filter
+# Erstelle Suchfilter
+$searcher.Filter = "(&(objectClass=computer)(memberOf=CN=Exchange Servers,OU=Microsoft Exchange Security Groups,DC=$($domain.Replace('.', ',DC='))))"
 
 $searcher.PropertiesToLoad.Add("Name")
 $searcher.PropertiesToLoad.Add("distinguishedName")
@@ -43,6 +23,9 @@ $searcher.PropertiesToLoad.Add("operatingSystemVersion")
 
 # Führe die Suche aus
 $results = $searcher.FindAll()
+
+# Definiere die Variable Ergebnis mit 2, falls etwas schief geht
+$ergebnis = 2
 
 # URL der Webseite
 $url = "https://endoflife.date/windows-server"
@@ -63,6 +46,8 @@ if ($tableMatch.Success) {
     # Durch die Zeilen der Tabelle iterieren
     $rowPattern = '<tr.*?>(.*?)</tr>'
     $rows = [regex]::Matches($tableHtml, $rowPattern, [System.Text.RegularExpressions.RegexOptions]::Singleline)
+
+    #$ad_data = $results.Properties
 
     # Konvertiere das Array in ein PSCustomObject
     $ad_data = foreach ($item in $results.Properties) {
