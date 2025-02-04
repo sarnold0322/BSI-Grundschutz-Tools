@@ -1,20 +1,32 @@
-﻿# Importiere die notwendigen Assemblies für die GUI
+﻿# Skript erstellt am 2024-11-07
+# Autor: Steffen Arnold
+# Benötigt lokale Admin-Rechte: FALSCH
+# Das Srkipt erwartet den Ordner "Skripte" im gleichen Verzeichnis
+
+# ENTWURF einer einfachen GUI um die Skripte zu starten
+# Fehlende Funktionen:
+# - Erstellen von Berichten
+# - Farbliches Feedback
+# - Eklärungen 
+# --> Ganz, ganz frühe Beta!!!
+
+# Importiere die notwendigen Assemblies für die GUI
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
-# Erstelle das Hauptfenster
+# Erstelle das Hauptfenster für die GUI
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Grundschutz Katalog Toolkit"
-$form.Size = New-Object System.Drawing.Size(600, 400)
-$form.StartPosition = "CenterScreen"
+$form.Text = "Grundschutz Katalog Toolkit"  # Titel des Fensters
+$form.Size = New-Object System.Drawing.Size(600, 400)  # Größe des Fensters
+$form.StartPosition = "CenterScreen"  # Startposition des Fensters
 
-# Erstelle eine Menüleiste
+# Erstelle eine Menüleiste für die Anwendung
 $menuStrip = New-Object System.Windows.Forms.MenuStrip
 
 # Erstelle das "Datei"-Menü
 $dateiMenu = New-Object System.Windows.Forms.ToolStripMenuItem("Datei")
 
-# Erstelle die Untermenüpunkte
+# Erstelle die Untermenüpunkte für das "Datei"-Menü
 $neuMenuItem = New-Object System.Windows.Forms.ToolStripMenuItem("&Neu")
 $oeffnenMenuItem = New-Object System.Windows.Forms.ToolStripMenuItem("&Oeffnen")
 $speichernUnterMenuItem = New-Object System.Windows.Forms.ToolStripMenuItem("Speichern &unter")
@@ -29,32 +41,30 @@ $dateiMenu.DropDownItems.Add($schliessenMenuItem)
 # Füge das "Datei"-Menü zur Menüleiste hinzu
 $menuStrip.Items.Add($dateiMenu)
 
-# Füge die Menüleiste zum Formular hinzu
+# Setze die Menüleiste im Formular
 $form.MainMenuStrip = $menuStrip
 
-# Erstelle ein TableLayoutPanel
+# Erstelle ein TableLayoutPanel für die Anordnung von Steuerelementen
 $tableLayoutPanel = New-Object System.Windows.Forms.TableLayoutPanel
-$tableLayoutPanel.Dock = [System.Windows.Forms.DockStyle]::Fill
-$tableLayoutPanel.RowCount = 2
-$tableLayoutPanel.ColumnCount = 1
-$tableLayoutPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::AutoSize)))
-$tableLayoutPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))
-$form.Controls.Add($tableLayoutPanel)
-
+$tableLayoutPanel.Dock = [System.Windows.Forms.DockStyle]::Fill  # Fülle den verfügbaren Platz
+$tableLayoutPanel.RowCount = 2  # Anzahl der Zeilen
+$tableLayoutPanel.ColumnCount = 1  # Anzahl der Spalten
+$tableLayoutPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::AutoSize)))  # Erste Zeile passt sich dem Inhalt an
+$tableLayoutPanel.RowStyles.Add((New-Object System.Windows.Forms.RowStyle([System.Windows.Forms.SizeType]::Percent, 100)))  # Zweite Zeile nimmt den Rest des Platzes ein
+$form.Controls.Add($tableLayoutPanel)  # Füge das TableLayoutPanel zum Formular hinzu
 # Füge die Menüleiste zum TableLayoutPanel hinzu
 $tableLayoutPanel.Controls.Add($menuStrip, 0, 0)
 
-# Erstelle die DataGridView
+# Erstelle die DataGridView zur Anzeige von Skripten
 $dataGridView = New-Object System.Windows.Forms.DataGridView
-$dataGridView.Dock = [System.Windows.Forms.DockStyle]::Fill
-$dataGridView.AutoSizeColumnsMode = [System.Windows.Forms.DataGridViewAutoSizeColumnsMode]::Fill
-$dataGridView.ReadOnly = $true
+$dataGridView.Dock = [System.Windows.Forms.DockStyle]::Fill  # Fülle den verfügbaren Platz
+$dataGridView.AutoSizeColumnsMode = [System.Windows.Forms.DataGridViewAutoSizeColumnsMode]::Fill  # Spalten füllen den verfügbaren Platz
+$dataGridView.ReadOnly = $true  # DataGridView ist schreibgeschützt
 
-# Füge Spalten hinzu
-$dataGridView.Columns.Add("Dateiname", "Dateiname")
-$dataGridView.Columns.Add("Adminrechte", "Adminrechte")
-$dataGridView.Columns.Add("Ergebnis", "Ergebnis")
-
+# Füge Spalten zur DataGridView hinzu
+$dataGridView.Columns.Add("Dateiname", "Dateiname")  # Spalte für Dateinamen
+$dataGridView.Columns.Add("Adminrechte", "Adminrechte")  # Spalte für Adminrechte
+$dataGridView.Columns.Add("Ergebnis", "Ergebnis")  # Spalte für das Ergebnis der Skriptausführung
 # Füge die DataGridView zum TableLayoutPanel hinzu
 $tableLayoutPanel.Controls.Add($dataGridView, 0, 1)
 
@@ -62,47 +72,46 @@ $tableLayoutPanel.Controls.Add($dataGridView, 0, 1)
 $myScriptDirectory = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 # Definiere den Pfad zum Skripte-Ordner
-$scriptFolder = "$myScriptDirectory\Skripte"
+$scriptFolder = Join-Path -Path $myScriptDirectory -ChildPath "Skripte"
 
-# Überprüfe, ob der Ordner existiert
+# Überprüfe, ob der Skripte-Ordner existiert
 if (Test-Path $scriptFolder) {
     # Hole alle .ps1 Dateien im Skripte-Ordner
     $ps1Files = Get-ChildItem -Path $scriptFolder -Filter "*.ps1"
 
-    # Füge die Dateien zur DataGridView hinzu
+    # Füge die Skripte zur DataGridView hinzu
     foreach ($file in $ps1Files) {
-        $row = @()
-        $row += $file.Name
-        $row += if ($file.Name -like "*_adm_*") { "X" } else { "" }
+        $row = @()  # Erstelle ein leeres Array für die Zeilendaten
+        $row += $file.Name  # Füge den Dateinamen hinzu
+        $row += if ($file.Name -like "*_adm_*") { "X" } else { "" }  # Überprüfe auf Adminrechte
         $row += ""  # Platz für das Ergebnis
-        $dataGridView.Rows.Add($row)
+        $dataGridView.Rows.Add($row)  # Füge die Zeile zur DataGridView hinzu
     }
 } else {
     [System.Windows.Forms.MessageBox]::Show("Der Ordner 'Skripte' existiert nicht.", "Fehler", [System.Windows.Forms.MessageBoxButtons]::OK, [System.Windows.Forms.MessageBoxIcon]::Error)
 }
 
-# Ereignisbehandlung für Doppelklick auf die Zelle
+# Ereignisbehandlung für Doppelklick auf eine Zelle
 $dataGridView.Add_CellDoubleClick({
     param($sender, $e)
 
-    # Überprüfe, ob eine Zeile angeklickt wurde
+    # Überprüfe, ob eine gültige Zeile angeklickt wurde
     if ($e.RowIndex -ge 0) {
-        # Hole den Wert der ersten Spalte in der angeklickten Zeile
+        # Hole den Skriptnamen aus der angeklickten Zeile
         $scriptName = $dataGridView.Rows[$e.RowIndex].Cells[0].Value
-        $startSkript = "$scriptFolder\$scriptName"
+        $startSkript = Join-Path -Path $scriptFolder -ChildPath $scriptName  # Vollständiger Pfad zum Skript
         try {
-            $jsonErgebnis = & $startSkript
+            $jsonErgebnis = & $startSkript  # Führe das Skript aus
         } catch {
-            Write-Host "Ein Fehler ist aufgetreten: $_"
+            Write-Host "Ein Fehler ist aufgetreten: $_"  # Fehlerbehandlung
         }
 
-        Write-Host $jsonErgebnis
-
+        Write-Host $jsonErgebnis  # Ausgabe des Ergebnisses im Konsolenfenster
         # Füge das Ergebnis in die DataGridView ein
         $dataGridView.Rows[$e.RowIndex].Cells["Ergebnis"].Value = ($jsonErgebnis | ConvertFrom-Json).Ergebnis
     }
 })
 
 # Zeige das Fenster an
-$form.Add_Shown({$form.Activate()})
-[void]$form.ShowDialog()
+$form.Add_Shown({$form.Activate()})  # Aktiviere das Fenster
+[void]$form.ShowDialog()  # Zeige das Fenster im Dialogmodus an
